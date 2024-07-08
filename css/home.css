@@ -1,0 +1,51 @@
+.second-navbar {
+    background-color: #132548 !important;
+}
+
+#logo {
+    width: 130px;
+    height: 50px;
+}
+
+.navbar-text {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    opacity: 0.7;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.overlay h3 {
+    margin: 0;
+}
+
+.img-fixed-height {
+    height: 200px;
+    width: 500px;
+    display: block;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #132548 !important;
+}
+
+.with-divider {
+    border-left: 1px solid rgba(255, 255, 255, 0.575);
+}
