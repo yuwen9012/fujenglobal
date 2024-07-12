@@ -33,29 +33,26 @@ body {
     cursor: pointer;
 }
 
-/* 左侧固定 */
 .sidebar {
-    /* position: fixed; */
-    /* top: 125px; */
     left: 0;
     width: 350px;
     height: calc(100vh - 125px);
-    overflow-y: auto; /* 内容超出时显示滚动条 */
-    background-color: #FFFCF1; /* 背景色 */
+    overflow-y: auto;
+    background-color: #FFFCF1;
     border-right: 1px solid #dee2e6;
 }
 
 .list-group a {
-    background-color: #FFFCF1; /* 背景色 */
+    background-color: #FFFCF1;
     border-radius: 0% !important;
     border-left: none !important;
     border-right: none !important;
 }
 
 .list-group-item.active {
-    color: #000000 !important;
-    background-color: #FFED97 !important;
-    border-color: #FFED97 !important;
+    background-color: #E2D08D !important;
+    border-color: #E2D08D !important;
+    font-weight: bolder;
 }
 
 .content {
