@@ -54,7 +54,7 @@
             
             <div class="flex-grow-1 text-center">
                 <div class="d-flex justify-content-center align-items-center">
-                    <i class="fas fa-arrow-left"></i>
+                    <a href="home.php"><i class="fas fa-arrow-left"></i></a>
                     <span class="navbar-text mx-2">Study Package</span>
                 </div>
             </div>
@@ -64,7 +64,7 @@
 
     <div class="sidebar">
         <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active py-3" id="bpis-tab" data-bs-toggle="list" href="#bpis" role="tab" aria-controls="bpis">Fu Jen Global Academy(BPIS)</a>
+            <a class="list-group-item list-group-item-action active py-3" id="bpis-tab" data-bs-toggle="list" href="#bpis" role="tab" aria-controls="bpis">Fu Jen Global Academy (BPIS)</a>
             <a class="list-group-item list-group-item-action py-3" id="liberal-tab" data-bs-toggle="list" href="#liberal" role="tab" aria-controls="liberal">College of Liberal Art</a>
             <a class="list-group-item list-group-item-action py-3" id="art-tab" data-bs-toggle="list" href="#art" role="tab" aria-controls="art">College of Art</a>
             <a class="list-group-item list-group-item-action py-3" id="communication-tab" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
@@ -81,7 +81,10 @@
     </div>
     <div class="content">
         <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">这是内容 1 的详细信息。<br>更多内容...<br>更多内容...<br>更多内容...<br>更多内容...<br>更多内容...<br>更多内容...<br>更多内容...<br>更多内容...<br>更多内容...</div>
+            <div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">
+                <h3 class="my-3 fw-bolder">Fu Jen Global Academy(BPIS)</h3>
+                <hr>
+            </div>
             <div class="tab-pane fade" id="liberal" role="tabpanel" aria-labelledby="liberal-tab">
                 <h3 class="my-3 fw-bolder">College of Liberal Art</h3>
                 <hr>
@@ -108,16 +111,51 @@
                     Tel: 886-2-2905-2302
                     E-mail: 045902@mail.fju.edu.tw
                 </span>
-            <div class="tab-pane fade" id="communication" role="tabpanel" aria-labelledby="communication-tab">这是内容 4 的详细信息。</div>
-            <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">这是内容 5 的详细信息。</div>
-            <div class="tab-pane fade" id="medicine" role="tabpanel" aria-labelledby="medicine-tab">这是内容 6 的详细信息。</div>
-            <div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">这是内容 7 的详细信息。</div>
-            <div class="tab-pane fade" id="foreign" role="tabpanel" aria-labelledby="foreign-tab">这是内容 8 的详细信息。</div>
-            <div class="tab-pane fade" id="ecology" role="tabpanel" aria-labelledby="ecology-tab">这是内容 9 的详细信息。</div>
-            <div class="tab-pane fade" id="law" role="tabpanel" aria-labelledby="law-tab">这是内容 10 的详细信息。</div>
-            <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">这是内容 11 的详细信息。</div>
-            <div class="tab-pane fade" id="management" role="tabpanel" aria-labelledby="management-tab">这是内容 12 的详细信息。</div>
-            <div class="tab-pane fade" id="fasion" role="tabpanel" aria-labelledby="fasion-tab">这是内容 13 的详细信息。</div>
+            </div>
+            <div class="tab-pane fade" id="art" role="tabpanel" aria-labelledby="art-tab">
+                <h3 class="my-3 fw-bolder">College of Art</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="communication" role="tabpanel" aria-labelledby="communication-tab">
+                <h3 class="my-3 fw-bolder">College of Communication</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <h3 class="my-3 fw-bolder">College of Education</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="medicine" role="tabpanel" aria-labelledby="medicine-tab">
+                <h3 class="my-3 fw-bolder">College of Medicine</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
+                <h3 class="my-3 fw-bolder">College of Science & Engineering</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="foreign" role="tabpanel" aria-labelledby="foreign-tab">
+                <h3 class="my-3 fw-bolder">College of Foreign Languages</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="ecology" role="tabpanel" aria-labelledby="ecology-tab">
+                <h3 class="my-3 fw-bolder">College of Human Ecology</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="law" role="tabpanel" aria-labelledby="law-tab">
+                <h3 class="my-3 fw-bolder">College of Law</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
+                <h3 class="my-3 fw-bolder">College of Social Science</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="management" role="tabpanel" aria-labelledby="management-tab">
+                <h3 class="my-3 fw-bolder">College of Management</h3>
+                <hr>
+            </div>
+            <div class="tab-pane fade" id="fasion" role="tabpanel" aria-labelledby="fasion-tab">
+                <h3 class="my-3 fw-bolder">College of Fashion & Textiles</h3>
+                <hr>
+            </div>
         </div>
     </div>
 
