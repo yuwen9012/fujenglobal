@@ -23,30 +23,7 @@
     <title>輔仁大學國際及兩岸教育處</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-                
-            <div class="navbar-nav ms-auto d-flex align-items-center">
-                <div class="nav-item d-flex align-items-center me-3">
-                    <i class="fas fa-home me-1"></i>
-                    <a class="nav-link" href="#">Home</a>
-                </div>
-                <div class="nav-item d-flex align-items-center me-3">
-                    <i class="fas fa-language me-1"></i>
-                    <a class="nav-link" href="#">Lang</a>
-                </div>
-                <div class="nav-item d-flex align-items-center me-3">
-                    <i class="fas fa-university me-1"></i>
-                    <a class="nav-link" href="#">FJCU</a>
-                </div>
-                <div class="nav-item d-flex align-items-center me-3">
-                    <i class="fas fa-sitemap me-1"></i>
-                    <a class="nav-link" href="#">Sitemap</a>
-                </div>
-            </div>
-
-        </div>
-    </nav>
+    <?php include 'header.php'; ?>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid">
@@ -155,8 +132,8 @@
         </div>
     </div>
 
-    <footer class="text-white py-4">
-        <div class="container">
+    <footer class="text-white pt-4">
+        
             <div class="row">
                 <div class="col-md-3 text-center">
                     <i class="fas fa-map-marker-alt"></i>
@@ -198,14 +175,8 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="row mt-4">
-                <div class="col text-center">
-                    <img src="images/05-校徽-英文組合排列.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
-                </div>
-            </div>
-        </div>
     </footer>
 
+    <?php include 'footer.php'; ?>
 </body>
 </html>

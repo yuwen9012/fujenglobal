@@ -1,18 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
-    height: 100%;
-    margin: 0;
-    overflow: hidden; /* 禁止 body 滚动 */
+    overflow-x: hidden;
 }
 
-/* 顶部两个 navbar 的样式 */
 .navbar {
-    z-index: 1000; /* 确保 navbar 在最上层 */
+    z-index: 1000;
 }
 
 .second-navbar {
     background-color: #132548 !important;
-    z-index: 900; /* 确保 second-navbar 在 sidebar 之上 */
+    z-index: 900;
 }
 
 #logo {
@@ -38,24 +35,45 @@ body {
 
 /* 左侧固定 */
 .sidebar {
-    position: fixed;
-    top: 125px; /* 确保 sidebar 在两个 navbar 下面 */
+    /* position: fixed; */
+    /* top: 125px; */
     left: 0;
-    width: 300px; /* 左侧宽度 */
+    width: 350px;
     height: calc(100vh - 125px);
     overflow-y: auto; /* 内容超出时显示滚动条 */
-    background-color: #f8f9fa; /* 背景色 */
-    border-right: 1px solid #dee2e6; /* 右侧边框 */
+    background-color: #FFFCF1; /* 背景色 */
+    border-right: 1px solid #dee2e6;
 }
 
-/* 右侧内容区 */
+.list-group a {
+    background-color: #FFFCF1; /* 背景色 */
+    border-radius: 0% !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.list-group-item.active {
+    color: #000000 !important;
+    background-color: #FFED97 !important;
+    border-color: #FFED97 !important;
+}
+
 .content {
-    margin-left: 300px; /* 与左侧宽度一致 */
     padding: 20px;
-    height: calc(100vh - 125px); /* 计算主内容区的高度：整个视口高度减去两个 navbar 的高度 */
-    overflow-y: auto; /* 内容超出时显示滚动条 */
+    width: calc(100vw - 350px);
+    height: calc(100vh - 125px);
+    background-color: #FFFEFB;
+    overflow-y: auto;
 }
 
 .justify-text {
     text-align: justify;
+}
+
+footer {
+    background-color: #132548 !important;
+}
+
+.with-divider {
+    border-left: 1px solid rgba(255, 255, 255, 0.575);
 }

@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <div class="navbar-nav ms-auto d-flex align-items-center">
+            <div class="nav-item d-flex align-items-center me-3">
+                <i class="fas fa-home me-1"></i>
+                <a class="nav-link" href="#">Home</a>
+            </div>
+            <div class="nav-item d-flex align-items-center me-3">
+                <i class="fas fa-language me-1"></i>
+                <a class="nav-link" href="#">Lang</a>
+            </div>
+            <div class="nav-item d-flex align-items-center me-3">
+                <i class="fas fa-university me-1"></i>
+                <a class="nav-link" href="#">FJCU</a>
+            </div>
+            <div class="nav-item d-flex align-items-center me-3">
+                <i class="fas fa-sitemap me-1"></i>
+                <a class="nav-link" href="#">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</nav>
