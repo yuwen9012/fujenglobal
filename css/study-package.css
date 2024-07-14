@@ -43,6 +43,7 @@ body {
 }
 
 .list-group a {
+    color: #0B3F61;
     background-color: #FFFCF1;
     border-radius: 0% !important;
     border-left: none !important;
@@ -63,8 +64,63 @@ body {
     overflow-y: auto;
 }
 
+.nav-link.btn {
+    background-color: #97A8C7;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.btn:hover {
+    background-color: #87a5dd;
+    color: #fff;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 125px;
+    right: 20px;
+    display: none; /* 初始时隐藏按钮 */
+    background-color: rgba(255, 255, 255, 0.7); /* 白色背景，透明度为70% */
+    z-index: 9999; /* 确保按钮显示在其他内容上方 */
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+#back-to-top:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* 悬停时增加透明度 */
+}
+
+h3, h4 {
+    color: #0B3F61;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .justify-text {
+    color: #0B3F61;
     text-align: justify;
+}
+
+.custom-list {
+    color: #0B3F61;
+    list-style-type: disc; /* 實心圓點 */
+    /* list-style-type: circle; */ /* 空心圆點 */
+    /* list-style-type: square; */ /* 實心方塊 */
+    /* list-style-type: decimal; */ /* 數字 */
+    /* list-style-type: lower-alpha; */ /* 小寫字母 */
+    /* list-style-type: upper-roman; */ /* 大寫羅馬數字 */
+}
+
+.img-fixed-height {
+    height: 200px;
+    width: 500px;
+    display: block;
+    max-width: 100%;
 }
 
 footer {
