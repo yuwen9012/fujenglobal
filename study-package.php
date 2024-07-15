@@ -81,31 +81,31 @@
 
                     <ul class="navbar-nav d-flex flex-row flex-wrap">
                         <li class="nav-item m-1">
-                            <a class="nav-link btn " href="#introduction-liberal">Introduction</a>
+                            <a class="nav-link btn" href="#introduction-liberal" data-scroll="true">Introduction</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#features-liberal">Features</a>
+                            <a class="nav-link btn" href="#features-liberal" data-scroll="true">Features</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#amsp-liberal">Academic Module & Study Package</a>
+                            <a class="nav-link btn" href="#amsp-liberal" data-scroll="true">Academic Module & Study Package</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#csd-liberal">Course Structure & Description</a>
+                            <a class="nav-link btn" href="#csd-liberal" data-scroll="true">Course Structure & Description</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#lo-liberal">Learning Outcomes</a>
+                            <a class="nav-link btn" href="#lo-liberal" data-scroll="true">Learning Outcomes</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#fi-liberal">Faculty Information</a>
+                            <a class="nav-link btn" href="#fi-liberal" data-scroll="true">Faculty Information</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#rf-liberal">Resources & Facilities</a>
+                            <a class="nav-link btn" href="#rf-liberal" data-scroll="true">Resources & Facilities</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#ow-liberal">Office Website</a>
+                            <a class="nav-link btn" href="#ow-liberal" data-scroll="true">Office Website</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#ci-liberal">Contact Information</a>
+                            <a class="nav-link btn" href="#ci-liberal" data-scroll="true">Contact Information</a>
                         </li>
 
                         <li class="nav-item ml-auto">
