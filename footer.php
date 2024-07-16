@@ -1,13 +1,12 @@
 <footer class="py-3">
     <div class="row mx-4 my-2">
         <div class="col-4 d-flex flex-column justify-content-center text-start fs-6">
-            <span class="text-white g-1">
-                <i class="fas fa-map-marker-alt"></i>
-                <label>Office of International Education, Room 112, Cardinal Tien Memorial Hall</label>
-                <label>510 Zhongzheng Rd., Xinzhuang Dist., Taipei, Taiwan 242062</label>
+            <span class="text-white d-flex">
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <label>Office of International Education, Room 112, Cardinal Tien Memorial Hall 510 Zhongzheng Rd., Xinzhuang Dist., Taipei, Taiwan 242062</label>
             </span>
-            <span class="text-white g-1">
-                <i class="fas fa-phone"></i>
+            <span class="text-white d-flex">
+                <i class="fas fa-phone me-2"></i>
                 <label>02-2345-6789</label>
             </span>
         </div>
