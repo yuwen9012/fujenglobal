@@ -1,22 +1,28 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let backToTopButton = document.getElementById('back-to-top');
+    let backToTopButtons = document.getElementsByClassName('back-to-top');
     let contentElement = document.querySelector('.content');
 
     // 當content滾動時顯示或隱藏回到頂部按鈕
     contentElement.addEventListener('scroll', function() {
         if (contentElement.scrollTop > 100) {
-            backToTopButton.style.display = 'block';
+            Array.from(backToTopButtons).forEach(button => {
+                button.style.display = 'block';
+            });
         } else {
-            backToTopButton.style.display = 'none';
+            Array.from(backToTopButtons).forEach(button => {
+                button.style.display = 'none';
+            });
         }
     });
 
-    // 點擊回頂部事件監聽器
-    backToTopButton.addEventListener('click', function(e) {
-        e.preventDefault();
-        contentElement.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+    // 為每個按鈕添加點擊事件
+    Array.from(backToTopButtons).forEach(button => {
+        button.addEventListener('click', () => {
+            // 平滑滾動到頁面頂部
+            contentElement.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     });
 
@@ -35,6 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     behavior: 'smooth'
                 });
             }
+        });
+    });
+
+    // 點擊tab，重置content到頂部
+    document.querySelectorAll('#list-tab a').forEach(tab => {
+        tab.addEventListener('shown.bs.tab', () => {
+            contentElement.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     });
 });
