@@ -29,8 +29,11 @@
         <div class="container-fluid">
             <img src="images/06-校徽-英文組合排列.png" id="logo">
             
-                
+            
             <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <button type="button" class="btn-bounce fw-semibold">Apply now !</button>
+                </li>
                 <li class="nav-item">
                     <span class="navbar-text text-white mx-2">|</span>
                 </li>
@@ -47,7 +50,7 @@
                     <span class="navbar-text text-white mx-2">|</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Study Aboard</a>
+                    <a class="nav-link text-white" href="#">Study Abroad</a>
                 </li>
                 <li class="nav-item">
                     <span class="navbar-text text-white mx-2">|</span>
