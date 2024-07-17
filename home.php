@@ -32,7 +32,7 @@
             
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <button type="button" class="btn-bounce fw-semibold">Apply now !</button>
+                    <button type="button" class="btn-bounce fw-semibold mx-5">Apply now !</button>
                 </li>
                 <li class="nav-item">
                     <span class="navbar-text text-white mx-2">|</span>
