@@ -28,50 +28,30 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid">
             <img src="images/06-校徽-英文組合排列.png" id="logo">
-            
-            
+
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <button type="button" class="btn-bounce fw-semibold mx-5">Apply now !</button>
-                </li>
-                <li class="nav-item">
-                    <span class="navbar-text text-white mx-2">|</span>
-                </li>
-                <li class="nav-item">
+                <div class="mx-5">
+                    <button type="button" class="btn-bounce fw-semibold">Apply now !</button>
+                </div>
+                <li class="nav-item px-2">
                     <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
                 </li>
-                <li class="nav-item">
-                    <span class="navbar-text text-white mx-2">|</span>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item px-2">
                     <a class="nav-link text-white" href="#">Degree students</a>
                 </li>
-                <li class="nav-item">
-                    <span class="navbar-text text-white mx-2">|</span>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="study-abroad.php">Study Abroad</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Study Abroad</a>
-                </li>
-                <li class="nav-item">
-                    <span class="navbar-text text-white mx-2">|</span>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item px-2">
                     <a class="nav-link text-white" href="#">Chinese Student</a>
                 </li>
-                <li class="nav-item">
-                    <span class="navbar-text text-white mx-2">|</span>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item px-2">
                     <a class="nav-link text-white" href="#">Enrollment Information</a>
                 </li>
-                <li class="nav-item">
-                    <span class="navbar-text text-white mx-2">|</span>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item px-2">
                     <a class="nav-link text-white" href="#">Contact us</a>
                 </li>
             </ul>
-
         </div>
     </nav>
 
@@ -135,6 +115,7 @@
             </div>
         </div>
     </div>
+
     <?php include 'footer.php'; ?>
 </body>
 </html>
