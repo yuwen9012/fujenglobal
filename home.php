@@ -76,7 +76,7 @@
     </nav>
 
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -113,7 +113,8 @@
                 <div class="p-3">
                     <h2>Fu Jen Catholic University</h2>
                     <p>is renowned for its robust international exchange programs and has established partnerships with numerous universities worldwide. Students have opportunities to participate in various international exchange and internship programs, broadening their global perspectives.</p>
-                    <button type="button" class="btn btn-primary">Life Guide</button>
+                    <button type="button" class="btn-custom mx-3">Why FJCU?</button>
+                    <button type="button" class="btn-custom mx-3">Campus Life</button>
                 </div>
             </div>
             <div class="col-md-6">
