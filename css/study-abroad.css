@@ -31,6 +31,21 @@ body {
     color: #FFFFFF;
 }
 
+.btn-program {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    color: #445C89;
+    background-color: #FFF9E6;
+    border: 1px solid #FFF9E6;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -55,6 +70,7 @@ body {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .btn-bounce::before {
@@ -83,7 +99,7 @@ body {
     z-index: -2;
 }
 
-/* 半圆形的样式 */
+/* 半圆形的樣式 */
 .half-circle {
     width: 400px;
     height: 200px;
@@ -93,13 +109,12 @@ body {
     margin: 15% auto 0 auto;
 }
 
-/* 圆形按钮的样式 */
+/* 圓型按鈕的樣式 */
 .circle-btn {
     width: 130px;
     height: 130px;
     background-color: #FFF9E6;
     border-radius: 50%;
-    /* border: 2px solid #007bff; */
     color: #445C89;
     display: flex;
     align-items: center;
@@ -109,7 +124,7 @@ body {
     cursor: pointer;
 }
 
-/* 四个按钮的位置 */
+/* 4個圓型按鈕位置 */
 #btn-study-package {
     top: 50px;
     left: -150px;
@@ -132,6 +147,8 @@ body {
 
 .half-circle a {
     text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
     color: #445C89;
 }
 
@@ -158,6 +175,7 @@ h4 {
 }
 
 .score-display {
+    font-family: 'Merriweather', serif;
     font-size: 3rem;
     color: #445C89;
 }

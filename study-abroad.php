@@ -9,6 +9,8 @@
 
     <!-- 引入 Poppins 字體 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <!-- 引入 Merriweather 字體 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -34,7 +36,7 @@
             
             <div class="flex-grow-1 text-center">
                 <div class="d-flex justify-content-center align-items-center">
-                    <span class="navbar-text mx-2 fs-2 fw-bolder">— Study Abroad —</span>
+                    <span class="navbar-text mx-2 fs-1 fw-bolder">— Study Abroad —</span>
                 </div>
             </div>
         </div>
@@ -46,8 +48,9 @@
             <div class="col-md-6 p-5">
                 <h2 class="fw-bolder">Program Introduction</h2>
                 <p class="fw-semibold">The ISC provides advice, information and referrals on matters such as residence regulations, cultural adjustment, volunteer work , overseas travel and study. The ISC staff cares deeply about those who come to campus from other countries, and we are equally invested in domestic students who wish to study abroad on a long term or short term summer program.</p>
-                <div class="mx-5">
-                    <button type="button" class="btn-bounce fw-semibold">Apply NOW !</button>
+                <div>
+                    <a href="#" class="btn-program"><i class="fas fa-location-arrow"></i></a>
+                    <a href="#" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
             </div>
 
@@ -55,9 +58,9 @@
                 <div class="container text-center">
                     <div class="half-circle">
                         <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Package</a></div>
-                        <div class="circle-btn" id="btn-traditional-culture">Traditional Culture</div>
-                        <div class="circle-btn" id="btn-enterprise-visit">Enterprise Visit</div>
-                        <div class="circle-btn" id="btn-mandarin-learning">Mandarin Learning</div>
+                        <div class="circle-btn" id="btn-traditional-culture"><a href="#">Traditional Culture</a></div>
+                        <div class="circle-btn" id="btn-enterprise-visit"><a href="#">Enterprise Visit</a></div>
+                        <div class="circle-btn" id="btn-mandarin-learning"><a href="#">Mandarin Learning</a></div>
                     </div>
                 </div>
             </div>
@@ -65,7 +68,7 @@
     </div>
 
     <div class="container scorer-block">
-        <div class="row">
+        <div class="row" id="scorer">
             <div class="col-md-4 text-center my-5">
                 <div class="image-container">
                     <img src="images/school.png" class="d-block mx-auto" alt="Partner University">
