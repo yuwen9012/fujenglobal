@@ -122,6 +122,7 @@ body {
     font-size: 18px;
     position: absolute;
     cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 /* 4個圓型按鈕位置 */
@@ -151,6 +152,11 @@ body {
     font-size: larger;
     color: #445C89;
 }
+
+.circle-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
 
 .image-container {
     width: 100%;
