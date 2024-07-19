@@ -44,7 +44,6 @@
 
     <div class="container-fluid introduction-block">
         <div class="row">
-
             <div class="col-md-6 p-5">
                 <h2 class="fw-bolder">Program Introduction</h2>
                 <p class="fw-semibold">The ISC provides advice, information and referrals on matters such as residence regulations, cultural adjustment, volunteer work , overseas travel and study. The ISC staff cares deeply about those who come to campus from other countries, and we are equally invested in domestic students who wish to study abroad on a long term or short term summer program.</p>
@@ -54,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-end">
                 <div class="container text-center">
                     <div class="half-circle">
                         <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Package</a></div>
