@@ -34,7 +34,7 @@
             
             <div class="flex-grow-1 text-center">
                 <div class="d-flex justify-content-center align-items-center">
-                    <span class="navbar-text mx-2 fs-2">— Study Abroad —</span>
+                    <span class="navbar-text mx-2 fs-2 fw-bolder">— Study Abroad —</span>
                 </div>
             </div>
         </div>
@@ -43,13 +43,23 @@
     <div class="container-fluid introduction-block">
         <div class="row">
 
-            <div class="col-md-6 left-section">
+            <div class="col-md-6 p-5">
                 <h2 class="fw-bolder">Program Introduction</h2>
                 <p class="fw-semibold">The ISC provides advice, information and referrals on matters such as residence regulations, cultural adjustment, volunteer work , overseas travel and study. The ISC staff cares deeply about those who come to campus from other countries, and we are equally invested in domestic students who wish to study abroad on a long term or short term summer program.</p>
+                <div class="mx-5">
+                    <button type="button" class="btn-bounce fw-semibold">Apply NOW !</button>
+                </div>
             </div>
 
-            <div class="col-md-6 right-section">
-                <h2>要放圖片及按鈕</h2>
+            <div class="col-md-6">
+                <div class="container text-center">
+                    <div class="half-circle">
+                        <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Package</a></div>
+                        <div class="circle-btn" id="btn-traditional-culture">Traditional Culture</div>
+                        <div class="circle-btn" id="btn-enterprise-visit">Enterprise Visit</div>
+                        <div class="circle-btn" id="btn-mandarin-learning">Mandarin Learning</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -111,7 +121,11 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <h2>Text</h2>
+                <div class="guide">
+                    <a href="#" class="fs-3 fw-semibold">How to apply</a>
+                    <a href="#" class="fs-3 fw-semibold">Title</a>
+                    <a href="#" class="fs-3 fw-semibold">Accommodation</a>
+                </div>
             </div>
         </div>
     </div>
