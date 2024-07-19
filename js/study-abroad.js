@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const duration = 2000;
 
     let startTime = null;
+    let animationFrameId = null;
 
     function animateScore(timestamp) {
         if (!startTime) startTime = timestamp;
@@ -26,9 +27,32 @@ document.addEventListener('DOMContentLoaded', (event) => {
         ranking_score.textContent = ranking_current_score.toLocaleString();
 
         if (percentage < 1) {
-            requestAnimationFrame(animateScore);
+            animationFrameId = requestAnimationFrame(animateScore);
+        }
+        else {
+            animationFrameId = null;
         }
     }
 
-    requestAnimationFrame(animateScore);
+    // 使用 Intersection Observer API 檢測元素是否進入可視畫面
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // 元素進入可視畫面後重新計分
+                if (!animationFrameId) {
+                    startTime = null;
+                    requestAnimationFrame(animateScore);
+                }
+            }
+            else {
+                // 元素離開可視畫面後暫停
+                if (animationFrameId) {
+                    cancelAnimationFrame(animationFrameId);
+                    animationFrameId = null;
+                }
+            }
+        });
+    }, { threshold: 0.5 });
+
+    observer.observe(document.querySelector('#scorer'));
 });
