@@ -66,25 +66,33 @@
 
     <div class="container scorer-block">
         <div class="row">
-
             <div class="col-md-4 text-center my-5">
-                <h4 class="fw-semibold">Partner University</h4>
+                <div class="image-container">
+                    <img src="images/school.png" class="d-block mx-auto" alt="Partner University">
+                </div>
+                <h4 class="fw-semibold py-3">Partner University</h4>
                 <div class="partner-score-container">
-                    <div class="score-display" id="partner-score"></div>
+                    <div class="score-display fw-semibold" id="partner-score"></div>
                 </div>
             </div>
 
             <div class="col-md-4 text-center my-5">
-                <h4 class="fw-semibold">Student number</h4>
+                <div class="image-container">
+                    <img src="images/student.png" class="d-block mx-auto" alt="Student number">
+                </div>
+                <h4 class="fw-semibold py-3">Student number</h4>
                 <div class="student-score-container">
-                    <div class="score-display" id="student-score"></div>
+                    <div class="score-display fw-semibold" id="student-score"></div>
                 </div>
             </div>
 
             <div class="col-md-4 text-center my-5">
-                <h4 class="fw-semibold">World univeristy Ranking</h4>
+                <div class="image-container">
+                    <img src="images/ranking.png" class="d-block mx-auto" alt="World University Ranking">
+                </div>
+                <h4 class="fw-semibold py-3">World univeristy Ranking</h4>
                 <div class="ranking-score-container">
-                    <div class="score-display" id="ranking-score"></div>
+                    <div class="score-display fw-semibold" id="ranking-score"></div>
                 </div>
             </div>
         </div>

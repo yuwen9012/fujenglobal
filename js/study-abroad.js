@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const student_current_score = Math.floor(percentage * student_target);
         const ranking_current_score = Math.floor(percentage * ranking_target);
 
-        partner_score.textContent = partner_current_score;
-        student_score.textContent = student_current_score;
-        ranking_score.textContent = ranking_current_score;
+        partner_score.textContent = partner_current_score.toLocaleString();
+        student_score.textContent = student_current_score.toLocaleString();
+        ranking_score.textContent = ranking_current_score.toLocaleString();
 
         if (percentage < 1) {
             requestAnimationFrame(animateScore);

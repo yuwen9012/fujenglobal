@@ -31,41 +31,6 @@ body {
     color: #FFFFFF;
 }
 
-.info-block {
-    background-color: #ECE1BF;
-    color: #445C89;
-}
-
-#carouselExampleIndicators {
-    height: 80%;
-    width: 70%;
-}
-
-#carouselExampleIndicators .carousel-inner {
-    height: 100%; /* 使内部内容填充满整个高度 */
-}
-
-#carouselExampleIndicators .carousel-inner img {
-    object-fit: cover; /* 保持图片比例且覆盖整个区域 */
-    height: 100%; /* 图片高度占满容器 */
-}
-
-footer {
-    background-color: #132548 !important;
-}
-
-.score-container {
-    max-width: 600px;
-    margin: 50px auto;
-    text-align: center;
-}
-
-.score-display {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -170,6 +135,51 @@ footer {
     color: #445C89;
 }
 
+.image-container {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+h4 {
+    color: #445C89;
+}
+
+.score-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.score-display {
+    font-size: 3rem;
+    color: #445C89;
+}
+
+.info-block {
+    background-color: #ECE1BF;
+    color: #445C89;
+}
+
+#carouselExampleIndicators {
+    height: 80%;
+    width: 70%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    height: 100%; /* 使内部内容填充满整个高度 */
+}
+
+#carouselExampleIndicators .carousel-inner img {
+    object-fit: cover; /* 保持图片比例且覆盖整个区域 */
+    height: 100%; /* 图片高度占满容器 */
+}
 
 .guide {
     display: flex;
@@ -185,4 +195,8 @@ footer {
     text-decoration: none;
     color: #445C89;
     cursor: pointer;
+}
+
+footer {
+    background-color: #132548 !important;
 }
