@@ -48,7 +48,7 @@
                 <h2 class="fw-bolder">Program Introduction</h2>
                 <p class="fw-semibold">The ISC provides advice, information and referrals on matters such as residence regulations, cultural adjustment, volunteer work , overseas travel and study. The ISC staff cares deeply about those who come to campus from other countries, and we are equally invested in domestic students who wish to study abroad on a long term or short term summer program.</p>
                 <div>
-                    <a href="#" class="btn-program"><i class="fas fa-location-arrow"></i></a>
+                    <a href="program-introduction.php" class="btn-program"><i class="fas fa-location-arrow"></i></a>
                     <a href="#" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
             </div>
