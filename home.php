@@ -31,7 +31,7 @@
 
             <ul class="navbar-nav ms-auto">
                 <div class="mx-5">
-                    <button type="button" class="btn-bounce fw-semibold">Apply now !</button>
+                    <button type="button" class="btn-bounce fw-semibold">Apply NOW !</button>
                 </div>
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
