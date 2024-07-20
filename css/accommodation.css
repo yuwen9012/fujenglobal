@@ -1,0 +1,177 @@
+.carousel-control-prev, .carousel-control-next {
+    position: absolute; /* 使箭頭絕對定位 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 垂直居中對齊 */
+    width: 5%; /* 設定箭頭寬度 */
+    height: 100%; /* 設定箭頭高度 */
+    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* 確保箭頭在圖片之上 */
+}
+
+#mainImage {
+    width: 100%; /* 或者設置為具體的像素值，例如 800px */
+    height: 95%;
+    max-width: 100%; /* 確保圖片不超過容器寬度 */
+}
+#mainImage1 {
+    width: 100%; /* 或者設置為具體的像素值，例如 800px */
+    height: 95%;
+    max-width: 100%; /* 確保圖片不超過容器寬度 */
+}
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+}
+
+.carousel-item .d-flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-item img {
+    flex: 0 0 20%;
+    max-width: 20%;
+    margin-right: 10px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 130px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.sidebar {
+    left: 0;
+    width: 350px;
+    height: calc(100vh - 125px);
+    overflow-y: auto;
+    background-color: #FFFCF1;
+    border-right: 1px solid #dee2e6;
+}
+
+.list-group a {
+    color: #0B3F61;
+    background-color: #FFFCF1;
+    border-radius: 0% !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.list-group-item.active {
+    background-color: #E2D08D !important;
+    border-color: #E2D08D !important;
+    font-weight: bolder;
+}
+
+.content {
+    padding: 20px;
+    width: calc(100vw - 350px);
+    height: calc(100vh - 125px);
+    background-color: #FFFEFB;
+    overflow-y: auto;
+}
+
+.nav-link.btn {
+    background-color: #5968B8;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.btn:hover {
+    background-color: #87a5dd;
+    color: #fff;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+    display: none; /* 初始隱藏 */
+    color: #FFFFFF;
+    background-color: rgba(11, 63, 97, 0.7);
+    z-index: 9999;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.back-to-top:hover {
+    background-color: rgba(11, 63, 97, 0.9);
+}
+
+h3, h4 {
+    color: #0B3F61;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-text {
+    color: #0B3F61;
+    text-align: justify;
+}
+
+.custom-list {
+    color: #0B3F61;
+    list-style-type: disc; /* 實心圓點 */
+    /* list-style-type: circle; */ /* 空心圆點 */
+    /* list-style-type: square; */ /* 實心方塊 */
+    /* list-style-type: decimal; */ /* 數字 */
+    /* list-style-type: lower-alpha; */ /* 小寫字母 */
+    /* list-style-type: upper-roman; */ /* 大寫羅馬數字 */
+}
+
+.img-fixed-height {
+    height: 200px;
+    width: 500px;
+    display: block;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #132548 !important;
+}
+
+/* .with-divider {
+    border-left: 1px solid rgba(255, 255, 255, 0.575);
+} */
