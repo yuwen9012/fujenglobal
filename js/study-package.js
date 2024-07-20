@@ -53,4 +53,16 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+
+    // Read more
+    $('#read-more-link').click(function() {
+        var $link = $(this);
+        var target = $link.data('target');
+        var expanded = $(target).hasClass('show');
+        if (expanded) {
+            $link.text('Read more...');
+        } else {
+            $link.text('Hide');
+        }
+    });
 });

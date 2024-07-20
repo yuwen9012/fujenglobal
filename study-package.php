@@ -10,9 +10,13 @@
     <!-- 引入 Poppins 字體 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script> -->
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -81,31 +85,31 @@
 
                     <ul class="navbar-nav d-flex flex-row flex-wrap">
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#introduction-liberal" data-scroll="true">Introduction</a>
+                            <a class="nav-link btn fs-5" href="#introduction-liberal" data-scroll="true">Introduction</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#features-liberal" data-scroll="true">Features</a>
+                            <a class="nav-link btn fs-5" href="#features-liberal" data-scroll="true">Features</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#amsp-liberal" data-scroll="true">Academic Module & Study Package</a>
+                            <a class="nav-link btn fs-5" href="#amsp-liberal" data-scroll="true">Academic Module & Study Package</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#csd-liberal" data-scroll="true">Course Structure & Description</a>
+                            <a class="nav-link btn fs-5" href="#csd-liberal" data-scroll="true">Course Structure & Description</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#lo-liberal" data-scroll="true">Learning Outcomes</a>
+                            <a class="nav-link btn fs-5" href="#lo-liberal" data-scroll="true">Learning Outcomes</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#fi-liberal" data-scroll="true">Faculty Information</a>
+                            <a class="nav-link btn fs-5" href="#fi-liberal" data-scroll="true">Faculty Information</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#rf-liberal" data-scroll="true">Resources & Facilities</a>
+                            <a class="nav-link btn fs-5" href="#rf-liberal" data-scroll="true">Resources & Facilities</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#ow-liberal" data-scroll="true">Office Website</a>
+                            <a class="nav-link btn fs-5" href="#ow-liberal" data-scroll="true">Office Website</a>
                         </li>
                         <li class="nav-item m-1">
-                            <a class="nav-link btn" href="#ci-liberal" data-scroll="true">Contact Information</a>
+                            <a class="nav-link btn fs-5" href="#ci-liberal" data-scroll="true">Contact Information</a>
                         </li>
 
                         <li class="nav-item ml-auto">
@@ -115,7 +119,18 @@
 
                     <div id="introduction-liberal">
                         <h4 class="my-3 fw-semibold">Introduction</h4>
-                        <span class="justify-text">Fu Jen Catholic University (FJCU) was established in Beijing in 1925 and its College of Liberal Arts was comprised of three departments: Department of Chinese Language, Department of History, and Department of Philosophy. FJCU was re-established in Taipei in 1961 and first set up an Institute of Philosophy. FJCU was then moved to its present site in Xinzhuang in 1963. The Department of Chinese Literature, Department of History and Department Philosophy are under the management of the College of Liberal Arts. In response to social changes and the trend of revitalizing the professional fields of study, since 2010, each department offers Bachelor’s, Master’s and/or Doctoral programs for studying applied Chinese Literature, Applied History, and Philosophical Consulting. The Department of Chinese Literature also plans to offer an interdisciplinary curriculum to provide students with diversified learning opportunities. The College of Liberal Arts also offers Bachelor's degree of Humanities and Community Innovation beginning in 2024. The Department of Chinese Literature offers curriculum of Chinese teaching beside various courses on classical and modern Chinese literature. The Department of History offers courses on Chinese history, Taiwanese history, world history, and public history. The Department of Philosophy provides courses on Chinese and European philosophy. The College of Liberal Arts demonstrates an extraordinary example of merging tradition and innovation.</span>
+
+                        <div class="row align-items-start">
+                            <div class="col-md-6 justify-text">
+                                <span>Fu Jen Catholic University (FJCU) was established in Beijing in 1925 and its College of Liberal Arts was comprised of three departments: Department of Chinese Language, Department of History, and Department of Philosophy. FJCU was re-established in Taipei in 1961 and first set up an Institute of Philosophy. FJCU was then moved to its present site in Xinzhuang in 1963.</span>
+                                <span class="collapse" id="collapseExample"> The Department of Chinese Literature, Department of History and Department Philosophy are under the management of the College of Liberal Arts. In response to social changes and the trend of revitalizing the professional fields of study, since 2010, each department offers Bachelor’s, Master’s and/or Doctoral programs for studying applied Chinese Literature, Applied History, and Philosophical Consulting. The Department of Chinese Literature also plans to offer an interdisciplinary curriculum to provide students with diversified learning opportunities. The College of Liberal Arts also offers Bachelor's degree of Humanities and Community Innovation beginning in 2024. The Department of Chinese Literature offers curriculum of Chinese teaching beside various courses on classical and modern Chinese literature. The Department of History offers courses on Chinese history, Taiwanese history, world history, and public history. The Department of Philosophy provides courses on Chinese and European philosophy. The College of Liberal Arts demonstrates an extraordinary example of merging tradition and innovation.</span>
+                                <a id="read-more-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Read more...</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/study-package3.jpg" class="container-fluid">
+                            </div>
+                        </div>
+
                     </div>
                     
                     <div id="features-liberal">

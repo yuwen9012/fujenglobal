@@ -128,6 +128,11 @@ footer {
     background-color: #132548 !important;
 }
 
+.justify-text {
+    text-align: justify; /* 將文字對齊方式改為 justified */
+    /* margin-bottom: 20px; 增加底部間距 */
+}
+
 /* .with-divider {
     border-left: 1px solid rgba(255, 255, 255, 0.575);
 } */
