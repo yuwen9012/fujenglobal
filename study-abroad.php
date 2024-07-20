@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-md-6 p-5">
                 <h2 class="fw-bolder">Program Introduction</h2>
-                <p class="fw-semibold">The ISC provides advice, information and referrals on matters such as residence regulations, cultural adjustment, volunteer work , overseas travel and study. The ISC staff cares deeply about those who come to campus from other countries, and we are equally invested in domestic students who wish to study abroad on a long term or short term summer program.</p>
+                <p class="fw-semibold">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
                 <div>
                     <a href="program-introduction.php" class="btn-program"><i class="fas fa-location-arrow"></i></a>
                     <a href="#" class="btn-bounce fw-semibold">Apply NOW !</a>
@@ -138,10 +138,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container qa-block text-center my-5">
-        <h3>Q&A</h3>
     </div>
 
     <?php include 'footer.php'; ?>
