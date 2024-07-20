@@ -54,15 +54,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Read more
-    $('#read-more-link').click(function() {
-        var $link = $(this);
-        var target = $link.data('target');
-        var expanded = $(target).hasClass('show');
-        if (expanded) {
-            $link.text('Read more...');
-        } else {
-            $link.text('Hide');
-        }
+    // Read more文字顯示
+    $('#collapseExample').on('shown.bs.collapse', function () {
+        $('#read-more-link').text('Hide');
+    });
+    $('#collapseExample').on('hidden.bs.collapse', function () {
+        $('#read-more-link').text('Read more...');
     });
 });
