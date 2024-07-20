@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-md-6 p-5">
                 <h2 class="fw-bolder">Program Introduction</h2>
-                <p class="fw-semibold">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
+                <p class="fw-semibold" id="introduction-text">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
                 <div>
                     <a href="program-introduction.php" class="btn-program"><i class="fas fa-location-arrow"></i></a>
                     <a href="#" class="btn-bounce fw-semibold">Apply NOW !</a>

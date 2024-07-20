@@ -31,6 +31,10 @@ body {
     color: #FFFFFF;
 }
 
+#introduction-text {
+    text-align: justify;
+}
+
 .btn-program {
     display: inline-block;
     width: 100px;
