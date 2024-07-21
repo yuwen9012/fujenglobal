@@ -1,21 +1,26 @@
 <footer class="py-3">
-    <div class="row mx-4 my-2">
-        <div class="col-4 d-flex flex-column justify-content-center text-start fs-6">
-            <span class="text-white d-flex">
+    <div class="row mx-4 my-2" id="footer">
+        <div class="col-4 d-flex flex-column justify-content-center text-start fs-6" id="footer-info">
+            <span class="text-white d-flex flex-row">
                 <i class="fas fa-map-marker-alt me-2"></i>
                 <label>Office of International Education, Room 112, Cardinal Tien Memorial Hall 510 Zhongzheng Rd., Xinzhuang Dist., Taipei, Taiwan 242062</label>
             </span>
-            <span class="text-white d-flex">
+            <span class="text-white d-flex flex-row">
                 <i class="fas fa-phone me-2"></i>
-                <label>02-2345-6789</label>
+                <div class="d-flex flex-column">
+                    <label>General Inquiry +886-2-2905-3137</label>
+                    <label>Global Partnership +886-2-2905-3358</label>
+                    <label>International Student / Admission +886-2-2905-2944</label>
+                    <label>Chinese Language +886-2-2905-3721</label>
+                </div>
             </span>
         </div>
 
-        <div class="col-4 d-flex align-items-center justify-content-center text-center">
+        <div class="col-4 d-flex align-items-center justify-content-center text-center" id="footer-logo">
             <img src="images/05-校徽-英文組合排列.png" alt="Logo" class="img-fluid" style="max-height: 80px;">
         </div>
 
-        <div class="col-4 d-flex flex-column justify-content-center text-end">
+        <div class="col-4 d-flex flex-column justify-content-center text-end" id="footer-team">
             <span class="text-white fs-9">製作: 陳郁雯、郭政億、王孟蘋</span>
             <span class="text-white fs-9">指導: 輔仁大學統計資訊學系 杜逸寧 副教授</span>
         </div>

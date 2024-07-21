@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/home.css">
 
     <title>輔仁大學國際及兩岸教育處</title>

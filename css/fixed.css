@@ -1,0 +1,38 @@
+@media (min-width: 390px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row !important;
+    }
+}
+
+@media (max-width: 1060px) {
+    #footer .col-4 {
+        display: block;
+        width: 90%;
+        max-width: none;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer-info {
+        order: 2;
+        align-items: center; /* 水平方向居中对齐 */
+        margin: 3% 0;
+    }
+
+    #footer-logo {
+        order: 1;
+    }
+
+    #footer-team {
+        order: 3;
+        align-items: center; /* 水平方向居中对齐 */
+        margin: 3% 0;
+    }
+}
