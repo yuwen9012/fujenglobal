@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/study-abroad.css">
 
     <!-- JS -->
@@ -68,36 +69,75 @@
 
     <div class="container scorer-block">
         <div class="row" id="scorer">
-            <div class="col-md-4 text-center my-5">
+            <div class="col-md-2 text-center my-5">
                 <div class="image-container">
-                    <img src="images/school.png" class="d-block mx-auto" alt="Partner University">
+                    <img src="images/college.png" class="d-block mx-auto" alt="Colleges">
                 </div>
-                <h4 class="fw-semibold py-3">Partner University</h4>
+                <h4 class="fw-semibold py-3">Colleges</h4>
+                <div class="college-score-container">
+                    <div class="score-display fw-semibold" id="college-score"></div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center my-5">
+                <div class="image-container">
+                    <img src="images/degree.png" class="d-block mx-auto" alt="Bachelor's Degrees">
+                </div>
+                <h4 class="fw-semibold py-3">Bachelor's Degrees</h4>
+                <div class="degree-score-container">
+                    <div class="score-display fw-semibold" id="degree-score"></div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center my-5">
+                <div class="image-container">
+                    <img src="images/school.png" class="d-block mx-auto" alt="International Partners">
+                </div>
+                <h4 class="fw-semibold py-3">International Partners</h4>
                 <div class="partner-score-container">
                     <div class="score-display fw-semibold" id="partner-score"></div>
                 </div>
             </div>
 
-            <div class="col-md-4 text-center my-5">
+            <div class="col-md-2 text-center my-5">
                 <div class="image-container">
-                    <img src="images/student.png" class="d-block mx-auto" alt="Student number">
+                    <img src="images/student.png" class="d-block mx-auto" alt="Student Clubs">
                 </div>
-                <h4 class="fw-semibold py-3">Student number</h4>
+                <h4 class="fw-semibold py-3">Student Clubs</h4>
                 <div class="student-score-container">
                     <div class="score-display fw-semibold" id="student-score"></div>
                 </div>
             </div>
 
-            <div class="col-md-4 text-center my-5">
+            <div class="col-md-2 text-center my-5">
                 <div class="image-container">
-                    <img src="images/ranking.png" class="d-block mx-auto" alt="World University Ranking">
+                    <img src="images/ranking.png" class="d-block mx-auto" alt="Asia Univeristy Ranking">
                 </div>
-                <h4 class="fw-semibold py-3">World univeristy Ranking</h4>
+                <h4 class="fw-semibold py-3">Asia Univeristy Ranking 2024</h4>
                 <div class="ranking-score-container">
-                    <div class="score-display fw-semibold" id="ranking-score"></div>
+                    <div class="score-display fw-semibold">
+                        <span class="fs-3" id="ranking-score1"></span>
+                        <span class="fs-4">—</span>
+                        <span class="fs-3" id="ranking-score2"></span>
+                        <span class="fs-4">th</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 text-center my-5">
+                <div class="image-container">
+                    <img src="images/association.png" class="d-block mx-auto" alt="Alumni Association">
+                </div>
+                <h4 class="fw-semibold py-3">Alumni Association</h4>
+                <div class="association-score-container">
+                    <div class="score-display fw-semibold" id="association-score"></div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid flow-block">
+        <img src="images/flow.png" class="container-fluid" alt="Flow Chart">
     </div>
 
     <div class="container-fluid info-block">

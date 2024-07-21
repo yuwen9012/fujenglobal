@@ -169,13 +169,14 @@ body {
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100px;
     object-fit: contain;
 }
 
 h4 {
     color: #445C89;
+    height: 80px;
 }
 
 .score-container {
