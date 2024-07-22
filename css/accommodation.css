@@ -1,3 +1,8 @@
+.introduction-block{
+    color: #0B3F61;
+    text-align: justify;
+}
+
 .carousel-control-prev, .carousel-control-next {
     position: absolute; /* 使箭頭絕對定位 */
     top: 50%; /* 垂直居中 */
@@ -146,19 +151,9 @@ h3, h4 {
     flex-direction: column;
 }
 
-.justify-text {
-    color: #0B3F61;
-    text-align: justify;
-}
-
 .custom-list {
     color: #0B3F61;
     list-style-type: disc; /* 實心圓點 */
-    /* list-style-type: circle; */ /* 空心圆點 */
-    /* list-style-type: square; */ /* 實心方塊 */
-    /* list-style-type: decimal; */ /* 數字 */
-    /* list-style-type: lower-alpha; */ /* 小寫字母 */
-    /* list-style-type: upper-roman; */ /* 大寫羅馬數字 */
 }
 
 .img-fixed-height {
@@ -171,7 +166,3 @@ h3, h4 {
 footer {
     background-color: #132548 !important;
 }
-
-/* .with-divider {
-    border-left: 1px solid rgba(255, 255, 255, 0.575);
-} */
