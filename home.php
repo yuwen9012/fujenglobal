@@ -95,7 +95,7 @@
                     <h2>Fu Jen Catholic University</h2>
                     <p>is renowned for its robust international exchange programs and has established partnerships with numerous universities worldwide. Students have opportunities to participate in various international exchange and internship programs, broadening their global perspectives.</p>
                     <button type="button" class="btn-custom mx-3">Why FJCU?</button>
-                    <button type="button" class="btn-custom mx-3">Campus Life</button>
+                    <!-- <button type="button" class="btn-custom mx-3">Campus Life</button> -->
                 </div>
             </div>
             <div class="col-md-6">
