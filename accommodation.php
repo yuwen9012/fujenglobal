@@ -21,6 +21,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 
     <!-- CSS -->
+    <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/accommodation.css">
 
     <!-- JS -->
