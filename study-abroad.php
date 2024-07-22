@@ -50,7 +50,7 @@
                 <p class="fw-semibold" id="introduction-text">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
                 <div>
                     <a href="program-introduction.php" class="btn-program"><i class="fas fa-location-arrow"></i></a>
-                    <a href="#" class="btn-bounce fw-semibold">Apply NOW !</a>
+                    <a href="howtoapply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
             </div>
 
@@ -137,7 +137,31 @@
     </div>
 
     <div class="container-fluid flow-block">
-        <img src="images/flow.png" class="container-fluid" alt="Flow Chart">
+        <img src="images/flow.png" class="img-fluid" alt="Flow Chart">
+        <div class="overlay-text" id="overlay-text-first">
+            <p class="fs-4 fw-semibold">1. Research Costs and Courses</p>
+            <span class="fs-5">Understanding all the costs in the program</span>
+        </div>
+        <div class="overlay-text" id="overlay-text-second">
+            <p class="fs-4 fw-semibold">2. Pick Your Courses</p>
+            <span class="fs-5">Select the courses that you interested</span>
+        </div>
+        <div class="overlay-text" id="overlay-text-third">
+            <p class="fs-4 fw-semibold">3. Apply</p>
+            <span class="fs-5">Complete forms and pay the application fees</span>
+        </div>
+        <div class="overlay-text" id="overlay-text-forth">
+            <p class="fs-4 fw-semibold">4. Receive Offer</p>
+            <span class="fs-5">Receive the offer given by the University</span>
+        </div>
+        <div class="overlay-text" id="overlay-text-fifth">
+            <p class="fs-4 fw-semibold">5. Be Prepared</p>
+            <span class="fs-5">Apply for Visa, buy the ticket and get the insurance</span>
+        </div>
+        <div class="overlay-text" id="overlay-text-sixth">
+            <p class="fs-4 fw-semibold">6. Welcome to FJCU</p>
+            <span class="fs-5">Our warmly welcome you to our University</span>
+        </div>
     </div>
 
     <div class="container-fluid info-block">
@@ -172,9 +196,9 @@
             </div>
             <div class="col-md-6">
                 <div class="guide">
-                    <a href="#" class="fs-3 fw-semibold">How to apply</a>
-                    <a href="#" class="fs-3 fw-semibold">Title</a>
-                    <a href="#" class="fs-3 fw-semibold">Accommodation</a>
+                    <a href="howtoapply.php" class="fs-3 fw-semibold"><img src="images/icon-apply.png" class="img-icon mx-3" alt="apply icon">How to apply</a>
+                    <a href="accommodation.php" class="fs-3 fw-semibold"><img src="images/icon-accommodation.png" class="img-icon mx-3" alt="accommodation icon">Accommodation</a>
+                    <a href="#" class="fs-3 fw-semibold"><img src="images/icon-faq.png" class="img-icon mx-3" alt="faq icon">FAQ</a>
                 </div>
             </div>
         </div>
