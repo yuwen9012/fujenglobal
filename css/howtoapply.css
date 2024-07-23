@@ -10,10 +10,13 @@ body {
 .second-navbar {
     background-color: #132548 !important;
     z-index: 900;
+    height: 75px; /* 確保高度一致 */
+    display: flex;
+    align-items: center;
 }
 
 #logo {
-    width: 130px;
+    width: 120px;
     height: 50px;
 }
 
