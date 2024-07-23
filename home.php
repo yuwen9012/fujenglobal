@@ -30,8 +30,8 @@
         <div class="container-fluid">
             <img src="images/06-校徽-英文組合排列.png" id="logo">
 
-            <ul class="navbar-nav ms-auto">
-                <div class="mx-5">
+            <ul class="navbar-nav ms-auto" id="second-list">
+                <div class="mx-5" id="applynow">
                     <a href="howtoapply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
                 <li class="nav-item px-2">
@@ -57,31 +57,39 @@
     </nav>
 
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner1.png" class="d-block w-100" alt="...">
-                    <div class="overlay">
+                    <img src="images/1 首頁-1.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="overlay">
                         <h3>Internal Education</h3>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner1.png" class="d-block w-100" alt="...">
+                    <img src="images/1 首頁-2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner1.png" class="d-block w-100" alt="...">
+                    <img src="images/1 首頁-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/1 首頁-4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/1 首頁-5.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -93,7 +101,7 @@
             <div class="col-md-6">
                 <div class="p-3">
                     <h2>Fu Jen Catholic University</h2>
-                    <p>is renowned for its robust international exchange programs and has established partnerships with numerous universities worldwide. Students have opportunities to participate in various international exchange and internship programs, broadening their global perspectives.</p>
+                    <p id="introduction-text">(FJCU) is the top ranked private university in Taiwan, and is also on the THE Impact Rankings query of keywords for SDGs (Sustainable Development Goals), dedicating to improve social inclusion and environmental protection. FJCU is the only comprehensive university under the direct authority of the Holy See among Chinese-speaking countries with outstanding academic excellence.</p>
                     <button type="button" class="btn-custom mx-3">Why FJCU?</button>
                     <!-- <button type="button" class="btn-custom mx-3">Campus Life</button> -->
                 </div>
@@ -101,16 +109,16 @@
             <div class="col-md-6">
                 <div class="row gx-4 gy-4">
                     <div class="col-md-6">
-                        <img src="images/classroom  (9).jpg" class="img-fixed-height rounded" alt="Image 1">
+                        <img src="images/1 首頁-四格照-左上.jpg" class="img-fixed-height rounded" alt="Image 1">
                     </div>
                     <div class="col-md-6">
-                        <img src="images/投影牆1.jpg" class="img-fixed-height rounded" alt="Image 2">
+                        <img src="images/1 首頁-四格照-右上.jpg" class="img-fixed-height rounded" alt="Image 2">
                     </div>
                     <div class="col-md-6">
-                        <img src="images/classroom  (19).jpg" class="img-fixed-height rounded" alt="Image 3">
+                        <img src="images/1 首頁-四格照-左下.jpg" class="img-fixed-height rounded" alt="Image 3">
                     </div>
                     <div class="col-md-6">
-                        <img src="images/野聲樓.jpg" class="img-fixed-height rounded" alt="Image 4">
+                        <img src="images/1 首頁-四格照-右下.jpg" class="img-fixed-height rounded" alt="Image 4">
                     </div>
                 </div>
             </div>

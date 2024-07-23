@@ -65,6 +65,17 @@ body {
     z-index: -2;
 }
 
+#second-list {
+    position: relative;
+}
+
+#applynow {
+    position: absolute;
+    bottom: -30%;
+    left: -20%;
+    /* left: -20%; */
+}
+
 .second-navbar .nav-item {
     border-left: 3px solid #FFFFFF;
 }
@@ -81,9 +92,9 @@ body {
     position: relative;
 }
 
-.carousel-item img {
+/* .carousel-item img {
     opacity: 0.7;
-}
+} */
 
 .carousel-item .overlay {
     position: absolute;
@@ -102,6 +113,10 @@ body {
 
 h2, p {
     color: #132548;
+}
+
+#introduction-text {
+    text-align: justify;
 }
 
 .btn-custom {
