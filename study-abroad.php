@@ -61,6 +61,7 @@
                         <div class="circle-btn" id="btn-traditional-culture"><a href="#">Traditional Culture</a></div>
                         <div class="circle-btn" id="btn-enterprise-visit"><a href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a></div>
                         <div class="circle-btn" id="btn-mandarin-learning"><a href="#">Mandarin Learning</a></div>
+                        <img src="images/SA-student.png" id="student" class="d-block mx-auto" alt="student">
                     </div>
                 </div>
             </div>

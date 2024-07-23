@@ -127,6 +127,7 @@ body {
     position: absolute;
     cursor: pointer;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+    z-index: 999;
 }
 
 /* 4個圓型按鈕位置 */
@@ -148,6 +149,13 @@ body {
 #btn-mandarin-learning {
     top: 50px;
     right: -150px;
+}
+
+#student {
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
 }
 
 .half-circle a {
