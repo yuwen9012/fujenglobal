@@ -38,7 +38,7 @@
                     <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">Degree students</a>
+                    <a class="nav-link text-white" href="#">Degree Students</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="study-abroad.php">Study Abroad</a>
@@ -56,44 +56,42 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/1 首頁-1.jpg" class="d-block w-100" alt="...">
-                    <!-- <div class="overlay">
-                        <h3>Internal Education</h3>
-                    </div> -->
-                </div>
-                <div class="carousel-item">
-                    <img src="images/1 首頁-2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/1 首頁-3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/1 首頁-4.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/1 首頁-5.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/1 首頁-1.jpg" class="image-container d-block w-100" alt="...">
+                <!-- <div class="overlay">
+                    <h3>Internal Education</h3>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <img src="images/1 首頁-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/1 首頁-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/1 首頁-4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/1 首頁-5.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <div class="container my-5">
