@@ -91,9 +91,10 @@
                                    <img src="images/Kewu1.jpg" alt="..." onclick="showImage('images/Kewu1.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu2.jpg" alt="..." onclick="showImage('images/Kewu2.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu3.jpg" alt="..." onclick="showImage('images/Kewu3.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu4.jpg" alt="..." onclick="showImage('images/Kewu4.jpg')" style="cursor: pointer;">
+                                   <img src="images/Kewu4.jpg" alt="..." onclick="showImage('images/Kewu1.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu5.jpg" alt="..." onclick="showImage('images/Kewu5.jpg')" style="cursor: pointer;">
-
+                                   <img src="images/Kewu6.jpg" alt="..." onclick="showImage('images/Kewu6.jpg')" style="cursor: pointer;">
+                                  
                                </div>
                            </div>
                            <div class="carousel-item">
@@ -103,6 +104,7 @@
                                    <img src="images/Kewu2.jpg" alt="..." onclick="showImage('images/Kewu2.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu3.jpg" alt="..." onclick="showImage('images/Kewu3.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu4.jpg" alt="..." onclick="showImage('images/Kewu4.jpg')" style="cursor: pointer;">
+                                   <img src="images/Kewu5.jpg" alt="..." onclick="showImage('images/Kewu5.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
                        </div>
@@ -119,20 +121,21 @@
                <div class="col-md-2 right-section"></div>
            </div>
        </div>
+        <div class="container-fluid introduction-block1">
+        <div class="row">
+            <div class="col-md-1 left-section">
+            </div>
 
-        <div class="container-fluid introduction-block">
-            <div class="row">
-                <div class="col-md-1 left-section">
-                </div>
+            <div class="col-md-10 center-section">
+                <h3 class="my-3 fw-bolder"><br><br>2.(On-Campus) Scholar’s Inn: Extra fees NTD 2,080 - 2,880 per day per room.</h3>
+            </div>
 
-                <div class="col-md-10 center-section">
-                    <h3 class="my-3 fw-bolder">2.(On-Campus) Scholar’s Inn: Extra fees NTD 2,080 - 2,880 per day per room.</h3>
-                </div>
-
-                <div class="col-md-1 right-section">
-                </div>
+            <div class="col-md-1 right-section">
             </div>
         </div>
+        </div>
+
+
         <div class="container-fluid introduction-block">
              <div class="row">
                  <div class="col-md-2 left-section"></div>
@@ -155,15 +158,17 @@
                                    <img src="images/Scholar7.jpg" alt="..." onclick="showImage1('images/Scholar7.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar8.jpg" alt="..." onclick="showImage1('images/Scholar8.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar1.jpg" alt="..." onclick="showImage1('images/Scholar1.jpg')" style="cursor: pointer;">
+                                   <img src="images/Scholar6.jpg" alt="..." onclick="showImage1('images/Scholar6.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
                            <div class="carousel-item">
                                <div class="d-flex">
-                                   <img src="images/Scholar6.jpg" alt="..." onclick="showImage1('images/Scholar6.jpg')" style="cursor: pointer;">
+                                   <img src="images/Scholar1.jpg" alt="..." onclick="showImage1('images/Scholar1.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar7.jpg" alt="..." onclick="showImage1('images/Scholar7.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar8.jpg" alt="..." onclick="showImage1('images/Scholar8.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar9.jpg" alt="..." onclick="showImage1('images/Scholar9.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar10.jpg" alt="..." onclick="showImage1('images/Scholar10.jpg')" style="cursor: pointer;">
+                                   <img src="images/Scholar11.jpg" alt="..." onclick="showImage1('images/Scholar11.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
                        </div>
@@ -187,7 +192,7 @@
             </div>
 
             <div class="col-md-10 center-section">
-                <h3 class="my-3 fw-bolder">3.Off-Campus Housing: Extra fee depends on the choices</h3>
+                <h3 class="my-3 fw-bolder"><br><br>3.Off-Campus Housing: Extra fee depends on the choices</h3>
                 <span class="justify-text">Most foreign students choose to live off-campus. Please visit Tsuei Ma Ma Foundation for Housing and Community Service for more information (as well as samples of rental contracts both from the government and from the foundation itself). The housing information below is provided for reference only. FJCU has no legal obligations related to off-campus housing.</span>
                 <ul class="custom-list">
                     <li>FJCU Housing Website (Chinese version only)</li>
@@ -195,6 +200,7 @@
                     <li>Looking for Roommates or Apartments in Taipei and Taiwan (FB)</li>
                     <li>Rental Apartments in Taiwan (FB)</li>
                 </ul>
+                <br><br>
             </div>
 
             <div class="col-md-1 right-section">
