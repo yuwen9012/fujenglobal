@@ -1,8 +1,20 @@
 .introduction-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* 根據需要設置容器的高度 */
     color: #0B3F61;
     text-align: justify;
 }
 
+.info-block{
+    justify-content: center;
+    align-items: center;
+    height: 50%; /* 根據需要設置容器的高度 */
+    color: #0B3F61;
+    text-align: justify;
+    width: 870px;
+}
 .carousel-control-prev, .carousel-control-next {
     position: absolute; /* 使箭頭絕對定位 */
     top: 50%; /* 垂直居中 */
@@ -16,30 +28,39 @@
     z-index: 2; /* 確保箭頭在圖片之上 */
 }
 
+.carousel-control-prev {
+    left: 0; /* 將左箭頭與圖片左邊緣對齊 */
+}
+
+.carousel-control-next {
+    right: 0; /* 將右箭頭與圖片右邊緣對齊 */
+}
+
 #mainImage {
-    width: 100%; /* 或者設置為具體的像素值，例如 800px */
-    height: 95%;
-    max-width: 100%; /* 確保圖片不超過容器寬度 */
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
 }
+
 #mainImage1 {
-    width: 100%; /* 或者設置為具體的像素值，例如 800px */
-    height: 95%;
-    max-width: 100%; /* 確保圖片不超過容器寬度 */
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
 }
+
 .carousel-inner {
-    display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
 }
 
 .carousel-item {
-    flex: 0 0 100%;
+    flex: 0 0 70%;
 }
 
 .carousel-item .d-flex {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 
 .carousel-item img {
@@ -47,6 +68,8 @@
     max-width: 20%;
     margin-right: 10px;
 }
+
+
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -154,13 +177,6 @@ h3, h4 {
 .custom-list {
     color: #0B3F61;
     list-style-type: disc; /* 實心圓點 */
-}
-
-.img-fixed-height {
-    height: 200px;
-    width: 500px;
-    display: block;
-    max-width: 100%;
 }
 
 footer {
