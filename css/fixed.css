@@ -24,6 +24,8 @@
         order: 1;
         align-items: center;
         margin: 3% 0;
+        font-size: 13px !important;
+        text-align: justify !important;
     }
 
     #footer-logo {
@@ -35,5 +37,6 @@
         order: 2;
         align-items: center;
         margin: 3% 0;
+        font-size: small;
     }
 }
