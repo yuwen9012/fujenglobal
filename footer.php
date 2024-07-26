@@ -10,14 +10,15 @@
                 <div class="d-flex flex-column">
                     <label>General Inquiry +886-2-2905-3137</label>
                     <label>Global Partnership +886-2-2905-3358</label>
-                    <label>International Student / Admission +886-2-2905-2944</label>
+                    <label>International Student / Admission <br> +886-2-2905-2944</label>
                     <label>Chinese Language +886-2-2905-3721</label>
                 </div>
             </span>
         </div>
 
-        <div class="col-4 d-flex align-items-center justify-content-center text-center" id="footer-logo">
+        <div class="col-4 d-flex flex-column align-items-center justify-content-center text-center" id="footer-logo">
             <img src="images/05-校徽-英文組合排列.png" alt="Logo" class="img-fluid" style="max-height: 80px;">
+            <small class="text-white">© 2024 Fu Jen Catholic University. All rights reserved.</small>
         </div>
 
         <div class="col-4 d-flex flex-column justify-content-center text-end" id="footer-team">
