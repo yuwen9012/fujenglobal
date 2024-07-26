@@ -196,7 +196,7 @@
                 <div class="guide">
                     <a href="howtoapply.php" class="fs-3 fw-semibold"><img src="images/icon-apply.png" class="img-icon mx-3" alt="apply icon">How to Apply</a>
                     <a href="accommodation.php" class="fs-3 fw-semibold"><img src="images/icon-accommodation.png" class="img-icon mx-3" alt="accommodation icon">Accommodation</a>
-                    <a href="#" class="fs-3 fw-semibold"><img src="images/icon-faq.png" class="img-icon mx-3" alt="faq icon">FAQ</a>
+                    <a href="faq.php" class="fs-3 fw-semibold"><img src="images/icon-faq.png" class="img-icon mx-3" alt="faq icon">FAQ</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.nav-link.btn {
+    background-color: #E2D08D;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.btn:hover {
+    background-color: #dfc35f;
+    color: #fff;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30%;
+    right: 20px;
+    display: none; /* 初始隱藏 */
+    color: #FFFFFF;
+    background-color: rgba(11, 63, 97, 0.7);
+    z-index: 9999;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.back-to-top:hover {
+    color: #FFFFFF;
+    background-color: rgba(11, 63, 97, 0.9);
+}
+
+.input-group {
+    width: 60%;
+}
+
+@media (max-width: 700px) {
+    .input-group {
+        width: 100%;
+    }
+}
+
+
+.btn-outline-secondary {
+    width: 80px;
+    background-color: #5D77A7;
+    color: #FFFFFF;
+    border-radius: 0 10px 10px 0;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #7e9fdd;
+}
+
+.accordion-body {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D6D6D6;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+}
+
+h3, h4 {
+    color: #0B3F61;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-text {
+    color: #0B3F61;
+    text-align: justify;
+}
+
+.custom-list {
+    color: #0B3F61;
+    list-style-type: disc; /* 實心圓點 */
+    /* list-style-type: circle; */ /* 空心圆點 */
+    /* list-style-type: square; */ /* 實心方塊 */
+    /* list-style-type: decimal; */ /* 數字 */
+    /* list-style-type: lower-alpha; */ /* 小寫字母 */
+    /* list-style-type: upper-roman; */ /* 大寫羅馬數字 */
+}
+
+.img-fixed-height {
+    height: 200px;
+    width: 500px;
+    display: block;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #132548 !important;
+}
+
+.justify-text {
+    text-align: justify; /* 將文字對齊方式改為 justified */
+}
