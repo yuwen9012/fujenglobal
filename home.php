@@ -50,7 +50,7 @@
                     <a class="nav-link text-white" href="#">Enrollment Information</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">Contact Us</a>
+                    <a class="nav-link text-white" href="contact-us.php">Contact Us</a>
                 </li>
             </ul>
         </div>

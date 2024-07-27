@@ -1,0 +1,202 @@
+/* 基本設定 */
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* 導航欄樣式 */
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* 聯絡卡片樣式 */
+.contact-card {
+    margin: 15px;
+    background-color: #F5F5F5;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 新增陰影效果 */
+}
+
+.contact-header {
+    background-color: #596172;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 0px 0px 0 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 新增陰影效果 */
+}
+
+.contact-content {
+    padding: 15px;
+    min-height: 150px; /* 設定最小高度 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 對齊到左邊 */
+    justify-content: center;
+    position: relative;
+    text-align: left; /* 文本靠左對齊 */
+}
+
+.contact-content p {
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s ease; /* 添加平滑過渡效果 */
+    display: flex;
+    align-items: center;
+    position: relative; /* 確保複製圖示定位在正確位置 */
+}
+
+.contact-content p:hover {
+    color: #3867c0; /* 鼠標移過去時的顏色 */
+}
+
+.copy-text {
+    margin-left: 10px; /* 圖示和文字之間的距離 */
+    margin-right: 10px; /* 圖示和文字之間的距離 */
+}
+
+.copy-icon {
+    display: none;
+    margin-left: 1000px; /* 圖示和文字之間的距離 */
+    cursor: pointer;
+    position: absolute; /* 使用絕對定位以確保不影響文本位置 */
+    right: 0; /* 讓圖示出現在文本右邊 */
+    top: 50%;
+    transform: translateY(-50%); /* 垂直居中 */
+}
+
+.contact-content p:hover .copy-icon {
+    display: inline-block;
+}
+
+/* 複製成功提示樣式 */
+.copy-success {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28a745; /* 成功的顏色 */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.copy-success.show {
+    display: block;
+    opacity: 1;
+    animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/*表單*/
+/* 表單區塊樣式 */
+
+.form-section {
+    max-width: 80%;
+    margin: 0 auto; /* 使表單區塊居中 */
+    padding: 20px;
+    border: 1px solid #ddd; /* 添加邊框 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+    background-color: #fff; /* 背景顏色 */
+}
+
+
+/* 每個問題區塊底色 */
+.form-section .form-label {
+    background-color: #FFF9E6; /* 問題區塊背景顏色 */
+    padding: 10px;
+    display: block;
+    border-left: 1px solid #ddd; /* 左邊框 */
+    border-top: 1px solid #ddd; /* 下邊框 */
+    border-right: 1px solid #ddd; /* 右邊框 */
+    margin-bottom: 0px; /* 調整每個問題區塊間距 */
+}
+
+/* 表單欄位樣式 */
+.form-section .form-control {
+    background-color: #FFF;
+    border-radius: 0; /* 移除圓角 */
+    border-top: none; /* 移除上邊框 */
+    padding: 10px; /* 輸入框內邊距 */
+}
+.check-container{
+    border-left: 1px solid #ddd; /* 左邊框 */
+    border-bottom: 1px solid #ddd; /* 下邊框 */
+    border-right: 1px solid #ddd; /* 右邊框 */
+    border-top: none; /* 移除上邊框 */
+    padding: 10px;
+}
+/* 只在左下右顯示邊框 */
+.col-md-6.mb-3 .form-control {
+    border-left: 1px solid #ddd; /* 左邊框 */
+    border-bottom: 1px solid #ddd; /* 下邊框 */
+    border-right: 1px solid #ddd; /* 右邊框 */
+    border-top: none; /* 移除上邊框 */
+}
+/* 表單提交按鈕樣式 */
+.form-section .btn-primary {
+    background-color: #0B3F61;
+    border-color: #0B3F61;
+}
+
+.form-section .btn-primary:hover {
+    background-color: #0A2D47;
+    border-color: #0A2D47;
+}
+h3 {
+    color: #d7ac12; /* 顏色 */
+    font-size: 26px; /* 字體大小 */
+    text-align: center; /* 水平置中 */
+    margin-bottom: 20px; /* 標題底部間距（可根據需要調整） */
+}
+
+.text-danger {
+    color: #dc3545;
+}
+footer {
+    background-color: #132548 !important;
+}
