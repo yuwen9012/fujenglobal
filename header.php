@@ -15,7 +15,7 @@
             </div>
             <div class="nav-item d-flex align-items-center me-3">
                 <i class="fas fa-sitemap me-1"></i>
-                <a class="nav-link" href="#">Sitemap</a>
+                <a class="nav-link" href="sitemap.php">Sitemap</a>
             </div>
         </div>
     </div>
