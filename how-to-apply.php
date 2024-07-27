@@ -21,10 +21,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
-    <link rel="stylesheet" href="css/howtoapply.css">
+    <link rel="stylesheet" href="css/how-to-apply.css">
 
     <!-- JS -->
-    <script type="text/javascript" src="js/howtoapply.js"></script>
+    <script type="text/javascript" src="js/how-to-apply.js"></script>
 
     <title>How to apply</title>
 </head>

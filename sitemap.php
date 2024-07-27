@@ -35,7 +35,7 @@
 
             <ul class="navbar-nav ms-auto" id="second-list">
                 <div class="mx-5" id="applynow">
-                    <a href="howtoapply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
+                    <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
@@ -71,7 +71,7 @@
                 <h4 class="card-title">Study Abroad</h4>
                 <div class="section-separator"></div>
                 <div class="card-body">
-                    <p><a href="howtoapply.php">How to Apply</a></p>
+                    <p><a href="how-to-apply.php">How to Apply</a></p>
                     <p><a href="program-introduction.php">Program Introduction</a></p>
                     <p><a href="study-package.php">Study Package</a></p>
                     <p><a href="#">Traditional Culture</a></p>
@@ -85,7 +85,7 @@
                 <h4 class="card-title">Home</h4>
                 <div class="section-separator"></div>
                 <div class="card-body">
-                    <p><a href="howtoapply.php">How to Apply</a></p>
+                    <p><a href="how-to-apply.php">How to Apply</a></p>
                     <p><a href="#">Why FJCU?</a></p>
                 </div>
             </div>

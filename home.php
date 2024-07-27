@@ -32,7 +32,7 @@
 
             <ul class="navbar-nav ms-auto" id="second-list">
                 <div class="mx-5" id="applynow">
-                    <a href="howtoapply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
+                    <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>

@@ -134,7 +134,7 @@
                     </h2>
                     <div id="flush-collapse-sect2-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushFAQSect2">
                         <div class="accordion-body">
-                            Please refer <a href="howtoapply.php">How to apply</a>.
+                            Please refer <a href="how-to-apply.php">How to apply</a>.
                         </div>
                     </div>
                 </div>

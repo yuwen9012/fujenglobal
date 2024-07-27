@@ -50,7 +50,7 @@
                 <p class="fw-semibold" id="introduction-text">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
                 <div>
                     <a href="program-introduction.php" class="btn-program"><i class="fas fa-location-arrow"></i></a>
-                    <a href="howtoapply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
+                    <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
             </div>
 
@@ -194,7 +194,7 @@
             </div>
             <div class="col-md-6">
                 <div class="guide">
-                    <a href="howtoapply.php" class="fs-3 fw-semibold"><img src="images/icon-apply.png" class="img-icon mx-3" alt="apply icon">How to Apply</a>
+                    <a href="how-to-apply.php" class="fs-3 fw-semibold"><img src="images/icon-apply.png" class="img-icon mx-3" alt="apply icon">How to Apply</a>
                     <a href="accommodation.php" class="fs-3 fw-semibold"><img src="images/icon-accommodation.png" class="img-icon mx-3" alt="accommodation icon">Accommodation</a>
                     <a href="faq.php" class="fs-3 fw-semibold"><img src="images/icon-faq.png" class="img-icon mx-3" alt="faq icon">FAQ</a>
                 </div>
