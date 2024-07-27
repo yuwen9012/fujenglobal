@@ -53,7 +53,7 @@
                     <a class="nav-link text-white" href="#">Enrollment Information</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">Contact us</a>
+                    <a class="nav-link text-white" href="#">Contact Us</a>
                 </li>
             </ul>
         </div>
