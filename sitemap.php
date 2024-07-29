@@ -19,7 +19,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
-    <link rel="stylesheet" href="css/home.css">
+
     <link rel="stylesheet" href="css/sitemap.css">
     
     <title>Sitemap</title>
@@ -75,7 +75,7 @@
                     <p><a href="program-introduction.php">Program Introduction</a></p>
                     <p><a href="study-package.php">Study Package</a></p>
                     <p><a href="#">Traditional Culture</a></p>
-                    <p><a href="#">Enterprise Visit</a></p>
+                    <p><a href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a></p>
                     <p><a href="#">Mandarin-Learning</a></p>
                     <p><a href="accommodation.php">Accommodation</a></p>
                     <p><a href="faq.php">FAQ</a></p>

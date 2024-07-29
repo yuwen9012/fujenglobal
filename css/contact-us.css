@@ -133,7 +133,6 @@ body {
     }
 }
 /*表單*/
-/* 表單區塊樣式 */
 
 .form-section {
     max-width: 80%;
@@ -145,7 +144,7 @@ body {
 }
 
 
-/* 每個問題區塊底色 */
+/* 問題 */
 .form-section .form-label {
     background-color: #FFF9E6; /* 問題區塊背景顏色 */
     padding: 10px;
@@ -153,40 +152,38 @@ body {
     border-left: 1px solid #ddd; /* 左邊框 */
     border-top: 1px solid #ddd; /* 下邊框 */
     border-right: 1px solid #ddd; /* 右邊框 */
-    margin-bottom: 0px; /* 調整每個問題區塊間距 */
+    margin: 0px; /* 調整每個問題區塊間距 */
+    
 }
 
-/* 表單欄位樣式 */
+/* 輸入框 */
 .form-section .form-control {
     background-color: #FFF;
     border-radius: 0; /* 移除圓角 */
     border-top: none; /* 移除上邊框 */
     padding: 10px; /* 輸入框內邊距 */
 }
+
+/*核選*/
 .check-container{
     border-left: 1px solid #ddd; /* 左邊框 */
     border-bottom: 1px solid #ddd; /* 下邊框 */
     border-right: 1px solid #ddd; /* 右邊框 */
+    border-radius: 0; /* 移除圓角 */
     border-top: none; /* 移除上邊框 */
     padding: 10px;
 }
-/* 只在左下右顯示邊框 */
-.col-md-6.mb-3 .form-control {
-    border-left: 1px solid #ddd; /* 左邊框 */
-    border-bottom: 1px solid #ddd; /* 下邊框 */
-    border-right: 1px solid #ddd; /* 右邊框 */
-    border-top: none; /* 移除上邊框 */
-}
+
 /* 表單提交按鈕樣式 */
 .form-section .btn-primary {
     background-color: #0B3F61;
     border-color: #0B3F61;
 }
-
 .form-section .btn-primary:hover {
     background-color: #0A2D47;
     border-color: #0A2D47;
 }
+
 h3 {
     color: #d7ac12; /* 顏色 */
     font-size: 26px; /* 字體大小 */
@@ -197,6 +194,7 @@ h3 {
 .text-danger {
     color: #dc3545;
 }
+
 footer {
     background-color: #132548 !important;
 }
