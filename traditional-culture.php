@@ -101,9 +101,9 @@
                 <span class="justify-text">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join.(The remaining spots will be opened to other international students for a fee depending on the situation.)</span>
                 <ul class="custom-list">
                     <li>CCLC Event (Fee-based):</li>
-                    <span class="justify-text">Spring Field Trip to Yilan National Center for Traditional Arts; Fall Field Trip to Taiwan Hakka Tea Culture Museum; Moon Festival Cultural Trip to Kuo Yuan Yi Museum of Cake & Pastry; Christmas Dinner Party include a sumptuous dinner and multi-national cultural program.</span>
+                    <span class="no-break">Spring Field Trip to Yilan National Center for Traditional Arts; Fall Field Trip to Taiwan Hakka Tea Culture Museum; Moon Festival Cultural Trip to Kuo Yuan Yi Museum of Cake & Pastry; Christmas Dinner Party include a sumptuous dinner and multi-national cultural program.</span>
                     <li>CCLC Event (Free):</li>
-                    <span class="justify-text">These events include Lunar New Year Cultural Activity, CCLC International Cultural Festival, Dragon Boat Festival Cultural Activity. Festive foods will be offered during the activity.</span>
+                    <span class="no-break">These events include Lunar New Year Cultural Activity, CCLC International Cultural Festival, Dragon Boat Festival Cultural Activity. Festive foods will be offered during the activity.</span>
                 </ul>
             </div>
 
@@ -114,23 +114,27 @@
 
     <!-- 第二區塊 --> 
     <div class="container-fluid block2">
+        <br>
         <div class="row">
             <div class="col-md-1 left-section">
             </div>
 
             <div class="col-md-5 center-section">
-                 <img class="Image1" src="images/Bajiang Cultural1.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image2" src="images/Bajiang Cultural1.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
-            <div class="col-md-6 center-section">
+            <div class="col-md-5 center-section">
                 <h2>Bajiang Cultural Event</h2>
-                <span class="justify-text">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join(The remaining spots will be opened to other international students for a fee depending on the situation.)</span>
+                <span class="no-break">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join(The remaining spots will be opened to other international students for a fee depending on the situation.)</span>
                 <ul class="custom-list">
                     <li>CCLC Event (Fee-based):</li>
-                    <span class="justify-text">Spring Field Trip to Yilan National Center for Traditional Arts; Fall Field Trip to Taiwan Hakka Tea Culture Museum; Moon Festival Cultural Trip to Kuo Yuan Yi Museum of Cake & Pastry; Christmas Dinner Party include a sumptuous dinner and multi-national cultural program.</span>
+                    <span class="no-break">Spring Field Trip to Yilan National Center for Traditional Arts; Fall Field Trip to Taiwan Hakka Tea Culture Museum; Moon Festival Cultural Trip to Kuo Yuan Yi Museum of Cake & Pastry; Christmas Dinner Party include a sumptuous dinner and multi-national cultural program.</span>
                     <li>CCLC Event (Free):</li>
-                     <span class="justify-text">These events include Lunar New Year Cultural Activity, CCLC International Cultural Festival, Dragon Boat Festival Cultural Activity. Festive foods will be offered during the activity.</span>
+                     <span class="no-break">These events include Lunar New Year Cultural Activity, CCLC International Cultural Festival, Dragon Boat Festival Cultural Activity. Festive foods will be offered during the activity.</span>
                 </ul>           
+            </div>
+
+            <div class="col-md-1 left-section">
             </div>
 
         </div>
@@ -140,11 +144,11 @@
             </div>
 
             <div class="col-md-5 center-section">
-                 <img class="Image1" src="images/Bajiang Cultural2.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image2" src="images/Bajiang Cultural2.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
             <div class="col-md-5 center-section">
-                <img class="Image1" src="images/Bajiang Cultural3.jpg" alt="Description of the image" class="img-fluid">              
+                <img class="Image2" src="images/Bajiang Cultural3.jpg" alt="Description of the image" class="img-fluid">              
             </div>
 
             <div class="col-md-1 right-section">
@@ -163,14 +167,14 @@
             </div>
 
             <div class="col-md-3 center-section">
-                 <img class="Image1" src="images/New Year Cultural1.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image3" src="images/New Year Cultural1.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
             <div class="col-md-3 center-section">
-                 <img class="Image1" src="images/New Year Cultural2.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image3" src="images/New Year Cultural2.jpg" alt="Description of the image" class="img-fluid">          
             </div>
             <div class="col-md-3 center-section">
-                 <img class="Image1" src="images/New Year Cultural3.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image3" src="images/New Year Cultural3.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
             <div class="col-md-1 right-section">
@@ -180,19 +184,19 @@
         <div class="row">
 
             <div class="col-md-3 center-section">
-                 <img class="Image1" src="images/New Year Cultural4.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image3" src="images/New Year Cultural4.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
             <div class="col-md-3 center-section">
-                <img class="Image1" src="images/New Year Cultural5.jpg" alt="Description of the image" class="img-fluid">              
+                <img class="Image3" src="images/New Year Cultural5.jpg" alt="Description of the image" class="img-fluid">              
             </div>
 
             <div class="col-md-3 center-section">
-                <img class="Image1" src="images/New Year Cultural6.jpg" alt="Description of the image" class="img-fluid">              
+                <img class="Image3" src="images/New Year Cultural6.jpg" alt="Description of the image" class="img-fluid">              
             </div>
 
             <div class="col-md-3 center-section">
-                <img class="Image1" src="images/New Year Cultural7.jpg" alt="Description of the image" class="img-fluid">              
+                <img class="Image3" src="images/New Year Cultural7.jpg" alt="Description of the image" class="img-fluid">              
             </div>
 
         </div>
@@ -209,25 +213,25 @@
             </div>
 
             <div class="col-md-5 center-section">
-                 <img class="Image1" src="images/Christmas1.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image4-1" src="images/Christmas1.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
             <div class="col-md-5 center-section">
                  <div class="row">
                      <div class="col-md-6 left-section">
-                        <img class="Image2" src="images/Christmas2.jpg" alt="Description of the image" class="img-fluid">
+                        <img class="Image4-2" src="images/Christmas2.jpg" alt="Description of the image" class="img-fluid">
                     </div>
                     <div class="col-md-6 left-section">
-                        <img class="Image2" src="images/Christmas3.jpg" alt="Description of the image" class="img-fluid">
+                        <img class="Image4-2" src="images/Christmas3.jpg" alt="Description of the image" class="img-fluid">
                     </div>
                  </div>
 
                  <div class="row">
                      <div class="col-md-6 left-section">
-                        <img class="Image2" src="images/Christmas4.jpg" alt="Description of the image" class="img-fluid">
+                        <img class="Image4-2" src="images/Christmas4.jpg" alt="Description of the image" class="img-fluid">
                     </div>
                     <div class="col-md-6 left-section">
-                        <img class="Image2" src="images/Christmas5.jpg" alt="Description of the image" class="img-fluid">
+                        <img class="Image4-2" src="images/Christmas5.jpg" alt="Description of the image" class="img-fluid">
                     </div>
                  </div>
             </div>
@@ -237,17 +241,17 @@
         </div>
 
          <div class="row">
-            <div class="col-md-2"></div> <!-- 留白 -->
-            <div class="col-md-2_5 center-section">
-                <img class="Image3" src="images/Christmas6.jpg" alt="Description of the image" class="img-fluid">
+            <div class="col-md-1_5"></div> <!-- 留白 -->
+            <div class="col-md-3 center-section">
+                <img class="Image4-3" src="images/Christmas6.jpg" alt="Description of the image" class="img-fluid">
             </div>
-            <div class="col-md-2_5 center-section">
-                <img class="Image3" src="images/Christmas7.jpg" alt="Description of the image" class="img-fluid">
+            <div class="col-md-3 center-section">
+                <img class="Image4-3" src="images/Christmas7.jpg" alt="Description of the image" class="img-fluid">
             </div>
-            <div class="col-md-2_5 center-section">
-                <img class="Image3" src="images/Christmas8.jpg" alt="Description of the image" class="img-fluid">
+            <div class="col-md-3 center-section">
+                <img class="Image4-3" src="images/Christmas8.jpg" alt="Description of the image" class="img-fluid">
             </div>
-           <div class="col-md-2"></div> <!-- 留白 -->
+           <div class="col-md-1"></div> <!-- 留白 -->
          </div>
          <br>
      </div>
@@ -263,18 +267,18 @@
             </div>
 
             <div class="col-md-4 center-section">
-                 <img class="Image4" src="images/Dragon Boat Festival1.jpg" alt="Description of the image" class="img-fluid">          
+                 <img class="Image5-1" src="images/Dragon Boat Festival1.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
             <div class="col-md-4 center-section">
                  <div class="row">
                     <div class="col-md-12 center-section">
-                        <img class="Image2" src="images/Dragon Boat Festival2.jpg" alt="Description of the image" class="img-fluid">
+                        <img class="Image5-2" src="images/Dragon Boat Festival2.jpg" alt="Description of the image" class="img-fluid">
                     </div>
                  </div>
                  <div class="row">
                     <div class="col-md-12 center-section">
-                        <img class="Image2" src="images/Dragon Boat Festival3.jpg" alt="Description of the image" class="img-fluid">
+                        <img class="Image5-2" src="images/Dragon Boat Festival3.jpg" alt="Description of the image" class="img-fluid">
                     </div>
                  </div>
             </div>
@@ -503,35 +507,35 @@
             <h2 class="text-center">Taiwan BangZi Opera Cultural Event</h2>
         </div>
         <div class="row">
-            <div class="col-md-1 left-section">
+            <div class="col-md-2 left-section">
             </div>
 
-            <div class="col-md-5 center-section">
-                 <img class="Image10-2" src="images/Bajiang Cultural2.jpg" alt="Description of the image" class="img-fluid">        
+            <div class="col-md-4 center-section">
+                 <img class="Image11-2" src="images/BangZi Opera2.jpg" alt="Description of the image" class="img-fluid">        
             </div>
 
-            <div class="col-md-5 center-section">
-                 <video class="video" id="video" controls style="width:100%">
+            <div class="col-md-4 center-section">
+                 <video class="video2" id="video" controls style="width:100%">
                  <source src="video/BangZi Opera.mp4" type="video/mp4">
                  </video> 
             </div>
-            <div class="col-md-1 left-section">
+            <div class="col-md-2 left-section">
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-1 left-section">
+            <div class="col-md-2 left-section">
             </div>
 
-            <div class="col-md-5 center-section">
-                 <img class="Image10-2" src="images/Bajiang Cultural2.jpg" alt="Description of the image" class="img-fluid">          
+            <div class="col-md-4 center-section">
+                 <img class="Image11-1" src="images/BangZi Opera1.jpg" alt="Description of the image" class="img-fluid">          
             </div>
 
-            <div class="col-md-5 center-section">
-                <span class="justify-text10">Taiwan Bangzi Opera, also known as Taiwanese Opera, is a traditional form of Chinese opera that originated in Taiwan. It features distinctive singing styles, vibrant costumes, and dramatic storytelling. Performances often include folk tales, historical events, and legends, captivating audiences with their unique blend of music, dance, and theatrics.</span>             
+            <div class="col-md-4 center-section">
+                <span class="justify-text11">Taiwan Bangzi Opera, also known as Taiwanese Opera, is a traditional form of Chinese opera that originated in Taiwan. It features distinctive singing styles, vibrant costumes, and dramatic storytelling. Performances often include folk tales, historical events, and legends, captivating audiences with their unique blend of music, dance, and theatrics.</span>             
             </div>
 
-            <div class="col-md-1 right-section">
+            <div class="col-md-2 right-section">
             </div>
         </div>
         <br>
