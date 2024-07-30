@@ -132,15 +132,23 @@ h2, p {
 
 .btn-custom {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     color: #FFFFFF;
     background-color: #445C89;
-    border: 1px solid #445C89;
     border-radius: 30px;
     text-align: center;
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #E2D08D; /* 滑鼠移過去的顏色 */
 }
 
 .btn-custom::before {
