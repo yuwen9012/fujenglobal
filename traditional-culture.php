@@ -450,6 +450,7 @@
             <div class="col-md-4 center-section">
                 <img class="Image9-3" src="images/Spring Field Trip5.jpg" alt="Description of the image" class="img-fluid">
             </div>
+         </div>
      </div>
 
       <!-- 第十區塊 --> 
