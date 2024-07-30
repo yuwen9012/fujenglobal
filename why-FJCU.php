@@ -34,8 +34,9 @@
      <!-- 選單 -->
      <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid">
-            <img src="images/06-校徽-英文組合排列.png" id="logo">
-
+            <a href="home.php"> 
+                <img src="images/06-校徽-英文組合排列.png" id="logo">
+            </a>
             <ul class="navbar-nav ms-auto" id="second-list">
                 <div class="mx-5" id="applynow">
                     <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
