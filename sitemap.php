@@ -19,7 +19,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
-
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/sitemap.css">
     
     <title>Sitemap</title>
