@@ -15,11 +15,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
-
     <link rel="stylesheet" href="css/sitemap.css">
     
     <title>Sitemap</title>
@@ -31,8 +30,9 @@
     <!-- 選單 -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid">
-            <img src="images/06-校徽-英文組合排列.png" id="logo">
-
+            <a href="home.php"> 
+                <img src="images/06-校徽-英文組合排列.png" id="logo">
+            </a>
             <ul class="navbar-nav ms-auto" id="second-list">
                 <div class="mx-5" id="applynow">
                     <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
@@ -60,8 +60,8 @@
     </nav>
 
     <!-- Sitemap 標題 -->
-    <div class="d-flex justify-content-center align-items-center">
-        <span class="navbar-text mx-2 fs-1 fw-bolder">— SITEMAP —</span>
+    <div class="title-container">
+        <span class="title">— SITEMAP —</span>
     </div>
 
     <!-- Sitemap 內容 -->
@@ -74,9 +74,9 @@
                     <p><a href="how-to-apply.php">How to Apply</a></p>
                     <p><a href="program-introduction.php">Program Introduction</a></p>
                     <p><a href="study-package.php">Study Package</a></p>
-                    <p><a href="#">Traditional Culture</a></p>
+                    <p><a href="traditional-culture.php#">Traditional Culture</a></p>
                     <p><a href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a></p>
-                    <p><a href="#">Mandarin-Learning</a></p>
+                    <p><a href="Mandarin-Chinese-Learning.php">Mandarin-Learning</a></p>
                     <p><a href="accommodation.php">Accommodation</a></p>
                     <p><a href="faq.php">FAQ</a></p>
                 </div>
@@ -86,7 +86,10 @@
                 <div class="section-separator"></div>
                 <div class="card-body">
                     <p><a href="how-to-apply.php">How to Apply</a></p>
-                    <p><a href="#">Why FJCU?</a></p>
+                    <p><a href="why-FJCU.php">Why FJCU?</a></p>
+                    <p><a href="study-abroad.php">Study Abroad</a></p>
+                    <p><a href="contact-us.php">Contact Us</a></p>
+                    <p><a href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a></p>
                 </div>
             </div>
             <div class="grid-item">
@@ -119,6 +122,7 @@
             <div class="grid-item">
                 <!-- 空白區域 10 -->
             </div>
+            <div style="height: 200px;"></div>
         </div>
     </div>
 

@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
@@ -100,7 +100,7 @@
                 <div class="p-3">
                     <h2>Fu Jen Catholic University</h2>
                     <p id="introduction-text">(FJCU) is the top ranked private university in Taiwan, and is also on the THE Impact Rankings query of keywords for SDGs (Sustainable Development Goals), dedicating to improve social inclusion and environmental protection. FJCU is the only comprehensive university under the direct authority of the Holy See among Chinese-speaking countries with outstanding academic excellence.</p>
-                    <button type="button" class="btn-custom mx-3">Why FJCU?</button>
+                    <button type="button" class="btn-custom mx-3" onclick="window.location.href='why-FJCU.php'">Why FJCU?</button>
                     <!-- <button type="button" class="btn-custom mx-3">Campus Life</button> -->
                 </div>
             </div>
