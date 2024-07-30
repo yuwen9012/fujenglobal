@@ -1,4 +1,6 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
@@ -31,6 +33,10 @@ body {
     font-size: 24px;
     margin-right: 8px;
     cursor: pointer;
+}
+
+.content {
+    min-height: 55vh;
 }
 
 .nav-link.btn {
@@ -73,7 +79,6 @@ body {
     }
 }
 
-
 .btn-outline-secondary {
     width: 80px;
     background-color: #5D77A7;
@@ -85,43 +90,21 @@ body {
     background-color: #7e9fdd;
 }
 
+.accordion-header {
+    color: #132548;
+}
+
 .accordion-body {
     border-width: 1px;
     border-style: solid;
     border-color: #D6D6D6;
     border-radius: 0 0 10px 10px;
-    padding: 15px;
+    padding: 30px;
+    color: #132548;
 }
 
-h3, h4 {
+.title {
     color: #0B3F61;
-}
-
-.text-block {
-    display: flex;
-    flex-direction: column;
-}
-
-.justify-text {
-    color: #0B3F61;
-    text-align: justify;
-}
-
-.custom-list {
-    color: #0B3F61;
-    list-style-type: disc; /* 實心圓點 */
-    /* list-style-type: circle; */ /* 空心圆點 */
-    /* list-style-type: square; */ /* 實心方塊 */
-    /* list-style-type: decimal; */ /* 數字 */
-    /* list-style-type: lower-alpha; */ /* 小寫字母 */
-    /* list-style-type: upper-roman; */ /* 大寫羅馬數字 */
-}
-
-.img-fixed-height {
-    height: 200px;
-    width: 500px;
-    display: block;
-    max-width: 100%;
 }
 
 footer {
