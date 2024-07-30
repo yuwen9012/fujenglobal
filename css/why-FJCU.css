@@ -65,18 +65,19 @@ body {
     z-index: -2;
 }
 
+#second-list {
+    position: relative;
+}
+
 #applynow {
     position: absolute;
     bottom: -30%;
     left: -20%;
     /* left: -20%; */
 }
-#second-list {
-    position: relative;
-}
 
 .second-navbar .nav-item {
-    border-left: 2px solid rgba(255, 255, 255, 0.5); 
+    border-left: 3px solid #FFFFFF;
 }
 
 .second-navbar .nav-item:hover {
@@ -85,65 +86,4 @@ body {
 
 .second-navbar .nav-link:hover {
     color: #445C89 !important;
-}
-
-
-/* 主容器的樣式 */
-.container {
-    flex: 1; /* 使容器填滿剩餘空間 */
-    width: 90%;
-}
-
-/* 設定背景顏色 */
-body {
-    background-color: #FFFEFB;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-}
-
-.title-container {
-    text-align: center; /* 使內容居中 */
-    margin: 20px 0; /* 上下邊距 */
-}
-/* 標題樣式 */
-.title {
-    font-size: 40px; /* 調整字體大小 */
-    color: #132548; /* 深藍色 */
-    font-weight: bold; /* 加粗字體 */
-}
-
-/* 內容標題樣式 */
-h4.card-title {
-    font-size: 20px; /* 調整標題字體大小 */
-    font-weight: 900; /* 粗體 */
-    color: #132548; /* 設置標題顏色 */
-}
-
-.card-body a {
-    text-decoration: none; /* 移除底線 */
-    color: #132548; 
-}
-
-.card-body a:hover {
-    color: #e4be34; /* 鼠標懸停時的顏色 */
-}
-
-
-/* 網格容器樣式 */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px; /* 調整內容間距 */
-    margin: 0 auto;
-}
-
-/* 網格項目樣式 */
-.grid-item {
-    padding: 10px; /* 調整內邊距 */
-}
-
-/* 標題與內文之間的橫線 */
-.section-separator {
-    border-top: 1.5px solid #E0E0E0; /* 設置橫線顏色 */
-    margin: 10px 0; /* 調整橫線上下的間距 */
 }

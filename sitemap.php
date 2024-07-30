@@ -15,11 +15,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
-    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/sitemap.css">
     
     <title>Sitemap</title>
@@ -60,8 +59,8 @@
     </nav>
 
     <!-- Sitemap 標題 -->
-    <div class="d-flex justify-content-center align-items-center">
-        <span class="navbar-text mx-2 fs-1 fw-bolder">— SITEMAP —</span>
+    <div class="title-container">
+        <span class="title">— SITEMAP —</span>
     </div>
 
     <!-- Sitemap 內容 -->
