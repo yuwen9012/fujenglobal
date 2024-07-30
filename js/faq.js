@@ -131,25 +131,21 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
 
-        window.addEventListener('scroll', function() {
-            console.log('Window scrolled');
+        const bodyElement = document.body;
+        bodyElement.addEventListener('scroll', function() {
             var backToTopButton = document.querySelector('.back-to-top');
             
-            if (backToTopButton) {
-            if (window.scrollY > 200) {
+            if (bodyElement.scrollTop > 200) {
                 backToTopButton.style.display = 'block';
             } else {
                 backToTopButton.style.display = 'none';
-            }
-            } else {
-                console.log('Back to top button not found');
             }
         });
 
         document.querySelector('.back-to-top').addEventListener('click', function(e) {
             e.preventDefault();
             
-            window.scrollTo({
+            bodyElement.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
