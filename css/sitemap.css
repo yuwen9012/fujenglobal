@@ -1,6 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0; /* 移除默認邊距 */
+}
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    background-color:#FFFEFB;
 }
 
 .second-navbar {
@@ -147,4 +154,9 @@ h4.card-title {
 .section-separator {
     border-top: 1.5px solid #E0E0E0; /* 設置橫線顏色 */
     margin: 10px 0; /* 調整橫線上下的間距 */
+}
+
+
+footer {
+    background-color: #132548 !important;
 }

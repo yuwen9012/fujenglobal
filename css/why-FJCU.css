@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    background-color:#FFFEFB;
 }
 
 .second-navbar {
@@ -86,4 +87,27 @@ body {
 
 .second-navbar .nav-link:hover {
     color: #445C89 !important;
+}
+
+ /* 新增中間影片容器的樣式 */
+ .video-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 80vh; /* 設定高度為視窗高度的 80% */
+    margin: 20px 0; /* 上下邊距 */
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px; /* 設定最大寬度 */
+    height: 450px; /* 設定固定高度 */
+    border: none; /* 去除邊框 */
+}
+
+
+
+
+footer {
+    background-color: #132548 !important;
 }

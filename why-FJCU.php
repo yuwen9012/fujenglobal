@@ -61,6 +61,19 @@
             </ul>
         </div>
     </nav>
+     <!-- 新增的影片容器 -->
+     <div class="video-container">
+        <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/6h5yv5A1EW0?autoplay=1&mute=1&loop=1&playlist=6h5yv5A1EW0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+        ></iframe>
+
+    </div>
 
 <?php include 'footer.php'; ?>
 </body>
