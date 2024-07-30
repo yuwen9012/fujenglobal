@@ -28,7 +28,7 @@ body {
 .btn-bounce {
     animation: bounce 3s infinite;
     display: inline-block;
-    padding: 5px;
+    padding: 5px 10px;
     color: #445C89;
     background-color: #FFF9E6;
     border: 1px solid #FFF9E6;

@@ -62,6 +62,9 @@
             </ul>
         </div>
     </nav>
+    <div class="title-container">
+        <span class="title">— WHY FJCU? —</span>
+    </div>
      <!-- 新增的影片容器 -->
      <div class="video-container">
         <iframe

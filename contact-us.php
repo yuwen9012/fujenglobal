@@ -26,20 +26,40 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
-    
+    <!-- 選單 -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
-        <div class="container-fluid d-flex align-items-center">
+        <div class="container-fluid">
             <a href="home.php"> 
                 <img src="images/06-校徽-英文組合排列.png" id="logo">
             </a>
-            <div class="flex-grow-1 text-center">
-                <div class="d-flex justify-content-center align-items-center">
-                    <a href="study-abroad.php"><i class="fas fa-arrow-left"></i></a>
-                    <span class="navbar-text mx-2">Contact Us</span>
+            <ul class="navbar-nav ms-auto" id="second-list">
+                <div class="mx-5" id="applynow">
+                    <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
                 </div>
-            </div>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#">Degree Students</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="study-abroad.php">Study Abroad</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#">Chinese Student</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="#">Enrollment Information</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="contact-us.php">Contact Us</a>
+                </li>
+            </ul>
         </div>
     </nav>
+    <div class="title-container">
+        <span class="title">— Contact Us —</span>
+    </div>
 
     <div class="container my-5">
         <!-- 第一橫排: 三個區塊 -->

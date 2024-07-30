@@ -86,7 +86,10 @@
                 <div class="section-separator"></div>
                 <div class="card-body">
                     <p><a href="how-to-apply.php">How to Apply</a></p>
-                    <p><a href="#">Why FJCU?</a></p>
+                    <p><a href="why-FJCU.php">Why FJCU?</a></p>
+                    <p><a href="study-abroad.php">Study Abroad</a></p>
+                    <p><a href="contact-us.php">Contact Us</a></p>
+                    <p><a href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a></p>
                 </div>
             </div>
             <div class="grid-item">
