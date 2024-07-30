@@ -65,18 +65,19 @@ body {
     z-index: -2;
 }
 
+#second-list {
+    position: relative;
+}
+
 #applynow {
     position: absolute;
     bottom: -30%;
     left: -20%;
     /* left: -20%; */
 }
-#second-list {
-    position: relative;
-}
 
 .second-navbar .nav-item {
-    border-left: 2px solid rgba(255, 255, 255, 0.5); 
+    border-left: 3px solid #FFFFFF;
 }
 
 .second-navbar .nav-item:hover {
