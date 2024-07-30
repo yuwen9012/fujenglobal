@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    background-color:#FFFEFB;
+    background-color: #FFFEFB;
 }
 
 .second-navbar {
@@ -40,7 +40,6 @@ body {
     text-decoration: none;
 }
 
-
 .btn-bounce::before {
     content: '';
     display: block;
@@ -75,7 +74,6 @@ body {
     position: absolute;
     bottom: -30%;
     left: -20%;
-    /* left: -20%; */
 }
 
 .second-navbar .nav-item {
@@ -90,37 +88,104 @@ body {
     color: #445C89 !important;
 }
 
-
 .title-container {
-    text-align: center; /* 使內容居中 */
+    text-align: center; /* 標題靠左對齊 */
     margin: 20px 0; /* 上下邊距 */
 }
-/* 標題樣式 */
-.title {
+
+.main-title {
     font-size: 40px; /* 調整字體大小 */
     color: #132548; /* 深藍色 */
     font-weight: bold; /* 加粗字體 */
 }
 
- /* 影片 */
- .video-container {
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    height: 80vh; /* 設定高度為視窗高度的 80% */
-    margin: 20px 0; /* 上下邊距 */
+/* 影片 */
+.video-container {
+    position: relative;
+    width: 90%; /* 設置容器寬度 */
+    max-width: 800px; /* 設置最大寬度 */
+    margin: 20px auto; /* 上下邊距，水平居中 */
+    border-radius: 15px; /* 圓角 */
+    overflow: hidden; /* 隱藏超出圓角邊界的內容 */
+}
+
+.video-container::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 比例 */
 }
 
 .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 800px; /* 設定最大寬度 */
-    height: 450px; /* 設定固定高度 */
+    height: 100%;
     border: none; /* 去除邊框 */
+    border-radius: 15px; /* 圓角 */
 }
 
+/* 設定內文的顏色 */
+.icon-color {
+    color: #B2955D;
+    font-size: 24px;
+}
 
+.title-color {
+    color: #B2955D;
+}
 
+.text-color {
+    color: #132548;
+}
 
 footer {
     background-color: #132548 !important;
+}
+
+/* 新增區塊樣式 */
+.div-container {
+    padding: 40px 0;
+    max-width: 80%; /* 最大寬度 80% */
+    margin: 0 auto; /* 水平居中 */
+}
+
+.div-title {
+    text-align: left; /* 標題靠左對齊 */
+    font-size: 30px;
+    font-weight: 900;
+    color: #132548;
+    margin-bottom: 20px;
+}
+
+.milestone-container {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    gap: 20px; /* 區塊之間的間距 */
+    align-items: center; /* 靠左對齊 */
+    margin: 0 auto; /* 水平居中 */
+    
+}
+
+.milestone {
+    background-color: #ECEAE8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left; /* 內容靠左對齊 */
+    width: 90%; /* 里程碑區塊寬度為 100% */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.year {
+    font-size: 40px;
+    color: #B2955D;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: left; /* 靠左對齊 */
+}
+
+.description {
+    font-size: 18px;
+    color: #132548;
+    text-align: left; /* 靠左對齊 */
 }

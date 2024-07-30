@@ -24,15 +24,12 @@
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/why-FJCU.css">
 
-    <!-- JS -->
-    
-
     <title>Why FJU</title>
 </head>
 <body>
     <?php include 'header.php'; ?>
-     <!-- 選單 -->
-     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
+    <!-- 選單 -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid">
             <a href="home.php"> 
                 <img src="images/06-校徽-英文組合排列.png" id="logo">
@@ -63,22 +60,101 @@
         </div>
     </nav>
     <div class="title-container">
-        <span class="title">— WHY FJCU? —</span>
+        <span class="main-title">— WHY FJCU? —</span>
     </div>
-     <!-- 新增的影片容器 -->
-     <div class="video-container">
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/6h5yv5A1EW0?autoplay=1&mute=1&loop=1&playlist=6h5yv5A1EW0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-        ></iframe>
-
+    <!-- 新增的影片和文字容器 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="video-container">
+                    <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/6h5yv5A1EW0?autoplay=1&mute=1&loop=1&playlist=6h5yv5A1EW0"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-container">
+                    <!-- 第一段 -->
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="fas fa-graduation-cap fa-2x me-3 icon-color"></i>
+                        <div>
+                            <h5 class="title-color">Academic</h5>
+                            <p class="text-color">
+                                <strong>50</strong> undergraduate departments<br>
+                                <strong>49</strong> master’s programs<br>
+                                <strong>23</strong> in-service master’s programs<br>
+                                <strong>18</strong> SOCE departments<br>
+                                <strong>ONE</strong> 2-year in-service academic department
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 第二段 -->
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="fas fa-globe fa-2x me-3 icon-color"></i>
+                        <div>
+                            <h5 class="title-color">International Partners</h5>
+                            <p class="text-color">
+                                <strong>463</strong> sister schools globally<br>
+                                Student Population > <strong>26,000</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 第三段 -->
+                    <div class="d-flex align-items-start mb-4">
+                        <i class="fas fa-users fa-2x me-3 icon-color"></i>
+                        <div>
+                            <h5 class="title-color">Alumni</h5>
+                            <p class="text-color">
+                                &gt; <strong>12,000</strong> alumni from the Beijing era<br>
+                                &gt; <strong>220,000</strong> alumni since the school’s re-establishment in Taiwan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-<?php include 'footer.php'; ?>
+    <!-- 新增的區塊 -->
+    <div class="div-container">
+        <h2 class="div-title">School History</h2>
+        <div class="milestone-container">
+            <div class="milestone">
+                <h3 class="year">1925</h3>
+                <p class="description">Fu Jen Catholic University (FJCU) was founded in Beijing in 1925 by the Benedictines of St. Vincent Archabbey (USA). </p>
+            </div>
+            <div class="milestone">
+                <h3 class="year">1927</h3>
+                <p class="description">Originally named Fu Jen Academy, it was approved by the Beiyang government in 1927 for its pilot phase, and had its name changed to the current iteration, derived from a phrase in the Analects which reads “The superior man on grounds of culture meets with his friends, and by friendship helps his virtue”(以文會 友，以友輔仁).</p>
+            </div>
+            <div class="milestone">
+                <h3 class="year">1929</h3>
+                <p class="description">In 1929, the school applied to the Nationalist government’s Ministry of Education to be officially listed as a university. </p>
+            </div>
+            <div class="milestone">
+                <h3 class="year">1933</h3>
+                <p class="description">In 1933, the running of the university was handed over to the Society of the Divine Word, and in 1952 a reshuffling of the universities in China resulted in a merger with Beijing Normal University. </p>
+            </div>
+            <div class="milestone">
+                <h3 class="year">1959</h3>
+                <p class="description">In 1959, the Chinese Regional Bishops Conference of Taiwan, the Society of the Divine Word, and the Society of Jesus co-managed the re-establishment of the school in Taiwan, and in the following year FJCU received approval from the Education Ministry.</p>
+            </div>
+            <div class="milestone">
+                <h3 class="year">1961</h3>
+                <p class="description">In 1961, the Graduate School of Philosophy began recruitment of master students.</p>
+            </div>
+            <div class="milestone">
+                <h3 class="year">1963</h3>
+                <p class="description">In 1963, the university, situated in the Xinzhuang area in then-Taipei County, began officially recruiting undergraduates for its 10 departments in 3 colleges.</p>
+            </div>
+        </div>
+    </div>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
