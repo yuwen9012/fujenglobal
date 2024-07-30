@@ -27,6 +27,7 @@
    color: white;
    font-size: 20px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   text-align: center;
 }
 
 .box2 {
@@ -43,6 +44,7 @@
    margin-top: auto;
    padding: 10px;
    flex-direction: column;
+   text-align: center;
    
 }
 
@@ -55,17 +57,18 @@
    justify-content: center;
    align-items: center;
    color:#132548;
-   font-size: 20px;
+   font-size: 24px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    margin-top: auto;
    padding: 10px;
    flex-direction: column;
-   
+   text-align: left;
 }
 
-.icon {
-   max-width: 50px;
-   margin-bottom: 10px;
+.icon{
+    max-width: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .box3 h3 {
@@ -75,14 +78,21 @@
 }
 
 .box3 p {
-   color: #333;
+   color: #445C89;
    font-size: 1rem;
    margin-bottom: 20px;
+   padding-left: 10px;
+   justify-content: center;
+   padding-left: 10px;
+   padding-top: 20px;
 }
 
 .line {
-   border-top: 1px solid #E6E6E6;
-   margin: 20px 0;
+    width: 90%; /* 或者你需要的寬度 */
+    height: 2px; /* 線條的高度 */
+    background-color: #FFFCF1; /* 線條的顏色 */
+    margin-bottom: 20px; /* 線條和按鈕之間的距離 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 
