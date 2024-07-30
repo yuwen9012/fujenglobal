@@ -52,7 +52,7 @@
                     <span><br>11 weeks<br>6 hours/week</span>
                     <ul class="navbar-nav d-flex flex-row flex-wrap">
                         <li class="nav-item m-1">
-                            <a class="nav-link btn fs-5" href="#introduction-liberal" data-scroll="true">Find-out more</a>
+                            <a class="nav-link btn fs-5" href="#Free-Courses" data-scroll="true">Find-out more</a>
                         </li>
                     </ul>
                  </div>
@@ -60,12 +60,12 @@
             </div>
 
             <div class="col-md-4 center-section">
-                 <div class="box">Customized <br>Short-term Course</div>
+                 <div class="box">Customized Short-term<br>Course</div>
                  <div class="box2">
                     <span><br>International<br>Connections</span>
                      <ul class="navbar-nav d-flex flex-row flex-wrap">
                         <li class="nav-item m-1">
-                            <a class="nav-link btn fs-5" href="#introduction-liberal" data-scroll="true">Find-out more</a>
+                            <a class="nav-link btn fs-5" href="#Customized-Short-term" data-scroll="true">Find-out more</a>
                         </li>
                     </ul>
                  </div>
@@ -73,12 +73,12 @@
 
 
             <div class="col-md-4 right-section">
-                <div class="box">Experience Multiple <br>Culture</div>
+                <div class="box">Taiwanese Culture <br>Courses</div>
                 <div class="box2">
-                    <span><br>Local<br>Culture Experience</span>
+                    <span><br>Local Culture <br>Experience</span>
                     <ul class="navbar-nav d-flex flex-row flex-wrap">
                         <li class="nav-item m-1">
-                            <a class="nav-link btn fs-5" href="#introduction-liberal" data-scroll="true">Find-out more</a>
+                            <a class="nav-link btn fs-5" href="#Taiwanese-Culture" data-scroll="true">Find-out more</a>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +105,7 @@
             <div class="col-md-1 left-section">
             </div>
 
-             <div class="col-md-10 center-section">
+             <div id="Free-Courses" class="col-md-10 center-section">
                 <h3 class="my-3 fw-bolder">Free  Courses</h3>
                 <span class="justify-text">Our high-quality faculty is capable of teaching both Hanyu Pinyin and Zhuyin (Bopomopho) to meet the individual needs of international students and enhance all aspects of Mandarin Chinese proficiency.FJCU offers various student support programs. There are free weekly evening Mandarin Chinese courses totaling 6 hours, as well as a one-on-one tutoring program aimed at improving language proficiency.</span>
                 <span class="justify-text"><br>Note for Applicant：</span>
@@ -115,7 +115,7 @@
                     <li>This is a non-credit course.</li>
                     <li>Class change or cancellation is only allowed during the first week when the attendance is not counted and the deposit is refundable.</li>
                 </ul>
-                <h3 class="my-3 fw-bolder"><br><br>Customized Short-term course</h3>
+                <h3 id="Customized-Short-term" class="my-3 fw-bolder"><br><br>Customized Short-term course</h3>
             </div>
 
             <div class="col-md-1 right-section">
@@ -125,12 +125,12 @@
     </div>
 
     <!-- 第四區塊 -->
-      <div class="container-fluid block4">
+      <div class="container-fluid block4">    
         <div class="row">
-            <div class="col-md-4 left-section">
+            <div class="col-md-4 left-section4">
                  <div class="box3">
                     <img class="icon" src="images/Mandarin icon1.png" > <!-- Replace with the actual image path -->
-                    <h3>Business</h3>
+                    <h3 >Business</h3>
                        <p>Improve your communication skills effectively to advance your professional network and cultural competence.</p>
                   <div class="line"></div>
                      <a class="button4" href="#introduction-liberal" data-scroll="true">Find-out more</a>
@@ -164,11 +164,19 @@
       <div class="container-fluid introduction-block">
         <br>
         <div class="row">
+            <div class="col-md-1 left-section">
+            </div>
+            <div id="Taiwanese-Culture" class="col-md-10 left-section">
+                <h3 class="my-3 fw-bolder">Taiwanese Culture Courses</h3>
+            </div>
+            <div class="col-md-1 left-section">
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-3 left-section">
             </div>
 
              <div class="col-md-6 center-section">
-                <h3 class="text-center">Taiwanese Culture Courses</h3>
                 <div class="row gx-4 gy-4">
                     <div class="col-md-6">
                         <img class="Image5" src="images/Mandarin-Learning2.jpg" class="img-fixed-height rounded" >
@@ -187,7 +195,7 @@
                 </div>
                 <span class="justify-text">CCLC offers a variety of culture courses including Chinese calligraphy, seal cutting, Taiwanese tea culture, Introduction of Taiwanese Hokkien (Tâigí). These courses are for students who would like to experience the unique culture of Taiwan.</span>
                 <div class="button2-container">
-                       <button class="button2">Find-out more</button>
+                       <button class="button2" onclick="location.href='https://www.facebook.com/fjulc/'">Find-out more</button>
                 </div>
             </div>
 
@@ -200,3 +208,4 @@
     <?php include 'footer.php'; ?>
 <body>
 </html>
+
