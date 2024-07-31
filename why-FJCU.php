@@ -62,7 +62,7 @@
     <div class="title-container">
         <span class="main-title">— WHY FJCU? —</span>
     </div>
-    <!-- 新增的影片和文字容器 -->
+    <!-- 第一區 -->
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -120,8 +120,8 @@
             </div>
         </div>
     </div>
-
-    <!-- 新增的區塊 -->
+    
+    <!-- 歷史 -->
     <div class="div-container">
         <h2 class="div-title">School History</h2>
         <div class="milestone-container">
@@ -131,7 +131,7 @@
             </div>
             <div class="milestone">
                 <h3 class="year">1927</h3>
-                <p class="description">Originally named Fu Jen Academy, it was approved by the Beiyang government in 1927 for its pilot phase, and had its name changed to the current iteration, derived from a phrase in the Analects which reads “The superior man on grounds of culture meets with his friends, and by friendship helps his virtue”(以文會 友，以友輔仁).</p>
+                <p class="description">Originally named Fu Jen Academy, it was approved by the Beiyang government in 1927 for its pilot phase, and had its name changed to the current iteration, derived from a phrase in the Analects which reads “The superior man on grounds of culture meets with his friends, and by friendship helps his virtue”(以文會友，以友輔仁).</p>
             </div>
             <div class="milestone">
                 <h3 class="year">1929</h3>
@@ -155,6 +155,57 @@
             </div>
         </div>
     </div>
-    <?php include 'footer.php'; ?>
+
+    <!-- Fu Jen Alumni Associations -->
+    <div class="div-container">
+        <h2 class="div-title">Fu Jen Alumni Associations</h2>
+        <div class="sub-container">
+            <div class="row">
+                <!-- 文字內容 圖片 -->
+                <div class="col-12 mb-4">
+                    <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                        <div class="text-content me-md-3 mb-3 mb-md-0">
+                            <p class="text-color">
+                                Alumni associations to act as a bridge between FJCU and its alumni, building connections through the activities and promotion of these associations so as to continue the Fu Jen spirit.
+                            </p>
+                        </div>
+                        <img src="images/20211104114638225.jpg" class="img-fluid" alt="Alumni Associations">
+                    </div>
+                </div>
+                <!-- 圖片 文字內容 -->
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-md-row align-items-center mb-4">
+                        <img src="images/20211104114425236.jpg" class="img-fluid" alt="Alumni Events">
+                        <div class="text-content ms-md-3">
+                            <p class="text-color">
+                                Alumni associations to act as a bridge between FJCU and its alumni, building connections through the activities and promotion of these associations so as to continue the Fu Jen spirit.
+                            </p>
+                            <ul class="text-color">
+                                <li>47 independent alumni associations all over the world, including:</li>
+                                <li>4 main associations:
+                                    <ul>
+                                        <li>Fu Jen Worldwide Alumni Association</li>
+                                        <li>Fu Jen ROC Alumni Association</li>
+                                        <li>Fu Jen North America Alumni Association</li>
+                                        <li>Fu Jen Europe Alumni Association</li>
+                                    </ul>
+                                </li>
+                                <li>9 regional associations in Taiwan</li>
+                                <li>15 regional associations in the Americas</li>
+                                <li>7 regional associations in Europe</li>
+                                <li>12 regional associations in the Asia Pacific/Australia area</li>
+                                <li>73 department-level alumni associations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Internationalization -->
+
+
+   
 </body>
 </html>

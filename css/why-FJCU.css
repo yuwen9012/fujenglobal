@@ -149,6 +149,10 @@ footer {
     max-width: 80%; /* 最大寬度 80% */
     margin: 0 auto; /* 水平居中 */
 }
+.sub-container {
+    max-width: 90%; /* 最大寬度 80% */
+    margin: 0 auto; /* 水平居中 */
+}
 
 .div-title {
     text-align: left; /* 標題靠左對齊 */
@@ -183,6 +187,23 @@ footer {
     margin-bottom: 10px;
     text-align: left; /* 靠左對齊 */
 }
+
+.img-fluid {
+    width: 50%;
+    display: block;
+    max-width: 100%;
+}
+
+.img-fluid-container{
+    height: 300px; /* 設置固定高度 */
+    width: 450px;  /* 設置固定寬度 */
+    background-color: pink; /* 背景顏色 */
+    overflow: hidden; /* 隱藏超出容器的圖片部分 */
+    display: flex; /* 使用 Flexbox 來對齊圖片 */
+    justify-content: center; /* 水平居中圖片 */
+    align-items: center; /* 垂直居中圖片 *
+}
+
 
 .description {
     font-size: 18px;
