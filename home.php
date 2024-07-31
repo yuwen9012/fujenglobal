@@ -38,16 +38,16 @@
                     <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">Degree Students</a>
+                    <a class="nav-link text-white" href="coming-soon.php">Degree Students</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="study-abroad.php">Study Abroad</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">Chinese Student</a>
+                    <a class="nav-link text-white" href="coming-soon.php">Chinese Student</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">Enrollment Information</a>
+                    <a class="nav-link text-white" href="coming-soon.php">Enrollment Information</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link text-white" href="contact-us.php">Contact Us</a>
