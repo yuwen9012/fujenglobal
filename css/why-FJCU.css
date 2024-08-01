@@ -139,9 +139,7 @@ body {
     color: #132548;
 }
 
-footer {
-    background-color: #132548 !important;
-}
+
 
 /* 新增區塊樣式 */
 .div-container {
@@ -158,9 +156,16 @@ footer {
     text-align: left; /* 標題靠左對齊 */
     font-size: 30px;
     font-weight: 900;
-    color: #132548;
+    color: #0B3F61;
     margin-bottom: 20px;
+    background-color: #F7ECCB;
+    padding: 10px 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    /* 設定寬度為文字內容寬度的稍大值 */
+    display: inline-block;
 }
+
 
 .milestone-container {
     display: flex;
@@ -180,6 +185,8 @@ footer {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+
+
 .year {
     font-size: 40px;
     color: #B2955D;
@@ -188,25 +195,20 @@ footer {
     text-align: left; /* 靠左對齊 */
 }
 
-.img-fluid {
-    width: 50%;
-    display: block;
-    max-width: 100%;
-}
-
-.img-fluid-container{
-    height: 300px; /* 設置固定高度 */
-    width: 450px;  /* 設置固定寬度 */
-    background-color: pink; /* 背景顏色 */
-    overflow: hidden; /* 隱藏超出容器的圖片部分 */
-    display: flex; /* 使用 Flexbox 來對齊圖片 */
-    justify-content: center; /* 水平居中圖片 */
-    align-items: center; /* 垂直居中圖片 *
-}
-
-
 .description {
     font-size: 18px;
     color: #132548;
     text-align: left; /* 靠左對齊 */
+}
+h5{
+    font-weight: bold;
+    color: #132548;
+}
+ul {
+    margin-bottom: 0; /* 移除 ul 底部的 margin */
+    padding-bottom: 0; /* 可選: 移除 ul 底部的 padding */
+}
+
+footer {
+    background-color: #132548 !important;
 }

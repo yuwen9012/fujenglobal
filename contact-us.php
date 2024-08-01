@@ -22,6 +22,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/contact-us.css">
 
+    <!-- JavaScript -->
+    <script src="js/contact-us.js"></script>
     <title>Contact Us</title>
 </head>
 <body>
@@ -128,8 +130,8 @@
         <div class="form-section mt-5">
             <h2>Question</h2>
             <h3>Your details</h3>
-            <form>
-                <div class="row">
+            <form method="post" action="send-email.php">
+                <div class="row g-3">
                     <div class="col-md-6 mb-3">
                         <label for="firstName" class="form-label">First name<span class="text-danger">*</span></label></label>
                         <input type="text" class="form-control" id="firstName" required>
@@ -139,7 +141,7 @@
                         <input type="text" class="form-control" id="lastName" required>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row g-3">
                     <div class="col-md-6 mb-3">
                         <label for="region" class="form-label">Which region or country do you currently live in?<span class="text-danger">*</span></label></label>
                         <input type="text" class="form-control" id="region" required>
@@ -149,7 +151,7 @@
                         <input type="text" class="form-control" id="nationality" required>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row g-3">
                     <div class="col-md-6 mb-3">
                         <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
                         <input type="email" class="form-control" id="email" required>
@@ -236,7 +238,6 @@
     <!-- 複製成功提示 -->
     <div class="copy-success" id="copy-success">Copied!</div>
 
-    <!-- JavaScript -->
-    <script src="js/contact-us.js"></script>
+    
 </body>
 </html>
