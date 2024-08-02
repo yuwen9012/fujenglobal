@@ -69,7 +69,10 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '#collapseCommuFeatu', linkId: '#read-more-link-commu-featu' },
         { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
         { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
-        { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' }
+        { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
+        // Education
+        { collapseId: '#collapseEduIntro', linkId: '#read-more-link-edu-intro' },
+        { collapseId: '#collapseEduFeatu', linkId: '#read-more-link-edu-featu' },
     ];
 
     // Function to handle the collapse events
