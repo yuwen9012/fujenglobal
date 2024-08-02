@@ -104,7 +104,7 @@
                     </ul>
                     <p class="my-3">For more information, please refer to the official website: <a href="http://www.adpr.fju.edu.tw/" target="_blank">http://www.adpr.fju.edu.tw/</a></p>
                 </div>
-                <a id="read-more-link-commu-featu" data-bs-toggle="collapse" href="#collapseCommuFeatu" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
+                <a id="read-more-link-commu-featu" data-bs-toggle="collapse" href="#collapseCommuFeatu" role="button" aria-expanded="false" aria-controls="collapseCommuFeatu">Read more...</a>
             </div>
         </div>
     </div>
@@ -154,7 +154,7 @@
                         </li>
                     </ul>
                 </div>
-                <a id="read-more-link-commu-amsp" data-bs-toggle="collapse" href="#collapseCommuAmsp" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
+                <a id="read-more-link-commu-amsp" data-bs-toggle="collapse" href="#collapseCommuAmsp" role="button" aria-expanded="false" aria-controls="collapseCommuAmsp">Read more...</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/communication/傳播學院_academic.jfif" class="container-fluid">
@@ -220,7 +220,7 @@
                     <p class="mt-3 fw-semibold">Popular Culture Stars and Celebrities</p>
                     <p class="my-3">Media culture often involves individuals expressing particular messages in front of the camera, and their personae are associated with the messages they express. These celebrities have been influential in the contemporary world saturated with media. The studies of celebrities started their examination of the star system and film stars in the American film industry. Today, celebrity studies is an important subfield of critical media and cultural studies, expanding its objects of research to performers in other media. It examines the production of celebrities, the meaning behind the fame of these media celebrities, and the roles that celebrities play in contemporary societies. This course introduces key concepts in the studies of media celebrities. Students taking this course ought to have a foundation in critical media and communication studies, qualitative communication theories, critical theories, media studies, cultural studies, media sociology, etc.</p>
                 </div>
-                <a id="read-more-link-commu-csd" data-bs-toggle="collapse" href="#collapseCommuCsd" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
+                <a id="read-more-link-commu-csd" data-bs-toggle="collapse" href="#collapseCommuCsd" role="button" aria-expanded="false" aria-controls="collapseCommuCsd">Read more...</a>
             </div>
         </div>
     </div>
@@ -270,7 +270,7 @@
                     <p class="my-3 fw-semibold">Commercial photography studio</p>
                     <p class="my-3">The commercial photography studio is designed for introductory and advanced courses in commercial photography. The studio has a total of 10 sets of digital single-lens reflex cameras which meet industry standards, in order to meet the requirements of various types of professional or commercial photography. Moreover, there are cycloramas, strobe lights, fluorescent lights, Tungsten lights, exposure meters, color temperature meters, background stands and other photography equipment.</p>
                 </div>
-                <a id="read-more-link-commu-rf" data-bs-toggle="collapse" href="#collapseCommuRf" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
+                <a id="read-more-link-commu-rf" data-bs-toggle="collapse" href="#collapseCommuRf" role="button" aria-expanded="false" aria-controls="collapseCommuRf">Read more...</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/communication/傳播學院_resources.jpg" class="container-fluid">
