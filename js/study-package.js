@@ -54,14 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Read more文字顯示
-    $('#collapseExample').on('shown.bs.collapse', function () {
-        $('#read-more-link').text('Hide');
-    });
-    $('#collapseExample').on('hidden.bs.collapse', function () {
-        $('#read-more-link').text('Read more...');
-    });
-
     // Define an array of collapse IDs and corresponding link IDs
     const collapses = [
         // Liberal art
