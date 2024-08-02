@@ -114,6 +114,42 @@ h3, h4 {
     list-style-type: decimal;
 }
 
+.circle-list {
+    color: #0B3F61;
+    list-style-type: circle;
+}
+
+.alpha-list {
+    color: #0B3F61;
+    list-style-type: lower-alpha;
+}
+
+.continueDecimal > li {
+    position: relative;
+    /* padding-left: 2em; Adjust padding for numbering */
+}
+
+.continueDecimal > li::before {
+    content: counter(list-counter) ". ";
+    position: absolute;
+    left: 0;
+}
+
+.continueAlpha {
+    list-style-type: none; /* Remove default styling */
+    counter-reset: alpha-counter;
+}
+.continueAlpha > li {
+    counter-increment: alpha-counter; /* Increment the custom counter */
+    position: relative;
+    /* padding-left: 2em; Adjust padding for numbering */
+}
+.continueAlpha > li::before {
+    content: counter(alpha-counter, lower-alpha) ". "; /* Use lower-alpha for letters */
+    position: absolute;
+    left: 0;
+}
+
 .img-fixed-height {
     height: 200px;
     width: 500px;

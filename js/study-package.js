@@ -68,6 +68,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Education
         { collapseId: '#collapseEduIntro', linkId: '#read-more-link-edu-intro' },
         { collapseId: '#collapseEduFeatu', linkId: '#read-more-link-edu-featu' },
+        // Foreign languages
+        { collapseId: '#collapseForeiIntro', linkId: '#read-more-link-forei-intro' },
+        { collapseId: '.collapseForeiFeatu', linkId: '#read-more-link-forei-featu' },
+        // { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
+        // { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
+        // { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
     ];
 
     // Function to handle the collapse events
@@ -84,4 +90,78 @@ document.addEventListener('DOMContentLoaded', function() {
     collapses.forEach(({ collapseId, linkId }) => {
         handleCollapse(collapseId, linkId);
     });
+
+    // Function to update list counters
+    function updateCounters() {
+        const lists = document.querySelectorAll('.continueDecimal');
+        let counter = 1; // Initialize counter
+
+        lists.forEach((list) => {
+            // Update each direct child list item with the current counter value
+            const items = list.querySelectorAll(':scope > li'); // Correctly select direct children
+            items.forEach((item) => {
+                item.style.counterIncrement = `list-counter ${counter++}`;
+                item.dataset.counter = counter;
+            });
+
+            // Update the list's pseudo-element
+            items.forEach((item) => {
+                item.style.listStyleType = 'none'; // Remove default list styling
+                item.style.position = 'relative';
+                item.style.paddingLeft = '2em'; // Adjust padding for numbering
+                item.style.counterReset = 'list-counter'; // Reset counter at start of each list
+                item.insertAdjacentHTML('beforebegin', `<span style="position:absolute;left:0">${item.dataset.counter}. </span>`);
+            });
+        });
+    }
+
+    function updateAlphaCounters() {
+        const lists = document.querySelectorAll('.continueAlpha');
+        let counter = 0; // Initialize counter for letters
+
+        lists.forEach((list) => {
+            // Update each direct child list item with the current counter value
+            const items = list.querySelectorAll(':scope > li'); // Correctly select direct children
+            items.forEach((item) => {
+                item.style.counterIncrement = `list-counter ${String.fromCharCode(97 + counter++)}`; // Increment using letters
+                item.dataset.counter = counter;
+            });
+
+            // Update the list's pseudo-element
+            items.forEach((item) => {
+                item.style.listStyleType = 'none'; // Remove default list styling
+                item.style.position = 'relative';
+                item.style.paddingLeft = '1em'; // Adjust padding for numbering
+                item.style.counterReset = 'list-counter'; // Reset counter at start of each list
+                item.insertAdjacentHTML('beforebegin', `<span style="position:absolute;left:0">${String.fromCharCode(96 + parseInt(item.dataset.counter))}. </span>`);
+            });
+        });
+    }
+
+    // function updateCounters() {
+    //     const lists = document.querySelectorAll('.continueDecimal');
+    //     lists.forEach((list) => {
+    //         let counter = 1; // Initialize counter
+    
+    //         list.querySelectorAll('> li').forEach((item) => {
+    //             item.style.counterIncrement = `decimal-counter ${counter++}`;
+    //             item.style.counterReset = 'decimal-counter'; // Reset counter at start of each list
+    //         });
+    //     });
+    // }
+    
+    // function updateAlphaCounters() {
+    //     const lists = document.querySelectorAll('.continueAlpha');
+    //     lists.forEach((list) => {
+    //         let counter = 0; // Initialize counter for letters
+    
+    //         list.querySelectorAll('> li').forEach((item) => {
+    //             item.style.counterIncrement = `alpha-counter ${String.fromCharCode(97 + counter)}`; // Increment using letters
+    //             counter++;
+    //         });
+    //     });
+    // }
+
+    updateCounters();
+    updateAlphaCounters();
 });
