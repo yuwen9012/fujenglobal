@@ -61,4 +61,36 @@ document.addEventListener('DOMContentLoaded', function() {
     $('#collapseExample').on('hidden.bs.collapse', function () {
         $('#read-more-link').text('Read more...');
     });
+
+    // Communication
+    $('#collapseCommuIntro').on('shown.bs.collapse', function () {
+        $('#read-more-link-commu-intro').text('Hide');
+    });
+    $('#collapseCommuIntro').on('hidden.bs.collapse', function () {
+        $('#read-more-link-commu-intro').text('Read more...');
+    });
+    $('#collapseCommuFeatu').on('shown.bs.collapse', function () {
+        $('#read-more-link-commu-featu').text('Hide');
+    });
+    $('#collapseCommuFeatu').on('hidden.bs.collapse', function () {
+        $('#read-more-link-commu-featu').text('Read more...');
+    });
+    $('#collapseCommuAmsp').on('shown.bs.collapse', function () {
+        $('#read-more-link-commu-amsp').text('Hide');
+    });
+    $('#collapseCommuAmsp').on('hidden.bs.collapse', function () {
+        $('#read-more-link-commu-amsp').text('Read more...');
+    });
+    $('#collapseCommuCsd').on('shown.bs.collapse', function () {
+        $('#read-more-link-commu-csd').text('Hide');
+    });
+    $('#collapseCommuCsd').on('hidden.bs.collapse', function () {
+        $('#read-more-link-commu-csd').text('Read more...');
+    });
+    $('#collapseCommuRf').on('shown.bs.collapse', function () {
+        $('#read-more-link-commu-rf').text('Hide');
+    });
+    $('#collapseCommuRf').on('hidden.bs.collapse', function () {
+        $('#read-more-link-commu-rf').text('Read more...');
+    });
 });
