@@ -130,106 +130,106 @@
         <div class="form-section mt-5">
             <h2>Question</h2>
             <h3>Your details</h3>
-            <form method="post" action="send-email.php">
+            <form id="contactForm">
                 <div class="row g-3">
                     <div class="col-md-6 mb-3">
-                        <label for="firstName" class="form-label">First name<span class="text-danger">*</span></label></label>
-                        <input type="text" class="form-control" id="firstName" required>
+                        <label for="firstName" class="form-label">First name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="lastName" class="form-label">Last name<span class="text-danger"><span class="text-danger">*</span></label></span></label></label>
-                        <input type="text" class="form-control" id="lastName" required>
+                        <label for="lastName" class="form-label">Last name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
                     </div>
                 </div>
                 <div class="row g-3">
                     <div class="col-md-6 mb-3">
-                        <label for="region" class="form-label">Which region or country do you currently live in?<span class="text-danger">*</span></label></label>
-                        <input type="text" class="form-control" id="region" required>
+                        <label for="region" class="form-label">Which region or country do you currently live in?<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="region" name="region" required>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="nationality" class="form-label">What is your nationality?<span class="text-danger">*</span></label></label>
-                        <input type="text" class="form-control" id="nationality" required>
+                        <label for="nationality" class="form-label">What is your nationality?<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="nationality" name="nationality" required>
                     </div>
                 </div>
                 <div class="row g-3">
                     <div class="col-md-6 mb-3">
                         <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" id="email" required>
+                        <input type="email" class="form-control" id="email" name="email" required>
                         <small class="form-text text-muted">(We respond to most enquiries via email)</small>
-                        
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="phone" class="form-label">Phone Number<span class="text-danger">*</span></label></label>
-                        <input type="tel" class="form-control" id="phone" required>
+                        <label for="phone" class="form-label">Phone Number<span class="text-danger">*</span></label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
                     </div>
                 </div>
 
                 <h3>Help us respond to you better</h3>
                 <div class="mb-3">
-                    <label class="form-label">Which program are you interested in?<span class="text-danger">*</span></label></label>
+                    <label class="form-label">Which program are you interested in?<span class="text-danger">*</span></label>
                     <div class="check-container">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="degreeStudent">
+                            <input class="form-check-input" type="checkbox" name="program[]" value="Degree Student" id="degreeStudent">
                             <label class="form-check-label" for="degreeStudent">Degree Student</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="exchangeStudent">
+                            <input class="form-check-input" type="checkbox" name="program[]" value="Exchange Student" id="exchangeStudent">
                             <label class="form-check-label" for="exchangeStudent">Exchange Student (Inbound)</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="studyAbroad">
+                            <input class="form-check-input" type="checkbox" name="program[]" value="Study Abroad" id="studyAbroad">
                             <label class="form-check-label" for="studyAbroad">Study Abroad</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="mandarinLearning">
+                            <input class="form-check-input" type="checkbox" name="program[]" value="Mandarin Chinese Learning" id="mandarinLearning">
                             <label class="form-check-label" for="mandarinLearning">Mandarin Chinese Learning</label>
                         </div>
                     </div> 
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Select the category that best suits your enquiry:<span class="text-danger">*</span></label></label>
+                    <label class="form-label">Select the category that best suits your enquiry:<span class="text-danger">*</span></label>
                     <div class="check-container">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="entryRequirements">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="Entry requirements & study pathways" id="entryRequirements">
                             <label class="form-check-label" for="entryRequirements">Entry requirements & study pathways</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="courseInfo">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="Course information" id="courseInfo">
                             <label class="form-check-label" for="courseInfo">Course information</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="applyingCourse">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="Applying for a course" id="applyingCourse">
                             <label class="form-check-label" for="applyingCourse">Applying for a course</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="applicationOffer">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="My application and offer" id="applicationOffer">
                             <label class="form-check-label" for="applicationOffer">My application and offer</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="enrolment">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="My enrolment" id="enrolment">
                             <label class="form-check-label" for="enrolment">My enrolment</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="fees">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="Fees, costs and scholarships" id="fees">
                             <label class="form-check-label" for="fees">Fees, costs and scholarships</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="studentLife">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="Student life" id="studentLife">
                             <label class="form-check-label" for="studentLife">Student life</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="other">
+                            <input class="form-check-input" type="checkbox" name="category[]" value="Other" id="other">
                             <label class="form-check-label" for="other">Other</label>
                         </div>
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="enquiryDetails" class="form-label">Details of your enquiry :<span class="text-danger">*</span></label></label>
-                    <textarea class="form-control" id="enquiryDetails" rows="3" required></textarea>
+                    <label for="enquiryDetails" class="form-label">Details of your enquiry :<span class="text-danger">*</span></label>
+                    <textarea class="form-control" id="enquiryDetails" name="enquiryDetails" rows="3" required></textarea>
                     <small class="form-text text-muted">Please provide as much detail as possible to assist us with your enquiry.</small>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            <div id="responseMessage" class="response-message"></div>
         </div>
 
     </div>
