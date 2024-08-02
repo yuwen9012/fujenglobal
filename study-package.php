@@ -287,15 +287,9 @@
                     <hr>
                 </div>
 
-                <div class="tab-pane fade" id="foreign" role="tabpanel" aria-labelledby="foreign-tab">
-                    <h3 class="my-3 fw-bolder">College of Foreign Languages</h3>
-                    <hr>
-                </div>
+                <?php include 'study-package/foreign-languages.php'; ?>
 
-                <div class="tab-pane fade" id="ecology" role="tabpanel" aria-labelledby="ecology-tab">
-                    <h3 class="my-3 fw-bolder">College of Human Ecology</h3>
-                    <hr>
-                </div>
+                <?php include 'study-package/human-ecology.php'; ?>
 
                 <div class="tab-pane fade" id="law" role="tabpanel" aria-labelledby="law-tab">
                     <h3 class="my-3 fw-bolder">College of Law</h3>
