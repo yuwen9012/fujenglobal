@@ -254,6 +254,45 @@ body {
     border-color: #0A2D47;
 }
 
+/* 表單提交動畫 */
+.response-message {
+    display: none; /* 初始隱藏 */
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    animation: fadeInOut 3s forwards;
+}
+#send{
+    margin: 0;
+}
+
+/* 表單提交動畫效果 */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.response-message.show {
+    display: block;
+}
+
+
+
+
+
 h3 {
     color: #d7ac12; /* 顏色 */
     font-size: 26px; /* 字體大小 */
