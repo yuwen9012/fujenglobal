@@ -71,8 +71,9 @@
                         <h5>Degree Student</h5>
                     </div>
                     <div class="contact-content">
-                        <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-2944">+886-2-2905-2944</span> &nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span>
-                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="049253@mail.fju.edu.tw">049253@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp <span class="copy-icon"><i class="fas fa-copy"></i></span>
+                        <p><strong>Mr. Laurence LIN</strong></p>
+                        <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-2544">+886-2-2905-2544</span> &nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span>
+                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="089757@mail.fju.edu.tw">089757@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp <span class="copy-icon"><i class="fas fa-copy"></i></span>
                     </div>
                 </div>
             </div>
@@ -82,8 +83,9 @@
                         <h5>Exchange Students (Inbound)</h5>
                     </div>
                     <div class="contact-content">
+                        <p><strong>Ms. Christine TSAI</strong></p>
                         <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-6376">+886-2-2905-6376</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
-                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="089634@mail.fju.edu.tw">089634@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
+                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="sepin@mail.fju.edu.tw">sepin@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
                     </div>
                 </div>
             </div>
@@ -107,19 +109,20 @@
                         <h5>Mandarin Chinese Learning</h5>
                     </div>
                     <div class="contact-content">
-                        <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-2163">+886-2-2905-2163</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
-                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="chinese@mail.fju.edu.tw">chinese@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
+                        <p><strong>Ms. Wei Jia PAN</strong></p>
+                        <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-2487">+886-2-2905-2487</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
+                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="flcg1013@mail.fju.edu.tw">flcg1013@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="contact-card">
                     <div class="contact-header">
-                        <h5>International Exchange Center</h5>
+                        <h5>Fu Jen Global Academy</h5>
                     </div>
                     <div class="contact-content">
-                        <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-2427">+886-2-2905-2427</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
-                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="info@mail.fju.edu.tw">info@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
+                        <p><i class="fas fa-phone"></i> <span class="copy-text" data-text="+886-2-2905-6315">+886-2-2905-6315</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
+                        <p><i class="fas fa-envelope"></i> <span class="copy-text" data-text="bpis@mail.fju.edu.tw">bpis@mail.fju.edu.tw</span>&nbsp&nbsp&nbsp<span class="copy-icon"><i class="fas fa-copy"></i></span></p>
                     </div>
                 </div>
             </div>

@@ -92,8 +92,8 @@ body {
 
 
 .title-container {
-    text-align: center; /* 使內容居中 */
     margin: 20px 0; /* 上下邊距 */
+    text-align: center; /* 使內容居中 */
 }
 /* 標題樣式 */
 .title {
