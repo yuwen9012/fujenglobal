@@ -62,35 +62,28 @@ document.addEventListener('DOMContentLoaded', function() {
         $('#read-more-link').text('Read more...');
     });
 
-    // Communication
-    $('#collapseCommuIntro').on('shown.bs.collapse', function () {
-        $('#read-more-link-commu-intro').text('Hide');
-    });
-    $('#collapseCommuIntro').on('hidden.bs.collapse', function () {
-        $('#read-more-link-commu-intro').text('Read more...');
-    });
-    $('#collapseCommuFeatu').on('shown.bs.collapse', function () {
-        $('#read-more-link-commu-featu').text('Hide');
-    });
-    $('#collapseCommuFeatu').on('hidden.bs.collapse', function () {
-        $('#read-more-link-commu-featu').text('Read more...');
-    });
-    $('#collapseCommuAmsp').on('shown.bs.collapse', function () {
-        $('#read-more-link-commu-amsp').text('Hide');
-    });
-    $('#collapseCommuAmsp').on('hidden.bs.collapse', function () {
-        $('#read-more-link-commu-amsp').text('Read more...');
-    });
-    $('#collapseCommuCsd').on('shown.bs.collapse', function () {
-        $('#read-more-link-commu-csd').text('Hide');
-    });
-    $('#collapseCommuCsd').on('hidden.bs.collapse', function () {
-        $('#read-more-link-commu-csd').text('Read more...');
-    });
-    $('#collapseCommuRf').on('shown.bs.collapse', function () {
-        $('#read-more-link-commu-rf').text('Hide');
-    });
-    $('#collapseCommuRf').on('hidden.bs.collapse', function () {
-        $('#read-more-link-commu-rf').text('Read more...');
+    // Define an array of collapse IDs and corresponding link IDs
+    const collapses = [
+        // Communication
+        { collapseId: '#collapseCommuIntro', linkId: '#read-more-link-commu-intro' },
+        { collapseId: '#collapseCommuFeatu', linkId: '#read-more-link-commu-featu' },
+        { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
+        { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
+        { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' }
+    ];
+
+    // Function to handle the collapse events
+    function handleCollapse(collapseId, linkId) {
+        $(collapseId).on('shown.bs.collapse', function () {
+            $(linkId).text('Hide');
+        });
+        $(collapseId).on('hidden.bs.collapse', function () {
+            $(linkId).text('Read more...');
+        });
+    }
+
+    // Iterate over the array and apply the event handlers
+    collapses.forEach(({ collapseId, linkId }) => {
+        handleCollapse(collapseId, linkId);
     });
 });
