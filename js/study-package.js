@@ -54,16 +54,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Read more文字顯示
-    $('#collapseExample').on('shown.bs.collapse', function () {
-        $('#read-more-link').text('Hide');
-    });
-    $('#collapseExample').on('hidden.bs.collapse', function () {
-        $('#read-more-link').text('Read more...');
-    });
-
     // Define an array of collapse IDs and corresponding link IDs
     const collapses = [
+        // Liberal art
+        { collapseId: '#collapseLiberIntro', linkId: '#read-more-link-liber-intro' },
+        { collapseId: '#collapseLiberFeatu', linkId: '#read-more-link-liber-featu' },
         // Communication
         { collapseId: '#collapseCommuIntro', linkId: '#read-more-link-commu-intro' },
         { collapseId: '#collapseCommuFeatu', linkId: '#read-more-link-commu-featu' },

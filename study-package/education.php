@@ -83,7 +83,7 @@
                         </li>
                     </ul>
                 </div>
-                <a id="read-more-link-edu-intro" data-bs-toggle="collapse" href="#collapseEduIntro" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
+                <a id="read-more-link-edu-intro" data-bs-toggle="collapse" href="#collapseEduIntro" role="button" aria-expanded="false" aria-controls="collapseEduIntro">Read more...</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/education/教育學院_introduction.jpg" class="container-fluid">
@@ -126,7 +126,7 @@
                         </li>
                     </ul>
                 </div>
-                <a id="read-more-link-edu-featu" data-bs-toggle="collapse" href="#collapseEduFeatu" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
+                <a id="read-more-link-edu-featu" data-bs-toggle="collapse" href="#collapseEduFeatu" role="button" aria-expanded="false" aria-controls="collapseEduFeatu">Read more...</a>
             </div>
         </div>
     </div>
