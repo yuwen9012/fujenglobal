@@ -56,15 +56,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isHTML(true);
         $mail->Subject = '入學網-聯絡我們';
         $mail->Body    = "
-            <p><strong>Name:</strong> {$_POST['firstName']} {$_POST['lastName']}</p>
-            <p><strong>Region:</strong> {$_POST['region']}</p>
-            <p><strong>Nationality:</strong> {$_POST['nationality']}</p>
-            <p><strong>Email:</strong> {$_POST['email']}</p>
-            <p><strong>Phone:</strong> {$_POST['phone']}</p>
-            <p><strong>Programs Interested:</strong> " . implode(', ', $_POST['program']) . "</p>
-            <p><strong>Categories:</strong> " . implode(', ', $_POST['category']) . "</p>
-            <p><strong>Enquiry Details:</strong> {$_POST['enquiryDetails']}</p>
+            <p style='color: #000000;'><strong>Name:</strong> {$_POST['firstName']} {$_POST['lastName']}</p>
+            <p style='color: #000000;'><strong>Region:</strong> {$_POST['region']}</p>
+            <p style='color: #000000;'><strong>Nationality:</strong> {$_POST['nationality']}</p>
+            <p style='color: #000000;'><strong>Email:</strong> {$_POST['email']}</p>
+            <p style='color: #000000;'><strong>Phone:</strong> {$_POST['phone']}</p>
+            <p style='color: #000000;'><strong>Programs Interested:</strong> " . implode(', ', $_POST['program']) . "</p>
+            <p style='color: #000000;'><strong>Categories:</strong> " . implode(', ', $_POST['category']) . "</p>
+            <p style='color: #000000;'><strong>Enquiry Details:</strong> {$_POST['enquiryDetails']}</p>
         ";
+
 
         $mail->send();
         echo 'Message has been sent';
