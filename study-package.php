@@ -297,7 +297,7 @@
 
                 <?php include 'study-package/management.php'; ?>
 
-                <div class="tab-pane fade" id="fasion" role="tabpanel" aria-labelledby="fasion-tab">
+                <div class="tab-pane fade" id="fashion" role="tabpanel" aria-labelledby="fashion-tab">
                     <h3 class="my-3 fw-bolder">College of Fashion & Textiles</h3>
                     <hr>
                 </div>
