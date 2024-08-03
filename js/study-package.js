@@ -74,6 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '#collapseMedAmsp', linkId: '#read-more-link-Med-amsp' },
         { collapseId: '#collapseMedCsd', linkId: '#read-more-link-Med-csd' },
         { collapseId: '#collapseMedLo', linkId: '#read-more-link-Med-lo' },
+        // Engineering
+        { collapseId: '#collapseEngiAmsp', linkId: '#read-more-link-Engi-amsp' },
         // Foreign languages
         { collapseId: '#collapseForeiIntro', linkId: '#read-more-link-forei-intro' },
         { collapseId: '.collapseForeiFeatu', linkId: '#read-more-link-forei-featu' },
