@@ -79,6 +79,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // Foreign languages
         { collapseId: '#collapseForeiIntro', linkId: '#read-more-link-forei-intro' },
         { collapseId: '.collapseForeiFeatu', linkId: '#read-more-link-forei-featu' },
+        //Management
+        { collapseId: '#collapseMaIntro', linkId: '#read-more-link-Ma-intro' },
+        { collapseId: '#collapseMaFeatu', linkId: '#read-more-link-Ma-featu' },
+        { collapseId: '#collapseMaAmsp', linkId: '#read-more-link-Ma-amsp' },
+        { collapseId: '#collapseMaCsd', linkId: '#read-more-link-Ma-csd' },
+        { collapseId: '#collapseMaLo', linkId: '#read-more-link-Ma-lo' },
+        { collapseId: '#collapseMaFi', linkId: '#read-more-link-Ma-Fi' },
+        { collapseId: '#collapseMaRf', linkId: '#read-more-link-Ma-rf' },
         // { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
         // { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
         // { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
