@@ -87,6 +87,10 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '#collapseMaLo', linkId: '#read-more-link-Ma-lo' },
         { collapseId: '#collapseMaFi', linkId: '#read-more-link-Ma-Fi' },
         { collapseId: '#collapseMaRf', linkId: '#read-more-link-Ma-rf' },
+        //Fashion & Textiles
+        { collapseId: '#collapseFtIntro', linkId: '#read-more-link-Ft-intro' },
+        { collapseId: '#collapseFtFeatu', linkId: '#read-more-link-Ft-featu' },
+        { collapseId: '#collapseFtCsd', linkId: '#read-more-link-Ft-csd' },
         // { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
         // { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
         // { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
