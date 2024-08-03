@@ -279,10 +279,7 @@
 
                 <?php include 'study-package/medicine.php'; ?>
 
-                <div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
-                    <h3 class="my-3 fw-bolder">College of Science & Engineering</h3>
-                    <hr>
-                </div>
+                <?php include 'study-package/engineering.php'; ?>
 
                 <?php include 'study-package/foreign-languages.php'; ?>
 
