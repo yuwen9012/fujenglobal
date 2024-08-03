@@ -60,7 +60,7 @@
                 <a class="list-group-item list-group-item-action py-3" id="law-tab" data-bs-toggle="list" href="#law" role="tab" aria-controls="law">College of Law</a>
                 <a class="list-group-item list-group-item-action py-3" id="social-tab" data-bs-toggle="list" href="#social" role="tab" aria-controls="social">College of Social Science</a>
                 <a class="list-group-item list-group-item-action py-3" id="management-tab" data-bs-toggle="list" href="#management" role="tab" aria-controls="management">College of Management</a>
-                <a class="list-group-item list-group-item-action py-3" id="fasion-tab" data-bs-toggle="list" href="#fasion" role="tab" aria-controls="fasion">College of Fashion & Textiles</a>
+                <a class="list-group-item list-group-item-action py-3" id="fashion-tab" data-bs-toggle="list" href="#fashion" role="tab" aria-controls="fashion">College of Fashion & Textiles</a>
             </div>
         </div>
         <div class="content">
