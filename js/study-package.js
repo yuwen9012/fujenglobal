@@ -68,6 +68,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Education
         { collapseId: '#collapseEduIntro', linkId: '#read-more-link-edu-intro' },
         { collapseId: '#collapseEduFeatu', linkId: '#read-more-link-edu-featu' },
+        // Medicine
+        { collapseId: '#collapseMedIntro', linkId: '#read-more-link-Med-intro' },
+        { collapseId: '#collapseMedFeatu', linkId: '#read-more-link-Med-featu' },
+        { collapseId: '#collapseMedAmsp', linkId: '#read-more-link-Med-amsp' },
+        { collapseId: '#collapseMedCsd', linkId: '#read-more-link-Med-csd' },
+        { collapseId: '#collapseMedLo', linkId: '#read-more-link-Med-lo' },
         // Foreign languages
         { collapseId: '#collapseForeiIntro', linkId: '#read-more-link-forei-intro' },
         { collapseId: '.collapseForeiFeatu', linkId: '#read-more-link-forei-featu' },
