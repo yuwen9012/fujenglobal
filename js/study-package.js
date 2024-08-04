@@ -82,6 +82,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '.collapseForeiAmsp', linkId: '#read-more-link-forei-amsp' },
         { collapseId: '#collapseForeiCsd', linkId: '#read-more-link-forei-csd' },
         { collapseId: '#collapseForeiRf', linkId: '#read-more-link-forei-rf' },
+        // Human ecology
+        { collapseId: '#collapseEcoIntro', linkId: '#read-more-link-eco-intro' },
+        { collapseId: '#collapseEcoLo', linkId: '#read-more-link-eco-lo' },
         //Management
         { collapseId: '#collapseMaIntro', linkId: '#read-more-link-Ma-intro' },
         { collapseId: '#collapseMaFeatu', linkId: '#read-more-link-Ma-featu' },
