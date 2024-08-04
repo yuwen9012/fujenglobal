@@ -42,7 +42,7 @@
                 <p class="my-3">The College of Foreign Languages and Literatures (CFLL), founded in 1980, was the first college of its kind in Taiwan, currently embracing digital technologies, and combining them with studies of foreign languages, cultures and literatures.</p>
                 <p class="mt-3 fw-semibold">Currently under the College are:</p>
                 <div class="collapse" id="collapseForeiIntro">
-                    <ul class="custom-list">
+                    <ul class="circle-list">
                         <li>
                             6 departments: English (BA and MA), German (BA and MA), French (BA and MA), Spanish (BA and MA), Japanese (BA and MA), Italian (BA);
                         </li>
@@ -51,7 +51,7 @@
                         </li>
                         <li>
                             Graduate Institute of Cross-Cultural Studies (GICCS):
-                            <ul class="circle-list">
+                            <ul class="custom-list">
                                 <li>
                                     Comparative Literature and Cross-Cultural Research (PhD, Bilingual),
                                 </li>
@@ -86,75 +86,75 @@
             </div>
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
-                <ul class="decimal-list continueDecimal">
-                    <li>
-                        Student-centered and AI-enhanced language teaching and cross-cultural learning
-                        <ul class="continueAlpha">
-                            <li>
-                                Teachers committed to creative teaching methods in language teaching and other courses, with emphasis on multimedia and AI interaction methods in classroom as well as online
-                                <ul class="custom-list">
-                                    <li>
-                                        E-learning environment in both Fr. Franz Giet Building and the CFLL building, with 3 large classrooms and a student lounge for online cultural exchanges, 4 classrooms with language lab facilities, and 12 classrooms with recording capability
-                                    </li>
-                                    <li>
-                                        A wealth of online educational resources created by CFLL
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="continueAlpha collapse collapseForeiFeatu">
-                            <li>
-                                Students culturally literate with courses on Western civilization, national cultures and cross-cultural communication, and proactive in academic exchange and dual-degree programs, developing global perspectives and cross-cultural communication skills
-                                <ul class="custom-list">
-                                    <li>
-                                        Each academic department under CFLL actively seeks partnerships with sister schools
-                                    </li>
-                                    <li>
-                                        Dual-degree programs include the English Department and Germany’s University of Bayreuth (bachelor’s and master’s), the French Department and Belgium’s UC Louvain (master’s), the Japanese Department and Japan’s Hiroshima University (master’s), the English and Spanish Departments and Spain’s University Ramon Llull’s IQS School of Management (master’s).
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul class="decimal-list continueDecimal collapse collapseForeiFeatu">
-                    <li>
-                        Activities for students to demonstrate their learning outcomes,  and to be socially engaged with local and global outreach and industry-academia collaborations
-                        <ul class="alpha-list">
-                            <li>
-                                Each department holds their own stage performances and talent contests to encourage students to showcase their cultural awareness and numerous talents.
-                            </li>
-                            <li>
-                                High school students’ camps organized every year for high schoolers to learn about culture and languages: such as the English Camp, the Second Foreign Language Camp, and the Theatre Camp.
-                            </li>
-                            <li>
-                                Local service learning projects include teaching elementary school students English, and helping local schools form COIL collaboration with their foreign counterpart.
-                            </li>
-                            <li>
-                                Actively seeking out industry-academia partnerships across all fields, signing industry-academia partnerships with 30 corporations thus far. Collaboration with industry in training professionals such as AI-assisted translators and knowledge graph analysts.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        7 credit programs to help develop students’ second speciality with cross-disciplinary courses, and courses and workshops to train their employable skills
-                        <ul class="alpha-list">
-                            <li>
-                                Program in International Medical Translation is the first of its kind in Taiwan
-                            </li>
-                            <li>
-                                Teaching Chinese as a Second Foreign Language offers internships in Poland, Hungary and other countries
-                            </li>
-                            <li>
-                                The other programs include: Creative Industry and Business Communication, Diplomacy and International Affairs, Applied AI, Professional and Practical English in the Digital Age, Western Classical and Medieval Languages and Cultures.
-                            </li>
-                            <li>
-                                Collaborations with the Colleges of Management, Arts, Communication, Law, Textiles and Clothing to develop students’ skills in coding and AI, digital marketing, cross-disciplinary creative cultural production, business communication, as well as financial, economic, and legal translation.
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
+                <div class="continueDecimal1">
+                    <ul>
+                        <li>
+                            Student-centered and AI-enhanced language teaching and cross-cultural learning
+                            <ul class="circle-list">
+                                <li>
+                                    Teachers committed to creative teaching methods in language teaching and other courses, with emphasis on multimedia and AI interaction methods in classroom as well as online
+                                    <ul class="custom-list">
+                                        <li>
+                                            E-learning environment in both Fr. Franz Giet Building and the CFLL building, with 3 large classrooms and a student lounge for online cultural exchanges, 4 classrooms with language lab facilities, and 12 classrooms with recording capability
+                                        </li>
+                                        <li>
+                                            A wealth of online educational resources created by CFLL
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="circle-list collapse collapseForeiFeatu">
+                                <li>
+                                    Students culturally literate with courses on Western civilization, national cultures and cross-cultural communication, and proactive in academic exchange and dual-degree programs, developing global perspectives and cross-cultural communication skills
+                                    <ul class="custom-list">
+                                        <li>
+                                            Each academic department under CFLL actively seeks partnerships with sister schools
+                                        </li>
+                                        <li>
+                                            Dual-degree programs include the English Department and Germany’s University of Bayreuth (bachelor’s and master’s), the French Department and Belgium’s UC Louvain (master’s), the Japanese Department and Japan’s Hiroshima University (master’s), the English and Spanish Departments and Spain’s University Ramon Llull’s IQS School of Management (master’s).
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="collapse collapseForeiFeatu">
+                        <li>
+                            Activities for students to demonstrate their learning outcomes,  and to be socially engaged with local and global outreach and industry-academia collaborations
+                            <ul class="circle-list">
+                                <li>
+                                    Each department holds their own stage performances and talent contests to encourage students to showcase their cultural awareness and numerous talents.
+                                </li>
+                                <li>
+                                    High school students’ camps organized every year for high schoolers to learn about culture and languages: such as the English Camp, the Second Foreign Language Camp, and the Theatre Camp.
+                                </li>
+                                <li>
+                                    Local service learning projects include teaching elementary school students English, and helping local schools form COIL collaboration with their foreign counterpart.
+                                </li>
+                                <li>
+                                    Actively seeking out industry-academia partnerships across all fields, signing industry-academia partnerships with 30 corporations thus far. Collaboration with industry in training professionals such as AI-assisted translators and knowledge graph analysts.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            7 credit programs to help develop students’ second speciality with cross-disciplinary courses, and courses and workshops to train their employable skills
+                            <ul class="circle-list">
+                                <li>
+                                    Program in International Medical Translation is the first of its kind in Taiwan
+                                </li>
+                                <li>
+                                    Teaching Chinese as a Second Foreign Language offers internships in Poland, Hungary and other countries
+                                </li>
+                                <li>
+                                    The other programs include: Creative Industry and Business Communication, Diplomacy and International Affairs, Applied AI, Professional and Practical English in the Digital Age, Western Classical and Medieval Languages and Cultures.
+                                </li>
+                                <li>
+                                    Collaborations with the Colleges of Management, Arts, Communication, Law, Textiles and Clothing to develop students’ skills in coding and AI, digital marketing, cross-disciplinary creative cultural production, business communication, as well as financial, economic, and legal translation.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
                 <a id="read-more-link-forei-featu" data-bs-toggle="collapse" href=".collapseForeiFeatu" role="button" aria-expanded="false" aria-controls="collapseForeiFeatu">Read more...</a>
             </div>
         </div>
@@ -164,48 +164,244 @@
         <div class="row align-items-start">
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
-                <p class="mt-3 fw-semibold">Film Studies Around the World:</p>
-                <ul class="decimal-list">
-                    <li>
-                        Latin American Movies
-                    </li>
-                    <li>
-                        Indian Cinemas
-                    </li>
-                    <li>
-                        Spanish Contemporary Cinema
-                    </li>
-                    <li>
-                        European Cinemas
-                    </li>
-                    <li>
-                        Hollywood Chinese Cinemas
-                    </li>
-                    <li>
-                        Introduction to Inter-Asia Cinemas
-                    </li>
-                </ul>
-                <p class="mt-3 fw-semibold">Media, Journalism and Intercultural Studies:</p>
-                <div class="collapse" id="collapseCommuAmsp">
-                    <ul class="decimal-list">
+                <div class="continueDecimal2">
+                    <ul>
                         <li>
-                            Readings of Communication
+                            CFLL Feature Courses: from AI-Assisted Training of Foreign Language, iCT Skills, Cross-Cutlural Communication to Professional Communication and Research in Related Fields of Specialization in Studies of Language, Literature and Culture
+                            <ul class="circle-list">
+                                <li>
+                                    Italian Department
+                                    <ul class="custom-list">
+                                        <li>
+                                            Culture: Italy and Western Civilization
+                                        </li>
+                                        <li>
+                                            Politics and Economics, Italian Style
+                                        </li>
+                                        <li>
+                                            20th-C Italian Literature and Cinema
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="circle-list collapse collapseForeiAmsp">
+                                <li>
+                                    French Department
+                                    <ul class="custom-list">
+                                        <li>
+                                            Film Appreciation and Production in French
+                                        </li>
+                                        <li>
+                                            EU and International Institutions: Policies and Politics
+                                        </li>
+                                        <li>
+                                            Cultural Policy Studies
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Japanese Department
+                                    <ul class="custom-list">
+                                        <li>
+                                            Japanese Listening and Speaking Practicum
+                                        </li>
+                                        <li>
+                                            AI Technology Application in Japanese Learning
+                                        </li>
+                                        <li>
+                                            Japanese Conversation for Specific Purposes
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    German Department
+                                    <ul class="custom-list">
+                                        <li>
+                                            Trade Show Participation and Presentation
+                                        </li>
+                                        <li>
+                                            Foreign Trading Practices
+                                        </li>
+                                        <li>
+                                            Culture Studies-Theory and Practice
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    English Department (EMI)
+                                    <ul class="custom-list">
+                                        <li>
+                                            Trends and Business
+                                        </li>
+                                        <li>
+                                            Data Contextualization
+                                        </li>
+                                        <li>
+                                            Digital Storytelling
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Spanish Department
+                                    <ul class="custom-list">
+                                        <li>
+                                            Translation into Spanish
+                                        </li>
+                                        <li>
+                                            Spanish in Aviation Business
+                                        </li>
+                                        <li>
+                                            Conference Interpreting
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    GCTI
+                                    <ul class="custom-list">
+                                        <li>
+                                            Critical Issues in Globalization (EMI)
+                                        </li>
+                                        <li>
+                                            Computer Graphics and Media Production
+                                        </li>
+                                        <li>
+                                            Cross-Cultural Communication (EMI)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    GICCS
+                                    <ul class="custom-list">
+                                        <li>
+                                            Chinese Language Teaching Practicum
+                                        </li>
+                                        <li>
+                                            Corpus Text Analysis
+                                        </li>
+                                        <li>
+                                            Introduction to Digital Humanities
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p class="my-3">(CFLL Feature Courses List: <a href="https://reurl.cc/Rqjx2e" target="_blank">https://reurl.cc/Rqjx2e</a>)</p>
+                        </li>
+                    </ul>
+                    <ul class="collapse collapseForeiAmsp">
+                        <li>
+                            CFLL EMI Courses: Nourish Creativity and Develop Professional Skills with Project-Based EMI Courses (Arts & Cultures, Politics to High Tech)
+                            <ul class="circle-list">
+                                <li>
+                                    Performative Arts
+                                    <ul class="custom-list">
+                                        <li>
+                                            Theatrical Performances In Six Languages
+                                        </li>
+                                        <li>
+                                            Theatrical Arts Workshops –Costume, Stage, Sound/Light Design
+                                        </li>
+                                        <li>
+                                            Reader’s Theatre
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Cultural Transmediation
+                                    <ul class="custom-list">
+                                        <li>
+                                            Introduction to Western Civilization (output format: T-Shirts)
+                                        </li>
+                                        <li>
+                                            Digital Storytelling (output format: Interactive Games,  StoryMap, Metaverse)
+                                        </li>
+                                        <li>
+                                            Filmic Adaptation;
+                                        </li>
+                                        <li>
+                                            Comics
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Globalization & Taiwanese Culture
+                                    <ul class="custom-list">
+                                        <li>
+                                            Critical Issues in Globalization
+                                        </li>
+                                        <li>
+                                            Postmodern City and Global Flows
+                                        </li>
+                                        <li>
+                                            Taiwan’s Cultures in English
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Digital Marketing and Intercultural Communication
+                                    <ul class="custom-list">
+                                        <li>
+                                            Knowledge Graph & Data Contextualization
+                                        </li>
+                                        <li>
+                                            Cross-Cultural Communication
+                                        </li>
+                                        <li>
+                                            Cross-Cultural Business Communication
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    European Culture, EU and International Politics
+                                    <ul class="custom-list">
+                                        <li>
+                                            Economic Integration of EU Popular Culture in Europe
+                                        </li>
+                                        <li>
+                                            Human Rights Protection in German Speaking Countries
+                                        </li>
+                                        <li>
+                                            European Union and International Institutions
+                                        </li>
+                                        <li>
+                                            Human Rights Protection in German Speaking Countries
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            Inter-Cultural Communication: A Visual Approach
-                        </li>
-                        <li>
-                            Seminar on Corporate Social Responsibility and Social Entrepreneurship
-                        </li>
-                        <li>
-                            Selected Readings in International News
-                        </li>
-                        <li>
-                            Popular Culture Stars and Celebrities
+                            Cross-disciplinary Credit Programs: Credit Programs as Gateways to Cross Cultures and Disciplines
+                            <p class="my-3">CFLL offers professional training with a global vision, and build an international academic community devoted to the studies of language, literature, culture and intercultural communication in all aspects. On the firm basis of studies and education of foreign language and cultures, we offer Credit Programs in:</p>
+                            <ul class="custom-list">
+                                <li>
+                                    Program in Practical and Professional English for the Digital Age (EMI)
+                                </li>
+                                <li>
+                                    Program in Teaching Chinese as a Second Language (Bilingual)
+                                </li>
+                                <li>
+                                    Program in International Medical Translation (Bilingual)
+                                </li>
+                                <li>
+                                    Program in Financial, Economic and Legal Translation (Bilingual)
+                                </li>
+                                <li>
+                                    Program in Diplomacy and International Affairs
+                                </li>
+                                <li>
+                                    Program in Western Classical and Medieval Culture (Latin-Bilingual)
+                                </li>
+                                <li>
+                                    Program in AI in Applications
+                                </li>
+                                <li>
+                                    Program in Creative Culture and Business Communication (EMI)
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
-                <a id="read-more-link-commu-amsp" data-bs-toggle="collapse" href="#collapseCommuAmsp" role="button" aria-expanded="false" aria-controls="collapseCommuAmsp">Read more...</a>
+                <a id="read-more-link-forei-amsp" data-bs-toggle="collapse" href=".collapseForeiAmsp" role="button" aria-expanded="false" aria-controls="collapseForeiAmsp">Read more...</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/foreign-languages/外語學院_academic.jpg" class="container-fluid">
@@ -220,58 +416,376 @@
             </div>
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
-                <p class="my-3">These EMI courses provide a window to understand the exhilarating and vibrant communication, media, and film culture in the globalizing world.</p>
-                <p class="mt-3 fw-semibold">Latin American Movies:</p>
-                <ul class="decimal-list">
+                <p class="mt-3 fw-semibold">Each Semester:</p>
+                <ul class="custom-list">
                     <li>
-                        Learn Latin American films with its history, culture and society.
+                        English for Juniors-Workplace English
                     </li>
                     <li>
-                        Reflect on how movies construct history as narrative and popularize different in the process of LA history.
-                    </li>
-                    <li>
-                        Examine the differences and similarities between academic historical narratives and cinematic historical narratives.
+                        English for Juniors-Journalistic English
                     </li>
                 </ul>
-                <div class="collapse" id="collapseCommuCsd">
-                    <p class="mt-3 fw-semibold">Indian Cinemas:</p>
-                    <p class="my-3">This course aims to provide a map of understanding of Indian culture and Society through the lens of its film industries, film history, film authors, genre, director and stars.</p>
-                    <p class="mt-3 fw-semibold">European Cinemas:</p>
-                    <p class="my-3">Aiming at combining film policy, film production, film textualization, and film consumption, together with EU festival screening activities, the course will benefit students from attaining more visual experiences and reflexive energy in film analysis, film museum, and creative industries, in order to critically examine image culture in EU-affiliated areas and carefully reflect how Taiwan/Chinese cinema has been received in the mind of the Europeans.</p>
-                    <p class="my-3">This inter-disciplinary and EU-centered course in film studies will benefit devoted students from multiple academic dimensions, such as EU Film Policy and EU film production as social integration, early film production and texts, New waves and cultural movements, and globalization of major international festivals.</p>
-                    <p class="mt-3 fw-semibold">Spanish Contemporary Cinema:</p>
-                    <ul class="decimal-list">
+                <p class="mt-3 fw-semibold">Fall Semester: total 106 courses</p>
+                <p class="my-3 text-decoration-underline">Program in Western Classical and Medieval Culture</p>
+                <ul class="custom-list">
+                    <li>
+                        Introductory Latin (I)
+                    </li>
+                    <li>
+                        Introductory Latin A (I)
+                    </li>
+                    <li>
+                        Introductory Attic Greek (I)
+                    </li>
+                    <li>
+                        Introduction to Classical Studies
+                    </li>
+                    <li>
+                        Introduction to Thomas Aquinas' Summa
+                    </li>
+                    <li>
+                        Latin III: Julius Caesar
+                    </li>
+                </ul>
+                <div class="collapse" id="collapseForeiCsd">
+                    <p class="my-3 text-decoration-underline">Program in Teaching Chinese as a Second Language</p>
+                    <ul class="custom-list">
                         <li>
-                            Recognize popular trends and filming’s plots in contemporary Spanish films.
-                        </li>
-                        <li>
-                            Be able to interpret films taking Spain’s social and historical context.
-                        </li>
-                        <li>
-                            Be able to identify and understand connection between Spanish and globalization.
-                        </li>
-                        <li>
-                            Be able to learn culture and linguistic signs of Spanish, while seeing moving, and helping student to have critical ability on it.
+                            Chinese Society and Culture
                         </li>
                     </ul>
-                    <p class="mt-3 fw-semibold">Hollywood Chinese Cinemas:</p>
-                    <p class="my-3">The course will first pave an analytical path on the multi-ethnic, multi-lingual dimension of Hollywood films: early Hollywood, classical Hollywood and New Waves Hollywood, and its intersection with other ethnic cinematic cultural production.</p>
-                    <p class="my-3">Secondly, the angle will focus on minor nationalist cinema, such as Black cinema, Hispanic cinema, Jewish Cinema and Chinese Hollywood, to better understand a cinematic map of ethnic-political empowerment, and to further compare how Chinese factor entangled with other ethnic and cultural ingredients.</p>
-                    <p class="my-3">Thirdly, Hollywood Chinese, borrowed the documentary practice of Arthur Dong as film of resistance, involves various levels of knowledge: production, casting, acting, audience acceptance and identity politics.</p>
-                    <p class="mt-3 fw-semibold">Introduction to Inter-Asia Cinemas:</p>
-                    <p class="my-3">Base on critical concepts aroused by Inter-Asian Cultural Studies, the course aims to tackle the complicated network of historicity, images and cultural politics, by mapping out a possible terrain of filmic, cinematic and discursive (inter-)textuality against the backdrop of hollywoodization of world annschuuang and cultural immigination. By looking into the film cultures in India, South Korea, and Isreal (Jewish), and by taking examples from other (post-)nationalist cinema, the course hopes to lay out the alternative ways in re-positioning our own culturl identity, and self-empowering oursleves for immergent change.</p>
-                    <p class="mt-3 fw-semibold">Readings of Communication</p>
-                    <p class="my-3">This course aims to encourage students to communicate and improve their English proficiency, by learning in English about film, TV and other phenomenal pop culture consumption in Taiwan. We will read important English-language academic papers that discuss key issues on these subjects. The continuous negotiation and contention between Confucian traditional norms and emergent modernization desires that have been influenced by cultures from the West, in particular the US, underpins these readings.</p>
-                    <p class="mt-3 fw-semibold">Inter-Cultural Communication: A Visual Approach</p>
-                    <p class="my-3">How do people understand one another when they do not share a common cultural experience? What role can intercultural communication play in the changing world that we live in? What are the ways to better understand intercultural communication in the dynamic world? This tailor-made course aims to provide students to develop cross-cultural awareness and then to develop respective, appropriate behavior in international situations. Designed for the Communication majors and students from other disciplines, the course will further construct cultural understanding in ways of comprehensive image readings, group projects, and other practices. To enrich students' experience in exploring various stages of language use and cultural comprehension, the main content includes basic concepts of intercultural communication, comparison of similarities and differences with other cultures, and intercultural communication in simulated situations.</p>
-                    <p class="mt-3 fw-semibold">Seminar on Corporate Social Responsibility and Social Entrepreneurship</p>
-                    <p class="my-3">This course nurtures students’ ability to read English journal articles and conduct academic research. This course is suitable for students who plan to pursue postgraduate studies.</p>
-                    <p class="mt-3 fw-semibold">Selected Readings in International News</p>
-                    <p class="my-3">This course aims to help students develop skills in reading, listening, and analyzing English news articles and to express personal opinions on certain news topics in English. Students are encouraged to look for the background information on different news topics and to engage in class discussion. The course provides students with an opportunity to increase their vocabulary and keep up with current major issues in the world.</p>
-                    <p class="mt-3 fw-semibold">Popular Culture Stars and Celebrities</p>
-                    <p class="my-3">Media culture often involves individuals expressing particular messages in front of the camera, and their personae are associated with the messages they express. These celebrities have been influential in the contemporary world saturated with media. The studies of celebrities started their examination of the star system and film stars in the American film industry. Today, celebrity studies is an important subfield of critical media and cultural studies, expanding its objects of research to performers in other media. It examines the production of celebrities, the meaning behind the fame of these media celebrities, and the roles that celebrities play in contemporary societies. This course introduces key concepts in the studies of media celebrities. Students taking this course ought to have a foundation in critical media and communication studies, qualitative communication theories, critical theories, media studies, cultural studies, media sociology, etc.</p>
+                    <p class="my-3 text-decoration-underline">Program in Creative Culture and Business Communication:</p>
+                    <ul class="custom-list">
+                        <li>
+                            Culture Studies-Theory and Practice
+                        </li>
+                        <li>
+                            Game-based Programming
+                        </li>
+                        <li>
+                            Intercultural & Flipped Foreign Language Classroom
+                        </li>
+                        <li>
+                            Digital Learning Partner and Language Teaching Practice
+                        </li>
+                        <li>
+                            Natural Language Processing and Python Programming
+                        </li>
+                        <li>
+                            Creative Tourism I: Cultural Thematic tourism
+                        </li>
+                        <li>
+                            Introduction to Business Management
+                        </li>
+                        <li>
+                            Film Analysis & Review Writing
+                        </li>
+                        <li>
+                            Organizational and Communication Skills for Business Purposes
+                        </li>
+                        <li>
+                            Social Media Marketing
+                        </li>
+                        <li>
+                            Business and Management Practice in Asia Pacific Region
+                        </li>
+                        <li>
+                            Innovation Management
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Program in Practical and Professional English for the Digital Age / Advanced English Elective Courses:</p>
+                    <ul class="custom-list">
+                        <li>
+                            English Writing I: Expository Writing
+                        </li>
+                        <li>
+                            Reading (II): News English Reading
+                        </li>
+                        <li>
+                            Cuisine English
+                        </li>
+                        <li>
+                            Business English: Management Practice
+                        </li>
+                        <li>
+                            Reading I: Reading Popular Culture
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Cross Cultural Communication:</p>
+                    <ul class="custom-list">
+                        <li>
+                            Latin America contemporary social topics(I)
+                        </li>
+                        <li>
+                            Chinese Society and Culture
+                        </li>
+                        <li>
+                            Reading English Academic Writing
+                        </li>
+                        <li>
+                            The Bible as Literature
+                        </li>
+                        <li>
+                            Cross Cultural Communication: German-English
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Department of English Language and Literature, undergraduate program</p>
+                    <ul class="circle-list">
+                        <li>
+                            Advanced Elective: Literature and Culture Courses
+                            <ul class="custom-list">
+                                <li>
+                                    Shakespeare
+                                </li>
+                                <li>
+                                    English Literature I: Monsters and Men
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Advanced Elective: Language Studies Courses
+                            <ul class="custom-list">
+                                <li>
+                                    Introduction to TEFL
+                                </li>
+                                <li>
+                                    English Teaching and Educational Psychology
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Advanced Elective: Professional Training Courses
+                            <ul class="custom-list">
+                                <li>
+                                    Applied Computer Technology and Programming
+                                </li>
+                                <li>
+                                    Devised Theatre
+                                </li>
+                                <li>
+                                    Trends and Business
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Department of English Language and Literature, master program</p>
+                    <ul class="circle-list">
+                        <li>
+                            Creative Culture and Business Communication track
+                            <ul class="custom-list">
+                                <li>
+                                    Asian American Graphic Narratives (MA/BA)
+                                </li>
+                                <li>
+                                    Poetry and New Media (MA/BA)
+                                </li>
+                                <li>
+                                    Film Analysis & Review Writing (MA/BA)
+                                </li>
+                                <li>
+                                    Introduction to Business Management (MA/BA)
+                                </li>
+                                <li>
+                                    Organizational and Communication Skills for Business Purposes (MA/BA)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            TESOL and Multimedia Instruction track
+                            <ul class="custom-list">
+                                <li>
+                                    Teaching Pronunciation (MA/BA)
+                                </li>
+                                <li>
+                                    Psychology in Language Classroom (MA/BA)
+                                </li>
+                                <li>
+                                    Using Video in the English Classroom: Methods and Issues (MA/BA)
+                                </li>
+                                <li>
+                                    Intercultural & Flipped Foreign Language Classroom (MA/BA)
+                                </li>
+                                <li>
+                                    Children’s literature in ELT (MA/BA)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="mt-3 fw-semibold">Spring Semester: total 112 courses</p>
+                    <p class="my-3 text-decoration-underline">Program in Western Classical and Medieval Culture</p>
+                    <ul class="custom-list">
+                        <li>
+                            Introductory Latin II
+                        </li>
+                        <li>
+                            Introductory Latin (II)
+                        </li>
+                        <li>
+                            Introductory Attic Greek (II)
+                        </li>
+                        <li>
+                            Latin IV: Augustine
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Program in Diplomacy and International Affairs:</p>
+                    <ul class="custom-list">
+                        <li>
+                            European Union and International Institutions: Policies and Politics
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Program in Creative Culture and Business Communication:</p>
+                    <ul class="custom-list">
+                        <li>
+                            Techniques of Intercultural Business Communication
+                        </li>
+                        <li>
+                            Intercultural Advertising
+                        </li>
+                        <li>
+                            International Business Negotiation
+                        </li>
+                        <li>
+                            Intercultural Teaching and Autonomous Learning
+                        </li>
+                        <li>
+                            Connect the Dot: Data Contextualization
+                        </li>
+                        <li>
+                            Techniques of Intercultural Business Communication
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Program in Practical and Professional English for the Digital Age / Advanced English Elective Courses:</p>
+                    <ul class="custom-list">
+                        <li>
+                            Business Communication: Oral Communication Skills
+                        </li>
+                        <li>
+                            Business letter writing
+                        </li>
+                        <li>
+                            English for the Fashion Industry
+                        </li>
+                        <li>
+                            Reading (I): Reading American Culture
+                        </li>
+                        <li>
+                            Writing (II)： Project Report
+                        </li>
+                        <li>
+                            Business Listening and Conversation
+                        </li>
+                        <li>
+                            Workplace English: Communication Contexts and Strategies
+                        </li>
+                        <li>
+                            Reading (III): Culture and Technology
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Cross Cultural Communication:</p>
+                    <ul class="custom-list">
+                        <li>
+                            Cross Cultural Communication: German-English
+                        </li>
+                        <li>
+                            Latin America contemporary social topics(II)
+                        </li>
+                        <li>
+                            Film appreciation and analysis
+                        </li>
+                        <li>
+                            Twentieth-century Italian Literature and cinema
+                        </li>
+                        <li>
+                            German Literature in English Translation
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Department of English Language and Literature, undergraduate program</p>
+                    <ul class="circle-list">
+                        <li>
+                            Advanced Elective: Literature and Culture Courses
+                            <ul class="custom-list">
+                                <li>
+                                    American Literature I: Beginnings to 1865—Culture and Conflict
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Advanced Elective: Language Studies Courses
+                            <ul class="custom-list">
+                                <li>
+                                    TESOL and Cross-Cultural Communication: Service Learning IV
+                                </li>
+                                <li>
+                                    Teaching Listening and Speaking
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Advanced Elective: Professional Training Courses
+                            <ul class="custom-list">
+                                <li>
+                                    Computer Research and Knowledge Management
+                                </li>
+                                <li>
+                                    Annual Play IV
+                                </li>
+                                <li>
+                                    Cross Cultural Communication: Global Understanding Project
+                                </li>
+                                <li>
+                                    Chinese Culture through Foreign Languages-English
+                                </li>
+                                <li>
+                                    Intercultural Advertising
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="my-3 text-decoration-underline">Department of English Language and Literature, master program</p>
+                    <ul class="circle-list">
+                        <li>
+                            Creative Culture and Business Communication track
+                            <ul class="custom-list">
+                                <li>
+                                    American Literature and Visual Art (MA/BA)
+                                </li>
+                                <li>
+                                    Trauma Narratives and Filmic Adaptations (MA/BA)
+                                </li>
+                                <li>
+                                    Race and Gender in Science Fiction Films (MA/BA)
+                                </li>
+                                <li>
+                                    Connect the Dots: Data Contextualization (MA/BA)
+                                </li>
+                                <li>
+                                    Issue-based new media applications (MA/BA)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            TESOL and Multimedia Instruction track
+                            <ul class="custom-list">
+                                <li>
+                                    Statistics for Language (MA/BA)
+                                </li>
+                                <li>
+                                    Language Acquisition and Teaching (MA/BA)
+                                </li>
+                                <li>
+                                    Teaching and Learning English through Children's Literature: Storytelling & Picture books (MA/BA)
+                                </li>
+                                <li>
+                                    Intercultural Teaching and autonomous learning (MA/BA)
+                                </li>
+                                <li>
+                                    The Application of Corpora in Language Teaching and Learning (MA/BA)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-                <a id="read-more-link-commu-csd" data-bs-toggle="collapse" href="#collapseCommuCsd" role="button" aria-expanded="false" aria-controls="collapseCommuCsd">Read more...</a>
+                <a id="read-more-link-forei-csd" data-bs-toggle="collapse" href="#collapseForeiCsd" role="button" aria-expanded="false" aria-controls="collapseForeiCsd">Read more...</a>
             </div>
         </div>
     </div>
@@ -280,8 +794,9 @@
         <div class="row align-items-start">
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Learning Outcomes</h3>
-                <p class="my-3">Taking European, Hollywood, Asian, and Indian films as the subject of analysis, through the course, students can enjoy movies while gaining a deeper understanding of the diversity and richness of different cultures, broadening their horizons and enhancing their cultural literacy.</p>
-                <p class="my-3">Enhance students' understanding of and ability to analyze global news events, develop students' sensitivity to and respect for different cultures, and increase students' awareness of and critical thinking about international pop culture trends through the curriculum.</p>
+                <p class="my-3">Understanding the intricacies and merits of cultures from different countries all over the world through a myriad of languages, and committed to a holistic education, we aim to educate students to serve society through the study of languages and encourage them to develop a second expertise. We develop students to become international talents with a global perspective equipped with the ability to think independently.</p>
+                <p class="my-3">Center for Cross-Cultural and Cross-Disciplinary Communication:</p>
+                <a href="http://ccc.fl.fju.edu.tw/features-awards.asp" target="_blank">http://ccc.fl.fju.edu.tw/features-awards.asp</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/foreign-languages/外語學院_outcome.jpg" class="container-fluid">
@@ -296,7 +811,7 @@
             </div>
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
-                <p class="my-3">There are 27 full-time teachers, including 5 professors, 12 associate professors, 9 assistant professors, 1 lecturers and over 40 industry teachers.</p>
+                <p class="my-3">Currently there are 76 full-time faculty members, over 100 part time teachers. Foreign teachers consist of 25% of the faculty. The College frequently engages teachers from sister schools internationally to conduct classes.</p>
             </div>
         </div>
     </div>
@@ -305,23 +820,60 @@
         <div class="row align-items-start">
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
-                <p class="my-3 fw-semibold">Teaching equipment-digital photography equipment, aerial camera, lighting equipment, GoPro action camera</p>
-                <p class="my-3">Photography equipment includes a A7S II camera, A7S III camera, AF100 camera, C100Mark II camera, GoPro action camera, ATOMOS professional monitor recorder, Sachtler tripod, and a Parrot aerial camera.</p>
-                <p class="my-3">Recording devices include a F8n multi-track recorder, H6 recorder, BOOM mount with shock absorber, Sennheiser shotgun microphone, Blimp Microphone Windshield, SONY wireless microphone, and a Sennheiser wireless microphone.</p>
-                <p class="my-3">Lighting equipment includes ARRI lighting kits, a C-Stand Grip Arm Kit, Aputure professional lighting kits, a Tolifo professional LED lighting 3kit, a Nanlite Forza60 LED 3 kit-pt, waterproof LED lighting kits, Kino Flo fluorescent lighting, LED fill light, Tracking Dolly kits, and Heavy-duty Tracking Dolly kits.</p>
-                <div class="collapse" id="collapseCommuRf">
-                    <p class="my-3 fw-semibold">TV Production Center</p>
-                    <p class="my-3">The TV Production Center offers students the opportunity to practice TV principles and production processes. The studio and control room utilize a digital video recording system, and are equipped with three cameras with wireless microphone system, a Sync Generator, an intercom system, a sound mixer, 20 LED professional lighting kits, a 50-inch professional monitor recorder and so on.</p>
-                    <p class="my-3 fw-semibold">FJUTV (An online TV channel)</p>
-                    <p class="my-3">FJUTV is an FJCU-centered online platform, which produces news and programs addressing health technology, humanities and arts, and caring for the community. It operates following a broadcasting model and produces video programs on a weekly basis. These programs are entirely produced by students, cultivating students’ all-round skills in reporting, editing, broadcasting, and post-production.</p>
-                    <p class="my-3 fw-semibold">Professional recording studio</p>
-                    <p class="my-3">The recording studio is used in recording and broadcasting courses, such as basic recording and audio mixing for radio broadcast production, radio news production, broadcast announcing, and general TV program production. The College of Communication has also established the Voice of Fu Jen Catholic University (FM88.5) to offer opportunities for students to practice. This experimental radio station is equipped with Adobe Audition editing and recording software, as well as the advanced ProTools recording software.</p>
-                    <p class="my-3 fw-semibold">Computer rooms</p>
-                    <p class="my-3">Five computer rooms are used for different educational purposes, including the production of community newspapers, news websites, graduation exhibitions and projects.</p>
-                    <p class="my-3 fw-semibold">Commercial photography studio</p>
-                    <p class="my-3">The commercial photography studio is designed for introductory and advanced courses in commercial photography. The studio has a total of 10 sets of digital single-lens reflex cameras which meet industry standards, in order to meet the requirements of various types of professional or commercial photography. Moreover, there are cycloramas, strobe lights, fluorescent lights, Tungsten lights, exposure meters, color temperature meters, background stands and other photography equipment.</p>
+                <ul class="custom-list">
+                    <li>
+                        40 ipads
+                    </li>
+                    <li>
+                        College Theatre
+                    </li>
+                    <li>
+                        FG 1F Global Lounge
+                    </li>
+                    <li>
+                        LB 501 Center for Cross-Cultural and Cross-Disciplinary Innovations
+                    </li>
+                    <li>
+                        LB 103 iPad Digital Humanities
+                    </li>
+                    <li>
+                        LB 301 (ENG) Infinite Connections: Joshua's Room
+                    </li>
+                    <li>
+                        LB 101 (German) Enlightenment Classroom
+                    </li>
+                    <li>
+                        LB 203 (French) Salle des Lumières
+                    </li>
+                    <li>
+                        LB 105 (Japanese) Fuji Hall
+                    </li>
+                </ul>
+                <div class="collapse" id="collapseForeiRf">
+                    <p class="my-3">Learning Space Improvement: <a href="http://www.cfl.fju.edu.tw/lr-CFLcourses_e.asp?LR_ID=6" target="_blank">http://www.cfl.fju.edu.tw/lr-CFLcourses_e.asp?LR_ID=6</a></p>
+                    <p class="my-3 fw-semibold">Resource Center of Foreign Language Teaching and Digital Learning</p>
+                    <ul class="custom-list">
+                        <li>
+                            5 Language Labs
+                        </li>
+                        <li>
+                            4 the Distance Learning Classrooms
+                        </li>
+                        <li>
+                            16 audiovisual classrooms
+                        </li>
+                        <li>
+                            14  Multimedia Recording and Broadcasting Room
+                        </li>
+                        <li>
+                            1 Multi-functional AV Expo classroom
+                        </li>
+                        <li>
+                            1 the self-study room
+                        </li>
+                    </ul>
                 </div>
-                <a id="read-more-link-commu-rf" data-bs-toggle="collapse" href="#collapseCommuRf" role="button" aria-expanded="false" aria-controls="collapseCommuRf">Read more...</a>
+                <a id="read-more-link-forei-rf" data-bs-toggle="collapse" href="#collapseForeiRf" role="button" aria-expanded="false" aria-controls="collapseForeiRf">Read more...</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/foreign-languages/外語學院_resources.JPG" class="container-fluid">
@@ -331,15 +883,16 @@
 
     <div class="my-5" id="ow-foreign">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="http://www.comm.fju.edu.tw/node/938?language=en">http://www.comm.fju.edu.tw/node/938?language=en</a>
+        <a href="http://www.cfl.fju.edu.tw/">http://www.cfl.fju.edu.tw/</a>
     </div>
 
     <div class="my-5" id="ci-foreign">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3">Miss Tin  +886 2 29053396   DIG@mail.fju.edu.tw</p>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Jocelyn Yi-Hsuan Lai</p>
-        <p class="my-3">Tel: 886-2-2905-3353</p>
-        <p class="my-3">E-mail: yihlai@gmail.com</p>
+        <p class="my-3">College of Foreign Languages & Literatures, Fu Jen Catholic University No. 510, Zhongzheng Rd., Xinzhuang Dist., New Taipei City 24205, Taiwan (R.O.C.)</p>
+        <p class="my-3 fw-semibold">For further information, please contact Secretaries to the Dean:</p>
+        <p class="my-3">(+886-2-2905-2551)   004617@mail.fju.edu.tw</p>
+        <p class="my-3">(+886-2-2905-3718)   026549@mail.fju.edu.tw</p>
+        <p class="my-3">(+886-2-2905-3307)   158589@mail.fju.edu.tw</p>
+        <p class="my-3">Fax: (02) 2905-2174</p>
     </div>
 </div>

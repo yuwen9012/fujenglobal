@@ -124,28 +124,23 @@ h3, h4 {
     list-style-type: lower-alpha;
 }
 
-.continueDecimal > li {
-    position: relative;
-    /* padding-left: 2em; Adjust padding for numbering */
+.continueDecimal1, .continueDecimal2 {
+    color: #0B3F61;
+    counter-reset: list-counter; /* 初始化計數器 */
 }
 
-.continueDecimal > li::before {
-    content: counter(list-counter) ". ";
-    position: absolute;
+.continueDecimal1 > ul, .continueDecimal2 > ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.continueDecimal1 > ul > li, .continueDecimal2 > ul > li {
     left: 0;
+    counter-increment: list-counter; /* li 元素遞增計數器 */
 }
 
-.continueAlpha {
-    list-style-type: none; /* Remove default styling */
-    counter-reset: alpha-counter;
-}
-.continueAlpha > li {
-    counter-increment: alpha-counter; /* Increment the custom counter */
-    position: relative;
-    /* padding-left: 2em; Adjust padding for numbering */
-}
-.continueAlpha > li::before {
-    content: counter(alpha-counter, lower-alpha) ". "; /* Use lower-alpha for letters */
+.continueDecimal1 > ul > li::before, .continueDecimal2 > ul > li::before {
+    content: counter(list-counter) ". ";
     position: absolute;
     left: 0;
 }
