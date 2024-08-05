@@ -285,15 +285,9 @@
 
                 <?php include 'study-package/human-ecology.php'; ?>
 
-                <div class="tab-pane fade" id="law" role="tabpanel" aria-labelledby="law-tab">
-                    <h3 class="my-3 fw-bolder">College of Law</h3>
-                    <hr>
-                </div>
-
-                <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
-                    <h3 class="my-3 fw-bolder">College of Social Science</h3>
-                    <hr>
-                </div>
+                <?php include 'study-package/law.php'; ?>
+        
+                <?php include 'study-package/social.php'; ?>
 
                 <?php include 'study-package/management.php'; ?>
 

@@ -85,6 +85,18 @@ document.addEventListener('DOMContentLoaded', function() {
         // Human ecology
         { collapseId: '#collapseEcoIntro', linkId: '#read-more-link-eco-intro' },
         { collapseId: '#collapseEcoLo', linkId: '#read-more-link-eco-lo' },
+        //Law
+        { collapseId: '#collapseLawFeatu', linkId: '#read-more-link-Law-featu' },
+        { collapseId: '#collapseLawAmsp', linkId: '#read-more-link-Law-amsp' },
+        { collapseId: '#collapseLawLo', linkId: '#read-more-link-Law-lo' },
+        { collapseId: '#collapseLawRf', linkId: '#read-more-link-Law-rf' },
+        //Social
+        { collapseId: '#collapseSoIntro', linkId: '#read-more-link-So-intro' },
+        { collapseId: '#collapseSoFeatu', linkId: '#read-more-link-So-featu' },
+        { collapseId: '#collapseSoAmsp', linkId: '#read-more-link-So-amsp' },
+        { collapseId: '#collapseSoCsd', linkId: '#read-more-link-So-csd' },
+        { collapseId: '#collapseSoLo', linkId: '#read-more-link-So-lo' },
+        { collapseId: '#collapseSoRf', linkId: '#read-more-link-So-rf' },
         //Management
         { collapseId: '#collapseMaIntro', linkId: '#read-more-link-Ma-intro' },
         { collapseId: '#collapseMaFeatu', linkId: '#read-more-link-Ma-featu' },
@@ -100,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
         // { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
         // { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
+        
     ];
 
     // Function to handle the collapse events
