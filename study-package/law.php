@@ -37,21 +37,18 @@
 
     <div class="my-5" id="introduction-law">
         <div class="row align-items-start">
-            <div class="col-md-6 justify-text">
+            <div class="col-md-12 justify-text">
                 <h3 class="my-3 fw-semibold">Introduction</h3>
                 <p class="my-3" style="margin: 0; padding: 0; line-height: 1; display: inline;">When Fu Jen Catholic University (FJCU) was reestablished in Taiwan in 1963, the College of Law was also established and later transformed into a School of Law. At present the School of Law is composed of three departments: Department of Law, Department of Financial and Economic Law, and Graduate Department of Law. It also has a Legal Service Center and publishes Fu Jen Law Review. It is a high-quality professional law college with a most complete learning system and community integration.</p>
             </div>
-            <div class="col-md-6">
+            <!--<div class="col-md-6">
                 <img src="images/study-package/law/law1.png" class="container-fluid">
-            </div>
+            </div>-->
         </div>
     </div>
 
     <div class="my-5" id="features-law">
         <div class="row align-items-start">
-            <div class="col-md-6">
-                <img src="images/study-package/law/law2.png" class="container-fluid">
-            </div>
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <span class="my-3">The School of Law of Fu Jen Catholic University is a pivotal center of law in Taiwan. In addition to cultivating students' legal knowledge, it also cultivates legal talents with equal emphasis on both knowledge and specialty. Also emphasized are the development of moral and academic qualities through various educational methods such as holistic education, legal ethics, service learning, and cooperation between industry and university. At the same time, the School emphasizes the promotion of foreign language ability, broadens the macro-international vision, promotes a plan of fostering elites, and contributes to the country by combining theory and practice.</span>
@@ -60,11 +57,17 @@
                 </div>
                 <a id="read-more-link-Law-featu" data-bs-toggle="collapse" href="#collapseLawFeatu" role="button" aria-expanded="false" aria-controls="collapseLawFeatu">Read more...</a>
             </div>
+            <div class="col-md-6">
+                <img src="images/study-package/law/law2.png" class="container-fluid">
+            </div>
         </div>
     </div>
 
     <div class="my-5" id="amsp-law">
         <div class="row align-items-start">
+            <div class="col-md-6">
+                <img src="images/study-package/law/law3.jpg" class="container-fluid">
+            </div>
             <div class="col-md-6 justify-text">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <span class="my-3">There are 3 departments in the School of Law. Both Department of Law and Department of Financial and Economic Law offer LL.B. and LL.M. degrees, and the Department of Law provides the Ph. D. in law program. The Graduate Department of Law is equivalent to the J.D. program in U.S. which recruits students with bachelor degrees.</span>
@@ -75,9 +78,7 @@
                 <a id="read-more-link-Law-amsp" data-bs-toggle="collapse" href="#collapseLawAmsp" role="button" aria-expanded="false" aria-controls="collapseLawAmsp">Read more...</a>
 
             </div>
-            <div class="col-md-6">
-                <img src="images/study-package/law/law3.jpg" class="container-fluid">
-            </div>
+            
         </div>
     </div>
 
