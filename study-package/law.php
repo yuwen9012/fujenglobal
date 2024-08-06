@@ -83,10 +83,10 @@
 
     <div class="my-5" id="csd-law">
         <div class="row align-items-start">
-            <div class="col-md-6">
-                <!--<img src="images/study-package/law/law4.jpg" class="container-fluid">-->
-            </div>
-            <div class="col-md-6 justify-text">
+            <!--<div class="col-md-6">
+                <img src="images/study-package/law/law4.jpg" class="container-fluid">
+            </div>-->
+            <div class="col-md-12 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3">The School of Law offers main local law courses in three major groups. The Public Law group includes Constitution, Administrative Law and other courses in specific topics in this field. The Criminal Law group offers Criminal Law, Criminal Procedure and other courses in specific topics in this field. The Civil and Commercial Law group provides Civil Law courses over procedure, debts, property, family and succession, as well as Commercial Law courses including Corporation, Securities, Insurance, Negotiable Instruments and Maritime Law.</p>
             </div>
