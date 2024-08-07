@@ -22,8 +22,8 @@
         </div>
 
         <div class="col-4 d-flex flex-column justify-content-center text-end" id="footer-team">
-            <span class="text-white fs-9">製作: 陳郁雯、郭政億、王孟蘋</span>
-            <span class="text-white fs-9">指導: 輔仁大學統計資訊學系 杜逸寧 副教授</span>
+            <span class="text-white fs-9"><a href="team.php" class="text-white text-decoration-none">製作: 陳郁雯、郭政億、王孟蘋</a></span>
+            <span class="text-white fs-9"><a href="team.php" class="text-white text-decoration-none">指導: 輔仁大學統計資訊學系 杜逸寧 副教授</a></span>
         </div>
     </div>
 </footer>
