@@ -1,3 +1,5 @@
+/*與首頁相同部分*/
+/*-----------------------------------------------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -33,43 +35,54 @@ body {
     margin-right: 8px;
     cursor: pointer;
 }
-
+/*-----------------------------------------------------------------*/
+/* 區塊標題 */
 h3 {
     color: #0B3F61;
     font-size: 26px;
 }
-h4 {
-    color: #0B3F61;
-    font-size: 16px;
-}
-/*時間軸區塊*/
-.timeline-container {
+
+/* 第一區塊 */
+/*-----------------------------------------------------------------*/
+/* 外層容器(含標題) */
+.container1 {
     max-width: 80%;
     margin: 50px auto;
     margin-top: 20px;
 }
-/*時間軸*/
+
+/* 內部容器(純時間軸) */
+.timeline-wrapper {
+    display: flex;
+    justify-content: center; /* 使時間軸在水平方向上置中 */
+}
+
+/* 時間軸 */
 .timeline {
-    margin-left: 10%;
-    width: 80%;
     position: relative;
     padding: 0px 0;
     list-style: none;
+    text-align: left; /* 使時間軸內的內容對齊左邊 */
+}
+
+/* 調整時間軸項目的樣式（可選） */
+.timeline-item {
+    margin: 10px 0; /* 調整項目間距 */
 }
 
 /*垂直線*/
 .timeline::before {
     content: '';
     position: absolute;
-    top: 8px;
-    bottom: 8px;
+    top: 20px;
+    bottom: 25px;
     width: 2px;
     background: #132548;
     left: 50px;
     margin-left: -1.5px;
 }
 
-/*項目(文字)*/
+/*項目(每一條)*/
 .timeline-item {
     position: relative;
     margin-bottom: 20px;
@@ -87,21 +100,31 @@ h4 {
     background: #132548;
     border: 2px solid #132548;
 }
+
+/*項目字樣*/
 .timeline-item p {
     margin: 0;
     padding-left: 90px;
     font-size: 16px;
     color:  #132548;
 }
+
+/*項目重點字樣*/
 .timeline-item p2 {
     color:  #A73929;
 }
 
-.qualification-container {
+
+/*-----------------------------------------------------------------*/
+/*第二區塊*/
+
+/*容器(含標題)*/
+.container2 {
     max-width: 80%;
     margin: 50px auto;
 }
 
+/*圈圈容器*/
 .circle-container {
     display: flex;
     justify-content: center;
@@ -112,6 +135,7 @@ h4 {
     padding-bottom: 10px;
 }
 
+/*圈圈本人*/
 .circle {
     display: flex;
     justify-content: center;
@@ -126,15 +150,39 @@ h4 {
     transition: background-color 0.3s; /* 過渡效果 */
 }
 
+/*圈圈效果*/
 .circle:hover {
     background-color: #E2D08D; /* 滑鼠移過去的顏色 */
 }
 
-.checklist-container {
+
+/* 文字容器 */
+.text-container {
+    width: 70%; /* 設置文字容器寬度為格子的 80% */
+    margin: 0 auto; /* 使文字容器在格子中水平居中 */
+}
+
+/*文字字樣*/
+h4 {
+    color: #0B3F61;
+    font-size: 16px;
+}
+
+
+/*-----------------------------------------------------------------*/
+/*第三區塊*/
+.container3 {
     max-width: 80%;
     margin: 50px auto;
     margin-top: 20px;
+    
 }
+.checklist-container{
+    margin: 0 auto; /* 將容器水平居中 */
+    display: flex; /* 使用 flex 布局 */
+    margin-left: 10%;
+}
+
 
 .checklist {
     list-style-type: disc; /* 設置點點為圓形 */
@@ -149,4 +197,33 @@ h4 {
 
 footer {
     background-color: #132548 !important;
+}
+
+
+
+/*RWD*/
+@media (max-width: 768px) { 
+    .container1,
+    .container2,
+    .container3 {
+        max-width: 90%;
+    }
+    .checklist-container{
+    flex-direction: column; /* 垂直排列項目 */
+    align-items: center; /* 水平居中對齊項目 */
+    margin-left: 0;
+    }
+}
+
+@media (max-width: 585px) {
+    .timeline::before {
+        bottom: 50px;
+    }
+}
+
+
+@media (max-width: 385px) {
+    .timeline::before {
+        bottom: 80px;
+    }
 }

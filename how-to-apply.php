@@ -42,80 +42,92 @@
         </div>
     </nav>
     
-    <div class="timeline-container">
+    <div class="container1">
         <h3 class="my-3 fw-bolder">Program Timeline</h3>
-        <ul class="timeline">
-            <li class="timeline-item">
-                <p>Submit Application Documents: <strong>Before 30th October</strong></p>
-            </li>
-            <li class="timeline-item">
-                <p>Review of Applications: <strong>November</strong></p>
-            </li>
-            <li class="timeline-item">
-                <p>Notification of Review Results: <strong>December</strong></p>
-            </li>
-            <li class="timeline-item">
-                <p>Submit Enrollment Documents: <strong>December</strong></p>
-            </li>
-            <li class="timeline-item">
-                <p>Issuance of Admission</p>
-            </li>
-            <li class="timeline-item">
-                <p>Arrange the Travel to Taiwan (visa, tickets, accommodation, etc.)</p>
-            </li>
-            <li class="timeline-item">
-                <p>Notifies the Dormitory Room Numbers: <strong>January</strong></p>
-            </li>
-            <li class="timeline-item">
-                <p>Program Period: <strong>February</strong>; Flexible Learning Weeks:  <strong>9th June – 21th June</strong><br> <p2>*Actual teaching and exam dates are subject to the course syllabus.</p2></p>
-               
-            </li>
-            <li class="timeline-item">
-                <p>Sends Transcripts to Student(via email): <strong>End of August</strong></p>
-            </li>
-        </ul>
-    </div>
-    <div class="qualification-container">
-        <h3 class="my-3 fw-bolder">Program Qualification</h3>
-        <div class="row" id="scorer">
-            <div class="col-md-3 text-center my-5">
-                <div class="circle-container">
-                    <div class="circle">1</div>
-                </div>
-                <h4 class="fw-normal py-3">Have a minimum GPA (grade point average) of 2.5 on a 4-point scale, or equivalent.</h4>
+        <div class="timeline-wrapper">
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <p>Submit Application Documents: <strong>Before 30th October</strong></p>
+                </li>
+                <li class="timeline-item">
+                    <p>Review of Applications: <strong>November</strong></p>
+                </li>
+                <li class="timeline-item">
+                    <p>Notification of Review Results: <strong>December</strong></p>
+                </li>
+                <li class="timeline-item">
+                    <p>Submit Enrollment Documents: <strong>December</strong></p>
+                </li>
+                <li class="timeline-item">
+                    <p>Issuance of Admission</p>
+                </li>
+                <li class="timeline-item">
+                    <p>Arrange the Travel to Taiwan (visa, tickets, accommodation, etc.)</p>
+                </li>
+                <li class="timeline-item">
+                    <p>Notifies the Dormitory Room Numbers: <strong>January</strong></p>
+                </li>
+                <li class="timeline-item">
+                    <p>Program Period: <strong>February</strong>; Flexible Learning Weeks:  <strong>9th June – 21th June</strong><br> <p2>*Actual teaching and exam dates are subject to the course syllabus.</p2></p>
                 
-            </div>
-
-            <div class="col-md-3 text-center my-5">
-                <div class="circle-container">
-                    <div class="circle">2</div>
-                </div>
-                <h4 class="fw-normal py-3">You should be a full-time student at your home institution during the application and study period.</h4>
-               
-            </div>
-
-            <div class="col-md-3 text-center my-5">
-                <div class="circle-container">
-                    <div class="circle">3</div>
-                </div>
-                <h4 class="fw-normal py-3"> Have completed at least one year of full-time study at your home university.</h4>
-                
-            </div>
-
-            <div class="col-md-3 text-center my-5">
-                <div class="circle-container">
-                    <div class="circle">4</div>
-                </div>
-                <h4 class="fw-normal py-3">Please refer to the program's individual Language Requirements.</h4>
-                
-            </div>
+                </li>
+                <li class="timeline-item">
+                    <p>Sends Transcripts to Student(via email): <strong>End of August</strong></p>
+                </li>
+            </ul>
         </div>
     </div>
+    <div class="container2">
+        <h3 class="my-3 fw-bolder">Program Qualification</h3>
+        <div id="container2">
+            <div class="text-center">
+                <div class="row mx-auto" style="max-width: 90%;">
+                    <div class="col-md-3 text-center my-5 mb-0">
+                        <div class="circle-container">
+                            <div class="circle">1</div>
+                        </div>
+                        <div class="text-container">
+                            <h4 class="fw-normal py-3">Have a minimum GPA (grade point average) of 2.5 on a 4-point scale, or equivalent.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 text-center my-5 mb-0">
+                        <div class="circle-container">
+                            <div class="circle">2</div>
+                        </div>
+                        <div class="text-container">
+                            <h4 class="fw-normal py-3">You should be a full-time student at your home institution during the application and study period.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 text-center my-5 mb-0">
+                        <div class="circle-container">
+                            <div class="circle">3</div>
+                        </div>
+                        <div class="text-container">
+                            <h4 class="fw-normal py-3">Have completed at least one year of full-time study at your home university.</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 text-center my-5 mb-0">
+                        <div class="circle-container">
+                            <div class="circle">4</div>
+                        </div>
+                        <div class="text-container">
+                            <h4 class="fw-normal py-3">Please refer to the program's individual Language Requirements.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
-    <div class="checklist-container">
+    <div class="container3">
         <h3 class="my-3 fw-bolder">Application Document Checklist</h3>
-        <ul class="checklist">
+        <div class="checklist-container">
+            <ul class="checklist">
             <li>Application Form</li>
             <li>Complete academic transcripts</li>
             <li>Recommendation letter from an instructor</li>
@@ -123,7 +135,8 @@
             <li>Information page from your passport</li>
             <li>Proof of language proficiency (exemption: English native speaker)</li>
             <li>Passport photo</li>
-        </ul>
+            </ul>
+        </div>
     </div>
 
     <?php include 'footer.php'; ?>
