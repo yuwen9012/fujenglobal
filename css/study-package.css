@@ -155,3 +155,27 @@ h3, h4 {
 /* .with-divider {
     border-left: 1px solid rgba(255, 255, 255, 0.575);
 } */
+
+.btn-no-style {
+    background-color: #FFFEFB;
+    border: none;
+    padding: 0;
+    font-size: 30px;
+}
+
+.btn-no-style i {
+    border: none;
+    background: none;
+    color: #E2D08D;
+}
+
+@media (max-width: 992px) {
+    .content {
+        width: 100vw;
+    }
+}
+
+#offcanvasNavbar {
+    background-color: #FFFCF1;
+    color: #0B3F61;
+}
