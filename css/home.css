@@ -74,7 +74,6 @@ body {
     position: absolute;
     bottom: -30%;
     left: -20%;
-    /* left: -20%; */
 }
 
 .second-navbar .nav-item {
@@ -191,3 +190,51 @@ footer {
 /* .with-divider {
     border-left: 1px solid rgba(255, 255, 255, 0.575);
 } */
+
+@media (max-width: 1200px) {
+    #second-list {
+        display: none;
+    }
+}
+
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 30px;
+    color: inherit;
+}
+
+.btn-no-style i {
+    border: none;
+    background: none;
+}
+
+#offcanvasNavbar {
+    background-color: #132548;
+    color: #FFFFFF;
+}
+
+.btn-close {
+    filter: invert(100%);
+}
+
+.offcanvas-body .nav-link {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.offcanvas-body .nav-link:hover {
+    background-color: #3F5071;
+}
+
+.offcanvas-body .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3F5071;
+    transition: background-color 0.3s ease;
+}

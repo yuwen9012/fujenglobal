@@ -11,9 +11,10 @@ footer {
     background-color: #132548 !important;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 360px) {
     .navbar-expand-lg .navbar-nav {
         flex-direction: row !important;
+        font-size: smaller;
     }
 }
 
