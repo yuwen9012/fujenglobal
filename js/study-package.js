@@ -59,6 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
         // Liberal art
         { collapseId: '#collapseLiberIntro', linkId: '#read-more-link-liber-intro' },
         { collapseId: '#collapseLiberFeatu', linkId: '#read-more-link-liber-featu' },
+        //Art
+        { collapseId: '#collapseArtAmsp', linkId: '#read-more-link-Art-Amsp' },
+        { collapseId: '#collapseArtLo', linkId: '#read-more-link-Art-lo' },
+        { collapseId: '#collapseArtFF', linkId: '#read-more-link-Art-ff' },
         // Communication
         { collapseId: '#collapseCommuIntro', linkId: '#read-more-link-commu-intro' },
         { collapseId: '#collapseCommuFeatu', linkId: '#read-more-link-commu-featu' },
