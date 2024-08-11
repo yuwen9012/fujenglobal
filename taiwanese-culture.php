@@ -424,7 +424,7 @@
 <!-- 第八區塊 --> 
     <div class="container-fluid introduction-block" style="background-color: #FFF9E6;">
         <br>
-        <p class="heading">CCLC International Cultural Festival</p>
+        <p class="heading">CCLC Moon Festival Cultural Trip</p>
              <div class="row">
                  <div class="col-md-2 left-section"></div>
                  <div class="col-md-4 center-section">
@@ -548,7 +548,7 @@
 <!-- 第十一區塊 --> 
     <div class="container-fluid introduction-block">
         <br>
-        <p class="heading">Tainan 2 Days Trip</p>
+        <p class="heading">Taiwan BangZi Opera Cultural Event</p>
 
              <div class="row">
                  <div class="col-md-2 left-section"></div>
