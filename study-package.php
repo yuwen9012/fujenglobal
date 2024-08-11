@@ -50,48 +50,50 @@
             <h5 class="offcanvas-title fs-2 fw-bolder" id="offcanvasNavbarLabel">Menu</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action active py-3" id="bpis-tab" data-bs-toggle="list" href="#bpis" role="tab" aria-controls="bpis">Fu Jen Global Academy (BPIS)</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="liberal-tab" data-bs-toggle="list" href="#liberal" role="tab" aria-controls="liberal">College of Liberal Art</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="art-tab" data-bs-toggle="list" href="#art" role="tab" aria-controls="art">College of Art</a>
+        <div class="offcanvas-body overflow-y-auto">
+            <div class="list-group" id="list-tab" role="tablist">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action active py-3" id="bpis-tab-sm" data-bs-toggle="list" href="#bpis" role="tab" aria-controls="bpis">Fu Jen Global Academy (BPIS)</a>
                     </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="communication-tab" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="education-tab" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="medicine-tab" data-bs-toggle="list" href="#medicine" role="tab" aria-controls="medicine">College of Medicine</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="engineering-tab" data-bs-toggle="list" href="#engineering" role="tab" aria-controls="engineering">College of Science & Engineering</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="foreign-tab" data-bs-toggle="list" href="#foreign" role="tab" aria-controls="foreign">College of Foreign Languages</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="ecology-tab" data-bs-toggle="list" href="#ecology" role="tab" aria-controls="ecology">College of Human Ecology</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="law-tab" data-bs-toggle="list" href="#law" role="tab" aria-controls="law">College of Law</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="social-tab" data-bs-toggle="list" href="#social" role="tab" aria-controls="social">College of Social Science</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="management-tab" data-bs-toggle="list" href="#management" role="tab" aria-controls="management">College of Management</a>
-                </li>
-                <li class="nav-item fs-5 my-2">
-                    <a class="list-group-item list-group-item-action py-3" id="fashion-tab" data-bs-toggle="list" href="#fashion" role="tab" aria-controls="fashion">College of Fashion & Textiles</a>
-                </li>
-            </ul>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="liberal-tab-sm" data-bs-toggle="list" href="#liberal" role="tab" aria-controls="liberal">College of Liberal Art</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="art-tab-sm" data-bs-toggle="list" href="#art" role="tab" aria-controls="art">College of Art</a>
+                        </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="communication-tab-sm" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="education-tab-sm" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="medicine-tab-sm" data-bs-toggle="list" href="#medicine" role="tab" aria-controls="medicine">College of Medicine</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="engineering-tab-sm" data-bs-toggle="list" href="#engineering" role="tab" aria-controls="engineering">College of Science & Engineering</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="foreign-tab-sm" data-bs-toggle="list" href="#foreign" role="tab" aria-controls="foreign">College of Foreign Languages</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="ecology-tab-sm" data-bs-toggle="list" href="#ecology" role="tab" aria-controls="ecology">College of Human Ecology</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="law-tab-sm" data-bs-toggle="list" href="#law" role="tab" aria-controls="law">College of Law</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="social-tab-sm" data-bs-toggle="list" href="#social" role="tab" aria-controls="social">College of Social Science</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="management-tab-sm" data-bs-toggle="list" href="#management" role="tab" aria-controls="management">College of Management</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="list-group-item list-group-item-action py-3" id="fashion-tab-sm" data-bs-toggle="list" href="#fashion" role="tab" aria-controls="fashion">College of Fashion & Textiles</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -99,66 +101,66 @@
         <a class="btn-no-style m-2 d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
             <i class="fas fa-bars"></i>
         </a>
+    </div>
 
-        <div class="d-flex flex-row">
-            <div class="sidebar d-none d-lg-block">
-                <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active py-3" id="bpis-tab" data-bs-toggle="list" href="#bpis" role="tab" aria-controls="bpis">Fu Jen Global Academy (BPIS)</a>
-                    <a class="list-group-item list-group-item-action py-3" id="liberal-tab" data-bs-toggle="list" href="#liberal" role="tab" aria-controls="liberal">College of Liberal Art</a>
-                    <a class="list-group-item list-group-item-action py-3" id="art-tab" data-bs-toggle="list" href="#art" role="tab" aria-controls="art">College of Art</a>
-                    <a class="list-group-item list-group-item-action py-3" id="communication-tab" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
-                    <a class="list-group-item list-group-item-action py-3" id="education-tab" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education</a>
-                    <a class="list-group-item list-group-item-action py-3" id="medicine-tab" data-bs-toggle="list" href="#medicine" role="tab" aria-controls="medicine">College of Medicine</a>
-                    <a class="list-group-item list-group-item-action py-3" id="engineering-tab" data-bs-toggle="list" href="#engineering" role="tab" aria-controls="engineering">College of Science & Engineering</a>
-                    <a class="list-group-item list-group-item-action py-3" id="foreign-tab" data-bs-toggle="list" href="#foreign" role="tab" aria-controls="foreign">College of Foreign Languages</a>
-                    <a class="list-group-item list-group-item-action py-3" id="ecology-tab" data-bs-toggle="list" href="#ecology" role="tab" aria-controls="ecology">College of Human Ecology</a>
-                    <a class="list-group-item list-group-item-action py-3" id="law-tab" data-bs-toggle="list" href="#law" role="tab" aria-controls="law">College of Law</a>
-                    <a class="list-group-item list-group-item-action py-3" id="social-tab" data-bs-toggle="list" href="#social" role="tab" aria-controls="social">College of Social Science</a>
-                    <a class="list-group-item list-group-item-action py-3" id="management-tab" data-bs-toggle="list" href="#management" role="tab" aria-controls="management">College of Management</a>
-                    <a class="list-group-item list-group-item-action py-3" id="fashion-tab" data-bs-toggle="list" href="#fashion" role="tab" aria-controls="fashion">College of Fashion & Textiles</a>
-                </div>
+    <div class="d-flex flex-row">
+        <div class="sidebar d-none d-lg-block">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active py-3" id="bpis-tab" data-bs-toggle="list" href="#bpis" role="tab" aria-controls="bpis">Fu Jen Global Academy (BPIS)</a>
+                <a class="list-group-item list-group-item-action py-3" id="liberal-tab" data-bs-toggle="list" href="#liberal" role="tab" aria-controls="liberal">College of Liberal Art</a>
+                <a class="list-group-item list-group-item-action py-3" id="art-tab" data-bs-toggle="list" href="#art" role="tab" aria-controls="art">College of Art</a>
+                <a class="list-group-item list-group-item-action py-3" id="communication-tab" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
+                <a class="list-group-item list-group-item-action py-3" id="education-tab" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education</a>
+                <a class="list-group-item list-group-item-action py-3" id="medicine-tab" data-bs-toggle="list" href="#medicine" role="tab" aria-controls="medicine">College of Medicine</a>
+                <a class="list-group-item list-group-item-action py-3" id="engineering-tab" data-bs-toggle="list" href="#engineering" role="tab" aria-controls="engineering">College of Science & Engineering</a>
+                <a class="list-group-item list-group-item-action py-3" id="foreign-tab" data-bs-toggle="list" href="#foreign" role="tab" aria-controls="foreign">College of Foreign Languages</a>
+                <a class="list-group-item list-group-item-action py-3" id="ecology-tab" data-bs-toggle="list" href="#ecology" role="tab" aria-controls="ecology">College of Human Ecology</a>
+                <a class="list-group-item list-group-item-action py-3" id="law-tab" data-bs-toggle="list" href="#law" role="tab" aria-controls="law">College of Law</a>
+                <a class="list-group-item list-group-item-action py-3" id="social-tab" data-bs-toggle="list" href="#social" role="tab" aria-controls="social">College of Social Science</a>
+                <a class="list-group-item list-group-item-action py-3" id="management-tab" data-bs-toggle="list" href="#management" role="tab" aria-controls="management">College of Management</a>
+                <a class="list-group-item list-group-item-action py-3" id="fashion-tab" data-bs-toggle="list" href="#fashion" role="tab" aria-controls="fashion">College of Fashion & Textiles</a>
             </div>
-            <div class="content">
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">
-                        <h3 class="my-3 fw-bolder">Fu Jen Global Academy(BPIS)</h3>
-                        <hr>
-                        <div class="text-block">
-                            <span class="justify-text">Chief of Internationalization</span>
-                            <span class="justify-text">Mike Ma</span>
-                            <span class="justify-text">Tel: 886-2-2905-3099</span>
-                            <span class="justify-text">E-mail: 062970@mail.fju.edu.tw</span>
-                            <br>
-                            <span class="justify-text">Jenny Chen</span>
-                            <span class="justify-text">Tel: 886-2-2905-6315</span>
-                            <span class="justify-text">E-mail: 407138022@fjuedu.onmicrosoft.com</span>
-                        </div>
+        </div>
+        <div class="content">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">
+                    <h3 class="my-3 fw-bolder">Fu Jen Global Academy(BPIS)</h3>
+                    <hr>
+                    <div class="text-block">
+                        <span class="justify-text">Chief of Internationalization</span>
+                        <span class="justify-text">Mike Ma</span>
+                        <span class="justify-text">Tel: 886-2-2905-3099</span>
+                        <span class="justify-text">E-mail: 062970@mail.fju.edu.tw</span>
+                        <br>
+                        <span class="justify-text">Jenny Chen</span>
+                        <span class="justify-text">Tel: 886-2-2905-6315</span>
+                        <span class="justify-text">E-mail: 407138022@fjuedu.onmicrosoft.com</span>
                     </div>
-
-                    <?php include 'study-package/liberal-art.php'; ?>
-
-                    <?php include 'study-package/art.php'; ?>
-
-                    <?php include 'study-package/communication.php'; ?>
-
-                    <?php include 'study-package/education.php'; ?>
-
-                    <?php include 'study-package/medicine.php'; ?>
-
-                    <?php include 'study-package/engineering.php'; ?>
-
-                    <?php include 'study-package/foreign-languages.php'; ?>
-
-                    <?php include 'study-package/human-ecology.php'; ?>
-
-                    <?php include 'study-package/law.php'; ?>
-            
-                    <?php include 'study-package/social.php'; ?>
-
-                    <?php include 'study-package/management.php'; ?>
-
-                    <?php include 'study-package/fashion.php'; ?>
                 </div>
+
+                <?php include 'study-package/liberal-art.php'; ?>
+
+                <?php include 'study-package/art.php'; ?>
+
+                <?php include 'study-package/communication.php'; ?>
+
+                <?php include 'study-package/education.php'; ?>
+
+                <?php include 'study-package/medicine.php'; ?>
+
+                <?php include 'study-package/engineering.php'; ?>
+
+                <?php include 'study-package/foreign-languages.php'; ?>
+
+                <?php include 'study-package/human-ecology.php'; ?>
+
+                <?php include 'study-package/law.php'; ?>
+        
+                <?php include 'study-package/social.php'; ?>
+
+                <?php include 'study-package/management.php'; ?>
+
+                <?php include 'study-package/fashion.php'; ?>
             </div>
         </div>
     </div>
