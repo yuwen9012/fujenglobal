@@ -1,0 +1,361 @@
+/*表格*/
+
+ table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+        }
+        th {
+            background-color: #132548;
+            color: #FFFFFF;
+        }
+        tr:nth-child(even) {
+            background-color: #FFFFFF;
+        }
+        tr:hover {
+            background-color: #FFF9E6;
+        }
+        .red-circle {
+            color: red;
+        }
+        .custom-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .custom-list li {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .justify-text {
+            display: block;
+            margin-top: 20px;
+            text-align: justify;
+        }
+/*表格*/
+
+/*影片*/
+.video{
+    width:100%;
+    height:100%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.video2{
+    width:100%;
+    height:100%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ }   
+/*影片*/
+
+
+/*文字不換行*/
+.no-break {
+   display: inline;
+   justify-content: center;
+}
+
+
+/*標題*/
+.heading{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+display: flex;
+align-items: center;
+color: #0B3F61;
+justify-content: center;
+}
+
+/*照片內文*/
+.content-inner{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+text-align: justify;
+justify-content: center;
+color: #0B3F61;
+position: relative;
+left: 20px;
+top: 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.sidebar {
+    left: 0;
+    width: 350px;
+    height: calc(100vh - 125px);
+    overflow-y: auto;
+    background-color: #FFFCF1;
+    border-right: 1px solid #dee2e6;
+}
+
+.list-group a {
+    color: #0B3F61;
+    background-color: #FFFCF1;
+    border-radius: 0% !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.list-group-item.active {
+    background-color: #E2D08D !important;
+    border-color: #E2D08D !important;
+    font-weight: bolder;
+}
+
+.content {
+    padding: 20px;
+    width: calc(100vw - 350px);
+    height: calc(100vh - 125px);
+    background-color: #FFFEFB;
+    overflow-y: auto;
+}
+
+.nav-link.btn {
+    background-color: #5968B8;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.btn:hover {
+    background-color: #87a5dd;
+    color: #fff;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+    display: none; /* 初始隱藏 */
+    color: #FFFFFF;
+    background-color: rgba(11, 63, 97, 0.7);
+    z-index: 9999;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.back-to-top:hover {
+    background-color: rgba(11, 63, 97, 0.9);
+}
+
+h3, h4 {
+    color: #0B3F61;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-list {
+    color: #0B3F61;
+    list-style-type: disc; /* 實心圓點 */
+}
+
+footer {
+    background-color: #132548 !important;
+}
+
+h2{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 35px;
+   line-height: 60px;
+/* identical to box height */
+   color: #0B3F61;
+}
+
+.block2,.block4,.block6,.block8,.block10{
+    background-color: #FFF9E6;
+}
+
+
+.col-md-2_5 {
+    flex: 0 0 auto;
+    width: 20%;
+}
+
+.col-md-1_5 {
+    flex: 0 0 auto;
+    width: 12%;
+}
+
+
+
+.col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-md-5 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.col-md-12 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.col-md-4,.col-md-2 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*Tainan 2 Days Trip 文字*/
+.justify-text10{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: justify;
+    color: #132548;
+    justify-content: center;
+}
+
+/*BangZi Opera 文字*/
+.justify-text11{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    color: #132548;
+    justify-content: center;
+}
+
+/*輪播牆*/
+
+.carousel-control-prev {
+    left: 0; /* 將左箭頭與圖片左邊緣對齊 */
+}
+
+.carousel-control-next {
+    right: 0; /* 將右箭頭與圖片右邊緣對齊 */
+}
+
+#mainImage2 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage3 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage4 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage5 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage6 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage7 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage8 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+#mainImage9 {
+    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    height: auto; /* 保持圖片的寬高比 */
+    margin-bottom: 10px;
+}
+
+.carousel-inner {
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item {
+    flex: 0 0 70%;
+}
+
+.carousel-item .d-flex {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.carousel-item img {
+    flex: 0 0 20%;
+    max-width: 20%;
+    margin-right: 10px;
+}
