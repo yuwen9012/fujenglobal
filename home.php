@@ -132,7 +132,7 @@
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="p-3">
                     <h2>Fu Jen Catholic University</h2>
                     <p id="introduction-text">(FJCU) is the top ranked private university in Taiwan, and is also on the THE Impact Rankings query of keywords for SDGs (Sustainable Development Goals), dedicating to improve social inclusion and environmental protection. FJCU is the only comprehensive university under the direct authority of the Holy See among Chinese-speaking countries with outstanding academic excellence.</p>
@@ -140,18 +140,18 @@
                     <!-- <button type="button" class="btn-custom mx-3">Campus Life</button> -->
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="row gx-4 gy-4">
-                    <div class="col-md-6">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center">
                         <img src="images/1 首頁-四格照-左上.jpg" class="img-fixed-height rounded" alt="Image 1">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center">
                         <img src="images/1 首頁-四格照-右上.jpg" class="img-fixed-height rounded" alt="Image 2">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center">
                         <img src="images/1 首頁-四格照-左下.jpg" class="img-fixed-height rounded" alt="Image 3">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12 col-sm-6 d-flex justify-content-center">
                         <img src="images/1 首頁-四格照-右下.jpg" class="img-fixed-height rounded" alt="Image 4">
                     </div>
                 </div>
