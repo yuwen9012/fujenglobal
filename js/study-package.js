@@ -54,6 +54,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // offcanvas點擊後關閉
+    var offcanvasElement = document.getElementById('offcanvasNavbar');
+            var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+
+            // Add event listeners to close the offcanvas when an item is clicked
+            var links = offcanvasElement.querySelectorAll('.list-group-item');
+            links.forEach(function(link) {
+                link.addEventListener('click', function () {
+                    offcanvas.hide(); // Hide the offcanvas menu
+                });
+            });
+
     // Define an array of collapse IDs and corresponding link IDs
     const collapses = [
         // Liberal art
