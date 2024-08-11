@@ -178,8 +178,8 @@ h2, p {
 
 .img-fixed-height {
     height: 200px;
-    width: 500px;
-    display: block;
+    width: 250px;
+    object-fit: cover;
     max-width: 100%;
 }
 
