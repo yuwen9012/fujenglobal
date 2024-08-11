@@ -202,20 +202,20 @@
                 <h2 class="div-title">Fu Jen Alumni Associations</h2>
                 <div class="sub-container">
                     <div class="row mb-5">
-                        <div class="col-6 ">
+                        <div class="col-md-6">
                             <p class="text-color">
                                 Alumni associations to act as a bridge between FJCU and its alumni, building connections through the activities and promotion of these associations so as to continue the Fu Jen spirit.
                             </p>
                         </div>
-                        <div class="col-6"> 
+                        <div class="col-md-6"> 
                             <img src="images/why1.jpg" class="img-fluid" alt="Alumni Associations">
                         </div>
                     </div>
                     <div class="row ">
-                        <div class="col-6 ">
+                        <div class="col-md-6 order-2 order-md-1">
                                 <img src="images/why2.jpg" class="img-fluid" alt="Alumni Events">
                         </div>
-                        <div class="col-6 ">
+                        <div class="col-md-6 order-1 order-md-2 mb-3">
                             <p class="text-color">
                                 Alumni associations to act as a bridge between FJCU and its alumni, building connections through the activities and promotion of these associations so as to continue the Fu Jen spirit.
                             </p>
@@ -245,7 +245,7 @@
                 <h2 class="div-title">Internationalization</h2>
                     <div class="sub-container">
                         <div class="row mb-5">
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 justify-text mb-3">
                                 <h5>Sister Universities All over the World</h5>
                                 <span>FJCU has established sister-school relationships with 463 universities worldwide. More than half of them have entered into agreements for student exchange programs, and nearly 300 oversea students from Europe, America, Asia and Oceania come to FJCU for the exchange program every year. Our students also have the opportunity to select an exchange program from our sister schools around the world. (Statistical data were updated as of August 2021).</span>
                             </div>
@@ -254,16 +254,16 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-2 order-md-1">
                                 <img src="images/why4.jpg" class="container-fluid img">
                             </div>
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 order-1 order-md-2 justify-text mb-3">
                                 <h5>Close Communications with the Associations of Catholic and Christian Universities and Colleges</h5>
                                 <span>FJCU actively communicates with the member schools of the Association of Christian Universities and Colleges in Asia (ACUCA) and the Association of Southeast and East Asian Catholic Colleges and Universities (ASEACCU). It encourages teachers and students from all departments to actively participate in the annual activities of ACUCA and ASEACCU.</span>
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 justify-text mb-3">
                                 <h5>Dual Degree Programs</h5>
                                 <span>FJCU has signed 31 dual degree programs with universities across Europe, America, Asia and Oceania including the University of Bayreuth (Germany), Université Catholique de Louvain (Belgium), Temple University (USA), The Catholic University of America (USA), Georgetown University (USA), Oklahoma State University (USA), Renmin University of China (Asia), Iowa State University (USA), </span>
                                 <span class="collapse" id="collapseExample">Widya Mandala Catholic University (Indone- sia), Queensland University of Technology (Australia), University of Ramon Llull (Spain), and Sungkyunkwan University (Korea).</span>
@@ -274,10 +274,10 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-2 order-md-1">
                                 <img src="images/why6.jpg" class="container-fluid img">
                             </div>
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 order-1 order-md-2 justify-text mb-3">
                                 <h5>Exchange of International Students – Enhancing Students’ International Mobility</h5>
                                 <span>To encourage students to study aboard and expand their global view, FJCU also provides scholarships for “Studying in Sister Universities,” grants for “Oversea Industrial Internship,”and related scholarships and grants, in addition to the “Lifting Me Up,” “Cherishing Me Like a Pearl” and “Building Dreams” scholarships offered by the Ministry of Education for excellent students to study aboard. In the academic years from 2018 to 2020</span>
                                 <span class="collapse" id="collapseExample2">, a total of 1,014 FJCU students went to our sister universities for exchange, and scholarships were approved for 513 students to study aboard, and the grants were granted to 27 students for oversea internships (Statistical data were updated as of April 2021).</span>
@@ -286,7 +286,7 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 justify-text mb-3">
                                 <h5>Performance on Counseling Foreign Students</h5>
                                 <span>FJCU has continuously received the MOE’s honorable mention as an excellent university for counseling foreign students for work, for having excellent personnel and senior personnel, and for taking good care of foreign students. In addition to various scholar- ships, the Overseas Student Office and the International Student Center also provide life counseling, campus cultural exchange activities and social associations, </span>
                                 <span class="collapse" id="collapseExample3">as well as free Chinese language courses, so that foreign students can gain rich experiences and a sense of belonging.</span>
@@ -297,17 +297,17 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-2 order-md-1">
                                 <img src="images/why8.jpg" class="container-fluid img">
                             </div>
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 order-1 order-md-2 justify-text mb-3">
                                 <h5>High-quality Chinese Language Teaching</h5>
                                 <span>The Center of Chinese Language and Culture founded in 1964 is the second oldest Chinese language center in Taiwan, and an excellent Chinese language center as assessed by the MOE. The Center has approximately 950 students each year. It provides year-round classes, private classes, professional courses, study tours and other related courses. The Center adopts small classes of 4~7 students to provide high-quality teaching and achieve outstanding learning results.
                                 </span>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 justify-text mb-3">
                                 <h5>Fu Jen Global</h5>
                                 <span>The Fu Jen Global is a key emphasis in FJCU’s efforts vis-à-vis internationalization. It will offer all-English degree programs in the future that attract students and possess a competitive advantage on the international stage. It will also collaborate with the school’s EU Center and India Center as well as other programs to offer interdisciplinary modules and courses.</span>
                             </div>
@@ -323,10 +323,10 @@
                 <h2 class="div-title">Facilities and Resources</h2>
                     <div class="sub-container">
                         <div class="row mb-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-2 order-md-1">
                                 <img src="images/why10.jpg" class="container-fluid img">
                             </div>
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 order-1 order-md-2 justify-text mb-3">
                                 <h5>School Resources</h5>
                                 <ul>
                                     <li>The Center of Information Technology records show that there are 15 computer labs with over 800 computers available on campus</li>
@@ -342,7 +342,7 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 justify-text mb-3">
                                 <h5>Sports and Athletics</h5>
                                 <ul>
                                     <li>Guizi Sports Center</li>
@@ -367,10 +367,10 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-2 order-md-1">
                                 <img src="images/why12.jpg" class="container-fluid img">
                             </div>
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6  order-1 order-md-2 justify-text mb-3">
                                 <h5>Student Life</h5>
                                 <ul>
                                     <li>7 student dormitories (supplied with air-conditionings, study desks, Wi-Fi, wardrobes, individual shower facilities, spin dryers, washing machines (metered service) and other facilities)</li>
@@ -383,7 +383,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 justify-text">
+                            <div class="col-md-6 justify-text mb-3">
                                 <h5>Educational Facilities</h5>
                                 <ul>
                                     <li>the Fahy library</li>
@@ -398,7 +398,7 @@
                                 </ul>
                                 <a id="read-more-link6" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">Read more</a>         
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 mb-3">
                                 <img src="images/why13.jpg" class="container-fluid img">
                             </div>
                         </div>
@@ -410,19 +410,19 @@
                 <h2 class="div-title">Student Learning and Support</h2>
                     <div class="sub-container">
                         <div class="row mb-5">
-                            <div class="col-md-6">
+                            <div class="col-md-6 mb-3">
                                 <h5>Student Government and Club Activities</h5>
                                 <span>FJCU has nearly one hundred student clubs and organizations which are divided into six categories: academic, leisure and social, service, physical fitness, arts, and music. It also has about 80 autonomous organizations distributed in the 12 colleges and continuing education departments. Students can join these clubs freely to learn a variety of knowledge, get together with different types of students, train their communication and cooperation with others, and achieve the ideal of appropriate development.</span>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 ">
                                 <img src="./images/why14.jpg" class="container-fluid img">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-2 order-md-1 ">
                                 <img src="./images/why15.jpg" class="container-fluid img">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 order-1 order-md-2 mb-3">
                                 <h5>Students’ Career Counseling</h5>
                                 <span>A career and vocational help system (CVHS) and a three-stage career counseling mechanism were established to assist students in exploring and planning career development through offering a variety of career information and career activities. Supplemented by the “Internship and job hunting” platform, and “Enterprise recruitment activities,” FJCU helps students to transfer from school to workplace smoothly.</span>
                             </div>
