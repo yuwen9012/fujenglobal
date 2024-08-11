@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-ecology" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-ecology" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-ecology" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-ecology" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-ecology" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-ecology" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-ecology" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-ecology" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-ecology" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-ecology" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-ecology" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-ecology" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-ecology" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-ecology" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-ecology" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-ecology" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-ecology" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-ecology" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -89,10 +89,10 @@
 
     <div class="my-5" id="features-ecology">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/human-ecology/民生學院_features.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <ul class="decimal-list">
                     <li>
@@ -136,10 +136,10 @@
 
     <div class="my-5" id="csd-ecology">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/human-ecology/民生學院_courses.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <ul class="custom-list">
                     <li>
@@ -247,10 +247,10 @@
 
     <div class="my-5" id="fi-ecology">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/human-ecology/民生學院_faculty.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">2 Chair Professors</p>
                 <p class="my-3">3 Academic Distinguished Professors</p>

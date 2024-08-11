@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-social" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-social" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-social" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-social" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-social" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-social" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-social" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-social" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-social" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-social" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-social" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-social" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-social" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-social" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-social" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-social" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-social" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-social" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -83,10 +83,10 @@
 
     <div class="my-5" id="features-social">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/social/social2.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3">Humanistic Concern．Social Creation．Talent Cultivation</p>
                 <p>On the basis of "social practice", the college is committed to the teaching, research and practice of social science, e.g. economics, sociology, social work, religious studies, psychology, the development of non-profit organizations and Catholic studies.</p>
@@ -124,10 +124,10 @@
 
     <div class="my-5" id="csd-social">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/social/social4.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3 fw-semibold">Communication, Negotiation, and Mediation for Medical Dispute Program</p>
                 <p class="mt-3">Required Course:<br>-Practical Training in Medical Dispute Resolution<br>Elective Courses:</p>
@@ -227,10 +227,10 @@
 
     <div class="my-5" id="fi-social">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/social/social6.jpeg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">The College of Social Sciences is supported by a team of 58 faculty members, including 9 professors, 27 associate professors, and 22 assistant professors. Primary research interests at the college include economics, sociology, social work, religion, psychology, Catholic studies, and the management of non-profit organizations. We also invite a renowned international scholar to serve on campus each year as the Father Laszlo Ladany Lecturer.</p>
             </div>

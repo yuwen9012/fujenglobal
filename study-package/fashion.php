@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-fashion" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-fashion" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-fashion" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-fashion" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-fashion" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-fashion" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-fashion" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-fashion" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-fashion" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-fashion" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-fashion" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-fashion" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-fashion" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-fashion" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-fashion" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-fashion" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-fashion" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-fashion" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -53,10 +53,10 @@
 
     <div class="my-5" id="features-fashion">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/fashion/fashion2.png" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3">Our college focuses on the three sections of developing and offering the qualified and excellent potential candidates for fashion industry, included three sections: Textile Design Section, Fashion Design Section, and Fashion Marketing Section. Not just for internationally-oriented professional education for aspiring students, but also build up the talent students to develop their professional expertise and skills. We are committed to providing a high-quality learning environment, comprehensive study programs, career planning, and pathways for future academic advancement. Our college aiming to cultivate professionals who meet the demand of the apparel industry. The core courses of the apparel industry and the English major courses with a common foundation in apparel are cultivated to become design talents and brand marketing talents with basic general knowledge.</p>
                 <div class="collapse" id="collapseFtFeatu">
@@ -93,10 +93,10 @@
 
     <div class="my-5" id="csd-fashion">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/fashion/fashion4.png" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3">Fashion Professional courses in common fields required courses：32 credits</p>
                 <p class="mt-3">Included Textile Science, Marketing Management Introduction to Textile and Apparel Industry, creative basics Western clothing culture and Fabric Performance Testing for basic knowledge as our core course program.</p>
@@ -128,10 +128,10 @@
 
     <div class="my-5" id="fi-fashion">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/fashion/fashion6.png" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <li class="mt-3">Textile and Design Section: Zhao-Hua Ho, Cheng-Ping Yu, Chao-Chiung Huang, Li-Ju Tsai, Yuan-Lung Kao, Yi-Tzu Lin</li>
                  <li class="mt-3">Fashion Design Section: Jocelyn Hua-Chu Chen、Ching-Yi Cheng Yu-Lien Lee Yen-I Wu.Ying-Chia Huang, Tsui-Yuan Chang, Po-Ling Wu, Hsin-Ling Hu,Joe Chan,Kuo Don lin</li>

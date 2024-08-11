@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-law" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-law" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-law" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-law" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-law" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-law" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-law" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-law" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-law" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-law" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-law" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-law" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-law" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-law" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-law" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-law" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-law" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-law" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -65,10 +65,10 @@
 
     <div class="my-5" id="amsp-law">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/law/law3.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <span class="my-3">There are 3 departments in the School of Law. Both Department of Law and Department of Financial and Economic Law offer LL.B. and LL.M. degrees, and the Department of Law provides the Ph. D. in law program. The Graduate Department of Law is equivalent to the J.D. program in U.S. which recruits students with bachelor degrees.</span>
                 <div class="collapse" id="collapseLawAmsp">
@@ -130,10 +130,10 @@
 
     <div class="my-5" id="fi-law">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/law/law6.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">There are now 31 full-time members in the faculty, including 9 professors, 10 associate professors and 12 assistant professors. Another 4 are joining the faculty in August 2024.
                 The current faculty members have diverse education background, among them, 8 hold doctorates from Germany, 7 from Taiwan, 5 from U.S., 4 from U.K., 4 from Japan, 1 from France, 1 from Austria, and 1 from Italy.

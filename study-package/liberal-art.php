@@ -3,31 +3,31 @@
 
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-liberal" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-liberal" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-liberal" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-liberal" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-liberal" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-liberal" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-liberal" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-liberal" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-liberal" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-liberal" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-liberal" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-liberal" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-liberal" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-liberal" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-liberal" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-liberal" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-liberal" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-liberal" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -51,10 +51,10 @@
     
     <div class="my-5" id="features-liberal">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/liberal-art/文學院_feature.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3">The College of Liberal Arts is devoted to the cultivation of liberal spirit, moral ethics and treating people with respect. We encourage students to passionately pursue their academic and career ambitions and to serve society with the professional knowledge that they have acquired here at the College of Liberal Arts. We offer courses on Chinese and western literatures, cultures, philosophy, and history, as well as courses on cultural exchanges between China and the western world.</p>
                 <div class="collapse" id="collapseLiberFeatu">
@@ -107,10 +107,10 @@
 
     <div class="my-5" id="csd-liberal">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/liberal-art/文學院_course.jpg" class="container-fluid" alt="course Liberal art">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3 fw-semibold">Collegewide:</p>
                 <p class="my-3">Global Outlook (EMI course)</p>
@@ -142,10 +142,10 @@
 
     <div class="my-5" id="fi-liberal">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/liberal-art/文學院_faculty.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">Department of Chinese Literature: 15 full-time teachers</p>
                 <p class="my-3">Department of History: 14 full-time teachers, including an American professor</p>

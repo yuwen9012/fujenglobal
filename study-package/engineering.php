@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-engineering" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-engineering" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-engineering" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-engineering" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-engineering" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-engineering" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-engineering" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-engineering" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-engineering" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-engineering" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-engineering" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-engineering" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-engineering" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-engineering" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-engineering" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-engineering" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-engineering" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-engineering" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -49,10 +49,10 @@
 
     <div class="my-5" id="features-engineering">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/engineering/engineering2.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3 fw-semibold" style="font-size:20px">“STEM” Education in ONE College.</p>
                 <p class="my-3">The CSE College is one of the few colleges in Taiwan combining both SCIENCE and ENGINEERING fields under the same academic unit. The CSE college brings together a powerhouse combination of study areas in STEM and teaches students to integrate knowledge, while also helping them develop hands-on skills in a diverse international environment. The education at CSE aims at training students to be professionals with a firm ground in the humanities and a global vision through teaching, researching, counseling and service.</p>
@@ -113,10 +113,10 @@
 
     <div class="my-5" id="csd-engineering">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/engineering/engineering4.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3 fw-semibold">Natural Science</p>
                 <p class="mt-3">Natural Science packages give you hands-on learning in a practical field, with amazing real-world application and outcome. Get experience in the lab, work in the field, and contribute to exciting research. The packages include Mathematics, Physics, Chemistry, and Life Science.</p>
@@ -142,10 +142,10 @@
 
     <div class="my-5" id="fi-engineering">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/engineering/engineering6.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">The College is composed of an array of highly qualified and competitive faculty who are experienced in both teaching and conducting research. There are 93 full-time faculty, including 32professors, 34 associate professors, 26 assistant professors and 1 lecturer. In addition, there are 6 University Chair Professor and 1 honorary professor.</p>
             </div>

@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-education" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-education" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-education" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-education" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-education" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-education" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-education" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-education" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-education" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-education" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-education" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-education" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-education" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-education" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-education" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-education" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-education" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-education" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -93,10 +93,10 @@
 
     <div class="my-5" id="features-education">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/education/教育學院_feature.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 
                 <p class="mt-3 fw-semibold">Department of Physical Education:</p>
@@ -156,10 +156,10 @@
 
     <div class="my-5" id="csd-education">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/education/教育學院_courses.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3 fw-semibold">Kinesiology</p>
                 <ul class="decimal-list">
@@ -213,10 +213,10 @@
 
     <div class="my-5" id="fi-education">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/education/教育學院_faculty.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">There are 48 full-time teachers, including 16 professors, 16 associate professors, 7 assistant professors, 3 lecturers and 6 project teachers.</p>
             </div>

@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-communication" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-communication" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-communication" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-communication" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-communication" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-communication" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-communication" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-communication" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-communication" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-communication" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-communication" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-communication" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-communication" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-communication" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-communication" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-communication" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-communication" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-communication" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -58,10 +58,10 @@
 
     <div class="my-5" id="features-communication">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/communication/傳播學院_feature.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3">With a history of over 50 years of teaching, the School emphasizes both theory and practice, and has nurtured many outstanding individuals for the nation and society.</p>
                 <p class="mt-3 fw-semibold">Department Of Communication Arts</p>
@@ -164,10 +164,10 @@
 
     <div class="my-5" id="csd-communication">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/communication/傳播學院_courses.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="my-3">These EMI courses provide a window to understand the exhilarating and vibrant communication, media, and film culture in the globalizing world.</p>
                 <p class="mt-3 fw-semibold">Latin American Movies:</p>
@@ -240,10 +240,10 @@
 
     <div class="my-5" id="fi-communication">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/communication/傳播學院_faculty.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">There are 27 full-time teachers, including 5 professors, 12 associate professors, 9 assistant professors, 1 lecturers and over 40 industry teachers.</p>
             </div>

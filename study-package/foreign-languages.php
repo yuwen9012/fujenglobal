@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-foreign" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-foreign" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-foreign" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-foreign" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-foreign" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-foreign" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-foreign" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-foreign" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-foreign" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-foreign" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-foreign" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-foreign" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-foreign" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-foreign" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-foreign" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-foreign" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-foreign" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-foreign" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -81,10 +81,10 @@
 
     <div class="my-5" id="features-foreign">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/foreign-languages/外語學院_feature.JPG" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <div class="continueDecimal">
                     <ul>
@@ -411,10 +411,10 @@
 
     <div class="my-5" id="csd-foreign">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/foreign-languages/外語學院_course.JPG" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3 fw-semibold">Each Semester:</p>
                 <ul class="custom-list">
@@ -806,10 +806,10 @@
 
     <div class="my-5" id="fi-foreign">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/foreign-languages/外語學院_faculty.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">Currently there are 76 full-time faculty members, over 100 part time teachers. Foreign teachers consist of 25% of the faculty. The College frequently engages teachers from sister schools internationally to conduct classes.</p>
             </div>

@@ -183,3 +183,19 @@ h3, h4 {
 .offcanvas-body {
     max-height: calc(100vh - 56px);
 }
+
+.tab-pane .nav-link {
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    .tab-pane .nav-link {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .tab-pane .nav-link {
+        font-size: 1.5rem;
+    }
+}

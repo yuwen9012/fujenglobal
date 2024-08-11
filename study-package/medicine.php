@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-medicine" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-medicine" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-medicine" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-medicine" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-medicine" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-medicine" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-medicine" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-medicine" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-medicine" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-medicine" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-medicine" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-medicine" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-medicine" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-medicine" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-medicine" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-medicine" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-medicine" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-medicine" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -75,10 +75,10 @@
 
     <div class="my-5" id="features-medicine">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/medicine/medicine2.png" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3 fw-semibold" style="text-decoration: underline">Cross-disciplinary courses</p>
                 <p class="my-3">Population aging is one of the great achievements of human development in the 21st century, and it is also the biggest challenge facing it. According to the latest estimates of the "Demography from 2010 to 2060" released by the Economic Construction Committee of the Executive Yuan in September 2010, it is expected that by 2017 The population aged 65 and above accounts for 14% of the total population, reaching what is called an aged society by international conventions and international organizations such as the United Nations.</p>
@@ -114,10 +114,10 @@
 
     <div class="my-5" id="csd-medicine">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/medicine/medicine4.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3 fw-semibold">Medical Science and Ethics</p>
                 <span>Understanding Diseases through Ten Movies<br>Amazing Facts of Human Body<br>Ethical Implications of Advances in Medicine</span>
@@ -262,10 +262,10 @@
 
     <div class="my-5" id="fi-medicine">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/medicine/medicine6.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">Dean and Prof. Ping-Keung Yip<br>Prof. Pei Wang<br>Prof. and Maria John Peter Selvamani<br>Prof. Emily Tung-Hsueh Liu<br>Prof. Hong-Hsiang Liu<br>Prof. Wan-Lin Lee<br>Prof. Yong-Chen Chen<br>Prof. Chen-Lin Chien<br>Prof. Hsin-Yu Chiang</p>
             </div>

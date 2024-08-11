@@ -3,31 +3,31 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#introduction-management" data-scroll="true">Introduction</a>
+            <a class="nav-link btn" href="#introduction-management" data-scroll="true">Introduction</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#features-management" data-scroll="true">Features</a>
+            <a class="nav-link btn" href="#features-management" data-scroll="true">Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-management" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-management" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#csd-management" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-management" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-management" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-management" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#fi-management" data-scroll="true">Faculty Information</a>
+            <a class="nav-link btn" href="#fi-management" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#rf-management" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-management" data-scroll="true">Resources & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-management" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-management" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ci-management" data-scroll="true">Contact Information</a>
+            <a class="nav-link btn" href="#ci-management" data-scroll="true">Contact Information</a>
         </li>
 
         <li class="nav-item ml-auto">
@@ -53,10 +53,10 @@
 
     <div class="my-5" id="features-management">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/management/management2.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <p class="my-3">FJCM is the only business school in the Great China Region supported by the Jesuits, whose philosophy attracts and retains many faculty members who strongly believe in ethics, social responsibility, and social justice and are willing to achieve our educational goals together. Accordingly, it has developed a unique mission statement among business schools.</p>
                 <p class="my-3">Based on the whole-person educational philosophy of Fu Jen Catholic University, the College of Management intends to help students develop into the intelligent and ethical managers needed by modern society.</p>
@@ -121,10 +121,10 @@
 
     <div class="my-5" id="csd-management">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/management/management4.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <p class="mt-3">Regarding curriculum management, FJCM fully abides by the rules regulated by the University and the College. In addition, the College follows the spiritual assurance of learning proposed by AACSB.</p>
                 <p class="mt-3" style="text-decoration: underline;">The restructuring of the AoL system</p>
@@ -164,10 +164,10 @@
 
     <div class="my-5" id="fi-management">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/management/management6.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <p class="my-3">In the academic year 2022-23, the college has a total of 100 full-time faculty members, 126 adjunct faculty members, and 36 full-time staff members.</p>
                 <p class="my-3">Among the full-time faculty, there are 32 professors, 32 associate professors, 35 assistant professors, and 1 lecturer. Of these, 99 hold doctoral degrees, with 22 holding foreign degrees. The gender distribution among faculty members is 65 males and 35 females. Their ages range from 30 to over 60, with 14 individuals aged 30-39, 34 aged 40-49, 41 aged 50-59, and 11 aged 60 or above.</p>
