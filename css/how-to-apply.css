@@ -78,11 +78,10 @@ h3 {
     content: '';
     position: absolute;
     top: 20px;
-    bottom: 25px;
     width: 2px;
     background: #132548;
     left: 50px;
-    margin-left: -1.5px;
+    margin-left: -1px;
     animation: drawLine 2s forwards;
 }
 
@@ -177,7 +176,7 @@ h3 {
         height: 0;
     }
     to {
-        height: 87%;
+        height: 89%;
     }
 }
 /*-----------------------------------------------------------------*/
@@ -299,14 +298,5 @@ footer {
     }
 }
 
-@media (max-width: 585px) {
-    @keyframes drawLine {
-        from {
-            height: 0;
-        }
-        to {
-            height: 90%;
-        }
-    }
-}
+
 
