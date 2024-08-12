@@ -3,19 +3,19 @@
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#if-art" data-scroll="true">Introduction & Features</a>
+            <a class="nav-link btn" href="#if-art" data-scroll="true">Introduction & Features</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#amsp-art" data-scroll="true">Academic Module & Study Package</a>
+            <a class="nav-link btn" href="#amsp-art" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#lo-art" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-art" data-scroll="true">Learning Outcomes</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ff-art" data-scroll="true">Faculty & Facilities</a>
+            <a class="nav-link btn" href="#ff-art" data-scroll="true">Faculty & Facilities</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn fs-5" href="#ow-art" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-art" data-scroll="true">Office Website</a>
         </li>
         <li class="nav-item ml-auto">
             <a class="nav-link top back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
@@ -36,10 +36,10 @@
 
     <div class="my-5" id="amsp-art">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/art/art2.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <p class="my-3 fw-semibold" style="font-size: 20px;">1. Department of Music</p>
                 <li class="mt-3 fw-semibold">Music Theory and Analysis:</li>
@@ -112,10 +112,10 @@
 
     <div class="my-5" id="ff-art">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/art/art4.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 justify-text">
+            <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Faculty & Facilities</h3>
                 <p class="my-3 fw-semibold" style="font-size: 20px;">1. Outstanding Faculty</p>
                 <li class="mt-3 fw-semibold">Diverse Professional Backgrounds:</li>
