@@ -1,19 +1,13 @@
-/* 基本樣式設置 */
-html, body {
-    height: 100%;
-    margin: 0; /* 移除默認邊距 */
-}
-
 body {
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column; /* 垂直排列 */
-    margin: 0;
-    
+    overflow-x: hidden;
+    background-color:#FFFEFB;
 }
+
 
 /* 標題區 */
 .title-container {
+    max-width: 100vw;
     min-height: 100vh;
     background-image: url('../images/coming.jpg');
     background-blend-mode: lighten;
@@ -34,20 +28,17 @@ body {
     .title {
         font-size: 3.5rem; /* 螢幕寬度小於768px時字體大小 */
     }
+    .title-container {
+        min-height: 80vh;
+    }
 }
 
 @media (max-width: 576px) {
     .title {
         font-size: 2rem; /* 螢幕寬度小於576px時字體大小 */
-        text-align: right; /* 文字靠右對齊 */
-        margin-left: auto; /* 向右邊界對齊 */
-        margin-right: -2px;
     }
     .title-container {
-        min-height: 80vh;
-        display: flex;
-        align-items: flex-end; /* 將內容對齊到容器的底部 */
-        justify-content: flex-end; /* 將內容對齊到容器的右邊 */
+        min-height: 60vh;
     }
 }
 
@@ -191,14 +182,5 @@ footer {
 @media (max-width: 1200px) {
     #second-list {
         display: none;
-    }
-}
-
-@media (max-width: 375px) {
-    body {
-        background-size: cover; /* 保持圖片覆蓋整個區域 */
-    }
-    .title-container {
-        min-height: 60vh; /* 增加最小高度 */
     }
 }
