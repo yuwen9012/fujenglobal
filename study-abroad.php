@@ -45,7 +45,7 @@
 
     <div class="container-fluid introduction-block">
         <div class="row">
-            <div class="col-md-6 p-5">
+            <div class="col-lg-6 p-5">
                 <h2 class="fw-bolder">Program Introduction</h2>
                 <p class="fw-semibold" id="introduction-text">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
                 <div>
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 d-flex align-items-end">
+            <div class="col-lg-6 d-flex align-items-end" id="circle-link">
                 <div class="container text-center">
                     <div class="half-circle">
                         <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Package</a></div>
@@ -70,7 +70,7 @@
 
     <div class="container scorer-block">
         <div class="row" id="scorer">
-            <div class="col-md-2 text-center my-5">
+            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
                 <div class="image-container">
                     <img src="images/college.png" class="d-block mx-auto" alt="Colleges">
                 </div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 text-center my-5">
+            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
                 <div class="image-container">
                     <img src="images/degree.png" class="d-block mx-auto" alt="Bachelor's Degrees">
                 </div>
@@ -90,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 text-center my-5">
+            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
                 <div class="image-container">
                     <img src="images/school.png" class="d-block mx-auto" alt="International Partners">
                 </div>
@@ -100,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 text-center my-5">
+            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
                 <div class="image-container">
                     <img src="images/student.png" class="d-block mx-auto" alt="Student Clubs">
                 </div>
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 text-center my-5">
+            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
                 <div class="image-container">
                     <img src="images/ranking.png" class="d-block mx-auto" alt="Asia Univeristy Ranking">
                 </div>
@@ -125,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 text-center my-5">
+            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
                 <div class="image-container">
                     <img src="images/association.png" class="d-block mx-auto" alt="Alumni Association">
                 </div>
@@ -137,8 +137,8 @@
         </div>
     </div>
 
-    <div class="container-fluid flow-block">
-        <img src="images/flow.png" class="img-fluid" alt="Flow Chart">
+    <div class="container-fluid flow-block d-none d-lg-block">
+        <img src="images/流程圖-03.png" class="img-fluid" alt="Flow Chart">
         <div class="overlay-text" id="overlay-text-first">
             <p class="fs-4 fw-semibold">1. Research Costs and Courses</p>
             <span class="fs-5">Understanding all the costs in the program</span>
@@ -162,6 +162,40 @@
         <div class="overlay-text" id="overlay-text-sixth">
             <p class="fs-4 fw-semibold">6. Welcome to FJCU</p>
             <span class="fs-5">Our warmly welcome you to our University</span>
+        </div>
+    </div>
+
+    <div class="container-fluid my-3 d-block d-lg-none">
+        <div class="row">
+            <div class="col-6 d-flex align-items-start">
+                <img src="images/流程圖-04.png" class="img-fluid full-size-img" alt="Flow Chart">
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="flow-sm-text mb-3">
+                    <p class="fw-semibold">1. Research Costs and Courses</p>
+                    <span>Understanding all the costs in the program</span>
+                </div>
+                <div class="flow-sm-text mb-3">
+                    <p class="fw-semibold">2. Pick Your Courses</p>
+                    <span>Select the courses that you interested</span>
+                </div>
+                <div class="flow-sm-text mb-3">
+                    <p class="fw-semibold">3. Apply</p>
+                    <span>Complete forms and pay the application fees</span>
+                </div>
+                <div class="flow-sm-text mb-3">
+                    <p class="fw-semibold">4. Receive Offer</p>
+                    <span>Receive the offer given by the University</span>
+                </div>
+                <div class="flow-sm-text mb-3">
+                    <p class="fw-semibold">5. Be Prepared</p>
+                    <span>Apply for Visa, buy the ticket and get the insurance</span>
+                </div>
+                <div class="flow-sm-text mb-3">
+                    <p class="fw-semibold">6. Welcome to FJCU</p>
+                    <span>Our warmly welcome you to our University</span>
+                </div>
+            </div>
         </div>
     </div>
 
