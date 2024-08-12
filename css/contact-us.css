@@ -213,6 +213,12 @@ body {
     background-color: #fff; /* 背景顏色 */
 }
 
+@media (max-width: 768px) {
+    .form-section {
+        max-width: 95%;
+    }
+}
+
 
 /* 問題 */
 .form-section .form-label {

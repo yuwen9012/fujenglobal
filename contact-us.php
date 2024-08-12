@@ -97,12 +97,12 @@
     </nav>
     <div class="title-container">
         <span class="title">— Contact Us —</span>
-    </div>
+    </div> 
 
-    <div class="container my-5">
+    <div class="container mb-5">
         <!-- 第一橫排: 三個區塊 -->
-        <div class="row mb-4">
-            <div class="col-md-4">
+        <div class="row justify-content-center mb-2">
+            <div class="col-lg-4 col-md-6">
                 <div class="contact-card">
                     <div class="contact-header">
                         <h5>Degree Student</h5>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="contact-card">
                     <div class="contact-header">
                         <h5>Exchange Students (Inbound)</h5>
@@ -126,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="contact-card">
                     <div class="contact-header">
                         <h5>Study Abroad Program</h5>
@@ -140,7 +140,7 @@
 
         <!-- 第二橫排: 兩個區塊 -->
         <div  class="row justify-content-center mb-3">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="contact-card">
                     <div class="contact-header">
                         <h5>Mandarin Chinese Learning</h5>
@@ -152,7 +152,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="contact-card">
                     <div class="contact-header">
                         <h5>Fu Jen Global Academy</h5>
