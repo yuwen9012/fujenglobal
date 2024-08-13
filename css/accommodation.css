@@ -15,19 +15,6 @@
     text-align: justify;
     width: 870px;
 }
-.carousel-control-prev, .carousel-control-next {
-    position: absolute; /* 使箭頭絕對定位 */
-    top: 50%; /* 垂直居中 */
-    transform: translateY(-50%); /* 垂直居中對齊 */
-    width: 5%; /* 設定箭頭寬度 */
-    height: 100%; /* 設定箭頭高度 */
-    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2; /* 確保箭頭在圖片之上 */
-}
-
 .carousel-control-prev {
     left: 0; /* 將左箭頭與圖片左邊緣對齊 */
 }
@@ -59,8 +46,8 @@
 
 .carousel-item .d-flex {
     display: flex;
-    justify-content: center;
-    width: 80%;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 .carousel-item img {
@@ -68,7 +55,6 @@
     max-width: 20%;
     margin-right: 10px;
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -182,3 +168,4 @@ h3, h4 {
 footer {
     background-color: #132548 !important;
 }
+
