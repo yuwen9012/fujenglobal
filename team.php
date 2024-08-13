@@ -77,7 +77,7 @@
                             <div class="d-flex align-items-center fs-5 fw-bolder text-white mb-4 ps-3 rounded-pill profile-title">組長 Team Leader</div>
                             <div class="row d-flex justify-content-center align-items-center gap-2">
                                 <div class="col-12 col-sm-6 col-md-12 col-xl-6 profile-photo">
-                                    <img src="" alt="Profile Photo" class="rounded-circle">
+                                    <img src="images/team-members/yuwen.jpg" alt="Profile Photo" class="rounded-circle">
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-12 col-xl-6 contact-info">
                                     <div class="d-flex flex-column justify-content-between">
@@ -141,7 +141,7 @@
                             <div class="d-flex align-items-center fs-5 fw-bolder text-white mb-4 ps-3 rounded-pill profile-title">團隊成員 Team Member</div>
                             <div class="row d-flex justify-content-center align-items-center gap-2">
                                 <div class="col-12 col-sm-6 col-md-12 col-xl-6 profile-photo">
-                                    <img src="" alt="Profile Photo" class="rounded-circle">
+                                    <img src="images/team-members/Menping.jpg" alt="Profile Photo" class="rounded-circle">
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-12 col-xl-6 contact-info">
                                     <div class="d-flex flex-column justify-content-between">
