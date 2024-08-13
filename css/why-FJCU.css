@@ -209,15 +209,6 @@ ul {
     padding-bottom: 0; /* 可選: 移除 ul 底部的 padding */
 }
 
-#left{
-    background-color: #F7ECCB;
-    max-width: 20px;
-}
-#right{
-    background-color: #F7ECCB;
-    max-width: 20px;
-}
-
 
 footer {
     background-color: #132548 !important;
@@ -269,4 +260,22 @@ footer {
     height: 2px;
     background-color: #3F5071;
     transition: background-color 0.3s ease;
+}
+
+.row {
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    max-width: 100%; /* 確保內容區域寬度為 100% */
+}
+
+
+#content {
+    border-left: 20px solid #F7ECCB; /* 左邊框顏色和寬度 */
+    border-right: 20px solid #F7ECCB; /* 右邊框顏色和寬度 */
+    flex: 1;
+    padding: 10px; 
+    min-width: 100vw;
+    
 }

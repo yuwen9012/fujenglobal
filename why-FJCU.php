@@ -96,9 +96,7 @@
             </ul>
         </div>
     </nav>
-    <div class="row">
-        <div class="col" id="left"></div>
-        <div class="col">
+    <div id="content">
             <!-- 標題 -->
             <div class="title-container">
                 <span class="main-title">— WHY FJCU? —</span>
@@ -106,8 +104,8 @@
             <!-- 第一區 -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
-                        <div class="video-container">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="video-container mb-5">
                             <iframe
                                 width="100%"
                                 height="100%"
@@ -119,10 +117,10 @@
                             ></iframe>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-12">
                         <div class="text-container">
                             <!-- 第一段 -->
-                            <div class="d-flex align-items-start mb-4">
+                            <div class="d-flex align-items-start mb-2">
                                 <i class="fas fa-graduation-cap fa-2x me-3 icon-color"></i>
                                 <div>
                                     <h5 class="title-color">Academic</h5>
@@ -136,7 +134,7 @@
                                 </div>
                             </div>
                             <!-- 第二段 -->
-                            <div class="d-flex align-items-start mb-4">
+                            <div class="d-flex align-items-start mb-2">
                                 <i class="fas fa-globe fa-2x me-3 icon-color"></i>
                                 <div>
                                     <h5 class="title-color">International Partners</h5>
@@ -147,7 +145,7 @@
                                 </div>
                             </div>
                             <!-- 第三段 -->
-                            <div class="d-flex align-items-start mb-4">
+                            <div class="d-flex align-items-start mb-2">
                                 <i class="fas fa-users fa-2x me-3 icon-color"></i>
                                 <div>
                                     <h5 class="title-color">Alumni</h5>
@@ -161,10 +159,10 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- 歷史 -->
             <div class="div-container">
-                <h2 class="div-title">School History</h2>
+                <h2 class="div-title fs-3 fs-md-2 fs-lg-1">School History</h2>
                 <div class="milestone-container">
                     <div class="milestone">
                         <h3 class="year">1925</h3>
@@ -199,7 +197,7 @@
 
             <!-- Fu Jen Alumni Associations -->
             <div class="div-container">
-                <h2 class="div-title">Fu Jen Alumni Associations</h2>
+                <h2 class="div-title fs-3 fs-md-2 fs-lg-1">Fu Jen Alumni Associations</h2>
                 <div class="sub-container">
                     <div class="row mb-5">
                         <div class="col-md-6">
@@ -242,7 +240,7 @@
 
             <!-- Internationalization -->
             <div class="div-container">
-                <h2 class="div-title">Internationalization</h2>
+                <h2 class="div-title fs-3 fs-md-2 fs-lg-1">Internationalization</h2>
                     <div class="sub-container">
                         <div class="row mb-5">
                             <div class="col-md-6 justify-text mb-3">
@@ -320,7 +318,7 @@
 
             <!-- Facilities and Resources -->
             <div class="div-container">
-                <h2 class="div-title">Facilities and Resources</h2>
+                <h2 class="div-title fs-3 fs-md-2 fs-lg-1">Facilities and Resources</h2>
                     <div class="sub-container">
                         <div class="row mb-5">
                             <div class="col-md-6 order-2 order-md-1">
@@ -407,7 +405,8 @@
 
             <!-- Student Learning and Support -->
             <div class="div-container">
-                <h2 class="div-title">Student Learning and Support</h2>
+                <h2 class="div-title fs-3 fs-md-2 fs-lg-1">Student Learning and Support</h2>
+
                     <div class="sub-container">
                         <div class="row mb-5">
                             <div class="col-md-6 mb-3">
@@ -431,15 +430,7 @@
             </div>
 
 
-        </div>
-        <div class="col" id="right"></div>
     </div>
-    
-
-     
-
-
-
     <?php include 'footer.php'; ?>
    
 </body>
