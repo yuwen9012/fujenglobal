@@ -64,6 +64,7 @@
                     <li>Rooms come furnished with bunk beds, desks, chairs, closets, air conditioners, and include an internet connection and Wi-Fi. We do not provide pillows, blankets, mattresses, or box springs. They may be purchased in stores campus.</li>
                     <li>The size of beds differs from dorm to dorm. Minimum sizes are as follows: 80*180 cm for women; 93*190 cm for men</li>
                 </ul>
+                <br><br>
             </div>
 
             <div class="col-md-1 right-section">
@@ -71,19 +72,22 @@
         </div>
     </div>
 
-      <div class="container-fluid introduction-block">
+    <div class="container-fluid introduction-block">
              <div class="row">
-                 <div class="col-md-2 left-section"></div>
-                 <div class="col-md-8 center-section">
-                     <img id="mainImage" src="images/kewu1.jpg" alt="Description of the image" class="img-fluid">
+                 <div class="col-md-1 left-section"></div>
+                 <div class="col-md-5 center-section">
+                     <img id="mainImage" src="images/Kewu1.jpg" alt="Description of the image" class="img-fluid">
                  </div>
-                 <div class="col-md-2 right-section"></div>
+                 <div class="col-md-5 center-section">
+                     <p class="content-inner"></p>
+                 </div>
+                 <div class="col-md-1 right-section"></div>
              </div>
-       </div>
-       <div class="container-fluid info-block">
+    </div>
+      <div class="container-fluid info-block">
            <div class="row">
-               <div class="col-md-2 left-section"></div>
-               <div class="col-md-8 d-flex justify-content-center align-items-center">
+               <div class="col-md-1 left-section"></div>
+               <div class="col-md-10 d-flex justify-content-center align-items-center">
                    <div id="carouselExampleIndicators" class="carousel slide">
                        <div class="carousel-inner">
                            <div class="carousel-item active">
@@ -91,35 +95,17 @@
                                    <img src="images/Kewu1.jpg" alt="..." onclick="showImage('images/Kewu1.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu2.jpg" alt="..." onclick="showImage('images/Kewu2.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu3.jpg" alt="..." onclick="showImage('images/Kewu3.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu4.jpg" alt="..." onclick="showImage('images/Kewu1.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu5.jpg" alt="..." onclick="showImage('images/Kewu5.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu6.jpg" alt="..." onclick="showImage('images/Kewu6.jpg')" style="cursor: pointer;">
-                                  
-                               </div>
-                           </div>
-                           <div class="carousel-item">
-                               <div class="d-flex">
-                                   <img src="images/Kewu6.jpg" alt="..." onclick="showImage('images/Kewu6.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu1.jpg" alt="..." onclick="showImage('images/Kewu1.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu2.jpg" alt="..." onclick="showImage('images/Kewu2.jpg')" style="cursor: pointer;">
-                                   <img src="images/Kewu3.jpg" alt="..." onclick="showImage('images/Kewu3.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu4.jpg" alt="..." onclick="showImage('images/Kewu4.jpg')" style="cursor: pointer;">
                                    <img src="images/Kewu5.jpg" alt="..." onclick="showImage('images/Kewu5.jpg')" style="cursor: pointer;">
+                                   <img src="images/Kewu6.jpg" alt="..." onclick="showImage('images/Kewu6.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
                        </div>
-                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                           <span class="visually-hidden">Previous</span>
-                       </button>
-                       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                           <span class="visually-hidden">Next</span>
-                       </button>
                    </div>
                </div>
-               <div class="col-md-2 right-section"></div>
+               <div class="col-md-1 right-section"></div>
            </div>
+           <br>
        </div>
         <div class="container-fluid introduction-block1">
         <div class="row">
@@ -128,6 +114,7 @@
 
             <div class="col-md-10 center-section">
                 <h3 class="my-3 fw-bolder"><br><br>2.(On-Campus) Scholar’s Inn: Extra fees NTD 2,080 - 2,880 per day per room.</h3>
+                <br>
             </div>
 
             <div class="col-md-1 right-section">
@@ -136,32 +123,36 @@
         </div>
 
 
-        <div class="container-fluid introduction-block">
+         <div class="container-fluid introduction-block">
+        <br>
              <div class="row">
-                 <div class="col-md-2 left-section"></div>
-                 <div class="col-md-8 center-section">
+                 <div class="col-md-1 left-section"></div>
+                 <div class="col-md-5 center-section">
                      <img id="mainImage1" src="images/Scholar11.jpg" alt="Description of the image" class="img-fluid">
                  </div>
-                 <div class="col-md-2 right-section"></div>
+                 <div class="col-md-5 center-section">
+                     <p class="content-inner"></p>
+                 </div>
+                 <div class="col-md-1 right-section"></div>
              </div>
-       </div>
-       <div class="container-fluid info-block">
+    </div>
+    <div class="container-fluid info-block">
            <div class="row">
-               <div class="col-md-2 left-section"></div>
-               <div class="col-md-8 d-flex justify-content-center align-items-center">
+               <div class="col-md-1 left-section"></div>
+               <div class="col-md-10 d-flex justify-content-center align-items-center">
                    <div id="carouselExampleIndicators1" class="carousel slide">
                        <div class="carousel-inner">
                            <div class="carousel-item active">
                                <div class="d-flex">
                                    <img src="images/Scholar11.jpg" alt="..." onclick="showImage1('images/Scholar11.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar2.jpg" alt="..." onclick="showImage1('images/Scholar2.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar7.jpg" alt="..." onclick="showImage1('images/Scholar7.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar8.jpg" alt="..." onclick="showImage1('images/Scholar8.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar1.jpg" alt="..." onclick="showImage1('images/Scholar1.jpg')" style="cursor: pointer;">
+                                   <img src="images/Scholar3.jpg" alt="..." onclick="showImage1('images/Scholar3.jpg')" style="cursor: pointer;">
+                                   <img src="images/Scholar4.jpg" alt="..." onclick="showImage1('images/Scholar4.jpg')" style="cursor: pointer;">
+                                   <img src="images/Scholar5.jpg" alt="..." onclick="showImage1('images/Scholar5.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar6.jpg" alt="..." onclick="showImage1('images/Scholar6.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
-                           <div class="carousel-item">
+                           <div class="carousel-item ">
                                <div class="d-flex">
                                    <img src="images/Scholar1.jpg" alt="..." onclick="showImage1('images/Scholar1.jpg')" style="cursor: pointer;">
                                    <img src="images/Scholar7.jpg" alt="..." onclick="showImage1('images/Scholar7.jpg')" style="cursor: pointer;">
@@ -182,8 +173,9 @@
                        </button>
                    </div>
                </div>
-               <div class="col-md-2 right-section"></div>
+               <div class="col-md-1 right-section"></div>
            </div>
+           <br>
        </div>
 
         <div class="container-fluid introduction-block">
