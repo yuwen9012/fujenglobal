@@ -199,7 +199,7 @@
         </div>
     </div>
 
-    <div class="container-fluid info-block">
+    <div class="container-fluid info-block py-5">
         <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
