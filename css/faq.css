@@ -83,7 +83,7 @@ html, body {
     width: 80px;
     background-color: #5D77A7;
     color: #FFFFFF;
-    border-radius: 0 10px 10px 0;
+    /* border-radius: 0 10px 10px 0; */
 }
 
 .btn-outline-secondary:hover {

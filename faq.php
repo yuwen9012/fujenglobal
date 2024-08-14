@@ -76,7 +76,12 @@
             <div class="input-group align-items-center">
                 <input type="text" class="form-control" id="searchInput" placeholder="Search...">
                 <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button" id="searchButton"><i class="fas fa-search"></i></button>
+                    <button class="btn btn-outline-secondary" type="button" id="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary" type="button" id="clearButton">
+                        <i class="fas fa-trash"></i>
+                    </button>
                 </div>
             </div>
         </div>

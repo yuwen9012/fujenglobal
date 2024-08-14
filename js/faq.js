@@ -1,21 +1,41 @@
 document.addEventListener('DOMContentLoaded', function() {
-    $.ajax({
-        url: 'php/fetch-faqs.php',
-        type: 'POST',
-        dataType: 'json',
-        data: {
-            para: 'init',
-        },
-        success: function(response) {
-            renderFAQs(response);
-            setupScrollListener(); // 在渲染完成後設置滾動監聽事件
-        },
-        error: function(xhr, status, error) {
-            console.error('Ajax request failed: ' + status);
+    initResult();
+
+    document.getElementById('searchButton').addEventListener('click', function() {
+        performSearch();
+    });
+
+    // Add keydown event listener for the input field to detect Enter key press
+    document.getElementById('searchInput').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Prevent the default form submission behavior
+            performSearch();
         }
     });
 
-    document.getElementById('searchButton').addEventListener('click', function() {
+    // Attach event listener to the clear button
+    document.getElementById('clearButton').addEventListener('click', clearInput);
+
+    function initResult() {
+        $.ajax({
+            url: 'php/fetch-faqs.php',
+            type: 'POST',
+            dataType: 'json',
+            data: {
+                para: 'init',
+            },
+            success: function(response) {
+                renderFAQs(response);
+                setupScrollListener(); // 在渲染完成後設置滾動監聽事件
+            },
+            error: function(xhr, status, error) {
+                console.error('Ajax request failed: ' + status);
+            }
+        });
+    }
+
+    // Function to perform search
+    function performSearch() {
         const keyword = document.getElementById('searchInput').value;
         $.ajax({
             url: 'php/fetch-faqs.php',
@@ -27,13 +47,20 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             success: function(response) {
                 renderFAQs(response);
-                setupScrollListener(); // 在渲染完成後設置滾動監聽事件
+                setupScrollListener(); // Set up scroll listener after rendering
             },
             error: function(xhr, status, error) {
                 console.error('Ajax request failed: ' + status);
             }
         });
-    });
+    }
+
+    // Function to clear the input field
+    function clearInput() {
+        searchInput.value = '';
+        initResult(); // Reload initial results
+        searchInput.focus(); // Focus the input field
+    }
 
     function renderFAQs(faqs) {
         // 使用物件來儲存分組後的結果
