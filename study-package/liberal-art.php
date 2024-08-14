@@ -108,7 +108,7 @@
     <div class="my-5" id="csd-liberal">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="images/study-package/liberal-art/文學院_course.jpg" class="container-fluid" alt="course Liberal art">
+                <img src="images/study-package/liberal-art/文學院_resources.jpg" class="container-fluid">
             </div>
             <div class="col-md-6 order-1 order-md-2 justify-text">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
@@ -177,14 +177,14 @@
 
     <div class="my-5" id="rf-liberal">
         <div class="row align-items-start">
-            <div class="col-md-6 justify-text">
+            <div class="col-12 justify-text">
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
                 <p class="my-3">Library and classrooms are the centers of students’ learning experiences. The College of Liberal Arts has an eight-floored library, providing students and faculty members various types of sources, including books, academic journals, magazines, DVDs, CDs, online sources, online databases, and computers.</p>
                 <p class="my-3">We have eight newly renovated classrooms with touchscreen monitors that enhance students’ learning experiences.</p>
             </div>
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
                 <img src="images/study-package/liberal-art/文學院_resources.jpg" class="container-fluid">
-            </div>
+            </div> -->
         </div>
     </div>
     
