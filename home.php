@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/home.css">
 
+    <!-- JS -->
+    <script type="text/javascript" src="js/home.js"></script>
+
     <title>輔仁大學國際及兩岸教育處</title>
 </head>
 <body>
