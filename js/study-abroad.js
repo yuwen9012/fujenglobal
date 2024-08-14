@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 }
             }
         });
-    }, { threshold: 0.5 });
+    }, { threshold: 0 });
 
     observer.observe(document.querySelector('#scorer'));
 });
