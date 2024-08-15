@@ -11,6 +11,12 @@ html, body {
     width: 90vw;
 }
 
+@media (min-width: 1200px) {
+    #content-card {
+        height: 750px;
+    }
+}
+
 #title-card {
     background-color: #FBF1CD;
     color: #0B3F61;
