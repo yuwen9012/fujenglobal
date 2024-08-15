@@ -50,7 +50,12 @@
                                 <div class="col-12 col-sm-6 col-md-12 col-xl-6 contact-info">
                                     <div class="d-flex flex-column justify-content-between">
                                         <div class="text-center text-sm-start text-md-center text-xl-start mx-2">
-                                            <p class="fs-5 fw-semibold">杜逸寧</p>
+                                            <p class="fs-5 fw-semibold">
+                                                杜逸寧
+                                                <a href="https://sites.google.com/view/yiningtu" target="_blank">
+                                                    <i class="fa fa-earth text-dark"></i>
+                                                </a>
+                                            </p>
                                             <p class="fs-5 fw-semibold">Yining Tu</p>
                                         </div>
                                         <div class="mx-2">
