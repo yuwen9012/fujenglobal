@@ -147,7 +147,7 @@
                                     <div class="d-flex flex-column justify-content-between">
                                         <div class="text-center text-sm-start text-md-center text-xl-start mx-2">
                                             <p class="fs-5 fw-semibold">王孟蘋</p>
-                                            <p class="fs-5 fw-semibold">Menping Wang</p>
+                                            <p class="fs-5 fw-semibold">Mengpin Wang</p>
                                         </div>
                                         <div class="mx-2">
                                             <div class="d-flex flex-row gap-1">
