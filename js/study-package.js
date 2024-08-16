@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // 點擊選單隱藏回到頂部按鈕
+    document.querySelector('.fa-bars').addEventListener('click', function() {
+        Array.from(backToTopButtons).forEach(button => {
+            button.style.display = 'none';
+        });
+    });
+
     // 為每個按鈕添加點擊事件
     Array.from(backToTopButtons).forEach(button => {
         button.addEventListener('click', () => {
@@ -36,8 +43,16 @@ document.addEventListener('DOMContentLoaded', function() {
             if (targetElement) {
                 // 計算目標元素相對於content元素的滾動位置
                 var targetPosition = targetElement.offsetTop;
+                const windowWidth = window.innerWidth;
+                if (windowWidth < 992) {
+                    shift = 180;
+                }
+                else {
+                    shift = 145;
+                }
+
                 contentElement.scrollTo({
-                    top: targetPosition - 145,
+                    top: targetPosition - shift,
                     behavior: 'smooth'
                 });
             }
