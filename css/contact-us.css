@@ -27,19 +27,33 @@ body {
 
 .btn-bounce {
     animation: bounce 3s infinite;
-    display: inline-block;
+    display: flex;
     padding: 5px 10px;
     color: #445C89;
     background-color: #FFF9E6;
     border: 1px solid #FFF9E6;
     border-radius: 30px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     text-decoration: none;
 }
+@media (max-width: 1200px) {
+    .btn-bounce {
+        position: absolute;
+        right: 10%;
+        top: 35%;
+    }
+}
 
+@media (max-width: 420px) {
+    .btn-bounce {
+        padding: 5px 5px;
+    }
+}
 
 .btn-bounce::before {
     content: '';
