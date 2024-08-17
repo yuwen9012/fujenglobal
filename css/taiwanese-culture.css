@@ -215,10 +215,6 @@ h3, h4 {
     list-style-type: disc; /* 實心圓點 */
 }
 
-footer {
-    background-color: #132548 !important;
-}
-
 h2{
    font-family: 'Poppins';
    font-style: normal;
