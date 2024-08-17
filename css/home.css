@@ -27,20 +27,22 @@ body {
 
 .btn-bounce {
     animation: bounce 3s infinite;
-    display: inline-block;
+    display: flex;
     padding: 5px 10px;
     color: #445C89;
     background-color: #FFF9E6;
     border: 1px solid #FFF9E6;
     border-radius: 30px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     text-decoration: none;
 }
 
-.btn-bounce::before {
+/* .btn-bounce::before {
     content: '';
     display: block;
     position: absolute;
@@ -64,7 +66,7 @@ body {
     background: #FFF9E6;
     border-radius: 30px;
     z-index: -2;
-}
+} */
 
 #second-list {
     position: relative;
