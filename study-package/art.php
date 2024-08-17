@@ -17,6 +17,9 @@
         <li class="nav-item m-1">
             <a class="nav-link btn" href="#ow-art" data-scroll="true">Office Website</a>
         </li>
+        <li class="nav-item m-1">
+            <a class="nav-link btn" href="#ci-art" data-scroll="true">Contact Information</a>
+        </li>
         <li class="nav-item ml-auto">
             <a class="nav-link top back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
         </li>
@@ -163,6 +166,14 @@
                 <img src="images/study-package/art/art5.jpg" class="container-fluid">
             </div>
         </div>
+    </div>
+    
+    <div class="my-5" id="ci-art">
+        <h3 class="my-3 fw-semibold">Contact Information</h3>
+        <p class="my-3">Chief of Internationalization</p>
+        <p class="my-3">Wuan-Chin Li</p>
+        <p class="my-3">Tel: 886-2-2905-6706</p>
+        <p class="my-3">E-mail: 021676@mail.fju.edu.tw</p>
     </div>
 
     <div class="my-5">
