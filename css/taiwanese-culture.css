@@ -47,15 +47,7 @@
     padding-right: 20px;
     padding-bottom: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.video2{
-    width:100%;
-    height:100%;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
- }   
+}  
 /*影片*/
 
 
@@ -78,18 +70,40 @@ color: #0B3F61;
 justify-content: center;
 }
 
-/*照片內文*/
+/*標題2*/
+.heading2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+display: flex;
+align-items: center;
+color: #0B3F61;
+justify-content: center;
+}
+
+/*影片內文*/
 .content-inner{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 16px;
 text-align: justify;
 justify-content: center;
 color: #0B3F61;
 position: relative;
-left: 20px;
-top: 50px;
+bottom: 20px;
+}
+
+.content2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: justify;
+justify-content: center;
+color: #0B3F61;
+position: relative;
 }
 
 body {
@@ -215,48 +229,6 @@ h2{
    color: #0B3F61;
 }
 
-.block2,.block4,.block6,.block8,.block10{
-    background-color: #FFF9E6;
-}
-
-
-.col-md-2_5 {
-    flex: 0 0 auto;
-    width: 20%;
-}
-
-.col-md-1_5 {
-    flex: 0 0 auto;
-    width: 12%;
-}
-
-
-
-.col-md-6 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.col-md-5 {
-    padding-left: 1px;
-    padding-right: 1px;
-}
-
-.col-md-12 {
-    padding-left: 1px;
-    padding-right: 1px;
-}
-
-.col-md-4,.col-md-2 {
-    padding-left: 1px;
-    padding-right: 1px;
-}
-
-.row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
 /*Tainan 2 Days Trip 文字*/
 .justify-text10{
     font-family: 'Poppins';
@@ -284,58 +256,14 @@ h2{
 /*輪播牆*/
 
 .carousel-control-prev {
-    left: 0; /* 將左箭頭與圖片左邊緣對齊 */
+    width: 40px; /* 調整寬度 */
 }
 
 .carousel-control-next {
-    right: 0; /* 將右箭頭與圖片右邊緣對齊 */
+    width: 40px; /* 調整寬度 */
 }
 
-#mainImage2 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage3 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage4 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage5 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage6 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage7 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage8 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
-    margin-bottom: 10px;
-}
-
-#mainImage9 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
-    height: auto; /* 保持圖片的寬高比 */
+#mainImage2 {   
     margin-bottom: 10px;
 }
 
