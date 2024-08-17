@@ -42,6 +42,20 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 1200px) {
+    .btn-bounce {
+        position: absolute;
+        right: 10%;
+        top: 35%;
+    }
+}
+
+@media (max-width: 420px) {
+    .btn-bounce {
+        padding: 5px 5px;
+    }
+}
+
 /* .btn-bounce::before {
     content: '';
     display: block;
