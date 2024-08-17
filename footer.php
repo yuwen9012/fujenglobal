@@ -10,7 +10,7 @@
                 <div class="d-flex flex-column">
                     <label>General Inquiry +886-2-2905-3137</label>
                     <label>Global Partnership +886-2-2905-3358</label>
-                    <label>International Student / Admission <br> +886-2-2905-2944</label>
+                    <label>International Student / Admission</label><label>+886-2-2905-2944</label>
                     <label>Chinese Language +886-2-2905-3721</label>
                 </div>
             </span>
