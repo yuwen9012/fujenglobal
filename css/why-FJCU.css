@@ -288,8 +288,7 @@ footer {
     border-right: 20px solid #F7ECCB;
     flex: 1;
     padding: 10px; 
-    min-width: 100vw;
-    
+    min-width: calc(100vw - 20px);
 }
 
 @media (max-width: 420px) {
