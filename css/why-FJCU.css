@@ -60,12 +60,12 @@ body {
 /* 新增區塊樣式 */
 .div-container {
     padding: 40px 0;
-    max-width: 80%; /* 最大寬度 80% */
-    margin: 0 auto; /* 水平居中 */
+    max-width: 80%; 
+    margin: 0 auto; 
 }
 .sub-container {
-    max-width: 90%; /* 最大寬度 80% */
-    margin: 0 auto; /* 水平居中 */
+    max-width: 90%; 
+    margin: 0 auto;
 }
 
 .div-title {
@@ -141,15 +141,24 @@ footer {
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    max-width: 100%; /* 確保內容區域寬度為 100% */
+    max-width: 100%; 
 }
 
 
 #content {
-    border-left: 20px solid #F7ECCB; /* 左邊框顏色和寬度 */
-    border-right: 20px solid #F7ECCB; /* 右邊框顏色和寬度 */
+    border-left: 20px solid #F7ECCB; 
+    border-right: 20px solid #F7ECCB;
     flex: 1;
     padding: 10px; 
-    min-width: 100vw;
-    
+    min-width: calc(100vw - 20px);
+}
+
+@media (max-width: 420px) {
+    #content  {
+        border-left: 10px solid #F7ECCB;
+        border-right: 10px solid #F7ECCB;
+    }
+    .sub-container {
+        max-width: 100%; 
+    }
 }
