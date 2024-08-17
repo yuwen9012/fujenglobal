@@ -15,22 +15,30 @@
     text-align: justify;
     width: 870px;
 }
-.carousel-control-prev {
-    left: 0; /* 將左箭頭與圖片左邊緣對齊 */
+.carousel-control-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px; /* 確保按鈕在小螢幕上仍然可見 */
+    height: 44px;
 }
 
-.carousel-control-next {
-    right: 0; /* 將右箭頭與圖片右邊緣對齊 */
+.carousel-control-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px; /* 確保按鈕在小螢幕上仍然可見 */
+    height: 44px;
 }
 
 #mainImage {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    width: 1000px; /* 或者設置為具體的像素值，例如 800px */
     height: auto; /* 保持圖片的寬高比 */
     margin-bottom: 10px;
 }
 
 #mainImage1 {
-    width: 800px; /* 或者設置為具體的像素值，例如 800px */
+    width: 1000px; /* 或者設置為具體的像素值，例如 800px */
     height: auto; /* 保持圖片的寬高比 */
     margin-bottom: 10px;
 }
@@ -44,17 +52,12 @@
     flex: 0 0 70%;
 }
 
-.carousel-item .d-flex {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-}
-
 .carousel-item img {
     flex: 0 0 20%;
     max-width: 20%;
     margin-right: 10px;
 }
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -168,4 +171,3 @@ h3, h4 {
 footer {
     background-color: #132548 !important;
 }
-
