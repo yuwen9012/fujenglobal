@@ -50,7 +50,7 @@
             <h5 class="offcanvas-title fs-2 fw-bolder" id="offcanvasNavbarLabel">Menu</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body overflow-y-auto">
+        <div class="offcanvas-body overflow-y-auto pb-10">
             <div class="list-group" id="list-tab" role="tablist">
                 <ul class="navbar-nav justify-content-end">
                     <li class="nav-item fs-5">
