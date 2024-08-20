@@ -138,8 +138,16 @@
     padding-bottom: 0.5rem;
 }
 
-.offcanvas-body .nav-link:hover {
+.offcanvas-body .nav-item:hover {
     background-color: #3F5071;
+}
+
+#studyAbroadMenu li:hover {
+    background-color: #445C89;
+}
+
+.offcanvas-body .nav-link:hover {
+    color: #FFF4C1;
 }
 
 .offcanvas-body .nav-link::after {
@@ -151,4 +159,8 @@
     height: 2px;
     background-color: #3F5071;
     transition: background-color 0.3s ease;
+}
+
+.pb-10 {
+    padding-bottom: 10rem;
 }

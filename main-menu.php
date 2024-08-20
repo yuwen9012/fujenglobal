@@ -3,7 +3,7 @@
         <h5 class="offcanvas-title fs-2 fw-bolder" id="offcanvasNavbarLabel">Menu</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body">
+    <div class="offcanvas-body h-100 pb-10">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item fs-5 my-2">
                 <a class="nav-link" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
@@ -12,7 +12,48 @@
                 <a class="nav-link" href="coming-soon.php">Degree Students</a>
             </li>
             <li class="nav-item fs-5 my-2">
-                <a class="nav-link" href="study-abroad.php">Study Abroad</a>
+                <div class="row">
+                    <div class="col-11 pe-0">
+                        <a class="nav-link" href="study-abroad.php">
+                            Study Abroad
+                        </a>
+                    </div>
+                    <div class="col-1 ps-0">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#studyAbroadMenu" role="button" aria-expanded="false" aria-controls="studyAbroadMenu">
+                            <i class="fa fa-chevron-down"></i>
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="collapse" id="studyAbroadMenu">
+                    <ul class="navbar-nav flex-column ps-5 collapse-menu">
+                        <li class="p-2">
+                            <a class="dropdown-item" href="how-to-apply.php">How to Apply</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="program-introduction.php">Program Introduction</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="study-package.php">Study Package</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="taiwanese-culture.php">Taiwanese Culture</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="Mandain-Chinese-Learing.php">Mandarin Learning</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="accommodation.php">Accommodation</a>
+                        </li>
+                        <li class="p-2">
+                            <a class="dropdown-item" href="faq.php">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
             <li class="nav-item fs-5 my-2">
                 <a class="nav-link" href="coming-soon.php">Exchange Student (Inbound)</a>
