@@ -99,7 +99,7 @@
     }
 }
 
-.second-navbar .nav-item {
+#second-list > .nav-item {
     border-left: 3px solid #FFFFFF;
 }
 
@@ -125,6 +125,7 @@
     padding: 0;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0 2% 2%;
 }
 
 /* Show the dropdown menu on hover */

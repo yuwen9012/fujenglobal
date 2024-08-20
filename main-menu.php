@@ -94,7 +94,7 @@
             </li>
             <li class="nav-item px-2 p-relative">
                 <a class="nav-link text-white" href="study-abroad.php">Study Abroad</a>
-                <ul class="navbar-nav hover-menu rounded">
+                <ul class="navbar-nav hover-menu shadow">
                     <li class="nav-item p-2">
                         <a class="hover-item" href="how-to-apply.php">How to Apply</a>
                     </li>
