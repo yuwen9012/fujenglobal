@@ -18,7 +18,7 @@
                 <a class="nav-link" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>
             <li class="nav-item fs-5 my-2">
-                <a class="nav-link" href="coming-soon.php">Chinese Learning</a>
+                <a class="nav-link" href="coming-soon.php">Chinese-Learning Student</a>
             </li>
             <li class="nav-item fs-5 my-2">
                 <a class="nav-link" href="coming-soon.php">Campus Life</a>
@@ -75,7 +75,7 @@
                 <a class="nav-link text-white" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>
             <li class="nav-item px-2">
-                <a class="nav-link text-white" href="coming-soon.php">Chinese Learning</a>
+                <a class="nav-link text-white" href="coming-soon.php">Chinese-Learning Student</a>
             </li>
             <li class="nav-item px-2">
                 <a class="nav-link text-white" href="coming-soon.php">Campus Life</a>
