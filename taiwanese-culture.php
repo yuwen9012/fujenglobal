@@ -144,7 +144,7 @@
     <!-- 第三區塊 --> 
     <div class="container-fluid introduction-block" >
         <br>
-        <p class="heading">標題</p>
+        <p class="heading">Past Event Glimpses</p>
              <div class="row">
                  <div class="col-lg-2  left-section"></div>
                  <div class="col-lg-6 col-md-12 center-section">
