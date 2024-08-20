@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/coming-soon.css">
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/menu.js"></script>
     
     <title>Coming Soon</title>
    

@@ -26,7 +26,9 @@
     <link rel="stylesheet" href="css/why-FJCU.css">
 
     <!-- JS -->
+    <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/why-FJCU.js"></script>
+    
     <title>Why FJU</title>
 </head>
 <body>

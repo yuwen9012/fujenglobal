@@ -25,9 +25,9 @@
     <link rel="stylesheet" href="css/contact-us.css">
 
     <!-- JavaScript -->
-    <link rel="stylesheet" href="css/fixed.css">
-    
+    <script type="text/javascript" src="js/menu.js"></script>
     <script src="js/contact-us.js"></script>
+    
     <title>Contact Us</title>
 </head>
 <body>
