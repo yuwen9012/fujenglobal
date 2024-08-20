@@ -92,26 +92,35 @@
             <li class="nav-item px-2">
                 <a class="nav-link text-white" href="coming-soon.php">Degree Students</a>
             </li>
-            <li class="nav-item px-2">
+            <li class="nav-item px-2 p-relative">
                 <a class="nav-link text-white" href="study-abroad.php">Study Abroad</a>
-            </li>
-            <!-- <li class="nav-item px-2 dropdown">
-                <a class="nav-link text-white dropdown-toggle" href="study-abroad.php" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Study Abroad</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li>
-                        <a class="dropdown-item" href="study-package.php">Study Package</a>
+                <ul class="navbar-nav hover-menu rounded">
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="how-to-apply.php">How to Apply</a>
                     </li>
-                    <li>
-                        <a class="dropdown-item" href="taiwanese-culture.php">Taiwanese Culture</a>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="program-introduction.php">Program Introduction</a>
                     </li>
-                    <li>
-                        <a class="dropdown-item" href="#">Enterprise Visit</a>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="study-package.php">Study Package</a>
                     </li>
-                    <li>
-                        <a class="dropdown-item" href="Mandarin-Chinese-Learning.php">Mandarin Learing</a>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="taiwanese-culture.php">Taiwanese Culture</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="Mandain-Chinese-Learing.php">Mandarin Learning</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="accommodation.php">Accommodation</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="faq.php">FAQ</a>
                     </li>
                 </ul>
-            </li> -->
+            </li>
             <li class="nav-item px-2">
                 <a class="nav-link text-white" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>

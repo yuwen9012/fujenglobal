@@ -111,6 +111,34 @@
     color: #445C89 !important;
 }
 
+.p-relative {
+    position: relative;
+}
+
+/* Hide the dropdown menu by default */
+.hover-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .hover-menu {
+    display: block;
+}
+
+.hover-item {
+    color: #445C89;
+    font-size: medium;
+    text-decoration: none;
+    padding: 2%;
+}
+
 .btn-no-style {
     background: none;
     border: none;
