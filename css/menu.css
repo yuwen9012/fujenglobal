@@ -7,7 +7,7 @@
     height: 50px;
 }
 
-#second-list .nav-item {
+#second-list > .nav-item {
     width: 140px;
     word-wrap: break-word;
     display: flex;
@@ -120,7 +120,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -2%;
     margin: 0;
     padding: 0;
     z-index: 1000;
@@ -131,6 +131,10 @@
 /* Show the dropdown menu on hover */
 .nav-item:hover .hover-menu {
     display: block;
+}
+
+.hover-menu > .nav-item {
+    width: 200px;
 }
 
 .hover-item {
