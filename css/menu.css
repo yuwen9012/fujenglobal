@@ -81,7 +81,7 @@
     z-index: -2;
 } */
 
-@media (max-width: 1400px) {
+@media (max-width: 992px) {
     #second-list {
         display: none;
     }
@@ -144,6 +144,46 @@
     padding: 2%;
 }
 
+@media (max-width: 1400px) {
+    #second-list > .nav-item > .nav-link {
+        font-size: smaller;
+    }
+
+    #second-list > .nav-item {
+        width: 110px;
+    }
+
+    #applynow {
+        left: -25%;
+    }
+
+    #applynow > a {
+        font-size: smaller;
+    }
+
+    .hover-menu > .nav-item {
+        width: 170px;
+    }
+
+    .hover-item {
+        font-size: small;
+    }
+}
+
+@media (max-width: 1200px) {
+    #second-list > .nav-item > .nav-link {
+        font-size: small;
+    }
+
+    #second-list > .nav-item {
+        width: 100px;
+    }
+
+    #applynow > a {
+        font-size: small;
+    }
+}
+
 .btn-no-style {
     background: none;
     border: none;
@@ -172,16 +212,17 @@
 }
 
 .offcanvas-body .nav-item:hover {
-    background-color: #3F5071;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #132548;
 }
 
 #studyAbroadMenu li:hover {
-    background-color: #445C89;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-.offcanvas-body .nav-link:hover {
-    color: #FFF4C1;
-}
+/* .offcanvas-body .nav-link:hover {
+    color: #132548;
+} */
 
 .offcanvas-body .nav-link::after {
     content: '';
