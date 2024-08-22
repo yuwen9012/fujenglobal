@@ -294,7 +294,7 @@
                                 <ul class="collapse" id="collapseExample5">
                                     <li>a sports injury infirmary</li>
                                     <li>a rhythmic center</li>
-                                    <li>a judo training hal</li>
+                                    <li>a judo training hall</li>
                                     <li>a gymnastics center</li>
                                     <li>a fitness center</li>
                                 </ul>
