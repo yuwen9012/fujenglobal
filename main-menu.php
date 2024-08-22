@@ -4,14 +4,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body h-100 pb-10">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item fs-5 pt-3 ps-2">
+        <ul class="navbar-nav justify-content-end flex-grow-1 ">
+            <li class="nav-item fs-5 pt-3 ">
                 <a class="nav-link" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
             </li>
-            <li class="nav-item fs-5 pt-3 ps-2">
+            <li class="nav-item fs-5 pt-3 ">
                 <a class="nav-link" href="coming-soon.php">Degree Students</a>
             </li>
-            <li class="nav-item fs-5 pt-3 ps-2">
+            <li class="nav-item fs-5 pt-3 ">
                 <div class="row">
                     <div class="col-10 pe-0">
                         <a class="nav-link" href="study-abroad.php">
@@ -19,7 +19,7 @@
                         </a>
                     </div>
                     <div class="col-2 ps-0 d-flex align-items-end">
-                        <a class="nav-link w-100 d-flex justify-content-end" data-bs-toggle="collapse" href="#studyAbroadMenu" role="button" aria-expanded="false" aria-controls="studyAbroadMenu">
+                        <a class="nav-link w-100 d-flex justify-content-end  no-underline" data-bs-toggle="collapse" href="#studyAbroadMenu" role="button" aria-expanded="false" aria-controls="studyAbroadMenu">
                             <i class="fa fa-chevron-down"></i>
                             <i class="fa fa-chevron-up"></i>
                         </a>
@@ -27,7 +27,7 @@
                 </div>
                 
                 <div class="collapse" id="studyAbroadMenu">
-                    <ul class="navbar-nav flex-column collapse-menu">
+                    <ul class="navbar-nav flex-column collapse-menu ">
                         <li class="p-2 ps-5">
                             <a class="dropdown-item" href="how-to-apply.php">How to Apply</a>
                         </li>
@@ -55,16 +55,16 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item fs-5 pt-3 ps-2">
+            <li class="nav-item fs-5 pt-3">
                 <a class="nav-link" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>
-            <li class="nav-item fs-5 pt-3 ps-2">
+            <li class="nav-item fs-5 pt-3">
                 <a class="nav-link" href="coming-soon.php">Chinese-Learning Student</a>
             </li>
-            <li class="nav-item fs-5 pt-3 ps-2">
+            <li class="nav-item fs-5 pt-3">
                 <a class="nav-link" href="coming-soon.php">Campus Life</a>
             </li>
-            <li class="nav-item fs-5 pt-3 ps-2">
+            <li class="nav-item fs-5 pt-3">
                 <a class="nav-link" href="contact-us.php">Contact Us</a>
             </li>
         </ul>

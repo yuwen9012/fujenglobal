@@ -1,5 +1,8 @@
 .second-navbar {
     background-color: #132548 !important;
+    margin: 0; /* 確保沒有額外的外邊距 */
+    padding: 0; /* 確保沒有額外的內邊距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 下陰影效果 */
 }
 
 #logo {
@@ -98,11 +101,31 @@
         padding: 5px 5px;
     }
 }
-
 #second-list > .nav-item {
-    border-left: 3px solid #FFFFFF;
+    position: relative; 
+    padding-left: 20px; 
 }
 
+#second-list > .nav-item:hover::after {
+    background-color: transparent; 
+}
+#second-list > .nav-item::before {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    top: 15px; 
+    bottom: 10px;
+    width: 1.5px;
+    background-color: #5A667F; 
+    transition: background-color 0.3s ease;
+}
+#second-list > .nav-item:hover::before {
+    background-color: rgba(255, 255, 255, 0.9);
+    
+}
+.second-navbar .nav-item{
+    transition: background-color 0.3s ease;
+}
 .second-navbar .nav-item:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
@@ -120,11 +143,11 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: -2%;
+    left: 0;
     margin: 0;
     padding: 0;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.90);
     border-radius: 0 0 2% 2%;
 }
 
@@ -200,40 +223,45 @@
 #offcanvasNavbar {
     background-color: #132548;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
 .btn-close {
     filter: invert(100%);
 }
+.offcanvas-body {
+    margin: 0;
+    padding: 0;
+}
 
 .offcanvas-body .nav-link {
     position: relative;
     padding-bottom: 0.5rem;
+    padding-left: 30px; 
+    padding-right: 30px; 
 }
 
 .offcanvas-body .nav-item:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85); 
     color: #132548;
 }
 
-#studyAbroadMenu li:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-/* .offcanvas-body .nav-link:hover {
-    color: #132548;
-} */
-
-.offcanvas-body .nav-link::after {
+.offcanvas-body .nav-link:not(.no-underline)::after {
     content: '';
     position: absolute;
-    left: 0;
+    left: 30px; 
+    right: 30px; 
     bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #3F5071;
-    transition: background-color 0.3s ease;
+    height: 1.5px;
+    background-color: #5A667F;
 }
+
+.offcanvas-body .nav-link:hover::after {
+    background-color: transparent; 
+}
+
+
 
 .pb-10 {
     padding-bottom: 10rem;
