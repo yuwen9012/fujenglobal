@@ -10,12 +10,19 @@
     <!-- 引入 Poppins 字體 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Coin Slider -->
+    <script type="text/javascript" src="js/coin-slider.js"></script>
+    <link rel="stylesheet" href="css/coin-slider-styles.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
@@ -33,7 +40,7 @@
 
     <?php include 'main-menu.php'?>
 
-    <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -44,9 +51,9 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/1 首頁-1.jpg" class="image-container d-block w-100" alt="...">
-                <!-- <div class="overlay">
-                    <h3>Internal Education</h3>
-                </div> -->
+                //<div class="overlay">
+                //    <h3>Internal Education</h3>
+                //</div>
             </div>
             <div class="carousel-item">
                 <img src="images/1 首頁-2.jpg" class="d-block w-100" alt="...">
@@ -69,7 +76,17 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div> -->
+
+    <!-- <div class="container"> -->
+    <div id="coin-slider">
+        <img src="images/1 首頁-1coin.jpg" alt="Slide 1" />
+        <img src="images/1 首頁-2coin.jpg" alt="Slide 2" />
+        <img src="images/1 首頁-3coin.jpg" alt="Slide 3" />
+        <img src="images/1 首頁-4coin.jpg" alt="Slide 4" />
+        <img src="images/1 首頁-5coin.jpg" alt="Slide 5" />
     </div>
+    <!-- </div> -->
 
     <div class="container my-5">
         <div class="row">
@@ -78,7 +95,6 @@
                     <h2>Fu Jen Catholic University</h2>
                     <p id="introduction-text">(FJCU) is the top ranked private university in Taiwan, and is also on the THE Impact Rankings query of keywords for SDGs (Sustainable Development Goals), dedicating to improve social inclusion and environmental protection. FJCU is the only comprehensive university under the direct authority of the Holy See among Chinese-speaking countries with outstanding academic excellence.</p>
                     <button type="button" class="btn-custom mx-3" onclick="window.location.href='why-FJCU.php'">Why FJCU?</button>
-                    <!-- <button type="button" class="btn-custom mx-3">Campus Life</button> -->
                 </div>
             </div>
             <div class="col-12 col-lg-6">

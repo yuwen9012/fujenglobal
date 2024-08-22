@@ -29,35 +29,23 @@ body {
     100% { opacity: 1; }
 }
 
-/* Container for the carousel to enable positioning */
+/* Apply these animations to the carousel items */
 .carousel-item {
-    position: relative;
-    overflow: hidden;
-    transition: transform 3s ease-in-out, opacity 3s ease-in-out;
-}
-
-/* Animation for the current slide */
-.carousel-item-next,
-.carousel-item-prev {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     opacity: 0;
-    animation: fadeIn 5s forwards;
+    transition: opacity 3s ease-in-out;
 }
 
-/* Define animation for the slide being left */
-.carousel-item-next.carousel-item-left,
-.carousel-item-prev.carousel-item-right {
-    animation: fadeOut 5s forwards;
+.carousel-item.active {
+    opacity: 1;
 }
 
-/* Define a custom speed for the animation */
-.carousel-item-next,
-.carousel-item-prev {
-    transition: opacity 1000s ease-in-out;
+/* Optional: You may want to set the transition for a smoother effect */
+.carousel-item.fadeOut {
+    animation: fadeOut 3s forwards;
+}
+
+.carousel-item.fadeIn {
+    animation: fadeIn 1s forwards;
 }
 
 /* .carousel-item img {
