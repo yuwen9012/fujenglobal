@@ -85,7 +85,7 @@
 
     <div class="my-5" id="amsp-liberal">
         <div class="row align-items-start">
-            <div class="col-md-6t">
+            <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <div class="justify-text">
                     <p class="my-3">Global Humanities Package:</p>

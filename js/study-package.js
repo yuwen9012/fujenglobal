@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     let backToTopButtons = document.getElementsByClassName('back-to-top');
-    let contentElement = document.querySelector('.content');
 
-    // 當content滾動時顯示或隱藏回到頂部按鈕
-    contentElement.addEventListener('scroll', function() {
-        if (contentElement.scrollTop > 100) {
+    // 使用 window 的滾動事件來顯示或隱藏回到頂部按鈕
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 100) {
             Array.from(backToTopButtons).forEach(button => {
                 button.style.display = 'block';
             });
@@ -15,18 +14,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 點擊選單隱藏回到頂部按鈕
-    document.querySelector('.fa-bars').addEventListener('click', function() {
-        Array.from(backToTopButtons).forEach(button => {
-            button.style.display = 'none';
-        });
+   // 點擊選單隱藏回到頂部按鈕
+   document.querySelector('.fa-bars').addEventListener('click', function() {
+    Array.from(backToTopButtons).forEach(button => {
+        button.style.display = 'none';
     });
+});
 
-    // 為每個按鈕添加點擊事件
+// 為每個按鈕添加點擊事件
     Array.from(backToTopButtons).forEach(button => {
         button.addEventListener('click', () => {
-            // 平滑滾動到頁面頂部
-            contentElement.scrollTo({
+            window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
@@ -41,28 +39,23 @@ document.addEventListener('DOMContentLoaded', function() {
             var targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                // 計算目標元素相對於content元素的滾動位置
+                // 計算目標元素的滾動位置
                 var targetPosition = targetElement.offsetTop;
-                const windowWidth = window.innerWidth;
-                if (windowWidth < 992) {
-                    shift = 180;
-                }
-                else {
-                    shift = 145;
-                }
+                //const windowWidth = window.innerWidth;
+                //const shift = windowWidth < 992 ? 180 : 145;
 
-                contentElement.scrollTo({
-                    top: targetPosition - shift,
+                window.scrollTo({
+                    top: targetPosition,
                     behavior: 'smooth'
                 });
             }
         });
     });
 
-    // 點擊tab，重置content到頂部
+    // 點擊 tab，重置頁面滾動到頂部
     document.querySelectorAll('#list-tab a').forEach(tab => {
         tab.addEventListener('shown.bs.tab', () => {
-            contentElement.scrollTo({
+            window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
@@ -71,15 +64,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // offcanvas點擊後關閉
     var offcanvasElement = document.getElementById('offcanvasNavbar');
-            var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+    var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
 
-            // Add event listeners to close the offcanvas when an item is clicked
-            var links = offcanvasElement.querySelectorAll('.list-group-item');
-            links.forEach(function(link) {
-                link.addEventListener('click', function () {
-                    offcanvas.hide(); // Hide the offcanvas menu
-                });
-            });
+// Add event listeners to close the offcanvas when an item is clicked
+    var links = offcanvasElement.querySelectorAll('.list-group-item');
+    links.forEach(function(link) {
+        link.addEventListener('click', function () {
+            offcanvas.hide(); // Hide the offcanvas menu
+        });
+    });
 
     // Define an array of collapse IDs and corresponding link IDs
     const collapses = [
@@ -109,8 +102,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '#collapseEngiAmsp', linkId: '#read-more-link-Engi-amsp' },
         // Foreign languages
         { collapseId: '#collapseForeiIntro', linkId: '#read-more-link-forei-intro' },
-        { collapseId: '.collapseForeiFeatu', linkId: '#read-more-link-forei-featu' },
-        { collapseId: '.collapseForeiAmsp', linkId: '#read-more-link-forei-amsp' },
+        { collapseId: '#collapseForeiFeatu', linkId: '#read-more-link-forei-featu' },
+        { collapseId: '#collapseForeiAmsp', linkId: '#read-more-link-forei-amsp' },
         { collapseId: '#collapseForeiCsd', linkId: '#read-more-link-forei-csd' },
         { collapseId: '#collapseForeiRf', linkId: '#read-more-link-forei-rf' },
         // Human ecology
@@ -143,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
         // { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
         // { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
-        
+   
     ];
 
     // Function to handle the collapse events

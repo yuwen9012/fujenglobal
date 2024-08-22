@@ -27,7 +27,6 @@
 .sidebar {
     left: 0;
     width: 350px;
-    height: calc(100vh - 125px);
     overflow-y: auto;
     background-color: #FFFCF1;
     border-right: 1px solid #dee2e6;
@@ -50,7 +49,6 @@
 .content {
     padding: 20px;
     width: calc(100vw - 350px);
-    height: calc(100vh - 125px);
     background-color: #FFFEFB;
     overflow-y: auto;
 }
