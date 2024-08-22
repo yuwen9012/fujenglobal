@@ -74,10 +74,15 @@
     color: #FFFFFF;
     background-color: rgba(11, 63, 97, 0.7);
     z-index: 9999;
-    padding: 10px 15px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
-
+.back-to-top i {
+    display: flex; /* 使圖標也成為 flex 容器 */
+    justify-content: center;
+    align-items: center;
+}
 .back-to-top:hover {
     color: #FFFFFF;
     background-color: rgba(11, 63, 97, 0.9);
