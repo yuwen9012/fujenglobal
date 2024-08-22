@@ -110,7 +110,7 @@
                         <ul>
                             <li>
                                 <p class="mt-3 fw-semibold mb-0">Professional Refinement and Integration</p>
-                                <p>Besides focusing on the professional education relate to the basic theory of law, we will continue to develop the field of financial and economic law and try to integrate the emerging laws with the basic theory of law.</p>
+                                <p>Besides focusing on the professional education relating to basic legal theories, we will continue to develop the financial and economic law and integrate novel legal problems with basic legal theories.  </p>
                             </li>
                             <li>
                                 <p class="mt-3 fw-semibold mb-0">Professional Ethics and Holistic Education</p>
@@ -142,8 +142,8 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <div class="justify-text">
-                    <p class="my-3">There are now 31 full-time members in the faculty, including 9 professors, 10 associate professors and 12 assistant professors. Another 4 are joining the faculty in August 2024.
-                    The current faculty members have diverse education background, among them, 8 hold doctorates from Germany, 7 from Taiwan, 5 from U.S., 4 from U.K., 4 from Japan, 1 from France, 1 from Austria, and 1 from Italy.</p>
+                    <p class="my-3">There are currently 31 full-time members in the faculty, including 9 professors, 10 associate professors, and 12 assistant professors.</p>
+                    <p>The faculty members have diverse education background, among them, 10 hold doctorates from Germany, 8 from Taiwan, 4 from U.S., 4 from Japan, 4 from U.K., 1 from France, and 1 from Austria.</p>
                 </div>
             </div>
         </div>
