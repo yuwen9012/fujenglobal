@@ -169,7 +169,7 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
                 <div class="justify-text">
-                    <p class="my-3">The College is rich in teaching recourses, and there are many important professional instruments and equipment in each department. Moreover, The New Advanced Laboratories Building for the College of Science and Engineering (to be opened in 2024) is equipped with most newly interactive classrooms and laboratories for students. The Building also servers an incubator for industry, college and university hospital’s collaboration and research which will be of great help to students’ future employment. </p>
+                    <p class="my-3">The College is rich in teaching resources, and there are many important professional instruments and equipment in each department. Moreover, The New Advanced Laboratories Building for the College of Science and Engineering (to be opened in 2024) is equipped with most newly interactive classrooms and laboratories for students. The Building also servers an incubator for industry, college and university hospital’s collaboration and research which will be of great help to students’ future employment. </p>
                 </div>    
             </div>
             <div class="col-md-6">
