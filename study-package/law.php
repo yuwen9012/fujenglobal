@@ -178,5 +178,10 @@
         <h3 class="my-3 fw-semibold">Contact Information</h3>
         <p class="my-3">No. 510 Zhongzheng Rd , Xinzhuang Dist., New Taipei City, 24205 Taiwan(R.O.C)</p>
         <p class="my-3">Tel (886) +2-29052027</p>
+        </br>
+        <p class="my-3 fw-semibold">Chief of Internationalization</p>
+        <p class="my-3">Chang, Ming-woei</p>
+        <p class="my-3">E-mail: 081492@mail.fju.edu.tw</p>
+        <p class="my-3">Tel (886) +2-29052619</p>
     </div>
 </div>

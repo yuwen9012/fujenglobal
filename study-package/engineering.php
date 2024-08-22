@@ -187,5 +187,10 @@
         <h3 class="my-3 fw-semibold">Contact Information</h3>
         <p class="my-3">Grace Liu, Coordinator for International Development.</p>
         <p class="my-3">E-mail: graceliu@mail.fju.edu.tw</p>
+        </br>
+        <p class="my-3 fw-semibold">Chief of Internationalization</p>
+        <p class="my-3">Tuan-Vinh Le</p>
+        <p class="my-3">E-mail: 155315@mail.fju.edu.tw</p>
+        <p class="my-3">Tel: 886-2-29056727</p>
     </div>
 </div>
