@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/Mandarin-Chinese-Learning.css">
 
     <!-- JS -->
-    <script type="text/javascript" src="js/study-package.js"></script>
+    <script type="text/javascript" src="js/Mandarin-Chinese-Learning.js"></script>
 
     <title>Mandarin Chinese Learning</title>
 </head>
@@ -44,9 +44,10 @@
     </nav>
 
      <!-- 第一區塊 -->
-     <div class="container-fluid introduction-block1">
-        <div class="row">
-            <div class="col-md-4 left-section">
+     <div class="container my-5">
+        <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="contact-card">
                  <div class="box">Free  Courses</div>
                  <div class="box2">
                     <span><br>11 weeks<br>6 hours/week</span>
@@ -56,10 +57,11 @@
                         </li>
                     </ul>
                  </div>
-
+              </div>
             </div>
 
-            <div class="col-md-4 center-section">
+            <div class="col-md-4">
+              <div class="contact-card">
                  <div class="box">Customized Short-term<br>Course</div>
                  <div class="box2">
                     <span><br>International<br>Connections</span>
@@ -69,10 +71,12 @@
                         </li>
                     </ul>
                  </div>
+              </div>
             </div>
 
 
-            <div class="col-md-4 right-section">
+            <div class="col-md-4">
+              <div class="contact-card">
                 <div class="box">Taiwanese Culture <br>Courses</div>
                 <div class="box2">
                     <span><br>Local Culture <br>Experience</span>
@@ -82,13 +86,14 @@
                         </li>
                     </ul>
                 </div>
+              </div>
             </div>
         </div>
     </div>
 
       <!-- 第二區塊 -->
      <div class="container-fluid block5">
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-4 left-section">
             </div>
             <div class="col-md-4 center-section">
@@ -101,7 +106,7 @@
 
     <!-- 第三區塊 -->
       <div class="container-fluid introduction-block">
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-1 left-section">
             </div>
 
@@ -125,9 +130,12 @@
     </div>
 
     <!-- 第四區塊 -->
-      <div class="container-fluid block4">    
-        <div class="row">
+      <div class="container-fluid block" style="background-color: #ECE1BF;">
+      <br>    
+        <div class="row mb-4">
+            <h3 class="text-center fw-bolder">Available  Courses</h3>
             <div class="col-md-4 left-section4">
+               <div class="contact-card">
                  <div class="box3">
                     <img class="icon" src="images/Mandarin icon1.png" > <!-- Replace with the actual image path -->
                     <h3 >Business</h3>
@@ -135,20 +143,24 @@
                   <div class="line"></div>
                      <a class="button4" href="#introduction-liberal" data-scroll="true">Find-out more</a>
                 </div>
+               </div>
             </div>
 
             <div class="col-md-4 center-section">
+                <div class="contact-card">
                  <div class="box3">
                     <img class="icon" src="images/Mandarin icon2.png" > <!-- Replace with the actual image path -->
                     <h3>Travel</h3>
                        <p>Learn and practice useful Mandarin phrases that make your travel safer and more enjoyable.</p>
                   <div class="line"></div>
                      <a class="button4" href="#introduction-liberal" data-scroll="true">Find-out more</a>
+                 </div>
                 </div>
             </div>
 
 
             <div class="col-md-4 right-section">
+               <div class="contact-card">
                 <div class="box3">
                     <img class="icon" src="images/Mandarin icon3.png" > <!-- Replace with the actual image path -->
                     <h3>TOCFL preparation</h3>
@@ -156,6 +168,7 @@
                   <div class="line"></div>
                      <a class="button4" href="#introduction-liberal" data-scroll="true">Find-out more</a>
                 </div>
+               </div>
             </div>
         </div>
     </div>
@@ -163,7 +176,7 @@
     <!-- 第五區塊 -->
       <div class="container-fluid introduction-block">
         <br>
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-1 left-section">
             </div>
             <div id="Taiwanese-Culture" class="col-md-10 left-section">
@@ -172,32 +185,47 @@
             <div class="col-md-1 left-section">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 left-section">
+        <div class="row mb-4">
+            <div class="col-md-2">
             </div>
-
-             <div class="col-md-6 center-section">
-                <div class="row gx-4 gy-4">
-                    <div class="col-md-6">
-                        <img class="Image5" src="images/Mandarin-Learning2.jpg" class="img-fixed-height rounded" >
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
-                    <div class="col-md-6">
-                        <img class="Image5" src="images/Mandarin-Learning3.jpg" class="img-fixed-height rounded" >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Mandarin-Learning2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Mandarin-Learning3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Mandarin-Learning4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Mandarin-Learning5.jpg" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                </div>
-                <div class="row gx-4 gy-4">
-                    <div class="col-md-6">
-                        <img class="Image5" src="images/Mandarin-Learning4.jpg" class="img-fixed-height rounded" >
-                    </div>
-                    <div class="col-md-6">
-                        <img class="Image5" src="images/Mandarin-Learning5.jpg" class="img-fixed-height rounded" >
-                    </div>
-                </div>
-                <span class="justify-text">CCLC offers a variety of culture courses including Chinese calligraphy, seal cutting, Taiwanese tea culture, Introduction of Taiwanese Hokkien (Tâigí). These courses are for students who would like to experience the unique culture of Taiwan.</span>
-                <div class="button2-container">
-                       <button class="button2" onclick="location.href='https://www.facebook.com/fjulc/'">Find-out more</button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
+            <div class="col-md-4">
+                    <span class="text5">CCLC offers a variety of culture courses including Chinese calligraphy, seal cutting,Taiwanese tea culture, Introduction of Taiwanese Hokkien (Tâigí).These courses are for students who would like to experience the unique culture of Taiwan.</span>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
 
             <div class="col-md-3 right-section">
             </div>

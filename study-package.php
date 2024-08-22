@@ -66,7 +66,7 @@
                         <a class="list-group-item list-group-item-action py-3" id="communication-tab-sm" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
                     </li>
                     <li class="nav-item fs-5">
-                        <a class="list-group-item list-group-item-action py-3" id="education-tab-sm" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education</a>
+                        <a class="list-group-item list-group-item-action py-3" id="education-tab-sm" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education and Sports Health</a>
                     </li>
                     <li class="nav-item fs-5">
                         <a class="list-group-item list-group-item-action py-3" id="medicine-tab-sm" data-bs-toggle="list" href="#medicine" role="tab" aria-controls="medicine">College of Medicine</a>
@@ -110,7 +110,7 @@
                 <a class="list-group-item list-group-item-action py-3" id="liberal-tab" data-bs-toggle="list" href="#liberal" role="tab" aria-controls="liberal">College of Liberal Art</a>
                 <a class="list-group-item list-group-item-action py-3" id="art-tab" data-bs-toggle="list" href="#art" role="tab" aria-controls="art">College of Art</a>
                 <a class="list-group-item list-group-item-action py-3" id="communication-tab" data-bs-toggle="list" href="#communication" role="tab" aria-controls="communication">College of Communication</a>
-                <a class="list-group-item list-group-item-action py-3" id="education-tab" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education</a>
+                <a class="list-group-item list-group-item-action py-3" id="education-tab" data-bs-toggle="list" href="#education" role="tab" aria-controls="education">College of Education and Sports Health</a>
                 <a class="list-group-item list-group-item-action py-3" id="medicine-tab" data-bs-toggle="list" href="#medicine" role="tab" aria-controls="medicine">College of Medicine</a>
                 <a class="list-group-item list-group-item-action py-3" id="engineering-tab" data-bs-toggle="list" href="#engineering" role="tab" aria-controls="engineering">College of Science & Engineering</a>
                 <a class="list-group-item list-group-item-action py-3" id="foreign-tab" data-bs-toggle="list" href="#foreign" role="tab" aria-controls="foreign">College of Foreign Languages</a>
