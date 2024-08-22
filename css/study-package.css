@@ -40,9 +40,15 @@
     border-right: none !important;
 }
 
+.list-group a:hover {
+    background-color: #f9f3dd;
+    color:#0B3F61;
+}
+
 .list-group-item.active {
     background-color: #E2D08D !important;
     border-color: #E2D08D !important;
+    color: #fff !important;
     font-weight: bolder;
 }
 
