@@ -167,6 +167,7 @@
     padding: 2%;
 }
 
+
 @media (max-width: 1400px) {
     #second-list > .nav-item > .nav-link {
         font-size: smaller;
@@ -266,3 +267,19 @@
 .pb-10 {
     padding-bottom: 10rem;
 }
+#studyAbroadMenu{
+    padding: 20px;
+}
+
+.dropdown-item {
+    display: block; /* 確保整個區塊都能被點擊 */
+}
+
+/* 懸停時的樣式 */
+.dropdown-item:hover {
+    color: #4e76c2; /* 懸停時文字顏色 */
+}
+.dropdown-item:active {
+    color: #efd474; /* 懸停時文字顏色 */
+}
+
