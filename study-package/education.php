@@ -1,5 +1,5 @@
 <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
-    <h3 class="my-3 fw-bolder">College of Education</h3>
+    <h3 class="my-3 fw-bolder">College of Education and Sports Health</h3>
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
