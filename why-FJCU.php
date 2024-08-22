@@ -203,8 +203,8 @@
                         <div class="row mb-5">
                             <div class="col-md-6 justify-text mb-3">
                                 <h5>Dual Degree Programs</h5>
-                                <span>FJCU has signed 31 dual degree programs with universities across Europe, America, Asia and Oceania including the University of Bayreuth (Germany), Université Catholique de Louvain (Belgium), Temple University (USA), The Catholic University of America (USA), Georgetown University (USA), Oklahoma State University (USA), Renmin University of China (Asia), Iowa State University (USA), </span>
-                                <span class="collapse" id="collapseExample">Widya Mandala Catholic University (Indone- sia), Queensland University of Technology (Australia), University of Ramon Llull (Spain), and Sungkyunkwan University (Korea).</span>
+                                <span>FJCU has signed 31 dual degree programs with universities across Europe, America, Asia and Oceania including the University of Bayreuth (Germany), Université Catholique de Louvain (Belgium), Temple University (USA),</span>
+                                <span class="collapse" id="collapseExample"> The Catholic University of America (USA), Georgetown University (USA), Oklahoma State University (USA), Renmin University of China (Asia), Iowa State University (USA), Widya Mandala Catholic University (Indone- sia), Queensland University of Technology (Australia), University of Ramon Llull (Spain), and Sungkyunkwan University (Korea).</span>
                                 <a id="read-more-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Read more</a>
                             </div>
                             <div class="col-md-6">
@@ -217,8 +217,8 @@
                             </div>
                             <div class="col-md-6 order-1 order-md-2 justify-text mb-3">
                                 <h5>Exchange of International Students – Enhancing Students’ International Mobility</h5>
-                                <span>To encourage students to study aboard and expand their global view, FJCU also provides scholarships for “Studying in Sister Universities,” grants for “Oversea Industrial Internship,”and related scholarships and grants, in addition to the “Lifting Me Up,” “Cherishing Me Like a Pearl” and “Building Dreams” scholarships offered by the Ministry of Education for excellent students to study aboard. In the academic years from 2018 to 2020</span>
-                                <span class="collapse" id="collapseExample2">, a total of 1,014 FJCU students went to our sister universities for exchange, and scholarships were approved for 513 students to study aboard, and the grants were granted to 27 students for oversea internships (Statistical data were updated as of April 2021).</span>
+                                <span>To encourage students to study aboard and expand their global view, FJCU also provides scholarships for “Studying in Sister Universities,” grants for “Oversea Industrial Internship,”and related scholarships and grants,</span>
+                                <span class="collapse" id="collapseExample2"> in addition to the “Lifting Me Up,” “Cherishing Me Like a Pearl” and “Building Dreams” scholarships offered by the Ministry of Education for excellent students to study aboard. In the academic years from 2018 to 2020, a total of 1,014 FJCU students went to our sister universities for exchange, and scholarships were approved for 513 students to study aboard, and the grants were granted to 27 students for oversea internships (Statistical data were updated as of April 2021).</span>
                                 <a id="read-more-link2" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">Read more</a>                   
                             
                             </div>
@@ -226,8 +226,8 @@
                         <div class="row mb-5">
                             <div class="col-md-6 justify-text mb-3">
                                 <h5>Performance on Counseling Foreign Students</h5>
-                                <span>FJCU has continuously received the MOE’s honorable mention as an excellent university for counseling foreign students for work, for having excellent personnel and senior personnel, and for taking good care of foreign students. In addition to various scholar- ships, the Overseas Student Office and the International Student Center also provide life counseling, campus cultural exchange activities and social associations, </span>
-                                <span class="collapse" id="collapseExample3">as well as free Chinese language courses, so that foreign students can gain rich experiences and a sense of belonging.</span>
+                                <span>FJCU has continuously received the MOE’s honorable mention as an excellent university for counseling foreign students for work, for having excellent personnel and senior personnel, and for taking good care of foreign students.</span>
+                                <span class="collapse" id="collapseExample3"> In addition to various scholar- ships, the Overseas Student Office and the International Student Center also provide life counseling, campus cultural exchange activities and social associations, as well as free Chinese language courses, so that foreign students can gain rich experiences and a sense of belonging.</span>
                                 <a id="read-more-link3" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">Read more</a>               
                             </div>
                             <div class="col-md-6">
@@ -288,10 +288,10 @@
                                     <li>basketball courts</li>
                                     <li>volleyball courts</li>
                                     <li>badminton courts</li>
-                                    <li>an indoor swimming pool</li>
-                                    <li>table tennis courts</li>
                                 </ul>
                                 <ul class="collapse" id="collapseExample5">
+                                    <li>an indoor swimming pool</li>
+                                    <li>table tennis courts</li>
                                     <li>a sports injury infirmary</li>
                                     <li>a rhythmic center</li>
                                     <li>a judo training hall</li>
@@ -313,11 +313,14 @@
                                 <ul>
                                     <li>7 student dormitories (supplied with air-conditionings, study desks, Wi-Fi, wardrobes, individual shower facilities, spin dryers, washing machines (metered service) and other facilities)</li>
                                     <li>5 food courts on campus (providing both vegetarian and non-vegetarian options)</li>
+                                </ul>
+                                <ul class="collapse" id="collapseExample6">
                                     <li>3 convenience stores</li>
                                     <li>2 EZMY cafes</li>
                                     <li>campus bookstore</li>
                                     <li>an optical shop</li>
                                 </ul>    
+                                <a id="read-more-link6" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">Read more</a>
                             </div>
                         </div>
                         <div class="row">
@@ -329,12 +332,12 @@
                                     <li>the Cardinal Shan library</li>
                                     <li>with over 1 million books, along with hardcopy journals, electronic journals, e-books, an E-Resources database, and audiovisual resources among other resources. </li>
                                 </ul>
-                                <ul class="collapse" id="collapseExample6">   
+                                <ul class="collapse" id="collapseExample7">   
                                     <li>learning spaces provided for students: group study areas, personal study rooms, writing centers, a learning commons, a video-record- ing room, a multimedia production room and so forth.</li>
                                     <li>the library has greatly enhanced the digital learning framework, providing rich resources for online self-learning courses, while also actively promoting the use of our library resources.</li>
                                     <li>The library is also part of library communities such as RapidILL and NDDS, and also has collaborations with libraries from other schools and academic institutions, in turn offering convenient service via these collaborations.</li>
                                 </ul>
-                                <a id="read-more-link6" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">Read more</a>         
+                                <a id="read-more-link7" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">Read more</a>         
                             </div>
                             <div class="col-md-6 mb-3">
                                 <img src="images/why13.jpg" class="container-fluid img">

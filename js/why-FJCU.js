@@ -36,4 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
     $('#collapseExample6').on('hidden.bs.collapse', function () {
         $('#read-more-link6').text('Read more');
     });
+    $('#collapseExample7').on('shown.bs.collapse', function () {
+        $('#read-more-link7').text('Hide');
+    });
+    $('#collapseExample7').on('hidden.bs.collapse', function () {
+        $('#read-more-link7').text('Read more');
+    });
 });
