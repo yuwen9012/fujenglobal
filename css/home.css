@@ -4,6 +4,10 @@ body {
     background-color:#FFFEFB;
 }
 
+#canvas {
+    display: none; /* Hide the canvas element */
+}
+
 .carousel-item {
     position: relative;
     padding-top: 35%;

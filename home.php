@@ -78,15 +78,14 @@
         </button>
     </div> -->
 
-    <!-- <div class="container"> -->
     <div id="coin-slider">
-        <img src="images/1 首頁-1coin.jpg" alt="Slide 1" />
-        <img src="images/1 首頁-2coin.jpg" alt="Slide 2" />
-        <img src="images/1 首頁-3coin.jpg" alt="Slide 3" />
-        <img src="images/1 首頁-4coin.jpg" alt="Slide 4" />
-        <img src="images/1 首頁-5coin.jpg" alt="Slide 5" />
+        <!-- <img id="image1" src="images/1 首頁-1.jpg" alt="Slide 1" />
+        <img id="image2" src="images/1 首頁-2.jpg" alt="Slide 2" />
+        <img id="image3" src="images/1 首頁-3.jpg" alt="Slide 3" />
+        <img id="image4" src="images/1 首頁-4.jpg" alt="Slide 4" />
+        <img id="image5" src="images/1 首頁-5.jpg" alt="Slide 5" /> -->
+        <canvas id="canvas"></canvas>
     </div>
-    <!-- </div> -->
 
     <div class="container my-5">
         <div class="row">

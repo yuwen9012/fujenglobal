@@ -1,72 +1,80 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // const carouselElement = document.querySelector('#home-carousel');
+    // 圖片檔
+    const images = [
+        'images/1 首頁-1.jpg',
+        'images/1 首頁-2.jpg',
+        'images/1 首頁-3.jpg',
+        'images/1 首頁-4.jpg',
+        'images/1 首頁-5.jpg'
+    ];
 
-    // // Initialize Bootstrap carousel
-    // const carousel = new bootstrap.Carousel(carouselElement, {
-    //     interval: 5000,  // interval time
-    //     ride: 'carousel'
-    // });
+    // 尺寸
+    const desiredWidth = $('#coin-slider').parent().width();
+    const desiredHeight = $('#coin-slider').parent().width() * 0.3;
 
-    // // Listen for slide event to handle custom animations
-    // carouselElement.addEventListener('slide.bs.carousel', function(event) {
-    //     const outgoingItem = event.from;
-    //     const incomingItem = event.to;
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
 
-    //     // Apply animation classes to outgoing and incoming items
-    //     const items = carouselElement.querySelectorAll('.carousel-item');
-    //     items[outgoingItem].classList.add('fadeOut');
-    //     items[incomingItem].classList.add('fadeIn');
-    // });
+    // Helper function to load an image and draw it on the canvas
+    function loadImage(src) {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => {
+                // Set canvas dimensions
+                canvas.width = desiredWidth;
+                canvas.height = desiredHeight;
 
-    // // Reset animations after slide transition
-    // carouselElement.addEventListener('slid.bs.carousel', function(event) {
-    //     const items = carouselElement.querySelectorAll('.carousel-item');
-    //     items.forEach(item => {
-    //         item.classList.remove('fadeOut', 'fadeIn');
-    //     });
-    // });
+                // Draw the image on the canvas
+                ctx.drawImage(img, 0, 0, desiredWidth, desiredHeight);
 
-    $('#coin-slider').coinslider({
-        // width: $('#coin-slider').parent().width(),
-        width: 1000,
-        height: 500,
-        sDelay: 100,
-        delay: 5000,
-        navigation: true,
-        prevText: '<',
-        nextText: '>',
+                // Get image data from canvas
+                const resizedImageData = canvas.toDataURL('image/jpeg');
+                resolve(resizedImageData);
+            };
+            img.onerror = reject;
+            img.src = src;
+        });
+    }
+
+    // Function to add images to coin-slider
+    async function addImagesToSlider(callback) {
+        const slider = document.getElementById('coin-slider');
+
+        // Clear any existing images
+        slider.innerHTML = '';
+
+        for (const src of images) {
+            try {
+                const resizedImageData = await loadImage(src);
+
+                // Create an img element for the resized image
+                const imgElement = document.createElement('img');
+                imgElement.src = resizedImageData;
+                imgElement.alt = 'Slide';
+
+                // Add the image to the slider
+                slider.appendChild(imgElement);
+            } catch (error) {
+                console.error('Error loading image:', error);
+            }
+        }
+
+        // Call the callback function after all images have been added
+        if (callback) {
+            callback();
+        }
+    }
+
+    addImagesToSlider(() => {
+        $('#coin-slider').coinslider({
+            width: desiredWidth,
+            height: desiredHeight,
+            sDelay: 100,
+            delay: 5000,
+            navigation: true,
+            links: false,
+            prevText: '<',
+            nextText: '>',
+        });
     });
-
-    // // Function to initialize the Coin Slider with viewport dimensions
-    // function initializeCoinSlider() {
-    //     var viewportWidth = $(window).width();
-    //     var viewportHeight = $(window).height() * 0.5;
-
-    //     $('#coin-slider').coinslider({
-    //         width: viewportWidth, // Set width based on viewport width
-    //         height: viewportHeight, // Set height based on viewport height
-    //         sDelay: 100,
-    //         delay: 5000,
-    //         prevText: '<',
-    //         nextText: '>',
-    //         navigation: true,
-    //     });
-    // }
-
-    // // Initialize Coin Slider on document ready
-    // initializeCoinSlider();
-
-    // // Reinitialize Coin Slider on window resize
-    // $(window).resize(function() {
-    //     $('.coin-slider').empty(); // Clear the existing content
-    //     // Re-insert images
-    //     $('.coin-slider').append(`<div id="coin-slider">
-    //         <img src="images/1 首頁-1.jpg" alt="Slide 1">
-    //         <img src="images/1 首頁-2.jpg" alt="Slide 2">
-    //         <img src="images/1 首頁-3.jpg" alt="Slide 3">
-    //         <img src="images/1 首頁-4.jpg" alt="Slide 4">
-    //         <img src="images/1 首頁-5.jpg" alt="Slide 5"></div>
-    //     `);
-    //     initializeCoinSlider(); // Reinitialize with new dimensions
-    // });
 });
