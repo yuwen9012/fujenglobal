@@ -9,7 +9,7 @@ html, body {
 #content-card {
     background-color: #FFF9E6;
     width: 90vw;
-}
+} 
 
 @media (min-width: 1200px) {
     #content-card {
@@ -57,7 +57,7 @@ html, body {
 
 .profile-photo {
     width: 200px;
-    height: 200px;
+    height: 180px;
 }
 
 .profile-photo img {
