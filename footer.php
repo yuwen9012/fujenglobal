@@ -7,11 +7,9 @@
             </span>
             <span class="text-white d-flex flex-row">
                 <i class="fas fa-phone me-2"></i>
-                <div class="d-flex flex-column">
-                    <label>General Inquiry +886-2-2905-3137</label>
-                    <label>Global Partnership +886-2-2905-3358</label>
-                    <label>International Student / Admission</label><label>+886-2-2905-2944</label>
-                    <label>Chinese Language +886-2-2905-3721</label>
+                <div class="d-flex flex-row">
+                    <label>Contact Us: <a href="contact-us.php">Link</a></label>
+                    
                 </div>
             </span>
         </div>
