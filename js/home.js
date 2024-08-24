@@ -1,22 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // 圖片檔
-    const images = [
-        'images/1 首頁-1.jpg',
-        'images/1 首頁-2.jpg',
-        'images/1 首頁-3.jpg',
-        'images/1 首頁-4.jpg',
-        'images/1 首頁-5.jpg'
-    ];
-
-    // 尺寸
-    const desiredWidth = $('#coin-slider').parent().width();
-    const desiredHeight = $('#coin-slider').parent().width() * 0.3;
-
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
 
     // Helper function to load an image and draw it on the canvas
-    function loadImage(src) {
+    function loadImage(src, desiredWidth, desiredHeight) {
         return new Promise((resolve, reject) => {
             const img = new Image();
             img.onload = () => {
@@ -37,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Function to add images to coin-slider
-    async function addImagesToSlider(callback) {
+    async function addImagesToSlider(images, desiredWidth, desiredHeight, callback) {
         const slider = document.getElementById('coin-slider');
 
         // Clear any existing images
@@ -45,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         for (const src of images) {
             try {
-                const resizedImageData = await loadImage(src);
+                const resizedImageData = await loadImage(src, desiredWidth, desiredHeight);
 
                 // Create an img element for the resized image
                 const imgElement = document.createElement('img');
@@ -65,16 +52,55 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    addImagesToSlider(() => {
-        $('#coin-slider').coinslider({
-            width: desiredWidth,
-            height: desiredHeight,
-            sDelay: 100,
-            delay: 5000,
-            navigation: true,
-            links: false,
-            prevText: '<',
-            nextText: '>',
+    // Function to initialize the coin-slider with updated dimensions
+    function initializeCoinSlider() {
+        // 圖片檔
+        const images = [
+            'images/1 首頁-1coin.jpg',
+            'images/1 首頁-2coin.jpg',
+            'images/1 首頁-3coin.jpg',
+            'images/1 首頁-4coin.jpg',
+            'images/1 首頁-5coin.jpg'
+        ];
+
+        const desiredWidth = $('#coin-slider').parent().width();
+        const desiredHeight = desiredWidth * 0.3;
+
+        addImagesToSlider(images, desiredWidth, desiredHeight, () => {
+            $('#coin-slider').coinslider({
+                width: desiredWidth,
+                height: desiredHeight,
+                sDelay: 100,
+                delay: 5000,
+                navigation: true,
+                links: false,
+                prevText: '<',
+                nextText: '>',
+            });
         });
-    });
+    }
+
+    // Initial load
+    initializeCoinSlider();
+
+    // // Reinitialize Coin Slider on window resize
+    // $(window).resize(function() {
+    //     let carousel = document.getElementById('carousel');
+    //     carousel.innerHTML = '';
+    //     // 创建新的 div 元素
+    //     const newDiv = document.createElement('div');
+    //     newDiv.id = 'coin-slider';
+
+    //     // 创建 canvas 元素
+    //     const canvas = document.createElement('canvas');
+    //     canvas.id = 'canvas';
+
+    //     // 将 canvas 添加到 newDiv 中
+    //     newDiv.appendChild(canvas);
+
+    //     // 将 newDiv 添加到 carousel 中
+    //     carousel.appendChild(newDiv);
+
+    //     initializeCoinSlider();
+    // });
 });
