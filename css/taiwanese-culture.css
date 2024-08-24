@@ -38,6 +38,19 @@
             margin-top: 20px;
             text-align: justify;
         }
+.arrow-icon {
+     display: none;
+     color: #123458;
+
+}
+@media (max-width: 768px) {
+    .arrow-icon {
+        display: inline-block;
+        position: absolute; /* 使用絕對定位 */
+        right: 10px; /* 距離右側10px */ 
+        transform: translateY(-50%); /* 垂直居中 */
+    }
+}  
 @media (max-width: 1024px) {
     .event-header {
         white-space: nowrap; /* 禁止換行 */
