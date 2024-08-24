@@ -144,7 +144,7 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <div class="justify-text">
-                    <li class="mt-3">Textile and Design Section: Zhao-Hua Ho, Cheng-Ping Yu, Chao-Chiung Huang, Li-Ju Tsai, Yuan-Lung Kao, Yi-Tzu Lin</li>
+                    <li class="mt-3">Textiles and Design Section: Zhao-Hua Ho, Cheng-Ping Yu, Chao-Chiung Huang, Li-Ju Tsai, Yuan-Lung Kao, Yi-Tzu Lin</li>
                     <li class="mt-3">Fashion Design Section: Jocelyn Hua-Chu Chen、Ching-Yi Cheng Yu-Lien Lee Yen-I Wu.Ying-Chia Huang, Tsui-Yuan Chang, Po-Ling Wu, Hsin-Ling Hu,Joe Chan,Kuo Don lin</li>
                     <li class="mt-3">Fashion Marketing Section: Bin-Tsann Yang,Hsin Kao,Shan-Ying Shih, Shu-Fen Lu Hui-wen wang. Jia-Qi Zhang, Hsiu-Ju Yang</li>
                 </div>    
@@ -158,7 +158,7 @@
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
                 <div class="justify-text">
                     <li class="my-3">Textile Science Laboratory</li>
-                    <li class="my-3">Professional photo studios</li>
+                    <li class="my-3">Photography Studio</li>
                     <li class="my-3">Circular knitting machine</li>
                     <li class="my-3">Computer lab room</li>
                     <li class="my-3">Cutting classrooms</li>
