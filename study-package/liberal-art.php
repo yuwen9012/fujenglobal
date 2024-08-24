@@ -193,8 +193,7 @@
                                 <li>
                                     Applied History
                                 </li>
-                            </ul> 
-                        </div>                
+                            </ul>               
                     </div>
                     <a id="read-more-link-liber-csd" data-bs-toggle="collapse" href="#collapseLiberCsd" role="button" aria-expanded="false" aria-controls="collapseLiberCsd">Read more...</a>
                 </div>
