@@ -129,73 +129,74 @@
                     <p class="my-3">Global Outlook (EMI course): Discussing contemporary global themes, such as AI, international finance and business, and technology.</p>
                     <p class="mt-3 fw-semibold">Department of History:</p>
                     <p class="my-3">Diplomatic History of 20th-Century Iran (EMI course): Discussing the diplomatic history of Iran as the foundation of Iran’s contemporary foreign affairs.</p>
-                    <p class="my-3">Reading and Discussion of U.S. History (EMI course): Discussing various topics and issues in U.S. history. English for Historical Study (EMI course): Teaching students to read and write about history in English.</p>
-                    <p class="mt-3 fw-semibold">Department of Chinese Literature:</p>
-                    <p class="my-3">Four Books (EMI course): Discussing China’s Four classic works in English. Seminar of Sinological English (EMI course): Reading and studying the English works of Sinology.</p>
-                
-                    <div>
-                        <p class="mt-3 fw-semibold">Other Feature Courses Teaching in Chinese</p>
-                        <p class="my-3">Department of Chinese Literature:</p>
-                        <ul class="custom-list">
-                            <li>
-                                History of Chinese Literature
-                            </li>
-                            <li>
-                                Chinese Mythology and Interactive AI
-                            </li>
-                            <li>
-                                Introduction to Teaching Chinese
-                            </li>
-                            <li>
-                                Appreciation and Writing of Calligraphy and Painting
-                            </li>
-                        </ul>
-                        <p class="my-3">Department of History:</p>
-                        <ul class="custom-list">
-                            <li>
-                                The French Revolution in Global Perspectives
-                            </li>
-                            <li>
-                                History of the Chinese Communist Revolution
-                            </li>
-                            <li>
-                                A History of the Catholic Church in China
-                            </li>
-                            <li>
-                                Modern History of Christianity
-                            </li>
-                        </ul>  
-                        <p class="my-3">Department of Philosophy:</p>
-                        <ul class="custom-list">
-                            <li>
-                                Philosophical Counseling: Theory and Practice    
-                            </li>
-                            <li>
-                                Critique of Pure Reason by Immanuel Kant
-                            </li>
-                            <li>
-                                Catholic Philosophy during the late Ming and early Qing dynasty
-                            </li>
-                            <li>
-                                Intercultural Dialogue between Christian Tradition and Early Chinese Thought
-                            </li>
-                        </ul> 
-                        <p class="my-3">Bachelor's degree of Humanities and Community Innovation :</p>
-                        <ul class="custom-list">
-                            <li>
-                                Taiwanese History and Culture
-                            </li>
-                            <li>
-                                The Origin and Evolution of Chinese Characters
-                            </li>
-                            <li>
-                                Creative Thinking and Logical Analysis
-                            </li>
-                            <li>
-                                Applied History
-                            </li>
-                        </ul>                 
+                    <div class="collapse" id="collapseLiberCsd">
+                        <p class="my-3">Reading and Discussion of U.S. History (EMI course): Discussing various topics and issues in U.S. history. English for Historical Study (EMI course): Teaching students to read and write about history in English.</p>
+                        <p class="mt-3 fw-semibold">Department of Chinese Literature:</p>
+                        <p class="my-3">Four Books (EMI course): Discussing China’s Four classic works in English. Seminar of Sinological English (EMI course): Reading and studying the English works of Sinology.</p>
+                            <p class="mt-3 fw-semibold">Other Feature Courses Teaching in Chinese</p>
+                            <p class="my-3">Department of Chinese Literature:</p>
+                            <ul class="custom-list">
+                                <li>
+                                    History of Chinese Literature
+                                </li>
+                                <li>
+                                    Chinese Mythology and Interactive AI
+                                </li>
+                                <li>
+                                    Introduction to Teaching Chinese
+                                </li>
+                                <li>
+                                    Appreciation and Writing of Calligraphy and Painting
+                                </li>
+                            </ul>
+                            <p class="my-3">Department of History:</p>
+                            <ul class="custom-list">
+                                <li>
+                                    The French Revolution in Global Perspectives
+                                </li>
+                                <li>
+                                    History of the Chinese Communist Revolution
+                                </li>
+                                <li>
+                                    A History of the Catholic Church in China
+                                </li>
+                                <li>
+                                    Modern History of Christianity
+                                </li>
+                            </ul>  
+                            <p class="my-3">Department of Philosophy:</p>
+                            <ul class="custom-list">
+                                <li>
+                                    Philosophical Counseling: Theory and Practice    
+                                </li>
+                                <li>
+                                    Critique of Pure Reason by Immanuel Kant
+                                </li>
+                                <li>
+                                    Catholic Philosophy during the late Ming and early Qing dynasty
+                                </li>
+                                <li>
+                                    Intercultural Dialogue between Christian Tradition and Early Chinese Thought
+                                </li>
+                            </ul> 
+                            <p class="my-3">Bachelor's degree of Humanities and Community Innovation :</p>
+                            <ul class="custom-list">
+                                <li>
+                                    Taiwanese History and Culture
+                                </li>
+                                <li>
+                                    The Origin and Evolution of Chinese Characters
+                                </li>
+                                <li>
+                                    Creative Thinking and Logical Analysis
+                                </li>
+                                <li>
+                                    Applied History
+                                </li>
+                            </ul> 
+                        </div>                
                     </div>
+                    <a id="read-more-link-liber-csd" data-bs-toggle="collapse" href="#collapseLiberCsd" role="button" aria-expanded="false" aria-controls="collapseLiberCsd">Read more...</a>
                 </div>
             </div>
         </div>

@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Liberal art
         { collapseId: '#collapseLiberIntro', linkId: '#read-more-link-liber-intro' },
         { collapseId: '#collapseLiberFeatu', linkId: '#read-more-link-liber-featu' },
+        { collapseId: '#collapseLiberCsd', linkId: '#read-more-link-liber-csd' },
         //Art
         { collapseId: '#collapseArtAmsp', linkId: '#read-more-link-Art-Amsp' },
         { collapseId: '#collapseArtLo', linkId: '#read-more-link-Art-lo' },
