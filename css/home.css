@@ -133,10 +133,10 @@ h2, p {
     max-width: 100%;
 }
 
-footer {
-    background-color: #132548 !important;
-}
-
 /* .with-divider {
     border-left: 1px solid rgba(255, 255, 255, 0.575);
 } */
+
+#cs-buttons-coin-slider, #cs-title-coin-slider {
+    display: none;
+}

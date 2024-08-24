@@ -83,24 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial load
     initializeCoinSlider();
 
-    // // Reinitialize Coin Slider on window resize
-    // $(window).resize(function() {
-    //     let carousel = document.getElementById('carousel');
-    //     carousel.innerHTML = '';
-    //     // 创建新的 div 元素
-    //     const newDiv = document.createElement('div');
-    //     newDiv.id = 'coin-slider';
-
-    //     // 创建 canvas 元素
-    //     const canvas = document.createElement('canvas');
-    //     canvas.id = 'canvas';
-
-    //     // 将 canvas 添加到 newDiv 中
-    //     newDiv.appendChild(canvas);
-
-    //     // 将 newDiv 添加到 carousel 中
-    //     carousel.appendChild(newDiv);
-
-    //     initializeCoinSlider();
-    // });
+    // Reinitialize Coin Slider on window resize
+    $(window).resize(function() {
+        initializeCoinSlider();
+    });
 });
