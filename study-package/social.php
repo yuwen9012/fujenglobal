@@ -284,5 +284,9 @@
         <p class="my-3">Tel 1: +886-2-2905-2631, 015017@mail.fju.edu.tw,  Ms. Tseng, </p>
         <p class="my-3">Tel 2:+886-2-2905-2794, 054517@mail.fju.edu.tw, Ms. Chuang</p>
         <p class="my-3">Fax: +886-22905-2161</p>
+        <p class="my-3">Chief of Internationalization</p>
+        <p class="my-3">Yang-Ming Huang</p>
+        <p class="my-3">Tel: 886-2-2905-2130</p>
+        <p class="my-3">E-mail: yangming.huang@gmail.com</p>
     </div>
 </div>
