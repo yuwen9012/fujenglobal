@@ -46,20 +46,20 @@
     <!-- 第零區塊 --> 
     <div class="container-fluid block1">
     <div class="row">
-        <div class="col-lg-2 left-section"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8 center-section">
+        <div class="col-lg-1 left-section"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10 center-section">
             <div class="table-responsive">
-                <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+                <table  class="custom-table" style="border: 1px solid black; border-collapse: collapse; width:100%;">
                     <tr style="border: 1px solid black;">
                         <th style="border: 1px solid black; padding: 8px;"> </th>
-                        <th style="border: 1px solid black; padding: 8px;">ISC Event (Fee-based)</th>
-                        <th style="border: 1px solid black; padding: 8px;">ISC Event (Free)</th>
-                        <th style="border: 1px solid black; padding: 8px;">CCLC Event (Fee-based)</th>
-                        <th style="border: 1px solid black; padding: 8px;">CCLC Event (Free)</th>
-                        <th style="border: 1px solid black; padding: 8px;">Special Event</th>
+                        <th class="event-header" style="border: 1px solid black; padding: 8px;text-align: center;">ISC Event<br>(Fee-based)</th>
+                        <th class="event-header" style="border: 1px solid black; padding: 8px;text-align: center;">ISC Event<br>(Free)</th>
+                        <th class="event-header" style="border: 1px solid black; padding: 8px;text-align: center;">CCLC Event<br>(Fee-based)</th>
+                        <th class="event-header" style="border: 1px solid black; padding: 8px;text-align: center;">CCLC Event<br>(Free)</th>
+                        <th style="border: 1px solid black; padding: 8px;text-align: center;">Special Event</th>
                     </tr>
                     <tr style="border: 1px solid black;">
-                        <th style="border: 1px solid black; padding: 8px;">Regular Exchange Student</th>
+                        <th style="border: 1px solid black; padding: 8px;text-align: center;">Regular Exchange Student</th>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✗</td>
@@ -67,7 +67,7 @@
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">Fee-paying</td>
                     </tr>
                     <tr style="border: 1px solid black;">
-                        <th style="border: 1px solid black; padding: 8px;">Study Abroad Student</th>
+                        <th style="border: 1px solid black; padding: 8px;text-align: center;">Study Abroad Student</th>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
@@ -75,7 +75,7 @@
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">Free (two guaranteed)</td>
                     </tr>
                     <tr style="border: 1px solid black;">
-                        <th style="border: 1px solid black; padding: 8px;">CCLC Student</th>
+                        <th style="border: 1px solid black; padding: 8px;text-align: center;">CCLC Student</th>
                         <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">⭗</td>
                         <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">⭗</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
@@ -86,7 +86,7 @@
             </div>
             <span class="justify-text"><span style="color: red;">⭗</span>: Depends on the actual situation</span>
         </div>
-        <div class=" col-lg-2 right-section"></div>
+        <div class=" col-lg-1 right-section"></div>
     </div>
     <br>
 </div>
