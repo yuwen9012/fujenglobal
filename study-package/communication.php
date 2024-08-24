@@ -40,14 +40,14 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Introduction</h3>
                 <div class="justify-text">
-                    <span>The College of Communication was established in 2010. It incorporates the Graduate Institute of Mass Communication, the Department of Journalism & Communication Studies, the Department of Communication Arts, Department of Advertising and Public Relations, the Postgraduate School of Mass Communication, the Media and Instructional Resources Center, as well as the internship radio station "Voice of Fu Jen Catholic University."</span>
+                    <span>The College of Communication was established in 2010. It is composed of the Graduate Institute of Mass Communication, the Department of Journalism & Communication Studies, the Department of Communication Arts, the Department of Advertising and Public Relations, the Bachelor’s program in Mass Communication, the Media and Instructional Resources Center, as well as the student radio station "Voice of Fu Jen Catholic University."</span>
                     <div class="collapse" id="collapseCommuIntro">
                         <p class="my-3">Fu Jen University has 50 years of history teaching in communication studies, and raising education-minded media talent who possess both holistic educational concepts and professional discipline for the purpose of education.</p>
-                        <p class="my-3">Currently our department caters to 1,200 students, and each year we recruit roughly 300 undergraduate students, and 40 graduate students. Over the years we have seen over 10,000 graduate alumni go on to be successful in areas such as the newspaper industry, periodicals, broadcasting, advertising, movies, multimedia, advertising, marketing, public relations, and academic research.</p>
+                        <p class="my-3">Our college currently has 1,200 students, and we recruit roughly 300 undergraduate students and 40 graduate students each year. Throughout our history, we have seen more than 10,000 alumni prospering in journalism, publishing, broadcasting, advertising, film, digital media, marketing, public relations, and academic research.</p>
                         <p class="mt-3 fw-semibold">Mission statements</p>
-                        <p class="my-1">(1) Buildine on the foundation of quality education and researches, we aim to foster the well-rounded talents who respect nature, love people, value equality and usuce, care tor the disadvantaged, and are equioved with creativity and strategic. planning skills in the field of journalism, communication arts, advertising and marketing communication.</p>
+                        <p class="my-1">(1) Building on the foundation of quality education and researches, we aims to foster the well-rounded talents who respect nature, love people, value equality and justice, care for the disadvantaged, and are equipped with creativity and strategic planning skills in the field of journalism, communication arts, advertising and marketing communications.</p>
                         <p class="my-1">(2) In response to the ever-changing development and trends in communication technologies, we aim to foster talents who are empowered with innovative communication abilities and are capable of applying new technologies to the creation of content.</p>
-                        <p class="my-1">(3) Our teaching and researches are based on the idea of "public communication". We are dedicated to understand the public's perspective, raise public awareness of social concern, and to honor social justice.</p>
+                        <p class="my-1">(3) Our teaching and researches are based on the idea of "public communication". We are dedicated to understanding the public's perspective, raise public awareness of social concern, and to honor social justice.</p>
                     </div>
                     <a id="read-more-link-commu-intro" data-bs-toggle="collapse" href="#collapseCommuIntro" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
                 </div>
@@ -76,7 +76,7 @@
                             Provides quality education in both media production and media studies.
                         </li>
                         <li>
-                            Encourages students to participate in media festivals, competitions, exhibitions and performances.
+                        Encourages students to participate in media festivals, competitions, exhibitions and performances.
                         </li>
                         <li>
                             Offers interdisciplinary courses in social sciences and creative arts.
@@ -118,7 +118,7 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <div class="justify-text">
-                    <p class="mt-3 fw-semibold">Film Studies Around the World:</p>
+                    <p class="mt-3 fw-semibold">Global Film Studies:</p>
                     <ul class="decimal-list">
                         <li>
                             Latin American Movies
@@ -139,7 +139,7 @@
                             Introduction to Inter-Asia Cinemas
                         </li>
                     </ul>
-                    <p class="mt-3 fw-semibold">Media, Journalism and Intercultural Studies:</p>
+                    <p class="mt-3 fw-semibold">Media, and Communication Studies:</p>
                     <div class="collapse" id="collapseCommuAmsp">
                         <ul class="decimal-list">
                             <li>
@@ -183,7 +183,7 @@
                             Learn Latin American films with its history, culture and society.
                         </li>
                         <li>
-                            Reflect on how movies construct history as narrative and popularize different in the process of LA history.
+                        Reflect on how movies construct history as narrative and popularize different in the process of LA history.
                         </li>
                         <li>
                             Examine the differences and similarities between academic historical narratives and cinematic historical narratives.
@@ -215,7 +215,7 @@
                         <p class="my-3">Secondly, the angle will focus on minor nationalist cinema, such as Black cinema, Hispanic cinema, Jewish Cinema and Chinese Hollywood, to better understand a cinematic map of ethnic-political empowerment, and to further compare how Chinese factor entangled with other ethnic and cultural ingredients.</p>
                         <p class="my-3">Thirdly, Hollywood Chinese, borrowed the documentary practice of Arthur Dong as film of resistance, involves various levels of knowledge: production, casting, acting, audience acceptance and identity politics.</p>
                         <p class="mt-3 fw-semibold">Introduction to Inter-Asia Cinemas:</p>
-                        <p class="my-3">Base on critical concepts aroused by Inter-Asian Cultural Studies, the course aims to tackle the complicated network of historicity, images and cultural politics, by mapping out a possible terrain of filmic, cinematic and discursive (inter-)textuality against the backdrop of hollywoodization of world annschuuang and cultural immigination. By looking into the film cultures in India, South Korea, and Isreal (Jewish), and by taking examples from other (post-)nationalist cinema, the course hopes to lay out the alternative ways in re-positioning our own culturl identity, and self-empowering oursleves for immergent change.</p>
+                        <p class="my-3">Base on critical concepts aroused by Inter-Asian Cultural Studies, the course aims to tackle the complicated network of historicity, images and cultural politics, by mapping out a possible terrain of filmic, cinematic and discursive (inter-)textuality against the backdrop of hollywoodization of world annschuuang and cultural immigination. By looking into the film cultures in India, South Korea, and Isreal (Jewish), and by taking examples from other (post-)nationalist cinema, the course hopes to lay out the alternative ways in re-positioning our own cultural identity, and self-empowering ourselves for immergent change.</p>
                         <p class="mt-3 fw-semibold">Readings of Communication</p>
                         <p class="my-3">This course aims to encourage students to communicate and improve their English proficiency, by learning in English about film, TV and other phenomenal pop culture consumption in Taiwan. We will read important English-language academic papers that discuss key issues on these subjects. The continuous negotiation and contention between Confucian traditional norms and emergent modernization desires that have been influenced by cultures from the West, in particular the US, underpins these readings.</p>
                         <p class="mt-3 fw-semibold">Inter-Cultural Communication: A Visual Approach</p>
@@ -238,8 +238,13 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Learning Outcomes</h3>
                 <div class="justify-text">
-                    <p class="my-3">Taking European, Hollywood, Asian, and Indian films as the subject of analysis, through the course, students can enjoy movies while gaining a deeper understanding of the diversity and richness of different cultures, broadening their horizons and enhancing their cultural literacy.</p>
-                    <p class="my-3">Enhance students' understanding of and ability to analyze global news events, develop students' sensitivity to and respect for different cultures, and increase students' awareness of and critical thinking about international pop culture trends through the curriculum.</p>
+                    <p class="mt-3 fw-semibold">Global Film Studies:</p>
+                    <p class="my-3">Taking European, Hollywood, Latino American, Asian, and Indian films as the subjects of analysis, through the courses, students can enjoy watching these films while gaining a deeper understanding of the diversity and richness of different cultures, broadening their horizons and enhancing their cultural literacy.</p>
+                    <div class="collapse" id="collapseCommuLo">
+                        <p class="mt-3 fw-semibold">Media and Communication Studies:</p>
+                        <p class="my-3">These courses enhance students' understanding of and ability to analyze global news, develop students' sensitivity to and respect for different cultures, and increase students' awareness of and critical thinking about international pop culture trends.</p>
+                    </div>
+                    <a id="read-more-link-commu-lo" data-bs-toggle="collapse" href="#collapseCommuLo" role="button" aria-expanded="false" aria-controls="collapseCommuLo">Read more...</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -256,7 +261,7 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <div class="justify-text">
-                    <p class="my-3">There are 27 full-time teachers, including 5 professors, 12 associate professors, 9 assistant professors, 1 lecturers and over 40 industry teachers.</p>
+                    <p class="my-3">There are 27 full-time teachers, including 5 professors, 12 associate professors, 9 assistant professors, 1 lecturer and over 40 adjunct teachers who have hands-on media production experiences.</p>
                 </div>
             </div>
         </div>

@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '#collapseCommuFeatu', linkId: '#read-more-link-commu-featu' },
         { collapseId: '#collapseCommuAmsp', linkId: '#read-more-link-commu-amsp' },
         { collapseId: '#collapseCommuCsd', linkId: '#read-more-link-commu-csd' },
+        { collapseId: '#collapseCommuLo', linkId: '#read-more-link-commu-lo' },
         { collapseId: '#collapseCommuRf', linkId: '#read-more-link-commu-rf' },
         // Education
         { collapseId: '#collapseEduIntro', linkId: '#read-more-link-edu-intro' },
