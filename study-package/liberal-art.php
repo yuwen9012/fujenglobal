@@ -64,13 +64,13 @@
                         <p class="mt-3 fw-semibold">We feature:</p>
                         <ul class="custom-list">
                             <li>
-                                <span class="fw-bolder">Learning Practical Skills:</span> We emphasize the applied courses, such as applied Chinese, applied history, and philosophical consulting.
+                                <span class="fw-bolder">Learning Practical Skills:</span> We emphasize the applied courses, such as applied Chinese, applied history,  philosophical consulting, and generative AI.
                             </li>
                             <li>
-                                <span class="fw-bolder">Internationalization:</span> We hold variety of international conferences for scholars around the world. Our faculty members attend international conferences worldwide. Our students are encouraged to apply to exchanging student programs.
+                                <span class="fw-bolder">Internationalization:</span> We hold variety of international conferences for scholars around the world. Our faculty members attend international conferences worldwide. Our students are encouraged to apply to exchanging student programs. We offer a group of courses on teaching Mandarin to non-native speakers.
                             </li>
                             <li>
-                                <span class="fw-bolder">Professional development:</span> We support and enhance the research works of faculty members and students. We also encourage students to get professional certificates.
+                                <span class="fw-bolder">Professional development:</span> We support and enhance the research works of faculty members and students. We also encourage students to get professional certificates, and proactively promote projects to help students of humanities to bring their talents to business world.
                             </li>
                             <li>
                                 <span class="fw-bolder">Service and Charity:</span> We organize volunteer teams to serve those in need.
@@ -100,7 +100,13 @@
                             Reading and Discussion of U.S. History (EMI course)
                         </li>
                         <li>
+                            English for Historical Study (EMI course)
+                        </li>
+                        <li>
                             Four Books (EMI course)
+                        </li>
+                        <li>
+                            Seminar of Sinological English (EMI course)
                         </li>
                     </ul>
                 </div>
@@ -120,12 +126,76 @@
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <div class="justify-text">
                     <p class="mt-3 fw-semibold">Collegewide:</p>
-                    <p class="my-3">Global Outlook (EMI course)</p>
+                    <p class="my-3">Global Outlook (EMI course): Discussing contemporary global themes, such as AI, international finance and business, and technology.</p>
                     <p class="mt-3 fw-semibold">Department of History:</p>
-                    <p class="my-3">Diplomatic History of 20th-Century Iran (EMI course)</p>
-                    <p class="my-3">Reading and Discussion of U.S. History (EMI course)</p>
+                    <p class="my-3">Diplomatic History of 20th-Century Iran (EMI course): Discussing the diplomatic history of Iran as the foundation of Iran’s contemporary foreign affairs.</p>
+                    <p class="my-3">Reading and Discussion of U.S. History (EMI course): Discussing various topics and issues in U.S. history. English for Historical Study (EMI course): Teaching students to read and write about history in English.</p>
                     <p class="mt-3 fw-semibold">Department of Chinese Literature:</p>
-                    <p class="my-3">Four Books (EMI course)</p>
+                    <p class="my-3">Four Books (EMI course): Discussing China’s Four classic works in English. Seminar of Sinological English (EMI course): Reading and studying the English works of Sinology.</p>
+                
+                    <div>
+                        <p class="mt-3 fw-semibold">Other Feature Courses Teaching in Chinese</p>
+                        <p class="my-3">Department of Chinese Literature:</p>
+                        <ul class="custom-list">
+                            <li>
+                                History of Chinese Literature
+                            </li>
+                            <li>
+                                Chinese Mythology and Interactive AI
+                            </li>
+                            <li>
+                                Introduction to Teaching Chinese
+                            </li>
+                            <li>
+                                Appreciation and Writing of Calligraphy and Painting
+                            </li>
+                        </ul>
+                        <p class="my-3">Department of History:</p>
+                        <ul class="custom-list">
+                            <li>
+                                The French Revolution in Global Perspectives
+                            </li>
+                            <li>
+                                History of the Chinese Communist Revolution
+                            </li>
+                            <li>
+                                A History of the Catholic Church in China
+                            </li>
+                            <li>
+                                Modern History of Christianity
+                            </li>
+                        </ul>  
+                        <p class="my-3">Department of Philosophy:</p>
+                        <ul class="custom-list">
+                            <li>
+                                Philosophical Counseling: Theory and Practice    
+                            </li>
+                            <li>
+                                Critique of Pure Reason by Immanuel Kant
+                            </li>
+                            <li>
+                                Catholic Philosophy during the late Ming and early Qing dynasty
+                            </li>
+                            <li>
+                                Intercultural Dialogue between Christian Tradition and Early Chinese Thought
+                            </li>
+                        </ul> 
+                        <p class="my-3">Bachelor's degree of Humanities and Community Innovation :</p>
+                        <ul class="custom-list">
+                            <li>
+                                Taiwanese History and Culture
+                            </li>
+                            <li>
+                                The Origin and Evolution of Chinese Characters
+                            </li>
+                            <li>
+                                Creative Thinking and Logical Analysis
+                            </li>
+                            <li>
+                                Applied History
+                            </li>
+                        </ul>                 
+                    </div>
                 </div>
             </div>
         </div>
