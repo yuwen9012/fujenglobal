@@ -38,6 +38,12 @@
             margin-top: 20px;
             text-align: justify;
         }
+@media (max-width: 1024px) {
+    .event-header {
+        white-space: nowrap; /* 禁止換行 */
+        font-size: 18px; /* 可選：縮小字體 */
+    }
+}
 /*表格*/
 
 /*影片*/
