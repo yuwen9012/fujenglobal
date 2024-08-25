@@ -118,50 +118,51 @@
     <div class="container-fluid introduction-block" style="background-color: #FFF9E6;">
         <br>
         <p class="heading">Taiwan BangZi Opera Cultural Event</p>
-             <br>
              <div class="row">
                  <div class="col-md-2 left-section"></div>
                  <div class="col-sm-10 col-md-8 center-section">
-                    <div class="container-fluid mb-5" style="width:70%; height: 80%; " >
+                    <div class="container-fluid" style="width:70%; height: 100%; " >
                       <video class="video" id="video"  controls style="width:100%;" autoplay muted>
                           <source src="video/BangZi Opera.mp4" type="video/mp4">
                       </video>
+                      
                     </div>
                  </div>
                  <div class="col-md-2 right-section"></div>
              </div>
-    </div>
-
-    <div class="container-fluid introduction-block" style="background-color: #FFF9E6;">
              <div class="row">
-                 <div class="col-sm-4 col-md-2 left-section"></div>
-                 <div class="col-sm-4 col-md-8 center-section">
-                    <span class="content-inner justify-text">Taiwan Bangzi Opera, also known as Taiwanese Opera, is a traditional form of Chinese opera that originated in Taiwan. It features distinctive singing styles, vibrant costumes, and dramatic storytelling. Performances often include folk tales, historical events, and legends, captivating audiences with their unique blend of music, dance, and theatrics.</span>
-                 </div>
-                 <div class="col-sm-4 col-md-2 right-section"></div>
-             </div>
+                <div class="col-lg-2 left-section"></div>
+                <div class="col-lg-8 left-section">
+                     <p class="content-inner justify-text">Taiwan Bangzi Opera, also known as Taiwanese Opera, is a traditional form of Chinese opera that originated in Taiwan. It features distinctive singing styles, vibrant costumes, and dramatic storytelling. Performances often include folk tales, historical events, and legends, captivating audiences with their unique blend of music, dance, and theatrics.</p>
+                </div>
+                <div class="col-lg-2 left-section"></div>
+            </div>
     </div>
 
     <!-- 第三區塊 --> 
     <div class="container-fluid introduction-block" >
         <br>
         <p class="heading">Past Event Glimpses</p>
-             <div class="row">
-                 <div class="col-lg-2  left-section"></div>
-                 <div class="col-lg-6 col-md-12 center-section">
-                     <img id="mainImage2" src="images/Bajiang Cultural1.jpg" alt="Description of the image" class="img-fluid">
-                 </div>
-                 <div class="col-lg-2 col-md-12 center-section">
-                         <p class="heading2">Bajiang Cultural Event</p>
-                         <p class="content2">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join.(The remaining spots will be opened to other international students for a fee depending on the situation.)</p>
-                 </div>
-                 <div class="col-lg-2  right-section"></div>
-             </div>
     </div>
     <div class="container-fluid info-block">
+
            <div class="row">
-               <div class="col-lg-2 left-section"></div>
-               <div class="col-lg-8 col-md-12 d-flex justify-content-center align-items-center">
+                 <div class="col-lg-2 col-md-1  col-2 order-lg-1 order-md-1 order-sm-1">
+                 </div>
+                 <div class="col-lg-6 col-md-10 col-sm-6 col-12 order-2 order-lg-2 order-md-2 order-sm-2">
+                     <img  class="mainImage " id="mainImage2" src="images/Bajiang Cultural1.jpg" alt="Description of the image" class="img-fluid">
+                 </div>
+                 <div class="col-lg-2 col-md-12  col-sm-6 order-1 order-lg-3 order-md-3 order-sm-3">
+                         <p class="heading2">Bajiang Cultural Event </p>
+                         <p class="content2">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join.(The remaining spots will be opened to other international students for a fee depending on the situation.)</p>
+                 </div>
+                 <div class="col-lg-2 col-md-1  col-2 order-lg-4 order-md-4 order-sm-4">
+                 </div>
+           </div>
+
+           <div class="row">
+               <div class="col-lg-2"></div>
+               <div class="col-lg-8 col-md-12 col-12 justify-content-center align-items-center">
                    <div id="carouselExampleIndicators" class="carousel slide">
                        <div class="carousel-inner">
                            <div class="carousel-item active">
@@ -265,7 +266,7 @@
                        </button>
                    </div>
                </div>
-               <div class="col-lg-2  right-section"></div>
+               <div class="col-lg-2"></div>
            </div>
            <br>
        </div>
