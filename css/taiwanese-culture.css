@@ -82,7 +82,7 @@
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 38px;
+font-size: 30px;
 display: flex;
 align-items: center;
 color: #0B3F61;
@@ -94,7 +94,7 @@ justify-content: center;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 display: flex;
 align-items: center;
 color: #0B3F61;
@@ -122,7 +122,6 @@ font-size: 16px;
 text-align: justify;
 justify-content: center;
 color: #0B3F61;
-position: relative;
 }
 
 body {
@@ -278,9 +277,6 @@ h2{
     width: 40px; /* 調整寬度 */
 }
 
-#mainImage2 {   
-    margin-bottom: 10px;
-}
 
 .carousel-inner {
     flex-wrap: nowrap;
@@ -289,16 +285,37 @@ h2{
 
 .carousel-item {
     flex: 0 0 70%;
+
 }
 
-.carousel-item .d-flex {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-}
+
 
 .carousel-item img {
-    flex: 0 0 20%;
-    max-width: 20%;
     margin-right: 10px;
+    height: 150px;
+    flex: 0 0 20%;
+}
+
+.mainImage{
+    width: 100%;
+    height: 450px; /* 讓高度自動調整，保持圖片比例 */
+    max-width: 100%; /* 確保圖片不會超過容器的寬度 */
+    padding-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+    margin-right: 10px;
+    height: 70px;
+    flex: 0 0 20%;
+    }
+
+    .mainImage{
+    width: 100%;
+    height: 300px; /* 讓高度自動調整，保持圖片比例 */
+    max-width: 100%; /* 確保圖片不會超過容器的寬度 */
+    padding-bottom: 10px;
+    display: flex;
+}
 }
