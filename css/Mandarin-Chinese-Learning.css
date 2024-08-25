@@ -1,15 +1,4 @@
-.block4{
-   display: flex;
-   justify-content: center; /* 方塊左右對齊 */
-   align-items: center;
-   height: 70vh;
-   margin: 0;
-   padding: 0 20px; /* 添加一些內間距，讓方塊不緊貼邊緣 */
-   background-color: #ECE1BF;
-}
-
 .contact-card {
-    margin: 15px;
     text-align: center;
     border-radius: 0px;
     padding: 0;
@@ -48,12 +37,13 @@
    padding: 10px;
    flex-direction: column;
    text-align: center;
+   margin: 10px 0;
    
 }
 
 .box3 {
    position: relative;
-   width: 400px;
+   width: 350px;
    height: 350px;
    background-color: #FFFCF1;
    display: flex;
@@ -63,9 +53,10 @@
    font-size: 24px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    margin-top: auto;
-   padding: 10px;
+   padding: 15px;
    flex-direction: column;
    text-align: left;
+   margin: 10px 0;
 }
 
 .icon{
