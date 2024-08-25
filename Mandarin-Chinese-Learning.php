@@ -45,8 +45,8 @@
 
      <!-- 第一區塊 -->
      <div class="container my-5">
-        <div class="row mb-4">
-            <div class="col-md-4">
+        <div class="row justify-content-center mb-2">
+            <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="contact-card">
                  <div class="box">Free  Courses</div>
                  <div class="box2">
@@ -60,7 +60,7 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="contact-card">
                  <div class="box">Customized Short-term<br>Course</div>
                  <div class="box2">
@@ -75,7 +75,7 @@
             </div>
 
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="contact-card">
                 <div class="box">Taiwanese Culture <br>Courses</div>
                 <div class="box2">
@@ -130,13 +130,13 @@
     </div>
 
     <!-- 第四區塊 -->
-      <div class="container-fluid block" style="background-color: #ECE1BF;">
+      <div class="container-fluid block" style="background-color: #ECE1BF;  padding: 20px;" >
       <br>    
-        <div class="row mb-4">
+        <div class="row justify-content-center mb-2">
             <h3 class="text-center fw-bolder">Available  Courses</h3>
-            <div class="col-md-4 left-section4">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="contact-card">
-                 <div class="box3">
+                 <div class="box3" style="padding-left: 15px; padding-right: 15px;">
                     <img class="icon" src="images/Mandarin icon1.png" > <!-- Replace with the actual image path -->
                     <h3 >Business</h3>
                        <p>Improve your communication skills effectively to advance your professional network and cultural competence.</p>
@@ -146,9 +146,9 @@
                </div>
             </div>
 
-            <div class="col-md-4 center-section">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="contact-card">
-                 <div class="box3">
+                 <div class="box3" style="padding-left: 15px; padding-right: 15px;">
                     <img class="icon" src="images/Mandarin icon2.png" > <!-- Replace with the actual image path -->
                     <h3>Travel</h3>
                        <p>Learn and practice useful Mandarin phrases that make your travel safer and more enjoyable.</p>
@@ -159,9 +159,9 @@
             </div>
 
 
-            <div class="col-md-4 right-section">
+            <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="contact-card">
-                <div class="box3">
+                <div class="box3" style="padding-left: 15px; padding-right: 15px;">
                     <img class="icon" src="images/Mandarin icon3.png" > <!-- Replace with the actual image path -->
                     <h3>TOCFL preparation</h3>
                        <p>The course is to prepare you to achieve your targeted level andopen more global opportunities in academia and profession.</p>
@@ -236,4 +236,5 @@
     <?php include 'footer.php'; ?>
 <body>
 </html>
+
 
