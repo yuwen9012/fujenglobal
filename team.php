@@ -95,7 +95,7 @@
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
                                                     <p>專案管理、系統分析、前端開發</p>
-                                                    <p>Progrem Management, System Analyze, Front-End</p>
+                                                    <p>Progrem Management, System Analyze, Front-End Development</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
@@ -158,8 +158,8 @@
                                             <div class="d-flex flex-row gap-1">
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
-                                                    <p>系統分析、前端開發、UI/UX</p>
-                                                    <p>System Analyze, Front-End, UI/UX</p>
+                                                    <p>系統分析、前端開發、後端開發、UI/UX</p>
+                                                    <p>System Analyze, Front-End Development, Back-End Development, UI/UX</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
