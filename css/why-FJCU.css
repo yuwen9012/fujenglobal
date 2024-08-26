@@ -125,14 +125,7 @@ ul {
     padding-bottom: 0; /* 可選: 移除 ul 底部的 padding */
 }
 
-
-@media (max-width: 1200px) {
-    #second-list {
-        display: none;
-    }
-}
-
-.row {
+.typesetting {
     position: relative;
     margin: 0; 
     padding: 0; 
