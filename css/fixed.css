@@ -38,7 +38,8 @@ footer {
         order: 1;
         margin: 3% 0;
         font-size: 13px !important;
-        text-align: justify !important;
+        align-items: center;
+        /* text-align: justify !important; */
     }
 
     #footer-logo {
