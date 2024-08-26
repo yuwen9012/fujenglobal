@@ -96,10 +96,10 @@
      <!-- 第一區塊 --> 
     <div class="container-fluid introduction-block">
         <div class="row">
-            <div class="col-md-1 left-section">
+            <div class="col-md-1 col-1 left-section">
             </div>
 
-            <div class="col-md-10 center-section">
+            <div class="col-md-10 col-10 center-section">
                 <span class="justify-text">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join.(The remaining spots will be opened to other international students for a fee depending on the situation.)</span>
                 <ul class="custom-list">
                     <li>ISC Event (Fee-based):</li>
@@ -113,7 +113,7 @@
                 </ul>
             </div>
 
-            <div class="col-md-1 right-section">
+            <div class="col-md-1 col-1 right-section">
             </div>
         </div>
     </div>
