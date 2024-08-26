@@ -102,6 +102,10 @@
             <div class="col-md-10 center-section">
                 <span class="justify-text">Compared to regular exchange students, Study Abroad students are guaranteed two free cultural events and will have priority to join.(The remaining spots will be opened to other international students for a fee depending on the situation.)</span>
                 <ul class="custom-list">
+                    <li>ISC Event (Fee-based):</li>
+                    <span class="no-break">For example: One-day Trip to Hakka City, Half-day Trip to Northern Suburbs, Traditional Culture Activities, Paintball Game, Indigenous Tribes Visiting, and so on.</span>
+                    <li>ISC Event (Free):</li>
+                    <span class="no-break">These events include Welcome Party, Gourmet Food Day, Series of Celebrations for University Anniversary, Intercultural Opera Theatre, Taiwanese Culture Workshop, etc.</span>
                     <li>CCLC Event (Fee-based):</li>
                     <span class="no-break">Spring Field Trip to Yilan National Center for Traditional Arts; Fall Field Trip to Taiwan Hakka Tea Culture Museum; Moon Festival Cultural Trip to Kuo Yuan Yi Museum of Cake & Pastry; Christmas Dinner Party include a sumptuous dinner and multi-national cultural program.</span>
                     <li>CCLC Event (Free):</li>
