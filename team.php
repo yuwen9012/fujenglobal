@@ -62,8 +62,8 @@
                                             <div class="d-flex flex-row gap-1">
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
-                                                    <p>負責項目</p>
-                                                    <p>ENG</p>
+                                                    <p>指導與協助專案</p>
+                                                    <p>Guidance and Assistance Project</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
@@ -94,8 +94,8 @@
                                             <div class="d-flex flex-row gap-1">
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
-                                                    <p>負責項目</p>
-                                                    <p>ENG</p>
+                                                    <p>專案管理、系統分析、前端開發</p>
+                                                    <p>Progrem Management, System Analyze, Front-End</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
@@ -126,8 +126,8 @@
                                             <div class="d-flex flex-row gap-1">
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
-                                                    <p>負責項目</p>
-                                                    <p>ENG</p>
+                                                    <p>前端開發、後端開發</p>
+                                                    <p>Front-End Development, Back-End Development</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
@@ -158,8 +158,8 @@
                                             <div class="d-flex flex-row gap-1">
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
-                                                    <p>負責項目</p>
-                                                    <p>ENG</p>
+                                                    <p>系統分析、前端開發、UI/UX</p>
+                                                    <p>System Analyze, Front-End, UI/UX</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
