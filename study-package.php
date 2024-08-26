@@ -134,13 +134,13 @@
                     <hr>
                     <div class="text-block">
                         <span class="justify-text">Chief of Internationalization</span>
-                        <span class="justify-text">Mike Ma</span>
-                        <span class="justify-text">Tel: 886-2-2905-3099</span>
-                        <span class="justify-text">E-mail: 062970@mail.fju.edu.tw</span>
+                        <span class="justify-text">Ariana Chang</span>
+                        <span class="justify-text">Tel: 886-2-2905-3164</span>
+                        <span class="justify-text">E-mail: 140517@mail.fju.edu.tw</span>
                         <br>
-                        <span class="justify-text">Jenny Chen</span>
+                        <span class="justify-text">Melody Chiu</span>
                         <span class="justify-text">Tel: 886-2-2905-6315</span>
-                        <span class="justify-text">E-mail: 407138022@fjuedu.onmicrosoft.com</span>
+                        <span class="justify-text">E-mail: bpis@mail.fju.edu.tw / 161301@mail.fju.edu.tw</span>
                     </div>
                 </div>
 
