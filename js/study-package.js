@@ -76,6 +76,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Define an array of collapse IDs and corresponding link IDs
     const collapses = [
+        // BPIS
+        { collapseId: '#collapseBpisFeatu', linkId: '#read-more-link-bpis-featu' },
+        { collapseId: '#collapseBpisCsd', linkId: '#read-more-link-bpis-csd' },
+        { collapseId: '#collapseBpisFi', linkId: '#read-more-link-Bpis-fi' },
         // Liberal art
         { collapseId: '#collapseLiberIntro', linkId: '#read-more-link-liber-intro' },
         { collapseId: '#collapseLiberFeatu', linkId: '#read-more-link-liber-featu' },

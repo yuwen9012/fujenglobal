@@ -129,7 +129,7 @@
         </div>
         <div class="content">
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">
+                <!--<div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">
                     <h3 class="my-3 fw-bolder">Fu Jen Global Academy(BPIS)</h3>
                     <hr>
                     <div class="text-block">
@@ -142,7 +142,8 @@
                         <span class="justify-text">Tel: 886-2-2905-6315</span>
                         <span class="justify-text">E-mail: bpis@mail.fju.edu.tw / 161301@mail.fju.edu.tw</span>
                     </div>
-                </div>
+                </div>-->
+                <?php include 'study-package/bpis.php'; ?>
 
                 <?php include 'study-package/liberal-art.php'; ?>
 
