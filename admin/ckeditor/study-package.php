@@ -21,11 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/study-package.css">
-
-    <!-- JS -->
-    <script type="text/javascript" src="js/study-package.js"></script>
 
     <title>Study Package</title>
 
@@ -36,15 +32,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <?php include 'header.php'; ?>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid d-flex align-items-center">
-            <img src="images/06-校徽-英文組合排列.png" id="logo" class="me-3">
             
             <div class="flex-grow-1 text-center">
                 <div class="d-flex justify-content-center align-items-center">
-                    <a href="study-abroad.php"><i class="fas fa-arrow-left"></i></a>
+                    <a href="../home.php"><i class="fas fa-arrow-left"></i></a>
                     <span class="navbar-text mx-2">Study Package</span>
                 </div>
             </div>
@@ -129,48 +123,162 @@
         </div>
         <div class="content">
             <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="bpis" role="tabpanel" aria-labelledby="bpis-tab">
-                    <h3 class="my-3 fw-bolder">Fu Jen Global Academy(BPIS)</h3>
-                    <hr>
-                    <div class="text-block">
-                        <span class="justify-text">Chief of Internationalization</span>
-                        <span class="justify-text">Mike Ma</span>
-                        <span class="justify-text">Tel: 886-2-2905-3099</span>
-                        <span class="justify-text">E-mail: 062970@mail.fju.edu.tw</span>
-                        <br>
-                        <span class="justify-text">Jenny Chen</span>
-                        <span class="justify-text">Tel: 886-2-2905-6315</span>
-                        <span class="justify-text">E-mail: 407138022@fjuedu.onmicrosoft.com</span>
-                    </div>
-                </div>
 
-                <?php include 'study-package/liberal-art.php'; ?>
+                <?php //include 'study-package/liberal-art.php'; ?>
 
-                <?php include 'study-package/art.php'; ?>
+                <?php //include 'study-package/art.php'; ?>
 
-                <?php include 'study-package/communication.php'; ?>
+                <?php //include 'study-package/communication.php'; ?>
 
-                <?php include 'study-package/education.php'; ?>
+                <?php //include 'study-package/education.php'; ?>
 
-                <?php include 'study-package/medicine.php'; ?>
+                <?php //include 'study-package/medicine.php'; ?>
 
-                <?php include 'study-package/engineering.php'; ?>
+                <?php //include 'study-package/engineering.php'; ?>
 
-                <?php include 'study-package/foreign-languages.php'; ?>
+                <?php //include 'study-package/foreign-languages.php'; ?>
 
-                <?php include 'study-package/human-ecology.php'; ?>
+                <?php //include 'study-package/human-ecology.php'; ?>
 
                 <?php include 'study-package/law.php'; ?>
         
-                <?php include 'study-package/social.php'; ?>
+                <?php //include 'study-package/social.php'; ?>
 
-                <?php include 'study-package/management.php'; ?>
+                <?php //include 'study-package/management.php'; ?>
 
-                <?php include 'study-package/fashion.php'; ?>
+                <?php //include 'study-package/fashion.php'; ?>
             </div>
         </div>
     </div>
+    <script>
+    let editorInstances = {};
 
-    <?php include 'footer.php'; ?>
+    ClassicEditor
+        .create(document.querySelector('#editor-introduction'), {
+            ckfinder: {
+                uploadUrl: './php/upload.php' // 設定圖片上傳的後端處理腳本
+            },
+            toolbar: {
+                items: [
+                    'heading', '|',
+                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|',
+                    'insertTable', 'mediaEmbed', 'undo', 'redo', '|',
+                    'imageUpload' // 加入圖片上傳按鈕
+                ]
+            },
+            image: {
+                toolbar: [
+                    'imageTextAlternative', 'imageStyle:full', 'imageStyle:side'
+                ]
+            }
+        })
+        .then(editor => {
+            editorInstances['introduction'] = editor;
+            loadContent('introduction', editor); // 頁面載入時載入內容
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+    ClassicEditor
+        .create(document.querySelector('#editor-features'), {
+            ckfinder: {
+                uploadUrl: './php/upload.php' // 設定圖片上傳的後端處理腳本
+            },
+            toolbar: {
+                items: [
+                    'heading', '|',
+                    'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|',
+                    'insertTable', 'mediaEmbed', 'undo', 'redo', '|',
+                    'imageUpload' // 加入圖片上傳按鈕
+                ]
+            },
+            image: {
+                toolbar: [
+                    'imageTextAlternative', 'imageStyle:full', 'imageStyle:side'
+                ]
+            }
+        })
+        .then(editor => {
+            editorInstances['features'] = editor;
+            loadContent('features', editor); // 頁面載入時載入內容
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+    function saveContent(section) {
+        var editor = editorInstances[section];
+        var content = editor.getData(); // 從編輯器獲取內容
+        $.ajax({
+            url: './php/save-content.php', // 確保路徑正確
+            method: 'POST',
+            data: { section: section, content: content },
+            success: function(response) {
+                // 儲存成功後直接載入內容更新顯示
+                loadContent(section);
+                document.getElementById(`editor-container-${section}`).style.display = 'none'; // 隱藏編輯器
+                document.getElementById(`content-container-${section}`).style.display = 'block'; // 顯示內容區塊
+            },
+            error: function(xhr, status, error) {
+                console.error('儲存內容錯誤:', error);
+            }
+        });
+    }
+
+    function loadContent(section, editor = null) {
+        $.ajax({
+            url: './php/load-content.php', // 確保路徑正確
+            method: 'GET',
+            data: { section: section },
+            success: function(response) {
+                const contentContainer = document.getElementById(`content-${section}`);
+                contentContainer.innerHTML = response;
+
+                // 判斷內容是否超過100字
+                if (response.length > 100) {
+                    document.getElementById(`read-more-btn-${section}`).style.display = 'block';
+                } else {
+                    document.getElementById(`read-more-btn-${section}`).style.display = 'none';
+                }
+
+                // 如果提供了編輯器實例，將內容設定到編輯器中
+                if (editor) {
+                    editor.setData(response);
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error('讀取內容錯誤:', error);
+            }
+        });
+    }
+
+    function showEditor(section) {
+        document.getElementById(`editor-container-${section}`).style.display = 'block'; // 顯示編輯器
+        document.getElementById(`content-container-${section}`).style.display = 'none'; // 隱藏內容區塊
+        var editor = editorInstances[section];
+        loadContent(section, editor); // 載入內容到編輯器
+    }
+
+    function toggleReadMore(section) {
+        const content = document.getElementById(`content-${section}`);
+        const button = document.getElementById(`read-more-btn-${section}`);
+        
+        if (content.classList.contains('expanded')) {
+            content.classList.remove('expanded');
+            button.textContent = 'Read more...';
+        } else {
+            content.classList.add('expanded');
+            button.textContent = 'Read less...';
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        loadContent('introduction'); // 頁面載入時載入內容
+        loadContent('features'); // 頁面載入時載入內容
+    });
+</script>
+
 </body>
 </html>
+

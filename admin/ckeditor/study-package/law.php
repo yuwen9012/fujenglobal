@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="images/study-package/law/law2.png" class="container-fluid">
+                <img src="../../images/study-package/law/law2.png" class="container-fluid">
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
     <div class="my-5" id="amsp-law">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="images/study-package/law/law3.jpg" class="container-fluid">
+                <img src="../../images/study-package/law/law3.jpg" class="container-fluid">
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="images/study-package/law/law5.jpg" class="container-fluid">
+                <img src="../../images/study-package/law/law5.jpg" class="container-fluid">
             </div>
         </div>
     </div>
@@ -147,7 +147,7 @@
     <div class="my-5" id="fi-law">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="images/study-package/law/law6.jpg" class="container-fluid">
+                <img src="../../images/study-package/law/law6.jpg" class="container-fluid">
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
@@ -174,7 +174,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="images/study-package/law/law7.jpg" class="container-fluid">
+                <img src="../../images/study-package/law/law7.jpg" class="container-fluid">
             </div>
         </div>
     </div>
@@ -196,99 +196,3 @@
     </div>
 </div>
 
-<script>
-   let editorInstances = {};
-
-    ClassicEditor
-        .create(document.querySelector('#editor-introduction'))
-        .then(editor => {
-            editorInstances['introduction'] = editor;
-            loadContent('introduction', editor); // 頁面載入時載入內容
-        })
-        .catch(error => {
-            console.error(error);
-        });
-
-    ClassicEditor
-        .create(document.querySelector('#editor-features'))
-        .then(editor => {
-            editorInstances['features'] = editor;
-            loadContent('features', editor); // 頁面載入時載入內容
-        })
-        .catch(error => {
-            console.error(error);
-        });
-
-    function saveContent(section) {
-        var editor = editorInstances[section];
-        var content = editor.getData(); // 從編輯器獲取內容
-        $.ajax({
-            url: './php/save-content.php', // 確保路徑正確
-            method: 'POST',
-            data: { section: section, content: content },
-            success: function(response) {
-                // 儲存成功後直接載入內容更新顯示
-                loadContent(section);
-                document.getElementById(`editor-container-${section}`).style.display = 'none'; // 隱藏編輯器
-                document.getElementById(`content-container-${section}`).style.display = 'block'; // 顯示內容區塊
-            },
-            error: function(xhr, status, error) {
-                console.error('儲存內容錯誤:', error);
-            }
-        });
-    }
-
-    function loadContent(section, editor = null) {
-        $.ajax({
-            url: './php/load-content.php', // 確保路徑正確
-            method: 'GET',
-            data: { section: section },
-            success: function(response) {
-                const contentContainer = document.getElementById(`content-${section}`);
-                contentContainer.innerHTML = response;
-
-                // 判斷內容是否超過100字
-                if (response.length > 100) {
-                    document.getElementById(`read-more-btn-${section}`).style.display = 'block';
-                } else {
-                    document.getElementById(`read-more-btn-${section}`).style.display = 'none';
-                }
-
-                // 如果提供了編輯器實例，將內容設定到編輯器中
-                if (editor) {
-                    editor.setData(response);
-                }
-            },
-            error: function(xhr, status, error) {
-                console.error('讀取內容錯誤:', error);
-            }
-        });
-    }
-
-    function showEditor(section) {
-        document.getElementById(`editor-container-${section}`).style.display = 'block'; // 顯示編輯器
-        document.getElementById(`content-container-${section}`).style.display = 'none'; // 隱藏內容區塊
-        var editor = editorInstances[section];
-        loadContent(section, editor); // 載入內容到編輯器
-    }
-
-    function toggleReadMore(section) {
-        const content = document.getElementById(`content-${section}`);
-        const button = document.getElementById(`read-more-btn-${section}`);
-        
-        if (content.classList.contains('expanded')) {
-            content.classList.remove('expanded');
-            button.textContent = 'Read more...';
-        } else {
-            content.classList.add('expanded');
-            button.textContent = 'Read less...';
-        }
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        loadContent('introduction'); // 頁面載入時載入內容
-        loadContent('features'); // 頁面載入時載入內容
-    });
-
-
-</script>

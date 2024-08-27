@@ -12,13 +12,23 @@ if ($conn->connect_error) {
     die("連接失敗: " . $conn->connect_error);
 }
 
+
 // 確保收到 'section' 和 'content' 參數
 if (isset($_POST['section']) && isset($_POST['content'])) {
     $section = $conn->real_escape_string($_POST['section']);
     $content = $conn->real_escape_string($_POST['content']);
     
-    // 根據 'section' 參數決定內容的 ID
-    $id = ($section === 'introduction') ? 1 : 2; // 假設 introduction 是 1, features 是 2
+    //禁用figure(因為這樣會沒辦法調裡面的設定)
+    $content = preg_replace('/<figure[^>]*>/i', '', $content);
+    $content = preg_replace('/<\/figure>/i', '', $content);
+
+    $sectionToIdMap = [
+        'introduction' => 1,
+        'features' => 2,
+    ];
+    
+    $id = isset($sectionToIdMap[$section]) ? $sectionToIdMap[$section] : null;
+    
     
     // 插入或更新內容
     $sql = "INSERT INTO content (id, content, image_path) VALUES ($id, '$content', 'path/to/image.jpg') 

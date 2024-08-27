@@ -67,6 +67,18 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#submenu3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu3">
+                                Study Abroad
+                            </a>
+                            <div class="collapse" id="submenu3">
+                                <ul class="nav flex-column ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="ckeditor/study-package.php">Study Package</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
