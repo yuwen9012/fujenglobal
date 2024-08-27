@@ -20,7 +20,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/team.css">
 
-    <title>Dev. Team</title>
+    <title>Website Developer</title>
 </head>
 <body>
     <div class="min-vh-100">
@@ -36,7 +36,7 @@
 
             <div class="container-fluid d-flex justify-content-between position-relative rounded my-5" id="content-card">
                 <div class="d-flex justify-content-center align-items-center position-absolute rounded shadow" id="title-card">
-                    <span class="fs-5 fw-semibold">開發團隊 Dev. Team</span>
+                    <span class="fs-5 fw-semibold">Website Developer</span>
                 </div>
 
                 <div class="row g-2 d-flex justify-content-center align-items-center my-5">
@@ -56,14 +56,14 @@
                                                     <i class="fa fa-earth text-dark"></i>
                                                 </a>
                                             </p>
-                                            <p class="fs-5 fw-semibold">Yining Tu</p>
+                                            <p class="fs-5 fw-semibold">Yi-Ning Tu</p>
                                         </div>
                                         <div class="mx-2">
                                             <div class="d-flex flex-row gap-1">
                                                 <i class="fas fa-project-diagram"></i>
                                                 <div class="d-flex flex-column">
-                                                    <p>指導與協助專案</p>
-                                                    <p>Guidance and Assistance Project</p>
+                                                    <p>專案指導與監製</p>
+                                                    <p>Project Guidance and Supervision</p>
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
@@ -88,7 +88,7 @@
                                     <div class="d-flex flex-column justify-content-between">
                                         <div class="text-center text-sm-start text-md-center text-xl-start mx-2">
                                             <p class="fs-5 fw-semibold">陳郁雯</p>
-                                            <p class="fs-5 fw-semibold">Yuwen Chen</p>
+                                            <p class="fs-5 fw-semibold">Yu-Wen Chen</p>
                                         </div>
                                         <div class="mx-2">
                                             <div class="d-flex flex-row gap-1">
@@ -152,7 +152,7 @@
                                     <div class="d-flex flex-column justify-content-between">
                                         <div class="text-center text-sm-start text-md-center text-xl-start mx-2">
                                             <p class="fs-5 fw-semibold">王孟蘋</p>
-                                            <p class="fs-5 fw-semibold">Mengpin Wang</p>
+                                            <p class="fs-5 fw-semibold">Meng-Pin Wang</p>
                                         </div>
                                         <div class="mx-2">
                                             <div class="d-flex flex-row gap-1">
