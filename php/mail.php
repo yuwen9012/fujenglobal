@@ -24,16 +24,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             foreach ($_POST['program'] as $program) {
                 switch ($program) {
                     case 'Degree Student':
-                        $recipients[] = '#';
+                        $recipients[] = '048253@mail.fju.edu.tw';
                         break;
                     case 'Exchange Student':
-                        $recipients[] = '#';
+                        $recipients[] = '089634@mail.fju.edu.tw';
                         break;
                     case 'Study Abroad':
-                        $recipients[] = '#';
+                        $recipients[] = 'oiesa@mail.fju.edu.tw';
                         break;
                     case 'Mandarin Chinese Learning':
-                        $recipients[] = '#';
+                        $recipients[] = '056043@mail.fju.edu.tw';
                         break;
                 }
             }
