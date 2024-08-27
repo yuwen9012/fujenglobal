@@ -228,7 +228,7 @@ h3 {
 
 /*文字字樣*/
 h4 {
-    color: #0B3F61;
+    color: #132548;
     font-size: 16px;
 }
 
@@ -276,6 +276,7 @@ h4 {
 
 .checklist li {
     margin-bottom: 10px; /* 調整每個項目的底部間距 */
+    font-size: 16px;
 }
 
 
