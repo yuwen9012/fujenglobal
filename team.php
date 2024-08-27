@@ -67,7 +67,7 @@
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
-                                                <i class="fas fa-envelope"></i>
+                                                <i class="fas fa-envelope pt-1"></i>
                                                 eniddu@gmail.com
                                             </p>
                                         </div>
@@ -99,7 +99,7 @@
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
-                                                <i class="fas fa-envelope"></i>
+                                                <i class="fas fa-envelope pt-1"></i>
                                                 a0985542655@gmail.com
                                             </p>
                                         </div>
@@ -131,7 +131,7 @@
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
-                                                <i class="fas fa-envelope"></i>
+                                                <i class="fas fa-envelope pt-1"></i>
                                                 sunshine.kuo2014@gmail.com
                                             </p>
                                         </div>
@@ -163,7 +163,7 @@
                                                 </div>
                                             </div>
                                             <p class="d-flex flex-row gap-1">
-                                                <i class="fas fa-envelope"></i>
+                                                <i class="fas fa-envelope pt-1"></i>
                                                 dreamapple2003@gmail.com
                                             </p>
                                         </div>

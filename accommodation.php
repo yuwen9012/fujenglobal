@@ -54,7 +54,7 @@
             <div class="col-md-10 center-section">
                 <br>
                 <h3 class="my-3 fw-bolder">1.(On-Campus)Dormitory: No extra charges</h3>
-                <span class="justify-text">Rooms, beds and dormitory building are assigned by the Dormitory Service Center. Students may not cancel their reservation or change their room/bed assignment. Dormitory rooms are not available for early check-in or late check-out. Students must arrange for their own accommodation off-campus if they arrive in Taiwan before check-in or intend to stay after check-out. Smoking and cooking are strictly prohibited in all dorm rooms.</span><br><br>
+                <span class="justify-text">Rooms, beds and dormitory buildings are assigned by the Dormitory Service Center. Students may not cancel their reservation or change their room/bed assignment. Dormitory rooms are not available for early check-in or late check-out. Students must arrange for their own accommodation off-campus if they arrive in Taiwan before check-in or intend to stay after check-out. Smoking and cooking are strictly prohibited in all dorm rooms.</span><br><br>
                 <span class="justify-text">About the dormitory:</span>
                 <ul class="custom-list">
                     <li>Showers and washrooms in dormitories are communal.</li>
@@ -123,13 +123,14 @@
            <br>
        </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid introduction-block">
         <br>
         <div class="row">
             <div class="col-lg-1 col-md-1  right-section">
             </div>
             <div class="col-lg-10 col-md-10 center-section">
                 <h3 class="my-3 fw-bolder">2.(On-Campus) Scholar’s Inn: Extra fees NTD 2,080 - 2,880 per day per room.</h3>
+                <span class="justify-text" style="color: #0B3F61;">Each room is equipped with a private TV, refrigerator, and unlimited high-speed Wi-Fi. The bathroom features a separate shower and toilet, and every room includes a balcony with a view. Each floor has a lounge area, coin-operated washing machines and dryers, and a pantry. The property also boasts an exclusive gym for guests. The hotel has a 24-hour front desk, with services available for parcel collection and mail reception. Room options include one king bed or two twin beds.</span>
                 <br><br>
             </div>
 
