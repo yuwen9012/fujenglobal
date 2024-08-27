@@ -42,12 +42,12 @@
                 <div class="justify-text">
                     <p class="my-3">History of the College of Social Sciences, Fu Jen Catholic University</p>
                     <ul class="mb-0">
-                        <li>1963: When Fu Jen Catholic University was re-established in Taiwan, the School of Law was founded, comprising the departments of Law, Economics, and Business Administration.</li>
-                        <li>1969: The School of Law was expanded and divided into the School of Law and the School of Business. The departments of Economics, Business Management, and Accounting were placed under the School of Business, while the Department of Law and the newly established Department of Sociology were under the School of Law.</li>
+                        <li>1963: When Fu Jen Catholic University was re-established in Taiwan, the College of Law was founded, comprising the departments of Law, Economics, and Business Administration.</li>
+                        <li>1969: The College of Law was expanded and divided into the College of Law and the College of Business. The departments of Economics, Business Management, and Accounting were placed under the College of Business, while the Department of Law and the newly established Department of Sociology were under the College of Law.</li>
                     </ul>
                     <div class="collapse" id="collapseSoIntro">
                     <ul>
-                        <li>1972: The Department of Economics returned to the School of Law, and an evening bachelor's program in the Department of Economics was established.</li>
+                        <li>1972: The Department of Economics returned to the College of Law, and an evening bachelor's program in the Department of Economics was established.</li>
                         <li>1974: The Department of Law was divided into the Division of Legal Studies and the Division of Judicial Studies.</li>
                         <li>1977: The Department of Sociology was divided into the Division of Sociology and the Division of Social Work.</li>
                         <li>1979: The Department of Law added the Division of Financial and Economic Law.</li>
