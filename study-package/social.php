@@ -61,17 +61,17 @@
                         <li>1998: The Department of Social Work established a master's program.</li>
                         <li>2000: The Department of Financial and Economic Law established a master's program.</li>
                         <li>2001: The Indigenous Peoples Service Center was established.</li>
-                        <li>2002: An in-service master's program in the Department of Religious Studies was established, and the Peace Research Center was incorporated into the School of Law.</li>
-                        <li>2003: The School of Law was restructured into the College of Social Sciences and the School of Law. The departments of Economics, Sociology, Social Work, Religious Studies, and the Indigenous Peoples Service Center were incorporated into the College of Social Sciences. The legal-related departments and the Peace Research Center became part of the School of Law. A credit program in Nonprofit Organization Management and a doctoral program in the Department of Religious Studies were established.</li>
+                        <li>2002: An in-service master's program in the Department of Religious Studies was established, and the Peace Research Center was incorporated into the College of Law.</li>
+                        <li>2003: The College of Law was restructured into the College of Social Sciences and the College of Law. The departments of Economics, Sociology, Social Work, Religious Studies, and the Indigenous Peoples Service Center were incorporated into the College of Social Sciences. The legal-related departments and the Peace Research Center became part of the College of Law. A credit program in Non-profit Organization Management and a doctoral program in the Department of Religious Studies were established.                        </li>
                         <li>2004: The Department of Sociology established a master's program.</li>
                         <li>2007: The Center for Chinese Social and Cultural Studies was dissolved after completing its mission.</li>
                         <li>2009: The International Partnership Learning Promotion Center was established, and the Indigenous Peoples Service Center was renamed the Indigenous Education Center.</li>
                         <li>2010: An evening bachelor's program in the Department of Religious Studies was established.</li>
-                        <li>2011: The Department of Psychology was incorporated into the College of Social Sciences. An in-service master's program in Nonprofit Organization Management and a bachelor's degree program in Catholic Studies were established.</li>
+                        <li>2011: The Department of Psychology was incorporated into the College of Social Sciences. An in-service master's program in Non-profit Organization Management and a bachelor's degree program in Catholic Studies were established.</li>
                         <li>2012: The Indigenous Education Center was renamed the Indigenous Social Development Studio.</li>
                         <li>2018: A credit program in Medical Dispute Communication and Resolution was established.</li>
                         <li>2019: A credit program in Life Education was established.</li>
-                        <li>2021: The Center for Social Innovation and Nonprofit Organization Research was established.</li>
+                        <li>2021: The Center for Social Innovation and Non-profit Organization Research was established.</li>
                     </ul>
                     </div>
                     <a id="read-more-link-So-intro" data-bs-toggle="collapse" href="#collapseSoIntro" role="button" aria-expanded="false" aria-controls="collapseSoIntro">Read more...</a>
@@ -172,8 +172,8 @@
                                     <td>Mental Health Social Work</td>
                                 </tr>
                                 <tr>
-                                    <td>Nonprofit Organization Management Master's Program</td>
-                                    <td>Special Topics in Nonprofit Organization</td>
+                                    <td>Non-profit Organization Management In-service Master's Program</td>
+                                    <td>Special Topics in Non-profit Organization</td>
                                 </tr>
                                 <tr>
                                     <td>Journalism and Communication Studies</td>
@@ -252,7 +252,7 @@
                 <div class="justify-text">
                     <p class="mt-3 fw-semibold mb-0">Special Teaching Venues and Features</p>
                     <p class="mt-3 fw-semibold mb-0">Podcast Recording Studio SL300-3</p>
-                    <p class="my-3">The studio is well-equipped, providing students from various departments (Department of Religious Studies, Department of Sociology, Department of Social Work, Department of Psychology, and Theology Program) the facility to record podcast programs.</p>
+                    <p class="my-3">The studio is well-equipped, providing students from various departments (Department of Religious Studies, Department of Sociology, Department of Social Work, Department of Psychology, and the bachelor’s degree program in Catholic Studies) the facility to record podcast programs.</p>
                 
                     <div class="collapse" id="collapseSoRf">
                         <p class="mt-3 fw-semibold mb-0">Yongyuan International Monetary Laboratory BS302</p>
