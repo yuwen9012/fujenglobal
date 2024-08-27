@@ -234,14 +234,14 @@
             success: function(response) {
                 const contentContainer = document.getElementById(`content-${section}`);
                 contentContainer.innerHTML = response;
-
+/* 
                 // 判斷內容是否超過100字
                 if (response.length > 100) {
                     document.getElementById(`read-more-btn-${section}`).style.display = 'block';
                 } else {
                     document.getElementById(`read-more-btn-${section}`).style.display = 'none';
                 }
-
+*/
                 // 如果提供了編輯器實例，將內容設定到編輯器中
                 if (editor) {
                     editor.setData(response);
@@ -259,7 +259,7 @@
         var editor = editorInstances[section];
         loadContent(section, editor); // 載入內容到編輯器
     }
-
+/*
     function toggleReadMore(section) {
         const content = document.getElementById(`content-${section}`);
         const button = document.getElementById(`read-more-btn-${section}`);
@@ -272,7 +272,7 @@
             button.textContent = 'Read less...';
         }
     }
-
+*/
     document.addEventListener('DOMContentLoaded', function() {
         loadContent('introduction'); // 頁面載入時載入內容
         loadContent('features'); // 頁面載入時載入內容

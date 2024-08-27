@@ -42,7 +42,6 @@
                 <div class="justify-text">
                     <div id="content-container-introduction">
                         <div id="content-introduction" class="truncate-content"></div>
-                        <button id="read-more-btn-introduction" class="button button-read-more" onclick="toggleReadMore('introduction')">Read more...</button>
                         <button class="button button-edit" onclick="showEditor('introduction')">編輯內容</button>
                     </div>
                     <div id="editor-container-introduction" style="display: none;">
@@ -61,7 +60,6 @@
                 <div class="justify-text">
                     <div id="content-container-features">
                         <div id="content-features" class="truncate-content"></div>
-                        <button id="read-more-btn-features" class="button button-read-more" onclick="toggleReadMore('features')">Read more...</button>
                         <button class="button button-edit" onclick="showEditor('features')">編輯內容</button>
                     </div>
                     <div id="editor-container-features" style="display: none;">

@@ -269,13 +269,14 @@ table{
     background-color: #d39e00;
 }
 
-/* 顯示的內容的最大高度 */
+
+/* 
 .truncate-content {
-    max-height: 12rem; /* 根據需要調整高度 */
+    max-height: 12rem; 
     overflow: hidden;
     position: relative;
 }
-
 .truncate-content.expanded {
-    max-height: none; /* 展開後顯示所有內容 */
+    max-height: none; 
 }
+*/
