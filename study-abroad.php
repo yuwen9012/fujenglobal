@@ -199,9 +199,9 @@
         </div>
     </div>
 
-    <div class="container-fluid info-block py-5">
+    <div class="container-fluid info-block py-4">
         <div class="row">
-            <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <div class="col-md-6 d-flex align-items-center justify-content-md-end justify-content-center">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
