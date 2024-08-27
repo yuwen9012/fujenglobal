@@ -23,58 +23,66 @@
     <title>後台系統</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <nav id="sidebar" class="col-md-3 col-lg-2 vh-100 d-md-block sidebar p-3">
-                <div class="logo d-flex justify-content-center">
-                    <img src="../images/05-校徽-英文組合排列.png" alt="Logo" style="max-height: 200px;">
-                </div>
+    <div class="container-fluid vh-100 p-0">
+        <div class="row h-100 g-0">
+            <div class="col-2 d-flex flex-column p-0">
+                <nav id="sidebar" class="d-flex flex-column p-3">
+                    <div class="logo d-flex justify-content-center mb-3">
+                        <img src="../images/05-校徽-英文組合排列.png" alt="Logo">
+                    </div>
 
-                <div class="position-sticky py-3">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link text-white active" href="#">
-                                主面板
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#submenu1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu1">
-                                Home
-                            </a>
-                            <div class="collapse" id="submenu1">
-                                <ul class="nav flex-column ms-3">
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">1-1</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">1-2</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#submenu2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu2">
-                                Degree Students
-                            </a>
-                            <div class="collapse" id="submenu2">
-                                <ul class="nav flex-column ms-3">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">2-1</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">2-2</a>
-                                </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                    <div class="position-sticky py-3 flex-grow-1">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-white active" href="#">
+                                    主面板
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#submenu1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu1">
+                                    Home
+                                </a>
+                                <div class="collapse" id="submenu1">
+                                    <ul class="nav flex-column ms-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">輪播牆(3:1圖片) 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">介紹(文字+圖片) 設定</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#submenu2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu2">
+                                    Study-Abroad
+                                </a>
+                                <div class="collapse" id="submenu2">
+                                    <ul class="nav flex-column ms-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">學院 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">介紹 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">計分器 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">流程圖 設定</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
 
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-4">
-                <h1>歡迎來後台系統</h1>
-                <p>這裡是主內容區域。</p>
-            </main>
+            <div class="col-md-10 ms-sm-auto px-4 d-flex justify-content-center align-items-center">
+                <div class="container" style="width: 95%; height: 90%; background-color: #FFF9E6;">
+                </div>
+            </div>
         </div>
     </div>
 </body>

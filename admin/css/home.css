@@ -5,10 +5,10 @@ html, body {
 
 #sidebar {
     background-color: #132548;
-    /* height: 100vh; */
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
     z-index: 100;
+    /* width: 300px; */
+}
+
+.logo img {
+    max-height: 200px;
 }
