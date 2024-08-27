@@ -906,7 +906,11 @@
         <p class="my-3 fw-semibold">For further information, please contact Secretaries to the Dean:</p>
         <p class="my-3">(+886-2-2905-2551)   004617@mail.fju.edu.tw</p>
         <p class="my-3">(+886-2-2905-3718)   026549@mail.fju.edu.tw</p>
-        <p class="my-3">(+886-2-2905-3307)   158589@mail.fju.edu.tw</p>
-        <p class="my-3">Fax: (02) 2905-2174</p>
+        <p class="my-3">(+886-2-2905-3307)   161279@mail.fju.edu.tw</p>
+        <p class="my-3">Fax: +886-2-2905-2174</p>
+        <p class="my-3 fw-semibold">Chief of Internationalization</p>
+        <p class="my-3">Meng-Jen, Chang</p>
+        <p class="my-3">E-mail: 076485@mail.fju.edu.tw</p>
+        <p class="my-3">Tel +886-2-2905-3761</p>
     </div>
 </div>
