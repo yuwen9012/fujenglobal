@@ -19,7 +19,7 @@
                         </a>
                     </div>
                     <div class="col-2 ps-0 d-flex align-items-end">
-                        <a class="nav-link w-100 d-flex justify-content-end  no-underline" data-bs-toggle="collapse" href="#studyAbroadMenu" role="button" aria-expanded="false" aria-controls="studyAbroadMenu">
+                        <a class="nav-link w-100 d-flex justify-content-end no-underline" data-bs-toggle="collapse" href="#studyAbroadMenu" role="button" aria-expanded="false" aria-controls="studyAbroadMenu">
                             <i class="fa fa-chevron-down"></i>
                             <i class="fa fa-chevron-up"></i>
                         </a>
@@ -27,7 +27,7 @@
                 </div>
                 
                 <div class="collapse" id="studyAbroadMenu">
-                    <ul class="navbar-nav flex-column collapse-menu ">
+                    <ul class="navbar-nav flex-column collapse-menu">
                         <li class="p-2 ps-5">
                             <a class="dropdown-item" href="how-to-apply.php">How to Apply</a>
                         </li>
