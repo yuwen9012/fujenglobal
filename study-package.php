@@ -27,7 +27,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/study-package.js"></script>
 
-    <title>Study Package</title>
+    <title>Fu Jen Global</title>
 
     <!-- CKEditor -->
     <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>

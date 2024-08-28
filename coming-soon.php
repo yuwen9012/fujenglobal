@@ -25,7 +25,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/menu.js"></script>
     
-    <title>Coming Soon</title>
+    <title>Fu Jen Global</title>
    
 </head>
 <body>

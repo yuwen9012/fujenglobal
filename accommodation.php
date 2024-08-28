@@ -27,7 +27,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/accommodation.js"></script>
 
-    <title>Accommodation</title>
+    <title>Fu Jen Global</title>
 
 </head>
 <body>

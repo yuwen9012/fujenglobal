@@ -24,7 +24,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/study-package.js"></script>
 
-    <title>Program Introduction</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

@@ -20,7 +20,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/team.css">
 
-    <title>Website Developer</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <div class="min-vh-100">

@@ -33,7 +33,7 @@
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
 
-    <title>輔仁大學國際及兩岸教育處</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

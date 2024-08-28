@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/how-to-apply.css">
 
-    <title>How to apply</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

@@ -26,7 +26,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/study-abroad.js"></script>
 
-    <title>Study Abroad</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

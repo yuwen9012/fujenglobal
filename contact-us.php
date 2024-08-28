@@ -28,7 +28,7 @@
     <script type="text/javascript" src="js/menu.js"></script>
     <script src="js/contact-us.js"></script>
     
-    <title>Contact Us</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

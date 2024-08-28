@@ -29,7 +29,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/faq.js"></script>
 
-    <title>FAQ</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

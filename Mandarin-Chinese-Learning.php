@@ -25,7 +25,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/Mandarin-Chinese-Learning.js"></script>
 
-    <title>Mandarin Chinese Learning</title>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <?php include 'header.php'; ?>

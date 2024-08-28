@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/Traditional-Culture.css">
 
-    <title>Traditional Culture</title>
+    <title>Fu Jen Global</title>
 </head>
 
 <?php include 'header.php'; ?>

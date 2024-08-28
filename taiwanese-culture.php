@@ -24,7 +24,7 @@
     <!-- JS -->
     <script type="text/javascript" src="js/taiwanese-culture.js"></script>
 
-    <title>Taiwanese Culture</title>
+    <title>Fu Jen Global</title>
 </head>
 
 <?php include 'header.php'; ?>
