@@ -37,24 +37,28 @@
 
     <div class="my-5" id="introduction-bpis">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3 class="my-3 fw-semibold">Introduction</h3>
                 <div class="justify-text">
                     <span>The Bachelor’s Program in Interdisciplinary Studies (BPIS) allows students to explore multiple areas of study such as business management, global studies, and sustainability. Throughout this dynamic program, students can tailor their coursework to fit their academic and career goals with real-world learning opportunities. To explore various areas of interest in depth, students will engage in project-based learning through faculty-supervised projects and work closely with supervisory committee members from various academic units. Students will possess both theoretical knowledge and practical skills that will help them solve global challenges. </span>
                 </div>    
             </div>
+            <!--
             <div class="col-md-6">
                 <img src="images/study-package/bpis/.jpg" class="container-fluid">
             </div>
+            -->
         </div>
     </div>
     
     <div class="my-5" id="features-bpis">
         <div class="row align-items-start">
+            <!--
             <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/bpis/.jpg" class="container-fluid">
             </div>
-            <div class="col-md-6 order-1 order-md-2">
+            -->
+            <div class="col-md-12 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <div class="justify-text">
                     <p class="my-3 fw-semibold">International Experience</p>
@@ -73,7 +77,7 @@
 
     <div class="my-5" id="amsp-bpis">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <div class="justify-text">
                     <p class="my-3">There are three tracks that students can choose from:</p>
@@ -90,18 +94,21 @@
                     </ul>
                 </div>
             </div>
+            <!--
             <div class="col-md-6">
                 <img src="images/study-package/bpis/.jpg" class="container-fluid">
             </div>
+            -->
         </div>
     </div>
 
     <div class="my-5" id="csd-bpis">
         <div class="row align-items-start">
+            <!--
             <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/bpis-art/.jpg" class="container-fluid">
-            </div>
-            <div class="col-md-6 order-1 order-md-2">
+            </div>-->
+            <div class="col-md-12 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
                 <div class="justify-text">
                     <p class="my-3">Core courses:</p>
@@ -137,25 +144,27 @@
 
     <div class="my-5" id="lo-bpis">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3 class="my-3 fw-semibold">Learning Outcomes</h3>
                 <div class="justify-text">
                     <p class="my-3">BPIS equips students with the skills and knowledge needed to address global challenges by fostering critical thinking, adaptability, creativity, and a holistic approach to problem- solving. Graduates of BPIS are well-equipped to enter various industries and pursue diverse career paths. </p>
                     <p class="my-3">While gaining a practical understanding of business management, students learn to be global citizens, leaders, innovators, and entrepreneurs.</p>
                 </div>    
             </div>
+            <!--
             <div class="col-md-6">
                 <img src="images/study-package/bpis/.jpg" class="container-fluid">
-            </div>
+            </div>-->
         </div>
     </div>
 
     <div class="my-5" id="fi-bpis">
         <div class="row align-items-start">
+            <!--
             <div class="col-md-6 order-2 order-md-1">
                 <img src="images/study-package/bpis/.jpg" class="container-fluid">
-            </div>
-            <div class="col-md-6 order-1 order-md-2">
+            </div>-->
+            <div class="col-md-12 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <div class="justify-text">
                     <p class="mt-3 fw-semibold">Dr. Ariana Chang </p>
