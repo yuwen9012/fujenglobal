@@ -48,7 +48,7 @@
     <div class="row">
         <div class="col-lg-1 left-section"></div>
         <div class="col-sm-12 col-md-12 col-lg-10 center-section">
-            <i class="arrow-icon">→</i>
+            <i class="arrow-icon">more →</i>
             <div class="table-responsive">
                 <table  class="custom-table" style="border: 1px solid black; border-collapse: collapse; width:100%;">
                     <tr style="border: 1px solid black;">
