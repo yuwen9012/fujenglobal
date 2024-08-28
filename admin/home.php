@@ -20,29 +20,27 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/home.css">
 
+    <!-- JS -->
+    <script type="text/javascript" src="js/home.js"></script>
+
     <title>後台系統</title>
 </head>
 <body>
     <div class="container-fluid vh-100 p-0">
         <div class="row h-100 g-0">
-            <div class="col-2 d-flex flex-column p-0">
-                <nav id="sidebar" class="d-flex flex-column p-3">
+            <div id="nav" class="col position-fixed d-flex flex-column">
+                <nav id="sidebar" class="d-flex flex-column pt-3 pb-3">
                     <div class="logo d-flex justify-content-center mb-3">
                         <img src="../images/05-校徽-英文組合排列.png" alt="Logo">
                     </div>
 
                     <div class="position-sticky py-3 flex-grow-1">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link text-white active" href="#">
-                                    主面板
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#submenu1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu1">
+                        <ul class="nav flex-column" id="menu">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white pe-0" href="#submenu1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu1">
                                     Home
                                 </a>
-                                <div class="collapse" id="submenu1">
+                                <div class="collapse" id="submenu1" data-bs-parent="#menu">
                                     <ul class="nav flex-column ms-3">
                                         <li class="nav-item">
                                             <a class="nav-link text-white" href="#">輪播牆(3:1圖片) 設定</a>
@@ -57,7 +55,7 @@
                                 <a class="nav-link text-white" href="#submenu2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu2">
                                     Study-Abroad
                                 </a>
-                                <div class="collapse" id="submenu2">
+                                <div class="collapse" id="submenu2" data-bs-parent="#menu">
                                     <ul class="nav flex-column ms-3">
                                         <li class="nav-item">
                                             <a class="nav-link text-white" href="#">學院 設定</a>
@@ -79,8 +77,8 @@
                 </nav>
             </div>
 
-            <div class="col-md-10 ms-sm-auto px-4 d-flex justify-content-center align-items-center">
-                <div class="container" style="width: 95%; height: 90%; background-color: #FFF9E6;">
+            <div id="setting" class="col p-0 d-flex justify-content-center align-items-center">
+                <div id="content" class="container rounded">
                 </div>
             </div>
         </div>
