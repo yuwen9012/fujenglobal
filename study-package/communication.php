@@ -40,14 +40,14 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Introduction</h3>
                 <div class="justify-text">
-                    <span>The College of Communication was established in 2010. It is composed of the Graduate Institute of Mass Communication, the Department of Journalism & Communication Studies, the Department of Communication Arts, the Department of Advertising and Public Relations, the Bachelor’s program in Mass Communication, the Media and Instructional Resources Center, as well as the student radio station "Voice of Fu Jen Catholic University."</span>
+                    <span>The College of Communication was established in 2010. It comprises the Graduate Institute of Mass Communication, the Department of Journalism & Communication Studies, the Department of Communication Arts, the Department of Advertising and Public Relations, the Bachelor’s program in Mass Communication, the Media and Instructional Resources Center, and the student radio station "Voice of Fu Jen Catholic University."</span>
                     <div class="collapse" id="collapseCommuIntro">
-                        <p class="my-3">Fu Jen University has 50 years of history teaching in communication studies, and raising education-minded media talent who possess both holistic educational concepts and professional discipline for the purpose of education.</p>
+                        <p class="my-3">Since 1971, Fu Jen University has provided communication programs that cultivate promising media talents who possess both a critical understanding of contemporary media and professional skills in media production. Our graduates have also developed broad international horizons, immersed within Fu Jen’s international resources and holistic education.</p>
                         <p class="my-3">Our college currently has 1,200 students, and we recruit roughly 300 undergraduate students and 40 graduate students each year. Throughout our history, we have seen more than 10,000 alumni prospering in journalism, publishing, broadcasting, advertising, film, digital media, marketing, public relations, and academic research.</p>
-                        <p class="mt-3 fw-semibold">Mission statements</p>
-                        <p class="my-1">(1) Building on the foundation of quality education and researches, we aims to foster the well-rounded talents who respect nature, love people, value equality and justice, care for the disadvantaged, and are equipped with creativity and strategic planning skills in the field of journalism, communication arts, advertising and marketing communications.</p>
-                        <p class="my-1">(2) In response to the ever-changing development and trends in communication technologies, we aim to foster talents who are empowered with innovative communication abilities and are capable of applying new technologies to the creation of content.</p>
-                        <p class="my-1">(3) Our teaching and researches are based on the idea of "public communication". We are dedicated to understanding the public's perspective, raise public awareness of social concern, and to honor social justice.</p>
+                        <p class="mt-3 fw-semibold">Our missions:</p>
+                        <p class="my-1">(1) Building on the foundation of quality education and research, we aim to foster well-rounded prospective media workers who respect nature, love people, value equality and justice, care for the disadvantaged, and are equipped with creativity and strategic planning skills in the field of journalism, communication arts, advertising, and marketing communications.</p>
+                        <p class="my-1">(2) Adapting to the ever-changing media environments driven by new media and communication technologies, we aim to nurture talents who are capable of generating innovative communication approaches and utilizing new technologies in the creation of media content.</p>
+                        <p class="my-1">(3) Our teaching and research are based on the idea of "public communication." We are dedicated to training media workers who understand the public and can raise awareness of public issues and concerns in society to honor social justice.</p>
                     </div>
                     <a id="read-more-link-commu-intro" data-bs-toggle="collapse" href="#collapseCommuIntro" role="button" aria-expanded="false" aria-controls="collapseCommuIntro">Read more...</a>
                 </div>
@@ -66,43 +66,43 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <div class="justify-text">
-                    <p class="my-3">With a history of over 50 years of teaching, the School emphasizes both theory and practice, and has nurtured many outstanding individuals for the nation and society.</p>
+                    <p class="my-3">With a history of over 50 years of teaching, the School of Communication emphasizes both theory and practice in our programs and has nurtured many outstanding media professionals who contribute to the nation and society.</p>
                     <p class="mt-3 fw-semibold">Department Of Communication Arts</p>
                     <ul class="decimal-list">
                         <li>
                             Grants degree of BFA (Bachelor of Fine Arts).
                         </li>
                         <li>
-                            Provides quality education in both media production and media studies.
+                            Provides quality education in both practices and theories.
                         </li>
                         <li>
-                        Encourages students to participate in media festivals, competitions, exhibitions and performances.
+                        Encourages students to participate in film festivals, short film competitions, media exhibitions and theatrical performances.
                         </li>
                         <li>
-                            Offers interdisciplinary courses in social sciences and creative arts.
+                            Offers interdisciplinary courses in media and communication studies, film studies, and visual art creation.
                         </li>
                         <li>
-                            Emphasizes the internationalization of education and academic exchange.
+                            Provide internationalized courses and opportunities of international exchange.
                         </li>
                     </ul>
                     <div class="collapse" id="collapseCommuFeatu">
                         <p class="my-3">For more information, please refer to the official website: <a href="http://www.commarts.fju.edu.tw" target="_blank">http://www.commarts.fju.edu.tw</a></p>
                         <p class="mt-3 fw-semibold">Department Of Journalism & Communication Studies</p>
-                        <p class="my-3">Communication at Fu Jen Catholic University cultivates talents who can insightfully grasp social trends and tell authentic stories. The curriculum is based on humanities and technology, focusing on topic planning, interviewing and fact-checking, writing and storytelling, editing and curating, and innovative entrepreneurship. It aims to enhance professional journalism skills and build potential for interdisciplinary development. Half of the alumni enter the news industry to pursue their ambitions, while the other half apply their communication expertise in fields such as technology, business, education, public welfare, public relations, and politics. Students can also choose to minor or pursue a double degree from any of the university's 12 colleges.</p>
+                        <p class="my-3">Communication at Fu Jen Catholic University cultivates talents who can insightfully grasp social trends and tell non-fictional news stories. The curriculum is characterized of both humanities and technology, with a focus on topic planning, interviewing and fact-checking, writing and storytelling, editing and curating, and innovative media entrepreneurship. It aims to enhance the professional journalism skills of students and build potential for their interdisciplinary development. Half of the alumni enter the news industry to pursue their ambitions, while the other half apply their communication expertise in fields such as technology, business, education, public welfare, public relations, and politics. Students can also choose to minor or pursue a double degree from any of the university's 12 colleges.</p>
                         <p class="my-3">For more information, please refer to the official website: <a href="https://jcs.tw/" target="_blank">https://jcs.tw/</a></p>
                         <p class="mt-3 fw-semibold">Department Of Advertising & Public Relations</p>
                         <ul class="decimal-list">
                             <li>
-                                Emphasize on Theory and Practice.
+                                Emphasizes theory and practice.
                             </li>
                             <li>
-                                Encourage students to participate in national / international competitions.
+                                Encourages students to participate in national and international competitions.
                             </li>
                             <li>
-                                Strict control of graduation standards.
+                                Strictly controls the high standards of students.
                             </li>
                             <li>
-                                Emphasize teamwork and the learning spirit of 「learning by doing / doing by learning」
+                                Emphasizes students’ capability of teamwork and the learning spirit of “learning by doing. Doing by learning.”
                             </li>
                         </ul>
                         <p class="my-3">For more information, please refer to the official website: <a href="http://www.adpr.fju.edu.tw/" target="_blank">http://www.adpr.fju.edu.tw/</a></p>
@@ -183,7 +183,8 @@
                             Learn Latin American films with its history, culture and society.
                         </li>
                         <li>
-                        Reflect on how movies construct history as narrative and popularize different in the process of LA history.
+                        Reflect on how movies construct history as narrative and popularize different in the process of Latin American history.
+
                         </li>
                         <li>
                             Examine the differences and similarities between academic historical narratives and cinematic historical narratives.
@@ -215,7 +216,7 @@
                         <p class="my-3">Secondly, the angle will focus on minor nationalist cinema, such as Black cinema, Hispanic cinema, Jewish Cinema and Chinese Hollywood, to better understand a cinematic map of ethnic-political empowerment, and to further compare how Chinese factor entangled with other ethnic and cultural ingredients.</p>
                         <p class="my-3">Thirdly, Hollywood Chinese, borrowed the documentary practice of Arthur Dong as film of resistance, involves various levels of knowledge: production, casting, acting, audience acceptance and identity politics.</p>
                         <p class="mt-3 fw-semibold">Introduction to Inter-Asia Cinemas:</p>
-                        <p class="my-3">Base on critical concepts aroused by Inter-Asian Cultural Studies, the course aims to tackle the complicated network of historicity, images and cultural politics, by mapping out a possible terrain of filmic, cinematic and discursive (inter-)textuality against the backdrop of hollywoodization of world annschuuang and cultural immigination. By looking into the film cultures in India, South Korea, and Isreal (Jewish), and by taking examples from other (post-)nationalist cinema, the course hopes to lay out the alternative ways in re-positioning our own cultural identity, and self-empowering ourselves for immergent change.</p>
+                        <p class="my-3">Base on critical concepts aroused by Inter-Asian Cultural Studies, the course aims to tackle the complicated network of historicity, images and cultural politics, by mapping out a possible terrain of filmic, cinematic and discursive (inter-)textuality against the backdrop of hollywoodization of cinema world and cultural imagination. By looking into the film cultures in India, South Korea, and Israel (Jewish), and by taking examples from other (post-)nationalist cinema, the course hopes to lay out the alternative ways in re-positioning our own cultural identity, and self-empowering ourselves for emergent change.</p>
                         <p class="mt-3 fw-semibold">Readings of Communication</p>
                         <p class="my-3">This course aims to encourage students to communicate and improve their English proficiency, by learning in English about film, TV and other phenomenal pop culture consumption in Taiwan. We will read important English-language academic papers that discuss key issues on these subjects. The continuous negotiation and contention between Confucian traditional norms and emergent modernization desires that have been influenced by cultures from the West, in particular the US, underpins these readings.</p>
                         <p class="mt-3 fw-semibold">Inter-Cultural Communication: A Visual Approach</p>
@@ -305,9 +306,5 @@
     <div class="my-5" id="ci-communication">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
         <p class="my-3">Miss Tin  +886 2 29053396   DIG@mail.fju.edu.tw</p>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Jocelyn Yi-Hsuan Lai</p>
-        <p class="my-3">Tel: 886-2-2905-3353</p>
-        <p class="my-3">E-mail: yihlai@gmail.com</p>
     </div>
 </div>
