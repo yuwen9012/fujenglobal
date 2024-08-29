@@ -64,7 +64,7 @@
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✗</td>
-                        <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">⭗</td>
+                        <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">◯</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">Fee-paying</td>
                     </tr>
                     <tr style="border: 1px solid black;">
@@ -77,15 +77,15 @@
                     </tr>
                     <tr style="border: 1px solid black;">
                         <th style="border: 1px solid black; padding: 8px;text-align: center;">CCLC Student</th>
-                        <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">⭗</td>
-                        <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">⭗</td>
+                        <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">◯</td>
+                        <td style="border: 1px solid black; padding: 8px; color: red; text-align: center;">◯</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">✓</td>
                         <td style="border: 1px solid black; padding: 8px; text-align: center;">Fee-paying</td>
                     </tr>
                 </table>
             </div>
-            <span class="justify-text"><span style="color: red;">⭗</span>: Depends on the actual situation</span>
+            <span class="justify-text"><span style="color: red;">◯</span>: Depends on the actual situation</span>
         </div>
         <div class=" col-lg-1 right-section"></div>
     </div>
