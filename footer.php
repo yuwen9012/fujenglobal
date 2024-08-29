@@ -17,7 +17,7 @@
         </div>
 
         <div class="col-4 d-flex flex-column justify-content-center text-end" id="footer-team">
-            <span class="text-white fs-7"><a href="team.php" class="text-white text-decoration-none">Producers: Y.W. Chen, Justin Kuo, M.P. Wang</a></span>
+            <span class="text-white fs-7"><a href="team.php" class="text-white text-decoration-none">Developer: Y.W. Chen, Justin Kuo, M.P. Wang</a></span>
             <span class="text-white fs-7"><a href="team.php" class="text-white text-decoration-none">Intructor: Y.N. Tu, Ph.D., Professor, SIS Department, FJCU</a></span>
         </div>
     </div>

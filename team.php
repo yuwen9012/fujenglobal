@@ -36,7 +36,7 @@
 
             <div class="container-fluid d-flex justify-content-between position-relative rounded my-5" id="content-card">
                 <div class="d-flex justify-content-center align-items-center position-absolute rounded shadow" id="title-card">
-                    <span class="fs-5 fw-semibold">Website Developer</span>
+                    <span class="fs-5 fw-semibold">開發團隊 Dev. Team</span>
                 </div>
 
                 <div class="row g-2 d-flex justify-content-center align-items-center my-5">
