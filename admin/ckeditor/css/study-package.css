@@ -280,3 +280,210 @@ table{
     max-height: none; 
 }
 */
+
+.image-style-align-right {
+    float: right !important;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.image-style-align-left{
+    float: left !important;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.image_resized {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* 避免圖片超出容器 */
+}
+
+
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading 樣式 */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1.12em;
+}
+h5 {
+    font-size: 0.83em;
+}
+h6 {
+    font-size: 0.75em;
+}
+
+/* 段落樣式 */
+p {
+    margin: 0 0 10px;
+}
+
+/* 粗體字、斜體字、下劃線 */
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+/* 列表樣式 */
+ul, ol {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin: 0 0 5px;
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* 鏈接樣式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 圖片樣式 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 水平線 */
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* 引用 */
+blockquote {
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    border-left: 5px solid #ddd;
+    background-color: #f9f9f9;
+    font-style: italic;
+}
+
+/* 任務清單 */
+ul.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.todo-list li {
+    position: relative;
+    padding-left: 20px;
+}
+
+ul.todo-list li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* 圖片樣式工具條 */
+.ck-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.ck-image__caption {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* 對齊方式 */
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+/* 圖片尺寸調整 */
+.ck-image__image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 表格工具條 */
+.ck-table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.ck-table th,
+.ck-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.ck-table th {
+    background-color: #f4f4f4;
+}
+
+/* 內聯樣式 */
+.inline-style {
+    display: inline;
+}

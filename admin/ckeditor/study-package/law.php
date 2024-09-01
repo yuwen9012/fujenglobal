@@ -55,7 +55,7 @@
 
     <div class="my-5" id="features-law">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <div class="justify-text">
                     <div id="content-container-features">
@@ -68,9 +68,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="../../images/study-package/law/law2.png" class="container-fluid">
-            </div>
         </div>
     </div>
 
@@ -78,7 +75,7 @@
     <div class="my-5" id="amsp-law">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="../../images/study-package/law/law3.jpg" class="container-fluid">
+                <!--<img src="../../images/study-package/law/law3.jpg" class="container-fluid">-->
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
@@ -137,7 +134,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="../../images/study-package/law/law5.jpg" class="container-fluid">
+               <!-- <img src="../../images/study-package/law/law5.jpg" class="container-fluid">-->
             </div>
         </div>
     </div>
@@ -145,7 +142,7 @@
     <div class="my-5" id="fi-law">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="../../images/study-package/law/law6.jpg" class="container-fluid">
+                <!--<img src="../../images/study-package/law/law6.jpg" class="container-fluid">-->
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
@@ -172,7 +169,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="../../images/study-package/law/law7.jpg" class="container-fluid">
+                <!--<img src="../../images/study-package/law/law7.jpg" class="container-fluid">-->
             </div>
         </div>
     </div>
