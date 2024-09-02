@@ -161,13 +161,13 @@
                 <h3 class="my-3 fw-semibold">Office Website</h3>
                 <div class="justify-text">
                     <p class="my-3 fw-semibold" style="font-size: 18px;">College of Arts:</p>
-                    <a href=" https://www.finearts.fju.edu.tw/zh/index.html"> https://www.finearts.fju.edu.tw/zh/index.html</a>
+                    <a href=" https://www.finearts.fju.edu.tw/zh/index.html" target="_blank"> https://www.finearts.fju.edu.tw/zh/index.html</a>
                     <p class="my-3 fw-semibold" style="font-size: 18px;">Department of Music:</p>
-                    <a href=" https://www.music.fju.edu.tw/"> https://www.music.fju.edu.tw/</a>
+                    <a href=" https://www.music.fju.edu.tw/" target="_blank"> https://www.music.fju.edu.tw/</a>
                     <p class="my-3 fw-semibold" style="font-size: 18px;">Department of Applied Art:</p>
-                    <a href=" https://www.aart.fju.edu.tw/"> https://www.aart.fju.edu.tw/</a>
+                    <a href=" https://www.aart.fju.edu.tw/" target="_blank"> https://www.aart.fju.edu.tw/</a>
                     <p class="my-3 fw-semibold" style="font-size: 18px;">Department of Landscape Architecture:</p>
-                    <a href=" https://www.landscape.fju.edu.tw/"> https://www.landscape.fju.edu.tw/</a>
+                    <a href=" https://www.landscape.fju.edu.tw/" target="_blank"> https://www.landscape.fju.edu.tw/</a>
                 </div>
                  
             </div>
