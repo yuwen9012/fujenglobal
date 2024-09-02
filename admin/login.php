@@ -93,6 +93,7 @@
         
         .form-group {
             text-align: left;
+            position: relative;
         }
 
         .form-control {
@@ -127,9 +128,47 @@
         .login-container button:active {
             background-color: #8090B1;
         }
+
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            background: none;
+            border: none;
+            outline: none;
+            transition: color 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            color: #ECE1BF;
+        }
+
+        .eye-icon {
+            position: absolute;
+            top: 72%;
+            right: 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        
+        .fa-eye-slash {
+            color: #898D94;
+            right: 9px;
+        }
+
+        .fa-eye {
+            color: #AFCBAB;
+        }
     </style>
 </head>
 <body>
+    <button class="back-button" onclick="window.history.back();">
+        <i class="fa fa-arrow-left"></i>
+    </button>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mt-5">
@@ -144,13 +183,14 @@
                         <div class="circle circle-green"></div>
                     </div>
                     <form>
-                        <div class="my-2  form-group">
+                        <div class="my-2 form-group position-relative">
                             <label for="username">帳號：</label>
                             <input type="text" class="mt-1 form-control" id="username">
                         </div>
-                        <div class="my-2 form-group">
+                        <div class="my-2 form-group position-relative">
                             <label for="password">密碼：</label>
                             <input type="password" class="mt-1 form-control" id="password">
+                            <i class="fa fa-eye-slash eye-icon" id="togglePassword"></i>
                         </div>
                         <button type="submit" class="btn">登入</button>
                     </form>
@@ -160,5 +200,18 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 顯示/隱藏密碼功能
+        const togglePassword = document.getElementById('togglePassword');
+        const password = document.getElementById('password');
+
+        togglePassword.addEventListener('click', function () {
+            const type = password.type === 'password' ? 'text' : 'password';
+            password.type = type;
+            
+            this.classList.toggle('fa-eye');
+            this.classList.toggle('fa-eye-slash');
+        });
+    </script>
 </body>
 </html>
