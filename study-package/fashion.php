@@ -174,7 +174,7 @@
 
     <div class="my-5" id="ow-fashion">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="http://www.tc.fju.edu.tw">http://www.tc.fju.edu.tw</a>
+        <a href="http://www.tc.fju.edu.tw" target="_blank">http://www.tc.fju.edu.tw</a>
     </div>
 
     <div class="my-5" id="ci-fashion">
