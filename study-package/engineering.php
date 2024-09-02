@@ -180,7 +180,7 @@
 
     <div class="my-5" id="ow-engineering">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="http://www.se.fju.edu.tw/">http://www.se.fju.edu.tw/</a>
+        <a href="http://www.se.fju.edu.tw/" target="_blank">http://www.se.fju.edu.tw/</a>
     </div>
 
     <div class="my-5" id="ci-engineering">
