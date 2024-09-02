@@ -276,7 +276,7 @@
 
     <div class="my-5" id="ow-social">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="https://www.social.fju.edu.tw/">https://www.social.fju.edu.tw/</a>
+        <a href="https://www.social.fju.edu.tw/" target="_blank">https://www.social.fju.edu.tw/</a>
     </div>
 
     <div class="my-5" id="ci-social">
