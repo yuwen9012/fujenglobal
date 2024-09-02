@@ -247,7 +247,7 @@
 
     <div class="my-5" id="ow-education">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="https://www.educ.fju.edu.tw/chi/">https://www.educ.fju.edu.tw/chi/</a>
+        <a href="https://www.educ.fju.edu.tw/chi/" target="_blank">https://www.educ.fju.edu.tw/chi/</a>
     </div>
 
     <div class="my-5" id="ci-education">
