@@ -300,7 +300,7 @@
 
     <div class="my-5" id="ow-medicine">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="http://www.mc.fju.edu.tw/index.jsp">http://www.mc.fju.edu.tw/index.jsp</a>
+        <a href="http://www.mc.fju.edu.tw/index.jsp" target="_blank">http://www.mc.fju.edu.tw/index.jsp</a>
     </div>
 
     <div class="my-5" id="ci-medicine">
