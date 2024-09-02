@@ -300,7 +300,7 @@
 
     <div class="my-5" id="ow-communication">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="http://www.comm.fju.edu.tw/node/938?language=en">http://www.comm.fju.edu.tw/node/938?language=en</a>
+        <a href="http://www.comm.fju.edu.tw/node/938?language=en" target="_blank">http://www.comm.fju.edu.tw/node/938?language=en</a>
     </div>
 
     <div class="my-5" id="ci-communication">
