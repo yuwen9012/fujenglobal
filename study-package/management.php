@@ -219,7 +219,7 @@
 
     <div class="my-5" id="ow-management">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="https://www.management.fju.edu.tw/index_en.php">https://www.management.fju.edu.tw/index_en.php</a>
+        <a href="https://www.management.fju.edu.tw/index_en.php" target="_blank">https://www.management.fju.edu.tw/index_en.php</a>
     </div>
 
     <div class="my-5" id="ci-management">
