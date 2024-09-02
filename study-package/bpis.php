@@ -195,7 +195,7 @@
     
     <div class="my-5" id="ow-bpis">
         <h3 class="my-3 fw-semibold">Office Website</h3>
-        <a href="https://bpis.fju.edu.tw/">https://bpis.fju.edu.tw/</a>
+        <a href="https://bpis.fju.edu.tw/" target="_blank">https://bpis.fju.edu.tw/</a>
     </div>
 
     <div class="my-5" id="ci-bpis">
