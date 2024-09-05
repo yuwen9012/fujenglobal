@@ -48,7 +48,7 @@
                 <div class="card-body">
                     <p><a href="how-to-apply.php">How to Apply</a></p>
                     <p><a href="program-introduction.php">Program Introduction</a></p>
-                    <p><a href="study-package.php">Study Package</a></p>
+                    <p><a href="study-package.php">Study Packages</a></p>
                     <p><a href="taiwanese-culture.php">Taiwanese Culture</a></p>
                     <p><a href="https://bpis.fju.edu.tw/index.php" target="_blank">Enterprise Visit</a></p>
                     <p><a href="Mandarin-Chinese-Learning.php">Mandarin-Learning</a></p>
