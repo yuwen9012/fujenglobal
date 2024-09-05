@@ -59,7 +59,7 @@
                     <div class="half-circle">
                         <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Package</a></div>
                         <div class="circle-btn" id="btn-traditional-culture"><a href="taiwanese-culture.php">Taiwanese Culture</a></div>
-                        <div class="circle-btn" id="btn-enterprise-visit"><a href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a></div>
+                        <div class="circle-btn" id="btn-enterprise-visit"><a href="https://bpis.fju.edu.tw/index.php" target="_blank">Enterprise Visit</a></div>
                         <div class="circle-btn" id="btn-mandarin-learning"><a href="Mandarin-Chinese-Learning.php">Mandarin Learning</a></div>
                         <img src="images/SA-student.png" id="student" class="d-block mx-auto" alt="student">
                     </div>
