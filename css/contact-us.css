@@ -5,15 +5,17 @@ body {
 }
 
 .title-container {
-    margin: 20px 0; /* 上下邊距 */
-    text-align: center; /* 使內容居中 */
+    margin: 20px 0;
+    text-align: center;
 }
+
 /* 標題樣式 */
 .title {
-    font-size: 40px; /* 調整字體大小 */
-    color: #132548; /* 深藍色 */
-    font-weight: bold; /* 加粗字體 */
+    font-size: 40px;
+    color: #132548;
+    font-weight: bold;
 }
+
 /* 聯絡卡片樣式 */
 .contact-card {
     margin: 15px;
@@ -27,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 新增陰影效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-header {
@@ -38,46 +40,46 @@ body {
     text-align: center;
     border-radius: 0px 0px 0 0;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 新增陰影效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-content {
     padding: 15px;
-    min-height: 150px; /* 設定最小高度 */
+    min-height: 150px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* 對齊到左邊 */
+    align-items: flex-start;
     justify-content: center;
     position: relative;
-    text-align: left; /* 文本靠左對齊 */
+    text-align: left;
 }
 
 .contact-content p {
     margin-bottom: 10px;
     color: #333;
-    transition: color 0.3s ease; /* 添加平滑過渡效果 */
+    transition: color 0.3s ease;
     display: flex;
     align-items: center;
-    position: relative; /* 確保複製圖示定位在正確位置 */
+    position: relative;
 }
 
 .contact-content p:hover {
-    color: #3867c0; /* 鼠標移過去時的顏色 */
+    color: #3867c0;
 }
 
 .copy-text {
-    margin-left: 10px; /* 圖示和文字之間的距離 */
-    margin-right: 10px; /* 圖示和文字之間的距離 */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .copy-icon {
     display: none;
-    margin-left: 1000px; /* 圖示和文字之間的距離 */
+    margin-left: 1000px;
     cursor: pointer;
-    position: absolute; /* 使用絕對定位以確保不影響文本位置 */
-    right: 0; /* 讓圖示出現在文本右邊 */
+    position: absolute;
+    right: 0;
     top: 50%;
-    transform: translateY(-50%); /* 垂直居中 */
+    transform: translateY(-50%);
 }
 
 .contact-content p:hover .copy-icon {
@@ -91,7 +93,7 @@ body {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #28a745; /* 成功的顏色 */
+    background-color: #28a745;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
@@ -119,11 +121,11 @@ body {
 
 .form-section {
     max-width: 80%;
-    margin: 0 auto; /* 使表單區塊居中 */
+    margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ddd; /* 添加邊框 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
-    background-color: #fff; /* 背景顏色 */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -135,31 +137,31 @@ body {
 
 /* 問題 */
 .form-section .form-label {
-    background-color: #FFF9E6; /* 問題區塊背景顏色 */
+    background-color: #FFF9E6;
     padding: 10px;
     display: block;
-    border-left: 1px solid #ddd; /* 左邊框 */
-    border-top: 1px solid #ddd; /* 下邊框 */
-    border-right: 1px solid #ddd; /* 右邊框 */
-    margin: 0px; /* 調整每個問題區塊間距 */
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin: 0px;
     
 }
 
 /* 輸入框 */
 .form-section .form-control {
     background-color: #FFF;
-    border-radius: 0; /* 移除圓角 */
-    border-top: none; /* 移除上邊框 */
-    padding: 10px; /* 輸入框內邊距 */
+    border-radius: 0;
+    border-top: none;
+    padding: 10px;
 }
 
 /*核選*/
 .check-container{
-    border-left: 1px solid #ddd; /* 左邊框 */
-    border-bottom: 1px solid #ddd; /* 下邊框 */
-    border-right: 1px solid #ddd; /* 右邊框 */
-    border-radius: 0; /* 移除圓角 */
-    border-top: none; /* 移除上邊框 */
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+    border-top: none;
     padding: 10px;
 }
 
@@ -175,7 +177,7 @@ body {
 
 /* 表單提交動畫 */
 .response-message {
-    display: none; /* 初始隱藏 */
+    display: none;
     background-color: #d4edda;
     color: #155724;
     border: 1px solid #c3e6cb;
@@ -208,15 +210,11 @@ body {
     display: block;
 }
 
-
-
-
-
 h3 {
-    color: #d7ac12; /* 顏色 */
-    font-size: 26px; /* 字體大小 */
-    text-align: center; /* 水平置中 */
-    margin-bottom: 20px; /* 標題底部間距（可根據需要調整） */
+    color: #d7ac12;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .text-danger {

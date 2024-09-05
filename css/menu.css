@@ -272,14 +272,13 @@
 }
 
 .dropdown-item {
-    display: block; /* 確保整個區塊都能被點擊 */
+    display: block;
 }
 
-/* 懸停時的樣式 */
 .dropdown-item:hover {
-    color: #4e76c2; /* 懸停時文字顏色 */
+    color: #4e76c2;
 }
 .dropdown-item:active {
-    color: #efd474; /* 懸停時文字顏色 */
+    color: #efd474;
 }
 

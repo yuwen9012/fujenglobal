@@ -12,21 +12,21 @@ body {
     background-image: url('../images/coming.jpg');
     background-blend-mode: lighten;
     background-size: cover;
-    background-repeat: no-repeat; /* 防止背景圖片重複 */
+    background-repeat: no-repeat;
     background-color: rgba(111, 118, 123, 0.3);
-    background-position: center center; /* 使圖片居中顯示 */
+    background-position: center center;
 }
 
 .title {
-    color: white; /* 白色 */
-    font-weight: 900; /* 加粗字體 */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* 設置文字陰影 */
-    font-size: 4rem; /* 默認字體大小 */
+    color: white;
+    font-weight: 900;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    font-size: 4rem;
 }
 
 @media (max-width: 768px) {
     .title {
-        font-size: 3.5rem; /* 螢幕寬度小於768px時字體大小 */
+        font-size: 3.5rem;
     }
     .title-container {
         min-height: 80vh;
@@ -35,7 +35,7 @@ body {
 
 @media (max-width: 576px) {
     .title {
-        font-size: 2rem; /* 螢幕寬度小於576px時字體大小 */
+        font-size: 2rem;
     }
     .title-container {
         min-height: 60vh;

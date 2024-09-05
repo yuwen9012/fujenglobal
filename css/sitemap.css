@@ -1,47 +1,49 @@
 html, body {
     height: 100%;
-    margin: 0; /* 移除默認邊距 */
+    margin: 0;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     display: flex;
-    flex-direction: column; /* 垂直排列 */
+    flex-direction: column;
     background-color:#FFFEFB;
 }
 
 
 /* 主容器的樣式 */
 .container {
-    flex: 1; /* 使容器填滿剩餘空間 */
+    flex: 1;
     width: 90%;
 }
 
 .title-container {
-    text-align: center; /* 使內容居中 */
-    margin: 20px 0; /* 上下邊距 */
+    text-align: center;
+    margin: 20px 0; 
 }
+
 /* 標題樣式 */
 .title {
-    font-size: 40px; /* 調整字體大小 */
-    color: #132548; /* 深藍色 */
-    font-weight: bold; /* 加粗字體 */
+    font-size: 40px;
+    color: #132548;
+    font-weight: bold;
 }
 
 /* 內容標題樣式 */
 h4.card-title {
-    font-size: 20px; /* 調整標題字體大小 */
-    font-weight: 900; /* 粗體 */
-    color: #132548; /* 設置標題顏色 */
+    font-size: 20px;
+    font-weight: 900;
+    color: #132548;
 }
 
 .card-body a {
-    text-decoration: none; /* 移除底線 */
+    text-decoration: none;
     color: #132548; 
 }
 
 .card-body a:hover {
-    color: #e4be34; /* 鼠標懸停時的顏色 */
+    color: #e4be34;
 }
 
 
@@ -49,17 +51,17 @@ h4.card-title {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px; /* 調整內容間距 */
+    gap: 10px;
     margin: 0 auto;
 }
 
 /* 網格項目樣式 */
 .grid-item {
-    padding: 10px; /* 調整內邊距 */
+    padding: 10px;
 }
 
-/* 標題與內文之間的橫線 */
+/* 標題內文中間的橫線 */
 .section-separator {
-    border-top: 1.5px solid #E0E0E0; /* 設置橫線顏色 */
-    margin: 10px 0; /* 調整橫線上下的間距 */
+    border-top: 1.5px solid #E0E0E0; 
+    margin: 10px 0;
 }
