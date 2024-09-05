@@ -87,7 +87,7 @@
                 <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
             </div>
             <li class="nav-item px-2">
-                <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a>
+                <a class="nav-link text-white" href="https://bpis.fju.edu.tw/index.php" target="_blank">Fu Jen Global Academy</a>
             </li>
             <li class="nav-item px-2">
                 <a class="nav-link text-white" href="coming-soon.php">Degree Students</a>
@@ -108,7 +108,7 @@
                         <a class="hover-item" href="taiwanese-culture.php">Taiwanese Culture</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="hover-item" href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a>
+                        <a class="hover-item" href="https://bpis.fju.edu.tw/index.php" target="_blank">Enterprise Visit</a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="hover-item" href="Mandarin-Chinese-Learning.php">Mandarin Learning</a>
