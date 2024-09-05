@@ -305,6 +305,13 @@
 
     <div class="my-5" id="ci-communication">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3">Miss Tin  +886 2 29053396   DIG@mail.fju.edu.tw</p>
+        <p class="mt-3 fw-semibold">Chief of Internationalization</p>
+        <p class="my-3">Assistant Professor, Yi-Hsuan Lai</p>
+        <p class="my-3">Tel: 886-2-2905-3353</p>
+        <p class="my-3">E-mail: yihlai@gmail.com</p>
+        <p class="mt-3 fw-semibold">Secretary</p>
+        <p class="my-3">Miss Tin </p>
+        <p class="my-3">Tel: 886-2-2905-3396</p>
+        <p class="my-3">E-mail: DIG@mail.fju.edu.tw</p>
     </div>
 </div>
