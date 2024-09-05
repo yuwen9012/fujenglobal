@@ -305,9 +305,9 @@
 
     <div class="my-5" id="ci-medicine">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3">Prof. ShaoChen Lee, School of Medicine</p>
-        <p class="my-3">Chief Executive Officer for International Academic Exchange, College of Medicine,</p>
-        <p class="my-3">Phone: +886229053961</p>
-        <p class="my-3">E-mail: 073798@mail.fju.edu.tw</p>
+        <p class="mt-3 fw-semibold">Chief of Internationalization</p>
+        <p class="my-3">Professor, Shao-Chen Lee</p>
+        <p class="my-3">Tel: 886-2-2905-3961</p>
+        <p class="my-3">Email: 073798@mail.fju.edu.tw</p>
     </div>
 </div>
