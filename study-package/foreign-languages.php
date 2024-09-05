@@ -909,12 +909,12 @@
         <p class="my-3 fw-semibold">Secretaries</p>
         <p class="my-3">Ms.Chen</p>
         <p class="my-3">Tel:886-2-2905-2551</p>
-        <p class="my-3">E-mail:004617@mail.fju.edu.tw</p>
+        <p class="my-3">E-mail: 004617@mail.fju.edu.tw</p>
         <p class="my-3">Ms.Hao</p>
         <p class="my-3">Tel:886-2-2905-3718</p>
-        <p class="my-3">E-mail:026549@mail.fju.edu.tw</p>
+        <p class="my-3">E-mail: 026549@mail.fju.edu.tw</p>
         <p class="my-3">Ms.Zhuang</p>
         <p class="my-3">Tel:886-2-2905-3307</p>
-        <p class="my-3">E-mail:161279@mail.fju.edu.tw</p>
+        <p class="my-3">E-mail: 161279@mail.fju.edu.tw</p>
     </div>
 </div>
