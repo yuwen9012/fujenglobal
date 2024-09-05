@@ -1,0 +1,145 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to top right, #132548 20%, #3C5077 80%);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.login-container {
+    position: relative; /* 設定容器為相對定位 */
+    background-color: #FFF9E6;
+    padding: 40px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mac-buttons {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #ECE1BF;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.mac-buttons .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.circle-red {
+    background-color: #E79A89;
+}
+
+.circle-yellow {
+    background-color: #898D94;
+}
+
+.circle-green {
+    background-color: #AFCBAB;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    font-size:16px
+}
+
+.form-group {
+    text-align: left;
+    position: relative;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px #b8c4de;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #71826b;
+    color: white !important;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-container button:hover {
+    background-color: #809478;
+}
+
+.login-container button:active {
+    background-color: #a9b3a4;
+}
+
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    transition: color 0.3s ease;
+    z-index: 1000;
+}
+
+.back-button:hover {
+    color: #ECE1BF;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 72%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.fa-eye-slash {
+    color: #898D94;
+    right: 9px;
+}
+
+.fa-eye {
+    color: #AFCBAB;
+}
