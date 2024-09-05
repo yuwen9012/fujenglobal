@@ -192,6 +192,6 @@
         <p class="mt-3 fw-semibold">Secretary</p>
         <p class="my-3">Grace Liu</p>
         <p class="my-3">Tel:886-2-2905-3857</p>
-        <p class="my-3">E-mail:graceliu@mail.fju.edu.tw  </p>
+        <p class="my-3">E-mail: graceliu@mail.fju.edu.tw  </p>
     </div>
 </div>
