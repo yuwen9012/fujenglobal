@@ -20,7 +20,7 @@ if ($result->num_rows === 1) {
         $data = array('success' => false, 'message' => '帳號或密碼有誤');
     }
 } else {
-    $data = array('success' => false, 'message' => '無此用戶存在，請先註冊');
+    $data = array('success' => false, 'message' => '帳號不存在');
 }
 
 echo json_encode($data); 

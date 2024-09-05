@@ -54,6 +54,7 @@
                             <i class="fa fa-eye-slash eye-icon" id="togglePassword"></i>
                         </div>
                         <button type="submit">登入</button>
+                        <div id="errorMessage" class="text-danger mt-2"></div>
                     </form>
                 </div>
             </div>
