@@ -158,7 +158,7 @@
                                 Alumni associations to act as a bridge between FJCU and its alumni, building connections through the activities and promotion of these associations so as to continue the Fu Jen spirit.
                             </p>
                             <ul class="text-color">
-                                <li>47 independent alumni associations all over the world, including:</li>
+                                <li>49 independent alumni associations all over the world, including:</li>
                                 <li>4 main associations:
                                     <ul>
                                         <li>Fu Jen Worldwide Alumni Association</li>
@@ -169,8 +169,8 @@
                                 </li>
                                 <li>9 regional associations in Taiwan</li>
                                 <li>15 regional associations in the Americas</li>
-                                <li>7 regional associations in Europe</li>
-                                <li>12 regional associations in the Asia Pacific/Australia area</li>
+                                <li>8 regional associations in Europe</li>
+                                <li>13 regional associations in the Asia Pacific/Australia area</li>
                                 <li>73 department-level alumni associations</li>
                             </ul>
                         </div>
