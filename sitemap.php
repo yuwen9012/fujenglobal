@@ -50,7 +50,7 @@
                     <p><a href="program-introduction.php">Program Introduction</a></p>
                     <p><a href="study-package.php">Study Package</a></p>
                     <p><a href="taiwanese-culture.php">Taiwanese Culture</a></p>
-                    <p><a href="https://bpis.fju.edu.tw/index.php">Enterprise Visit</a></p>
+                    <p><a href="https://bpis.fju.edu.tw/index.php" target="_blank">Enterprise Visit</a></p>
                     <p><a href="Mandarin-Chinese-Learning.php">Mandarin-Learning</a></p>
                     <p><a href="accommodation.php">Accommodation</a></p>
                     <p><a href="faq.php">FAQ</a></p>
@@ -64,7 +64,7 @@
                     <p><a href="why-FJCU.php">Why FJCU?</a></p>
                     <p><a href="study-abroad.php">Study Abroad</a></p>
                     <p><a href="contact-us.php">Contact Us</a></p>
-                    <p><a href="https://bpis.fju.edu.tw/index.php">Fu Jen Global Academy</a></p>
+                    <p><a href="https://bpis.fju.edu.tw/index.php" target="_blank">Fu Jen Global Academy</a></p>
                 </div>
             </div>
             <div class="grid-item">
