@@ -102,7 +102,7 @@
                         <a class="hover-item" href="program-introduction.php">Program Introduction</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="hover-item" href="study-package.php">Study Package</a>
+                        <a class="hover-item" href="study-package.php">Study Packages</a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="hover-item" href="taiwanese-culture.php">Taiwanese Culture</a>
