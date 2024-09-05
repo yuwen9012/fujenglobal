@@ -279,13 +279,13 @@
 
     <div class="my-5" id="ci-liberal">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3">College of Liberal Arts, Fu Jen Catholic University No. 510, Zhongzheng Rd., Xinzhuang Dist., New Taipei City 242062, TAIWAN (R.O.C.)</p>
+        <!--<p class="my-3">College of Liberal Arts, Fu Jen Catholic University No. 510, Zhongzheng Rd., Xinzhuang Dist., New Taipei City 242062, TAIWAN (R.O.C.)</p>-->
         <p class="mt-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Cho-Chien Feng</p>
+        <p class="my-3">Assistant Professor, Cho-Chien Feng</p>
         <p class="my-3">Tel: 886-2-2905-3347</p>
         <p class="my-3">E-mail: 154268@mail.fju.edu.tw</p>
-        <p class="mt-3 fw-semibold">Secretary, College of Liberal Arts</p>
-        <p class="my-3">Shiao-chuan Yuan</p>
+        <p class="mt-3 fw-semibold">Secretary</p>
+        <p class="my-3">Shiao-Chuan Yuan</p>
         <p class="my-3">Tel: 886-2-2905-2302</p>
         <p class="my-3">E-mail: 045902@mail.fju.edu.tw</p>
     </div>
