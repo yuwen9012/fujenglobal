@@ -15,7 +15,7 @@
             <a class="nav-link btn" href="#csd-management" data-scroll="true">Course Structure & Description</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn" href="#lo-management" data-scroll="true">Learning Outcomes</a>
+            <a class="nav-link btn" href="#lo-management" data-scroll="true">Competency Goals</a>
         </li>
         <li class="nav-item m-1">
             <a class="nav-link btn" href="#fi-management" data-scroll="true">Faculty Information</a>
@@ -149,20 +149,19 @@
     <div class="my-5" id="lo-management">
         <div class="row align-items-start">
             <div class="col-md-6">
-                <h3 class="my-3 fw-semibold">Learning Outcomes</h3>
+                <h3 class="my-3 fw-semibold">Competency Goals</h3>
                 <div class="justify-text">
-                    <p class="mt-3 fw-semibold" style="text-decoration: underline;">Learning Goals of the College:</p>
-                    <p class="mt-3">(1) Each student should be able to analyze and solve management problems.</p>
-                    <p class="mt-3">(2) Each student should be able to use management knowledge and information technology.</p>
-                    <p class="mt-3">(3) Each student should be willing to show human compassion and render professional services as an ethical practice.</p>
-                    <p class="mt-3">(4) Each student should be able to cultivate a global view and exhibit the characteristics of internationalization.</p>
+                    <p class="mt-3 fw-semibold" style="text-decoration: underline;">Competency Goals of the Undergraduate:</p>
+                    <p class="mt-3">(1) The capability to solve problems through analysis and deep cultivation of professional knowledge.</p>
+                    <p class="mt-3">(2) The capability to put information technology to use.</p>
+                    <p class="mt-3">(3) The capability to demonstrate ethics and humanistic care.</p>
+                    <p class="mt-3">(4) The capability to embrace a macroscopic view of the world.</p>
                     <div class="collapse" id="collapseMaLo">
-                        <p class="mt-3 fw-semibold" style="text-decoration: underline;">Learning goals for its MBA programs:</p>
-                        <p class="mt-3">(1) Each student should be able to integrate theories and practices as to increase the productivity of organizations.</p>
-                        <p class="mt-3">(2) Each student should be able to capitalize on modern information technology in the integration and use of resources.</p>
-                        <p class="mt-3">(3) Each student should be able to recognize professional ethics and human-centric values, and be able to apply them in professional decision-making.</p>
-                        <p class="mt-3">(4) Each student should be able to expand his/her global perspective to adapt to internationalization.
-                        </p>
+                        <p class="mt-3 fw-semibold" style="text-decoration: underline;">Competency Goals of the MBA and MS:</p>
+                        <p class="mt-3">(1) The capability to make connections between theory and practice.</p>
+                        <p class="mt-3">(2) The capability to make intelligence-based decisions.</p>
+                        <p class="mt-3">(3) The capability to make intelligence-based decisions.</p>
+                        <p class="mt-3">(4) The capability to take a macroscopic view of the world.</p>
                     </div>
                     <a id="read-more-link-Ma-lo" data-bs-toggle="collapse" href="#collapseMaLo" role="button" aria-expanded="false" aria-controls="collapseMaLo">Read more...</a>
                 </div>    
@@ -181,13 +180,10 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <div class="justify-text">
-                    <p class="my-3">In the academic year 2022-23, the college has a total of 100 full-time faculty members, 126 adjunct faculty members, and 36 full-time staff members.</p>
-                    <p class="my-3">Among the full-time faculty, there are 32 professors, 32 associate professors, 35 assistant professors, and 1 lecturer. Of these, 99 hold doctoral degrees, with 22 holding foreign degrees. The gender distribution among faculty members is 65 males and 35 females. Their ages range from 30 to over 60, with 14 individuals aged 30-39, 34 aged 40-49, 41 aged 50-59, and 11 aged 60 or above.</p>
+                    <p class="my-3">In the academic year 2022-24, the College has 102 full-time faculty members, 126 adjunct faculty members, and 36 full-time staff members. Among the full-time faculty, there are 32 professors, 32 associate professors, 35 assistant professors, and 1 lecturer. Of these, 99 hold doctoral degrees, with 22 holding foreign degrees. Among the adjunct faculty, there are 29 professors, 50 associate professors, 38 assistant professors, and 9 lecturers. Of these, 77 hold doctoral degrees, 45 hold master's degrees, and 4 hold bachelor's degrees.</p>
                     <div class="collapse" id="collapseMaFi">
-                        <p class="my-3">Among the adjunct faculty, there are 29 professors, 50 associate professors, 38 assistant professors, and 9 lecturers. Of these, 77 hold doctoral degrees, 45 hold master's degrees, and 4 hold bachelor's degrees. The gender distribution among adjunct faculty members is 100 males and 26 females.</p>
-                        <p class="my-3">The faculty members are actively engaged in research, covering a wide range of areas including general management, corporate policy, marketing management, production and operations management, human resource management, financial management, international business, information management, statistics, accounting, economics, quantitative methods, data analysis, and finance. The overall research output is prolific, with many papers published in prestigious domestic and international journals, garnering widespread recognition from both academic and practitioner communities. Each year, numerous faculty members undertake research projects commissioned by associations, government agencies, and businesses, demonstrating the institution's commitment to integrating academic excellence with practical application.
-                        </p>
-                        <p class="my-3">To focus on research specialties, FJCM has established The Center for Corporate Governance and Business Ethics, Cloud Service Research Center, Social Enterprise Research Center, and Service Design Research Center successively and aimed at integrating the distinctive features of management research. The new Sustainable Development and Management Research Center was established in April 2022.  The Center will contribute to advocating and propagating the Sustainable Development Goals adopted by the United Nations through education promotion, academia-industry collaboration, an international platform, and study and research. It is expected that the knowledge sharing and actions integration among interdisciplinary will benefit from developing the sustainable capability of the industry and the university to present the social impacts of the Catholic university character.</p>
+                        <p class="my-3">The faculty members are actively engaged in research, covering a wide range of areas, including general management, corporate policy, marketing management, production and operations management, human resource management, financial management, international business, information management, statistics, accounting, economics, quantitative methods, data analysis, and finance. The overall research output is prolific, with many papers published in prestigious domestic and international journals, garnering widespread recognition from academic and practitioner communities. Each year, numerous faculty members undertake research projects commissioned by associations, government agencies, and businesses, demonstrating the institution's commitment to integrating academic excellence with practical application.</p>
+                        <p class="my-3">To focus on research specialties, FJCM has successfully established Cloud Service Research Center, Social Enterprise Research Center, and Service Design Research Center and aimed at integrating the distinctive features of management research. The new Sustainable Development and Management Research Center was established in April 2022. The Center will contribute to advocating and propagating the Sustainable Development Goals adopted by the United Nations through education promotion, academia-industry collaboration, an international platform, and study and research. It is expected that the knowledge sharing and actions integration among interdisciplinary will benefit from developing the sustainable capability of the industry and the university to present the social impacts of the Catholic university character.</p>
                     </div>
                     <a id="read-more-link-Ma-Fi" data-bs-toggle="collapse" href="#collapseMaFi" role="button" aria-expanded="false" aria-controls="collapseMaFi">Read more...</a>
                 </div>    
@@ -200,14 +196,14 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
                 <div class="justify-text">
-                    <p class="my-3">Physical Resources (added in AY2022-23)</p>
-                    <li class="my-3">The university conducts an annual survey of academic departments to assess their software, database, and library needs, which is the basis for purchasing decisions.This ensures the provision of a wide range of products to enrich faculty and students' teaching and learning experiences.</li>
-                    <li class="my-3">Besides the classrooms for the purpose of taught courses being in charge by the University, FJCM owns 21 specialized classrooms spanning a total area of 1,906.87 square meters. An annual budget is allocated for the replacement of teaching equipment to uphold instructional quality. For AY2022-23, approximately NT$735,125 was allocated for this purpose. Additionally, investments were made in hardware equipment for the establishment of the College of Management's Digital Smart Sustainable Learning Platform for distance learning with a total of NT$920,000. Furthermore, approximately NT$2,040,253 was invested in optimizing furniture and equipment for five seminar rooms for postgraduate students, offering a friendly environment for team projects and studying interaction purposes.</li>
+                    <p class="my-3">Physical Resources (added in AY2022-24)</p>
+                    <li class="my-3">The university conducts an annual survey of academic departments to assess their software, database, and library needs, which is the basis for purchasing decisions. This ensures the provision of a wide range of products to enrich faculty and students' teaching and learning experiences.</li>
+                    <li class="my-3">Besides the classrooms for the purpose of teaching being in charge by the University, FJCM owns 21 specialized classrooms spanning a total area of 1,906.87 square meters.</li>
                     <div class="collapse" id="collapseMaRf">
-                        <li class="my-3">The Department of Information Management is equipped with four graduate research laboratories, five undergraduate project laboratories, one main server room, one departmental server room, and three specialized classrooms.</li>
+                        <li class="my-3">The Department of Information Management has four graduate research laboratories, five undergraduate project laboratories, one main server room, one departmental server room, and three specialized classrooms.</li>
                         <li class="my-3">The main server resources include VMWare cloud virtual machines for students' project hosting needs, GPU workstations (equipped with graphics cards, either DUAL RTX2080 Ti or ROG STRIX RTX3070-O8G-GAMING), five high-end GPU servers (each equipped with Nvidia RTX8000 48GB, 5 units) for research involving image recognition or advanced computation, as well as other hardware resources such as smart wearable devices, VR equipment, Raspberry Pi, etc.</li>
                         <p class="my-3">Non-physical Resources</p>
-                        <li class="my-3">There are 10 full-time teaching assistants providing teaching support and tutoring services to students on core subjects including ‘Accounting’, ‘Statistics’, ‘Calculus’, and ‘Economics’.</li>
+                        <li class="my-3">•	There are 10 full-time teaching assistants providing teaching support and tutoring services to students on core subjects including Accounting, Statistics, Calculus, and Economics.</li>
                     </div>
                     <a id="read-more-link-Ma-rf" data-bs-toggle="collapse" href="#collapseMaRf" role="button" aria-expanded="false" aria-controls="collapseMaRf">Read more...</a>
                 </div>    
