@@ -61,14 +61,17 @@
 
 .icon{
     max-width: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 250px;
     margin-right: 10px;
+    position: absolute;
 }
 
 .box3 h3 {
    color: #445C89;
    font-size: 1.5rem;
-   margin-bottom: 10px;
+   margin-bottom: 150px;
+   position: absolute;
+   margin-right: 10px;
 }
 
 .box3 p {
@@ -77,16 +80,19 @@
    margin-bottom: 20px;
    padding-left: 10px;
    justify-content: center;
-   padding-left: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
    padding-top: 20px;
+   position: absolute;
 }
 
 .line {
     width: 90%; /* 或者你需要的寬度 */
     height: 2px; /* 線條的高度 */
     background-color: #FFFCF1; /* 線條的顏色 */
-    margin-bottom: 20px; /* 線條和按鈕之間的距離 */
+    margin-top: 130px; /* 線條和按鈕之間的距離 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    position: absolute;
 }
 
 
@@ -157,8 +163,9 @@
     transition: background-color 0.3s ease; /* Add smooth transition for hover effect */
     box-shadow: none; /* Remove box-shadow to match the image */
     text-decoration: none;
-    position: relative;
+    position: absolute;
     font-size: 16px; /* 調整字型大小 */
+    margin-top: 250px;
 }
 
 .button4:hover {
@@ -290,7 +297,7 @@ top: 10px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 line-height: 40px;
 /* or 125% */
 text-align: justify;
