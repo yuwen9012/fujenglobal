@@ -297,10 +297,10 @@
         <p class="my-3 fw-semibold">Chief of Internationalization</p>
         <p class="my-3">Assistant Professor,Yu-Chih Chiang</p>
         <p class="my-3">Tel:886-2-2905-2106</p>
-        <p class="my-3">E-mail:141673@mail.fju.edu.tw</p>
+        <p class="my-3">E-mail: 141673@mail.fju.edu.tw</p>
         <p class="my-3 fw-semibold">Secretary</p>
         <p class="my-3">Pei-Chuan Chien</p>
         <p class="my-3">Tel:886-2-2905-3752</p>
-        <p class="my-3">E-mail：HECG@mail.fju.edu.tw</p>
+        <p class="my-3">E-mail: HECG@mail.fju.edu.tw</p>
     </div>
 </div>
