@@ -57,7 +57,7 @@
             <div class="col-lg-6 d-flex align-items-end" id="circle-link">
                 <div class="container text-center">
                     <div class="half-circle">
-                        <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Package</a></div>
+                        <div class="circle-btn" id="btn-study-package"><a href="study-package.php">Study Packages</a></div>
                         <div class="circle-btn" id="btn-traditional-culture"><a href="taiwanese-culture.php">Taiwanese Culture</a></div>
                         <div class="circle-btn" id="btn-enterprise-visit"><a href="https://bpis.fju.edu.tw/index.php" target="_blank">Enterprise Visit</a></div>
                         <div class="circle-btn" id="btn-mandarin-learning"><a href="Mandarin-Chinese-Learning.php">Mandarin Learning</a></div>
