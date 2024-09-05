@@ -37,28 +37,28 @@
 
     <div class="my-5" id="introduction-bpis">
         <div class="row align-items-start">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Introduction</h3>
                 <div class="justify-text">
                     <span>The Bachelor’s Program in Interdisciplinary Studies (BPIS) allows students to explore multiple areas of study such as business management, global studies, and sustainability. Throughout this dynamic program, students can tailor their coursework to fit their academic and career goals with real-world learning opportunities. To explore various areas of interest in depth, students will engage in project-based learning through faculty-supervised projects and work closely with supervisory committee members from various academic units. Students will possess both theoretical knowledge and practical skills that will help them solve global challenges. </span>
                 </div>    
             </div>
-            <!--
+            
             <div class="col-md-6">
-                <img src="images/study-package/bpis/.jpg" class="container-fluid">
+                <img src="images/study-package/bpis/bpis1.jpg" class="container-fluid">
             </div>
-            -->
+            
         </div>
     </div>
     
     <div class="my-5" id="features-bpis">
         <div class="row align-items-start">
-            <!--
+            
             <div class="col-md-6 order-2 order-md-1">
-                <img src="images/study-package/bpis/.jpg" class="container-fluid">
+                <img src="images/study-package/bpis/bpis2.jpg" class="container-fluid">
             </div>
-            -->
-            <div class="col-md-12 order-1 order-md-2">
+            
+            <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <div class="justify-text">
                     <p class="my-3 fw-semibold">International Experience</p>
