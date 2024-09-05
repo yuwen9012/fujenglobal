@@ -205,12 +205,12 @@
             </div>
             <div class="col-sm-10 col-md-10 center-section">
                 <h3 class="my-3 fw-bolder"><br>3.Off-Campus Housing: Extra fee depends on the choices</h3>
-                <span class="justify-text">Most foreign students choose to live off-campus. Please visit <a href="https://www.tmm.org.tw/contents/text?id=12">Tsuei Ma Ma Foundation for Housing and Community Service</a> for more information (as well as samples of rental contracts both from the government and from the foundation itself). The housing information below is provided for reference only. FJCU has no legal obligations related to off-campus housing.</span>
+                <span class="justify-text">Most foreign students choose to live off-campus. Please visit <a href="https://www.tmm.org.tw/contents/text?id=12" target="_blank">Tsuei Ma Ma Foundation for Housing and Community Service</a> for more information (as well as samples of rental contracts both from the government and from the foundation itself). The housing information below is provided for reference only. FJCU has no legal obligations related to off-campus housing.</span>
                 <ul class="custom-list">
-                    <li><a href="https://house.nfu.edu.tw/FJU">FJCU Housing Website</a> (Chinese version only)</li>
-                    <li><a href="http://www.99star.com.tw/en/about.php"> 99 STAR Hostel</a>:next to Fu Jen, offering daily, monthly and long-term rates</li>
-                    <li><a href="https://www.facebook.com/groups/Taiwanapartmentsandroommates">Looking for Roommates or Apartments in Taipei and Taiwan</a>(FB)</li>
-                    <li><a href="https://www.facebook.com/groups/RentalApartments">Rental Apartments in Taiwan</a>(FB)</li>
+                    <li><a href="https://house.nfu.edu.tw/FJU" target="_blank">FJCU Housing Website</a> (Chinese version only)</li>
+                    <li><a href="http://www.99star.com.tw/en/about.php" target="_blank"> 99 STAR Hostel</a>:next to Fu Jen, offering daily, monthly and long-term rates</li>
+                    <li><a href="https://www.facebook.com/groups/Taiwanapartmentsandroommates" target="_blank">Looking for Roommates or Apartments in Taipei and Taiwan</a>(FB)</li>
+                    <li><a href="https://www.facebook.com/groups/RentalApartments" target="_blank">Rental Apartments in Taiwan</a>(FB)</li>
                 </ul>
                 <br><br>
             </div>
