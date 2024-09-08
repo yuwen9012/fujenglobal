@@ -140,7 +140,7 @@
         </div>
     </div>
 
-   <div class="container-fluid flow-block d-none d-lg-block bg">
+   <div class="container-fluid flow-block d-none d-lg-block p-0">
  <!--        <img src="images/流程圖-03.png" class="img-fluid" alt="Flow Chart">
         <div class="overlay-text" id="overlay-text-first">
             <p class="fs-4 fw-semibold">1. Research Costs and Courses</p>
@@ -181,8 +181,8 @@
     </div>
     
     
-    <div class="container-fluid my-3 d-block d-lg-none">
-        <div class="row">
+    <div class="container-fluid p-0 d-block d-lg-none">
+        <!--<div class="row">
             <div class="col-6 d-flex align-items-start">
                 <img src="images/流程圖-04.png" class="img-fluid full-size-img" alt="Flow Chart">
             </div>
@@ -213,6 +213,19 @@
                 </div>
             </div>
         </div>
+-->
+        <div style="text-align: center;">
+            <img src="images/SA流程圖_直.png" usemap="#image-map2" style="width:100%" id="map">
+        </div>
+
+        <map name="image-map2">
+            <area target="" alt="01"  href="#" coords="460,230,1380,460" shape="rect" class="area-hover">
+            <area target="" alt="02"  href="#" coords="460,490,1380,720" shape="rect" class="area-hover">
+            <area target="" alt="03"  href="#" coords="460,740,1380,960" shape="rect" class="area-hover">
+            <area target="" alt="04"  href="#" coords="460,980,1380,1240" shape="rect" class="area-hover">
+            <area target="" alt="05"  href="#" coords="460,1270,1380,1500" shape="rect" class="area-hover">
+            <area target="" alt="06"  href="#" coords="460,1530,1380,1760" shape="rect" class="area-hover">
+        </map>
     </div>
 
     <div class="container-fluid info-block py-4">

@@ -435,11 +435,3 @@ h4 {
 a:hover .img-icon {
     transform: scale(1.1); 
 }
-
-.bg{
-    background-color: #F2EAE6;
-}
-
-.bgh{
-    background-color: pink;
-}
