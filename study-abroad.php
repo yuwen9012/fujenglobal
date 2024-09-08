@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/study-abroad.css">
 
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
     <!-- JS -->
     <script type="text/javascript" src="js/study-abroad.js"></script>
 
@@ -137,8 +140,8 @@
         </div>
     </div>
 
-    <div class="container-fluid flow-block d-none d-lg-block">
-        <img src="images/流程圖-03.png" class="img-fluid" alt="Flow Chart">
+   <div class="container-fluid flow-block d-none d-lg-block bg">
+ <!--        <img src="images/流程圖-03.png" class="img-fluid" alt="Flow Chart">
         <div class="overlay-text" id="overlay-text-first">
             <p class="fs-4 fw-semibold">1. Research Costs and Courses</p>
             <span class="fs-5">Understanding all the costs in the program</span>
@@ -162,9 +165,22 @@
         <div class="overlay-text" id="overlay-text-sixth">
             <p class="fs-4 fw-semibold">6. Welcome to FJCU</p>
             <span class="fs-5">Our warmly welcome you to our University</span>
+        </div>-->
+        <div style="text-align: center;">
+            <img src="images/SA流程圖_橫.png" usemap="#image-map" style="width:100%" id="map">
         </div>
-    </div>
 
+        <map name="image-map">
+            <area target="" alt="05"  href="#" coords="260,200,770,420" shape="rect" class="area-hover">
+            <area target="" alt="03"  href="#" coords="130,480,495,650" shape="rect" class="area-hover">
+            <area target="" alt="01"  href="#" coords="5,780,480,950" shape="rect" class="area-hover">
+            <area target="" alt="06"  href="#" coords="1480,65,1900,240" shape="rect" class="area-hover">
+            <area target="" alt="04"  href="#" coords="1440,420,1900,600" shape="rect" class="area-hover">
+            <area target="" alt="02"  href="#" coords="1400,720,1900,980" shape="rect" class="area-hover">
+        </map>
+    </div>
+    
+    
     <div class="container-fluid my-3 d-block d-lg-none">
         <div class="row">
             <div class="col-6 d-flex align-items-start">
@@ -236,5 +252,7 @@
     </div>
 
     <?php include 'footer.php'; ?>
+    
+    <script src="./js/jquery.rwdImageMaps.JS"></script>
 </body>
 </html>

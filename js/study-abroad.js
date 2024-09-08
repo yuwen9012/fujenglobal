@@ -75,3 +75,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     observer.observe(document.querySelector('#scorer'));
 });
+
+
+$(document).ready(function (e) {
+
+    $('img#map').rwdImageMaps();
+    
+    $('area').on('mouseover', function (e) {
+        //$(this).focus();
+    });
+});
+
+
