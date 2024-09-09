@@ -172,7 +172,7 @@
 
         <map name="image-map">
             <area target="" alt="05"  href="#" coords="260,200,770,420" shape="rect" class="area-hover">
-            <area target="" alt="03"  href="#" coords="130,480,495,650" shape="rect" class="area-hover">
+            <area target="_blank" alt="03"  href="https://studyabroad.fju.edu.tw/" coords="130,480,495,650" shape="rect" class="area-hover">
             <area target="" alt="01"  href="program-introduction.php" coords="5,780,480,950" shape="rect" class="area-hover">
             <area target="" alt="06"  href="#" coords="1480,65,1900,240" shape="rect" class="area-hover">
             <area target="" alt="04"  href="#" coords="1440,420,1900,600" shape="rect" class="area-hover">
@@ -221,7 +221,7 @@
         <map name="image-map2">
             <area target="" alt="01"  href="program-introduction.php" coords="460,230,1380,460" shape="rect" class="area-hover">
             <area target="" alt="02"  href="study-package.php" coords="460,490,1380,720" shape="rect" class="area-hover">
-            <area target="" alt="03"  href="#" coords="460,740,1380,960" shape="rect" class="area-hover">
+            <area target="_blank" alt="03"  href="https://studyabroad.fju.edu.tw/" coords="460,740,1380,960" shape="rect" class="area-hover">
             <area target="" alt="04"  href="#" coords="460,980,1380,1240" shape="rect" class="area-hover">
             <area target="" alt="05"  href="#" coords="460,1270,1380,1500" shape="rect" class="area-hover">
             <area target="" alt="06"  href="#" coords="460,1530,1380,1760" shape="rect" class="area-hover">
