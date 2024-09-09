@@ -1,110 +1,285 @@
-import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
-import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
-import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
-import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
+import {
+	ClassicEditor,
+	AccessibilityHelp,
+	Alignment,
+	Autoformat,
+	AutoImage,
+	Autosave,
+	BlockQuote,
+	Bold,
+	Essentials,
+	GeneralHtmlSupport,
+	Heading,
+	HorizontalLine,
+	ImageBlock,
+	ImageCaption,
+	ImageInline,
+	ImageInsert,
+	ImageInsertViaUrl,
+	ImageResize,
+	ImageStyle,
+	ImageTextAlternative,
+	ImageToolbar,
+	ImageUpload,
+	Indent,
+	IndentBlock,
+	Italic,
+	Link,
+	LinkImage,
+	List,
+	ListProperties,
+	MediaEmbed,
+	Paragraph,
+	PasteFromOffice,
+	SelectAll,
+	SimpleUploadAdapter,
+	Table,
+	TableCaption,
+	TableCellProperties,
+	TableColumnResize,
+	TableProperties,
+	TableToolbar,
+	TextTransformation,
+	TodoList,
+	Underline,
+	Undo
+} from 'ckeditor5';
 
-let editorInstances = {};
+import translations from 'ckeditor5/translations/zh.js';
 
-ClassicEditor
-    .create(document.querySelector('#editor-introduction'), {
-        ckfinder: {
-            uploadUrl: './php/upload.php' // 設定圖片上傳的後端處理腳本
-        },
-        toolbar: {
-            items: [
-                'heading', '|',
-                'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|',
-                'insertTable', 'mediaEmbed', 'undo', 'redo', '|',
-                'imageUpload' // 加入圖片上傳按鈕
-            ]
-        },
-        image: {
-            toolbar: [
-                'imageTextAlternative', // 編輯替代文字
-                'imageStyle:full', 'imageStyle:side', // 圖片樣式：全寬、側邊
-                'imageStyle:inline', // 圖片樣式：行內
-                'imageResize', // 圖片縮放工具
-                'imageResize:50', 'imageResize:75', 'imageResize:original', // 縮放選項：50%、75%、原始大小
-                'imageCaption' // 編輯圖片標題
-            ]
-        }
-    })
-    .then(editor => {
-        editorInstances['introduction'] = editor;
-        loadContent('introduction', editor); // 頁面載入時載入內容
-    })
-    .catch(error => {
-        console.error(error);
-    });
+const editorConfig = {
+	toolbar: {
+		items: [
+			'undo',
+			'redo',
+			'|',
+			'selectAll',
+			'|',
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'underline',
+			'|',
+			'horizontalLine',
+			'link',
+			'insertImage',
+			'mediaEmbed',
+			'insertTable',
+			'blockQuote',
+			'|',
+			'alignment',
+			'|',
+			'bulletedList',
+			'numberedList',
+			'todoList',
+			'outdent',
+			'indent',
+			'|',
+			'accessibilityHelp'
+		],
+		shouldNotGroupWhenFull: false
+	},
+	plugins: [
+		AccessibilityHelp,
+		Alignment,
+		Autoformat,
+		AutoImage,
+		Autosave,
+		BlockQuote,
+		Bold,
+		Essentials,
+		GeneralHtmlSupport,
+		Heading,
+		HorizontalLine,
+		ImageBlock,
+		ImageCaption,
+		ImageInline,
+		ImageInsert,
+		ImageInsertViaUrl,
+		ImageResize,
+		ImageStyle,
+		ImageTextAlternative,
+		ImageToolbar,
+		ImageUpload,
+		Indent,
+		IndentBlock,
+		Italic,
+		Link,
+		LinkImage,
+		List,
+		ListProperties,
+		MediaEmbed,
+		Paragraph,
+		PasteFromOffice,
+		SelectAll,
+		SimpleUploadAdapter,
+		Table,
+		TableCaption,
+		TableCellProperties,
+		TableColumnResize,
+		TableProperties,
+		TableToolbar,
+		TextTransformation,
+		TodoList,
+		Underline,
+		Undo
+	],
+	heading: {
+		options: [
+			{
+				model: 'paragraph',
+				title: 'Paragraph',
+				class: 'ck-heading_paragraph'
+			},
+			{
+				model: 'heading1',
+				view: 'h1',
+				title: 'Heading 1',
+				class: 'ck-heading_heading1'
+			},
+			{
+				model: 'heading2',
+				view: 'h2',
+				title: 'Heading 2',
+				class: 'ck-heading_heading2'
+			},
+			{
+				model: 'heading3',
+				view: 'h3',
+				title: 'Heading 3',
+				class: 'ck-heading_heading3'
+			},
+			{
+				model: 'heading4',
+				view: 'h4',
+				title: 'Heading 4',
+				class: 'ck-heading_heading4'
+			},
+			{
+				model: 'heading5',
+				view: 'h5',
+				title: 'Heading 5',
+				class: 'ck-heading_heading5'
+			},
+			{
+				model: 'heading6',
+				view: 'h6',
+				title: 'Heading 6',
+				class: 'ck-heading_heading6'
+			}
+		]
+	},
+	htmlSupport: {
+		allow: [
+			{
+				name: /^.*$/,
+				styles: true,
+				attributes: true,
+				classes: true
+			}
+		]
+	},
+	image: {
+		toolbar: [
+			'toggleImageCaption',
+			'imageTextAlternative',
+			'|',
+			'imageStyle:inline',
+			'imageStyle:wrapText',
+			'imageStyle:breakText',
+			'|',
+			'resizeImage'
+		]
+	},
+	language: 'zh',
+	link: {
+		addTargetToExternalLinks: true,
+		defaultProtocol: 'https://',
+		decorators: {
+			toggleDownloadable: {
+				mode: 'manual',
+				label: 'Downloadable',
+				attributes: {
+					download: 'file'
+				}
+			}
+		}
+	},
+	list: {
+		properties: {
+			styles: true,
+			startIndex: true,
+			reversed: true
+		}
+	},
+	placeholder: 'Type or paste your content here!',
+	table: {
+		contentToolbar: ['tableColumn', 'tableRow', 'mergeTableCells', 'tableProperties', 'tableCellProperties']
+	},
+	simpleUpload: {
+		// The URL that the images are uploaded to.
+		uploadUrl: './php/upload.php',
 
-ClassicEditor
-    .create(document.querySelector('#editor-features'), {
-        ckfinder: {
-            uploadUrl: './php/upload.php' // 設定圖片上傳的後端處理腳本
-        },
-        toolbar: {
-            items: [
-                'heading', '|',
-                'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|',
-                'insertTable', 'mediaEmbed', 'undo', 'redo', '|',
-                'imageUpload' // 加入圖片上傳按鈕
-            ]
-        },
-        image: {
-            toolbar: [
-                'imageTextAlternative', // 編輯替代文字
-                'imageStyle:full', 'imageStyle:side', // 圖片樣式：全寬、側邊
-                'imageStyle:inline', // 圖片樣式：行內
-                'imageResize', // 圖片縮放工具
-                'imageResize:50', 'imageResize:75', 'imageResize:original', // 縮放選項：50%、75%、原始大小
-                'imageCaption' // 編輯圖片標題
-            ]
-        }
-    })
-    .then(editor => {
-        editorInstances['features'] = editor;
-        loadContent('features', editor); // 頁面載入時載入內容
-    })
-    .catch(error => {
-        console.error(error);
-    });
+		// Enable the XMLHttpRequest.withCredentials property.
+		withCredentials: true,
 
-function saveContent(section) {
-    var editor = editorInstances[section];
-    var content = editor.getData(); // 從編輯器獲取內容
+		// Headers sent along with the XMLHttpRequest to the upload server.
+		headers: {
+			'X-CSRF-TOKEN': 'CSRF-Token',
+			Authorization: 'Bearer <JSON Web Token>'
+		}
+	},
+	translations: [translations]
+};
+
+// 定義並初始化 editorInstances
+const editorInstances = {};
+
+const editorSections = ['introduction', 'features']; // 假設有這些區段
+
+editorSections.forEach(section => {
+    ClassicEditor.create(document.querySelector(`#editor-${section}`), editorConfig)
+        .then(editor => {
+            editorInstances[section] = editor; // 將實例存儲到 editorInstances
+        })
+        .catch(error => {
+            console.error('初始化編輯器錯誤:', error);
+        });
+});
+window.saveContent = function(department, title) {
+    var editor = editorInstances[title];
+    var content = editor.getData();
     $.ajax({
-        url: './php/save-content.php', // 確保路徑正確
+        url: './php/save-content.php', 
         method: 'POST',
-        data: { section: section, content: content },
+        data: {
+            department: department, 
+            title: title,          
+            content: content      
+        },
         success: function(response) {
-            // 儲存成功後直接載入內容更新顯示
-            loadContent(section);
-            document.getElementById(`editor-container-${section}`).style.display = 'none'; // 隱藏編輯器
-            document.getElementById(`content-container-${section}`).style.display = 'block'; // 顯示內容區塊
+            loadContent(department, title);
+            document.getElementById(`editor-container-${title}`).style.display = 'none'; // 隱藏編輯器
+            document.getElementById(`content-container-${title}`).style.display = 'block'; // 顯示內容區塊
         },
         error: function(xhr, status, error) {
             console.error('儲存內容錯誤:', error);
         }
     });
-}
+};
 
-function loadContent(section, editor = null) {
+window.loadContent = function(department, title, editor = null) {
     $.ajax({
-        url: './php/load-content.php', // 確保路徑正確
+        url: './php/load-content.php', 
         method: 'GET',
-        data: { section: section },
+        data: {
+            department: department, 
+            title: title            
+        },
         success: function(response) {
-            const contentContainer = document.getElementById(`content-${section}`);
+            const contentContainer = document.getElementById(`content-${title}`);
             contentContainer.innerHTML = response;
-/* 
-            // 判斷內容是否超過100字
-            if (response.length > 100) {
-                document.getElementById(`read-more-btn-${section}`).style.display = 'block';
-            } else {
-                document.getElementById(`read-more-btn-${section}`).style.display = 'none';
-            }
-*/
-            // 如果提供了編輯器實例，將內容設定到編輯器中
             if (editor) {
                 editor.setData(response);
             }
@@ -113,14 +288,15 @@ function loadContent(section, editor = null) {
             console.error('讀取內容錯誤:', error);
         }
     });
-}
+};
 
-function showEditor(section) {
-    document.getElementById(`editor-container-${section}`).style.display = 'block'; // 顯示編輯器
-    document.getElementById(`content-container-${section}`).style.display = 'none'; // 隱藏內容區塊
-    var editor = editorInstances[section];
-    loadContent(section, editor); // 載入內容到編輯器
-}
+
+window.showEditor = function(department, title) {
+    document.getElementById(`editor-container-${title}`).style.display = 'block'; // 顯示編輯器
+    document.getElementById(`content-container-${title}`).style.display = 'none'; // 隱藏內容區塊
+    var editor = editorInstances[title];
+    loadContent(department, title, editor); // 載入內容到編輯器
+};
 /*
 function toggleReadMore(section) {
     const content = document.getElementById(`content-${section}`);
@@ -136,6 +312,6 @@ function toggleReadMore(section) {
 }
 */
 document.addEventListener('DOMContentLoaded', function() {
-    loadContent('introduction'); // 頁面載入時載入內容
-    loadContent('features'); // 頁面載入時載入內容
+    loadContent('law','introduction'); // 頁面載入時載入內容
+    loadContent('law','features'); // 頁面載入時載入內容
 });

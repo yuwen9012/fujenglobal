@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root"; // 替換為您的資料庫用戶名
 $password = ""; // 替換為您的資料庫密碼
-$dbname = "fujenglobal"; // 替換為您的資料庫名稱
+$dbname = "ckeditor_demo"; // 替換為您的資料庫名稱
 
 // 創建連接
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -12,17 +12,15 @@ if ($conn->connect_error) {
     die("連接失敗: " . $conn->connect_error);
 }
 
-// 確保收到 'department' 和 'title' 參數
-if (isset($_GET['department']) && isset($_GET['title'])) {
-    $department = $conn->real_escape_string($_GET['department']);
-    $title = $conn->real_escape_string($_GET['title']);
+// 確保收到 'section' 參數
+if (isset($_GET['section'])) {
+    $section = $conn->real_escape_string($_GET['section']);
     
-    // 查詢對應最新的 content
-    $sql = "SELECT content 
-            FROM study_packages 
-            WHERE department = '$department' AND title = '$title'
-            ORDER BY created_at DESC
-            LIMIT 1";
+    // 根據 'section' 參數決定內容的 ID
+    $id = ($section === 'introduction') ? 1 : 2; // 假設 introduction 是 1, features 是 2
+    
+    // 查詢內容
+    $sql = "SELECT content FROM content WHERE id = $id";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -33,7 +31,7 @@ if (isset($_GET['department']) && isset($_GET['title'])) {
         echo "沒有內容";
     }
 } else {
-    echo "未指定 department 或 title";
+    echo "未指定 section";
 }
 
 $conn->close();

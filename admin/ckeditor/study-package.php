@@ -28,7 +28,7 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/43.0.0/ckeditor5.css">
     
 </head>
@@ -159,7 +159,7 @@
 			}
 		}
 	</script>
-	<script type="module" src="./main.js"></script>
+	<script type="module" src="./js/study-package.js"></script>
 </body>
 </html>
 

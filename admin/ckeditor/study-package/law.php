@@ -42,11 +42,11 @@
                 <div class="justify-text">
                     <div id="content-container-introduction">
                         <div id="content-introduction" class="truncate-content"></div>
-                        <button class="button button-edit" onclick="showEditor('introduction')">編輯內容</button>
+                        <button class="button button-edit" onclick="showEditor('law','introduction')">編輯內容</button>
                     </div>
                     <div id="editor-container-introduction" style="display: none;">
                         <div id="editor-introduction"></div>
-                        <button class="button button-save" onclick="saveContent('introduction')">儲存內容</button>
+                        <button class="button button-save" onclick="saveContent('law','introduction')">儲存內容</button>
                     </div>
                 </div>
             </div>
@@ -60,11 +60,11 @@
                 <div class="justify-text">
                     <div id="content-container-features">
                         <div id="content-features" class="truncate-content"></div>
-                        <button class="button button-edit" onclick="showEditor('features')">編輯內容</button>
+                        <button class="button button-edit" onclick="showEditor('law','features')">編輯內容</button>
                     </div>
                     <div id="editor-container-features" style="display: none;">
                         <div id="editor-features"></div>
-                        <button class="button button-save" onclick="saveContent('features')">儲存內容</button>
+                        <button class="button button-save" onclick="saveContent('law','features')">儲存內容</button>
                     </div>
                 </div>
             </div>
