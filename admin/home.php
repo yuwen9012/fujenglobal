@@ -29,48 +29,54 @@
     <div class="container-fluid vh-100 p-0">
         <div class="row h-100 g-0">
             <div id="nav" class="col position-fixed d-flex flex-column">
-                <nav id="sidebar" class="d-flex flex-column pt-3 pb-3">
+                <nav id="sidebar" class="d-flex flex-column vh-100 pt-3 pb-3">
                     <div class="logo d-flex justify-content-center mb-3">
                         <img src="../images/05-校徽-英文組合排列.png" alt="Logo">
                     </div>
 
-                    <div class="position-sticky py-3 flex-grow-1">
-                        <ul class="nav flex-column" id="menu">
+                    <div class="d-flex flex-column py-3 flex-grow-1">
+                        <ul class="nav flex-column flex-grow-1" id="menu">
                             <li class="nav-item active">
-                                <a class="nav-link text-white pe-0" href="#submenu1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu1">
+                                <a class="nav-link d-flex justify-content-center fw-bolder m-menu" href="#submenu1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu1">
                                     Home
                                 </a>
                                 <div class="collapse" id="submenu1" data-bs-parent="#menu">
-                                    <ul class="nav flex-column ms-3">
+                                    <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">輪播牆(3:1圖片) 設定</a>
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">輪播牆(3:1圖片) 設定</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">介紹(文字+圖片) 設定</a>
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">介紹(文字+圖片) 設定</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#submenu2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu2">
+                                <a class="nav-link d-flex justify-content-center fw-bolder m-menu" href="#submenu2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="submenu2">
                                     Study-Abroad
                                 </a>
                                 <div class="collapse" id="submenu2" data-bs-parent="#menu">
-                                    <ul class="nav flex-column ms-3">
+                                    <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">學院 設定</a>
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">學院 設定</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">介紹 設定</a>
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">介紹 設定</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">計分器 設定</a>
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">計分器 設定</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href="#">流程圖 設定</a>
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">流程圖 設定</a>
                                         </li>
                                     </ul>
                                 </div>
+                            </li>
+
+                            <li class="nav-item mt-auto">
+                                <a class="nav-link d-flex justify-content-center fw-bolder m-menu" href="#">
+                                    帳號管理
+                                </a>
                             </li>
                         </ul>
                     </div>

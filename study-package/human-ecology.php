@@ -12,7 +12,7 @@
             <a class="nav-link btn" href="#amsp-ecology" data-scroll="true">Academic Module & Study Package</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn" href="#csd-ecology" data-scroll="true">Course Structure & Description</a>
+            <a class="nav-link btn" href="#csd-ecology" data-scroll="true">Feature Courses</a>
         </li>
         <li class="nav-item m-1">
             <a class="nav-link btn" href="#lo-ecology" data-scroll="true">Learning Outcomes</a>
@@ -21,10 +21,10 @@
             <a class="nav-link btn" href="#fi-ecology" data-scroll="true">Faculty Information</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn" href="#rf-ecology" data-scroll="true">Resources & Facilities</a>
+            <a class="nav-link btn" href="#rf-ecology" data-scroll="true">Resources</a>
         </li>
         <li class="nav-item m-1">
-            <a class="nav-link btn" href="#ow-ecology" data-scroll="true">Office Website</a>
+            <a class="nav-link btn" href="#ow-ecology" data-scroll="true">Official Website</a>
         </li>
         <li class="nav-item m-1">
             <a class="nav-link btn" href="#ci-ecology" data-scroll="true">Contact Information</a>
@@ -61,7 +61,7 @@
                                 Teachers and instructors.
                             </li>
                         </ul>
-                        <p class="mt-3 fw-semibold">Organization</p>
+                        <p class="mt-3 fw-semibold">Departments</p>
                         <ul class="custom-list">
                             <li>
                                 Department of Food Science
@@ -99,7 +99,7 @@
                 <div class="justify-text">
                     <ul class="decimal-list">
                         <li>
-                            The curriculum is practice-oriented to meet social demands, and is reinforced by solid collaborative partnerships in academia and industry.
+                            The curriculum is practical to meet social demands, and is reinforced by solid collaborative partnerships in academia and industry.
                         </li>
                         <li>
                             Each academic program aims at fulfilling a particular human need. A heavy focus on professional and technical training is coupled with a curriculum that gives students a solid background in the liberal arts, social sciences, and natural science and technology. Education at the College also focuses on helping students develop respect for life, a set of personal values which is service-based, and a robust code of professional ethics.
@@ -119,6 +119,13 @@
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <div class="justify-text">
                     <ul class="custom-list">
+                        <p class="my-3">We give equal priority to theory and practice, welcoming students 
+                            from diverse academic backgrounds, including international and exchange students. 
+                            Students are encouraged to contact the college secretary or the secretaries of individual programs 
+                            if they would like to learn more. Students interested in specific programs can visit each department's 
+                            individual website for more detailed information.</p>
+                    </ul>
+                    <ul class="collapse" id="collapseEcoAmsp">
                         <li>
                             Department of Food Science – Green Sustainability, Circular Economy
                         </li>
@@ -133,6 +140,7 @@
                         </li>
                     </ul>
                 </div>
+                <a id="read-more-link-Eco-amsp" data-bs-toggle="collapse" href="#collapseEcoAmsp" role="button" aria-expanded="false" aria-controls="collapseEcoAmsp">Read more...</a>
             </div>
             <div class="col-md-6">
                 <img src="images/study-package/human-ecology/民生學院_academic.jpg" class="container-fluid">
@@ -146,7 +154,7 @@
                 <img src="images/study-package/human-ecology/民生學院_courses.jpg" class="container-fluid">
             </div>
             <div class="col-md-6 order-1 order-md-2">
-                <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
+                <h3 class="my-3 fw-semibold">Feature Courses</h3>
                 <div class="justify-text">
                     <ul class="custom-list">
                         <li>
@@ -220,13 +228,13 @@
                                 Department of Restaurant, Hotel and Institutional Management
                                 <ul class="custom-list">
                                     <li>
-                                        Cultivate catering and hospitality service talents
+                                        Cultivate hospitality service abilities
                                     </li>
                                     <li>
-                                        Develop catering and hospitality management capabilities
+                                        Develop hospitality management professionals
                                     </li>
                                     <li>
-                                        Cultivate restaurant tourism leadership talents with an international perspective
+                                        Promote interactions between academia and the hospitality industry
                                     </li>
                                 </ul>
                             </li>
@@ -276,7 +284,7 @@
     <div class="my-5" id="rf-ecology">
         <div class="row align-items-start">
             <div class="col-md-6">
-                <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
+                <h3 class="my-3 fw-semibold">Resources</h3>
                 <div class="justify-text">
                     <p class="my-3">Center for Innovation and Development in Human Science</p>
                 </div>
@@ -288,7 +296,7 @@
     </div>
 
     <div class="my-5" id="ow-ecology">
-        <h3 class="my-3 fw-semibold">Office Website</h3>
+        <h3 class="my-3 fw-semibold">Official Website</h3>
         <a href="https://www.he.fju.edu.tw/" target="_blank">https://www.he.fju.edu.tw/</a>
     </div>
 

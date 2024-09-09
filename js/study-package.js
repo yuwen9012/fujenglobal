@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { collapseId: '#collapseForeiRf', linkId: '#read-more-link-forei-rf' },
         // Human ecology
         { collapseId: '#collapseEcoIntro', linkId: '#read-more-link-eco-intro' },
+        { collapseId: '#collapseEcoAmsp', linkId: '#read-more-link-Eco-amsp' },
         { collapseId: '#collapseEcoLo', linkId: '#read-more-link-eco-lo' },
         //Law
         { collapseId: '#collapseLawFeatu', linkId: '#read-more-link-Law-featu' },
