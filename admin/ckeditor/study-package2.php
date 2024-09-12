@@ -29,13 +29,16 @@
     <title>Study Package</title>
 </head>
 <body>
+    <?php include '../../header.php'; ?>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid d-flex align-items-center">
+            <img src="../../images/06-校徽-英文組合排列.png" id="logo" class="me-3">
+            
             <div class="flex-grow-1 text-center">
                 <div class="d-flex justify-content-center align-items-center">
-                    <a href="../home.php"><i class="fas fa-arrow-left"></i></a>
-                    <span class="navbar-text mx-2">Study Package</span>
+                    <a href="study-abroad.php"><i class="fas fa-arrow-left"></i></a>
+                    <span class="navbar-text mx-2">Study Packages</span>
                 </div>
             </div>
         </div>

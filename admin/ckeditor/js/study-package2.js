@@ -19,11 +19,9 @@ function fetchDepartments() {
         success: function(data) {
             // 確保返回的是一個部門數組
             if (Array.isArray(data)) {
-                // 清空側邊欄
                 var $sidebar = $('.sidebar .list-group');
                 $sidebar.empty();
 
-                // 生成側邊欄
                 $.each(data, function(index, department) {
                     var $link = $('<a>')
                         .addClass('list-group-item list-group-item-action py-3 fs-5')
