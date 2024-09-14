@@ -55,3 +55,27 @@ html, body {
         max-width: 100%;
     }
 }
+
+.btn-custom {
+    display: inline-block;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #132548;
+    background-color: #FFF9E6;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    top: 20px; 
+    right: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    color: #E2D08D;
+}
