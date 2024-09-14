@@ -43,7 +43,7 @@
                         <div class="circle circle-yellow"></div>
                         <div class="circle circle-green"></div>
                     </div>
-                    <form id='loginForm'>
+                    
                         <div class="my-2 form-group position-relative">
                             <label for="oldPassword">舊密碼：</label>
                             <input type="password" class="mt-1 form-control" id="oldPassword">
@@ -59,9 +59,9 @@
                             <input type="password" class="mt-1 form-control" id="confirmPassword">
                             <i class="fa fa-eye-slash eye-icon" id="togglePassword3"></i>
                         </div>
-                        <button type="submit">送出</button>
+                        <button onclick="changePassword()">送出</button>
                         <div id="errorMessage" class="text-danger mt-2"></div>
-                    </form>
+                    
                 </div>
             </div>
         </div>
@@ -70,3 +70,4 @@
     <script type="text/javascript" src="js/changepassword.js"></script>
 </body>
 </html>
+
