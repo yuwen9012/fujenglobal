@@ -42,20 +42,17 @@
                         <div class="circle circle-red"></div>
                         <div class="circle circle-yellow"></div>
                         <div class="circle circle-green"></div>
-                    </div>
-                    <form id='loginForm'>
+                    </div>            
                         <div class="my-2 form-group position-relative">
-                            <label for="username">帳號：</label>
-                            <input type="text" class="mt-1 form-control" id="username">
+                            <label for="account">帳號：</label>
+                            <input type="text" class="mt-1 form-control" id="account">
                         </div>
                         <div class="my-2 form-group position-relative">
-                            <label for="password">信箱：</label>
-                            <input type="password" class="mt-1 form-control" id="password">
-                            <i class="fa fa-eye-slash eye-icon" id="togglePassword"></i>
+                            <label for="email">信箱：</label>
+                            <input type="email" class="mt-1 form-control" id="email">
                         </div>
-                        <button type="submit">送出</button>
-                        <div id="errorMessage" class="text-danger mt-2"></div>
-                    </form>
+                        <button type="submit" onclick="forgetpassword()">送出</button>
+                        <div id="errorMessage" class="text-danger mt-2"></div> 
                 </div>
             </div>
         </div>
