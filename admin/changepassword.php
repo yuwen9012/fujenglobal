@@ -1,3 +1,27 @@
+<?php
+    session_start();
+
+    function isTokenExpired() {
+        if(isset($_SESSION['expiration_time']) && $_SESSION['expiration_time'] < time()) {
+            return true; // token 已過期
+        } else {
+            return false; // token 未過期
+        }
+    }
+
+    if(isset($_SESSION['account']) && isset($_SESSION['token']) && !empty($_SESSION['token'])) {
+        if(isTokenExpired()) {
+            header("Location:./login.php");
+            session_destroy();
+            exit();
+        }
+    }
+    else{
+        header("Location:./login.php");
+        session_destroy();
+        exit();
+    }
+?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
