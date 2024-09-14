@@ -33,7 +33,6 @@
                     <div class="logo d-flex justify-content-center mb-3">
                         <img src="../images/05-校徽-英文組合排列.png" alt="Logo">
                     </div>
-
                     <div class="d-flex flex-column py-3 flex-grow-1">
                         <ul class="nav flex-column flex-grow-1" id="menu">
                             <li class="nav-item active">
@@ -84,6 +83,9 @@
             </div>
 
             <div id="setting" class="col p-0 d-flex justify-content-center align-items-center">
+            <button type="button" class="btn-custom position-absolute" onclick="window.location.href='changepassword.php'">
+                修改密碼
+            </button>
                 <div id="content" class="container rounded">
                 </div>
             </div>
