@@ -54,6 +54,7 @@
                             <i class="fa fa-eye-slash eye-icon" id="togglePassword"></i>
                         </div>
                         <button type="submit">登入</button>
+                        <a href="forgetpassword.php" class="btn btn-link" style="color:#132548">忘記密碼</a>
                         <div id="errorMessage" class="text-danger mt-2"></div>
                     </form>
                 </div>
