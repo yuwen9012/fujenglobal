@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+footer {
+    background-color: #132548 !important;
+}
+
+@media (min-width: 360px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row !important;
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 1060px) {
+    #footer .col-4 {
+        display: block;
+        width: 90%;
+        max-width: none;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer-info {
+        order: 1;
+        margin: 3% 0;
+        font-size: 13px !important;
+        align-items: center;
+        /* text-align: justify !important; */
+    }
+
+    #footer-logo {
+        order: 3;
+        margin: 3% 0;
+    }
+
+    #footer-team {
+        order: 2;
+        align-items: center;
+        margin: 3% 0;
+        font-size: small;
+    }
+}

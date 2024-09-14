@@ -1,0 +1,265 @@
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.sidebar {
+    left: 0;
+    width: 350px;
+    overflow-y: auto;
+    background-color: #FFFCF1;
+    border-right: 1px solid #dee2e6;
+}
+
+.list-group a {
+    color: #0B3F61;
+    background-color: #FFFCF1;
+    border-radius: 0% !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.list-group a:hover {
+    background-color: #f9f3dd;
+    color:#0B3F61;
+}
+
+.list-group-item.active {
+    background-color: #E2D08D !important;
+    border-color: #E2D08D !important;
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+.content {
+    padding: 20px;
+    width: calc(100vw - 350px);
+    background-color: #FFFEFB;
+    overflow-y: auto;
+    min-height: 85vh;
+}
+
+.nav-link.btn {
+    background-color: #5968B8;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.btn:hover {
+    background-color: #87a5dd;
+    color: #fff;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25%;
+    right: 20px;
+    display: none; /* 初始隱藏 */
+    color: #FFFFFF;
+    background-color: rgba(11, 63, 97, 0.7);
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+    line-height: 20px; 
+    font-size: 20px;
+}
+
+.back-to-top:hover {
+    color: #FFFFFF;
+    background-color: rgba(11, 63, 97, 0.9);
+}
+
+h3, h4 {
+    color: #0B3F61;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-text {
+    color: #0B3F61;
+    text-align: justify;
+}
+
+.custom-list {
+    color: #0B3F61;
+    list-style-type: disc; /* 實心圓點 */
+    /* list-style-type: circle; */ /* 空心圆點 */
+    /* list-style-type: square; */ /* 實心方塊 */
+    /* list-style-type: decimal; */ /* 數字 */
+    /* list-style-type: lower-alpha; */ /* 小寫字母 */
+    /* list-style-type: upper-roman; */ /* 大寫羅馬數字 */
+}
+
+.decimal-list {
+    color: #0B3F61;
+    list-style-type: decimal;
+}
+
+.circle-list {
+    color: #0B3F61;
+    list-style-type: circle;
+}
+
+.alpha-list {
+    color: #0B3F61;
+    list-style-type: lower-alpha;
+}
+
+.continueDecimal {
+    color: #0B3F61;
+    counter-reset: list-counter; /* 初始化計數器 */
+}
+
+.continueDecimal > ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.continueDecimal > ul > li {
+    left: 0;
+    counter-increment: list-counter; /* li 元素遞增計數器 */
+}
+
+.continueDecimal > ul > li::before {
+    content: counter(list-counter) ". ";
+    position: absolute;
+    left: 0;
+}
+
+.img-fixed-height {
+    height: 200px;
+    width: 500px;
+    display: block;
+    max-width: 100%;
+}
+
+/* .with-divider {
+    border-left: 1px solid rgba(255, 255, 255, 0.575);
+} */
+
+.btn-no-style {
+    background-color: #FFFEFB;
+    border: none;
+    padding: 0;
+    font-size: 30px;
+}
+
+.btn-no-style i {
+    border: none;
+    background: none;
+    color: #E2D08D;
+}
+
+@media (max-width: 992px) {
+    .content {
+        width: 100vw;
+    }
+}
+
+#offcanvasNavbar {
+    background-color: #FFFCF1;
+    color: #0B3F61;
+}
+
+.offcanvas-body {
+    max-height: calc(100vh - 56px);
+}
+
+.tab-pane .nav-link {
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    .tab-pane .nav-link {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .tab-pane .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+.pb-10 {
+    padding-bottom: 10rem;
+}
+
+
+.button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.button-read-more {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+}
+
+/* 編輯按鈕專用樣式 */
+.button-edit {
+    background-color: #28a745;
+}
+
+.button-edit:hover {
+    background-color: #218838;
+}
+
+.button-edit:active {
+    background-color: #1e7e34;
+}
+
+/* 儲存按鈕專用樣式 */
+.button-save {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.button-save:hover {
+    background-color: #e0a800;
+}
+
+.button-save:active {
+    background-color: #d39e00;
+}
+
