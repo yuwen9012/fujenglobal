@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2024-09-12 14:09:01
--- 伺服器版本： 10.4.28-MariaDB
--- PHP 版本： 8.2.4
+-- 產生時間： 2024-09-14 17:56:14
+-- 伺服器版本： 10.4.32-MariaDB
+-- PHP 版本： 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -30,15 +30,18 @@ SET time_zone = "+00:00";
 CREATE TABLE `account` (
   `id` int(50) NOT NULL,
   `account` varchar(50) NOT NULL,
-  `password` varchar(200) NOT NULL
+  `password` varchar(200) NOT NULL,
+  `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- 傾印資料表的資料 `account`
 --
 
-INSERT INTO `account` (`id`, `account`, `password`) VALUES
-(1, 'fujen', '$2y$10$6xQO4mrm/wHRQ1aJqeijzel/Zv0mwCoOFRnxs.wqf7/5xDe9ZnmIC');
+INSERT INTO `account` (`id`, `account`, `password`, `email`) VALUES
+(1, 'fujen', '$2y$10$gS61vpotVRN1k/Lh1L0i3usOFOl35jDHBWdIFXzWv.WOjOj7rbVgu', 'a0985542655@gmail.com'),
+(2, 'fujen2', '$2y$10$8vV8cbavqzxyXHj/yk6PbeFt5a3Hwsr8y2Ft31cOzjOk0RwIUdxrq', 'dreamapple2003@gmail.com'),
+(3, 'fujen3', '$2y$10$pURTj/XFMsClBD5qFfg2zeUmwkjuB1zknAIsmquOy0/CTAmLmTlXu', 'sunshine.kuo2014@gmail.com');
 
 --
 -- 已傾印資料表的索引
@@ -58,9 +61,10 @@ ALTER TABLE `account`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `account`
 --
 ALTER TABLE `account`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
