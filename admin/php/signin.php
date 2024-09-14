@@ -14,6 +14,12 @@ $result = $stmt->get_result();
 if ($result->num_rows === 1) {
     $array = $result->fetch_assoc();
     if (password_verify($password, $array['password'])) {
+        session_start();
+        $_SESSION['account'] = $username;
+        $expiration_time = time() + (24 * 60 * 60);
+        $bytes = random_bytes(20);
+        $_SESSION['token'] = bin2hex($bytes);
+        $_SESSION['expiration_time'] = $expiration_time;
         $data = array('success' => true, 'message' => '登入成功');
         
         // 在此關閉前一個預處理語句
