@@ -188,6 +188,44 @@ const editorConfig = {
 			'imageStyle:inline',
 			'imageStyle:wrapText',
 			'imageStyle:breakText',
+			'imageStyle:alignLeft',   // 加入左對齊
+			'imageStyle:alignCenter', // 加入置中對齊
+			'imageStyle:alignRight',  // 加入右對齊
+			'|',
+			'resizeImage'
+		]
+	},
+	image: {
+		styles: [
+			'inline',
+			'wrapText',
+			'breakText',
+			{
+				name: 'alignLeft',
+				title: 'Align left',
+				className: 'image-style-align-left'
+			},
+			{
+				name: 'alignCenter',   // 定義置中樣式
+				title: 'Align center',
+				className: 'image-style-align-center'
+			},
+			{
+				name: 'alignRight',
+				title: 'Align right',
+				className: 'image-style-align-right'
+			}
+		],
+		toolbar: [
+			'toggleImageCaption',
+			'imageTextAlternative',
+			'|',
+			'imageStyle:inline',
+			'imageStyle:wrapText',
+			'imageStyle:breakText',
+			'imageStyle:alignLeft',   // 左對齊
+			'imageStyle:alignCenter', // 置中對齊
+			'imageStyle:alignRight',  // 右對齊
 			'|',
 			'resizeImage'
 		]

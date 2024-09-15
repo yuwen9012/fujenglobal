@@ -263,3 +263,11 @@ h3, h4 {
     background-color: #d39e00;
 }
 
+.tab-content{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subContent{
+    width: 100vw;
+}
