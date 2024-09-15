@@ -32,8 +32,17 @@ html, body {
     color: #FFFFFF;
 }
 
+.m-menu-color {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
 #sidebar ul > li.active > .m-menu {
     background-color: #ECE1BF;
+    color: #132548;
+}
+
+#sidebar ul > li.active .m-menu-color {
     color: #132548;
 }
 

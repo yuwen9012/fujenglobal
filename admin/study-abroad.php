@@ -42,12 +42,12 @@
                     </div>
                     <div class="d-flex flex-column py-3 flex-grow-1">
                         <ul class="nav flex-column flex-grow-1" id="menu">
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link d-flex justify-content-center fw-bolder m-menu" href="home.php">
                                     Home
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <div class="row m-menu">
                                     <div class="col-10 pe-0">
                                         <a class="nav-link d-flex justify-content-center fw-bolder cursor-pointer m-menu-color" href="study-abroad.php">
@@ -88,6 +88,18 @@
                                         <li class="nav-item">
                                             <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">FAQ</a>
                                         </li>
+                                        <!-- <li class="nav-item">
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">學院 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">介紹 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">計分器 設定</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link d-flex justify-content-center fw-bolder s-menu" href="#">流程圖 設定</a>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </li>
@@ -103,45 +115,25 @@
             </div>
 
             <div id="setting" class="col p-0 d-flex justify-content-center align-items-center">
-
-                <button type="button" class="btn-custom position-absolute" onclick="window.location.href='changepassword.php'">
-                    修改密碼
-                </button>
-
                 <div id="content" class="container rounded">
                     <ul class="nav nav-tabs mt-2">
                         <li class="nav-item">
-                            <a class="nav-link active" id="carousel-tab" data-bs-toggle="tab" href="#carousel" role="tab" aria-controls="carousel" aria-selected="true">輪播牆</a>
+                            <a class="nav-link active" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">介紹文字</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="false">圖文介紹</a>
+                            <a class="nav-link" id="scorer-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="scorer" aria-selected="false">計分器</a>
                         </li>
                     </ul>
 
                     <div class="tab-content mt-3">
-                        <div class="tab-pane fade show active" id="carousel" role="tabpanel" aria-labelledby="carousel-tab">
-                            <table id="table"
-                                    class="table"
-                                    data-toggle="table"
-                                    data-pagination="true"
-                                    data-filter-control="true">
-                                <thead>
-                                    <tr>
-                                        <th data-field="id">編號</th>
-                                        <th data-field="name">名稱</th>
-                                        <th data-field="image">圖片</th>
-                                        <th data-field="hidden">隱藏</th>
-                                        <th data-field="num_order">排序</th>
-                                        <th data-field="manage">操作</th>
-                                    </tr>
-                                </thead>
-                            </table>
+                        <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
+                            介紹文字編輯
                         </div>
-                        <div class="tab-pane fade" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-                            介紹表格
+                        <div class="tab-pane fade" id="scorer" role="tabpanel" aria-labelledby="scorer-tab">
+                            計分器表格
                         </div>
                     </div>
-                </div>
+                <div>
             </div>
         </div>
     </div>
