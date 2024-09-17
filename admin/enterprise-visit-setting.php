@@ -25,10 +25,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 
     <!-- JS -->
-    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
 
     <title>後台系統</title>
 </head>
