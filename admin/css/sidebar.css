@@ -91,3 +91,7 @@ html, body {
 .btn-custom:hover {
     color: #E2D08D;
 }
+
+.bootstrap-table th, .bootstrap-table td {
+    text-align: center;
+}

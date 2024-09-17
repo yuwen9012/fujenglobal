@@ -18,6 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- Bootstrap Table -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.2/dist/bootstrap-table.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.2/dist/bootstrap-table.min.js"></script>
 
@@ -58,7 +59,7 @@
                     <div class="tab-content mt-3">
                         <div class="tab-pane fade show active" id="carousel" role="tabpanel" aria-labelledby="carousel-tab">
                             
-                            <button class="btn btn-sm btn-primary">新增</button>
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addModal">新增</button>
                             
                             <table id="table"
                                     class="table"
@@ -77,10 +78,85 @@
                                 </thead>
                             </table>
                         </div>
+
                         <div class="tab-pane fade" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
                             介紹表格
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addModalLabel">新增圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addHomeCarouselImage" action="./php/addHomeCarouselImage.php" enctype="multipart/form-data">
+                        <div class="row mb-3">
+                            <label for="addName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="addName" name="name">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="addImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                            <div class="col-md-9">
+                                <input type="file" class="form-control" id="addImage" name="image">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                            <div class="col-md-10">
+                                <input type="radio" class="me-2" id="addYOption" name="hidden" value="Y"><label for="addYOption">是</label>
+                                <input type="radio" class="ms-5 me-2" id="addNOption" name="hidden" value="N" checked><label for="addNOption">否</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editModalLabel">編輯圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editHomeCarouselImage" action="./php/editHomeCarouselImage.php" enctype="multipart/form-data">
+                        <div class="row mb-3">
+                            <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="editName" name="name">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                            <div class="col-md-9">
+                                <input type="file" class="form-control" id="editImage" name="image">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                            <div class="col-md-10">
+                                <input type="radio" class="me-2" id="editYOption" name="hidden" value="Y"><label for="editYOption">是</label>
+                                <input type="radio" class="ms-5 me-2" id="editNOption" name="hidden" value="N" checked><label for="editNOption">否</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">確認</button>
                 </div>
             </div>
         </div>
