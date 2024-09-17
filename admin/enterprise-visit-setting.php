@@ -42,19 +42,19 @@
                 <div id="content" class="container rounded">
                     <ul class="nav nav-tabs mt-2">
                         <li class="nav-item">
-                            <a class="nav-link active" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">介紹文字</a>
+                            <a class="nav-link active" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">連結網址</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="scorer-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="scorer" aria-selected="false">計分器</a>
+                            <a class="nav-link" id="scorer-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="scorer" aria-selected="false">NULL</a>
                         </li>
                     </ul>
 
                     <div class="tab-content mt-3">
                         <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-                            e
+                            連結網址
                         </div>
                         <div class="tab-pane fade" id="scorer" role="tabpanel" aria-labelledby="scorer-tab">
-                            e
+                            NULL
                         </div>
                     </div>
                 <div>
