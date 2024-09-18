@@ -27,6 +27,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/home.css">
 
     <!-- JS -->
     <script type="text/javascript" src="js/sidebar.js"></script>
@@ -65,6 +66,7 @@
                                     class="table"
                                     data-toggle="table"
                                     data-pagination="true"
+                                    data-page-size="5"
                                     data-filter-control="true">
                                 <thead>
                                     <tr>
