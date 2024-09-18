@@ -93,12 +93,11 @@
     <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="addModalLabel">新增圖片</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="addHomeCarouselImage" action="./php/addHomeCarouselImage.php" enctype="multipart/form-data">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="addModalLabel">新增輪播牆圖片</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
                         <div class="row mb-3">
                             <label for="addName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
                             <div class="col-md-10">
@@ -118,11 +117,10 @@
                                 <input type="radio" class="ms-5 me-2" id="addNOption" name="hidden" value="N" checked><label for="addNOption">否</label>
                             </div>
                         </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">確認</button>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="add-carousel">確認</button>
+                    </div>
             </div>
         </div>
     </div>
@@ -131,11 +129,11 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="editModalLabel">編輯圖片</h1>
+                    <h1 class="modal-title fs-5" id="editModalLabel">編輯輪播牆圖片</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="editHomeCarouselImage" action="./php/editHomeCarouselImage.php" enctype="multipart/form-data">
+                    <form id="editHomeCarouselImage" action="php/editHomeCarouselImage.php" enctype="multipart/form-data">
                         <div class="row mb-3">
                             <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
                             <div class="col-md-10">
@@ -158,7 +156,7 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success">確認</button>
+                    <button type="button" class="btn btn-success">儲存</button>
                 </div>
             </div>
         </div>

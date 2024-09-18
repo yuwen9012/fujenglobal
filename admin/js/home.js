@@ -112,7 +112,6 @@ window.onload = function() {
     }
 
     function updateOrder(id, newOrder) {
-        console.log('Sending update request for ID:', id, 'New Order:', newOrder);
         $.ajax({
             url: './php/update_order.php',
             type: 'POST',
@@ -134,6 +133,37 @@ window.onload = function() {
 
     var dataSheet = 'home_carousel';
     var url = './php/get_data.php?table=' + encodeURIComponent(dataSheet);
-    
+
     loadTableData();
+
+    $('#add-carousel').on('click', function(event) {
+        const name = document.getElementById('addName').value;
+        const image = document.getElementById('addImage').files[0];
+        const hidden = document.querySelector('input[name="hidden"]:checked').value;
+
+        const form_data = new FormData();
+        form_data.append('name', name);
+        form_data.append('image', image);
+        form_data.append('hidden', hidden);
+
+        $.ajax({
+            url: './php/addHomeCarouselImage.php',
+            type: 'POST',
+            contentType: false,
+            processData: false,
+            data: form_data,
+            
+            success: function(response) {
+                if (response == 'success') {
+                    window.location.href = 'home-setting.php';
+                }
+                else {
+                    alert(response);
+                }
+            },
+            error: function() {
+                console.error('錯誤');
+            }
+        });
+    });
 }
