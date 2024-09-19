@@ -302,13 +302,9 @@
 
     <div class="my-5" id="ci-ecology">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Assistant Professor,Yu-Chih Chiang</p>
-        <p class="my-3">Tel:886-2-2905-2106</p>
-        <p class="my-3">E-mail: 141673@mail.fju.edu.tw</p>
-        <p class="my-3 fw-semibold">Secretary</p>
-        <p class="my-3">Pei-Chuan Chien</p>
-        <p class="my-3">Tel:886-2-2905-3752</p>
-        <p class="my-3">E-mail: HECG@mail.fju.edu.tw</p>
+        <span class="my-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Assistant Professor,Yu-Chih Chiang<br>Tel:886-2-2905-2106<br>E-mail: 141673@mail.fju.edu.tw<br><br></span>
+        <span class="my-3 fw-semibold">Secretary<br></span>
+        <span class="my-3">Pei-Chuan Chien<br>Tel:886-2-2905-3752<br>E-mail: HECG@mail.fju.edu.tw</span>
     </div>
 </div>
