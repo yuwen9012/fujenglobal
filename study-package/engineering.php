@@ -185,13 +185,9 @@
 
     <div class="my-5" id="ci-engineering">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="mt-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Assistant Professor,Tuan-Vinh Le</p>
-        <p class="my-3">Tel: 886-2-2905-6727</p>
-        <p class="my-3">E-mail: 155315@mail.fju.edu.tw</p>
-        <p class="mt-3 fw-semibold">Secretary</p>
-        <p class="my-3">Grace Liu</p>
-        <p class="my-3">Tel:886-2-2905-3857</p>
-        <p class="my-3">E-mail: graceliu@mail.fju.edu.tw  </p>
+        <span class="mt-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Assistant Professor,Tuan-Vinh Le<br>Tel: 886-2-2905-6727<br>E-mail: 155315@mail.fju.edu.tw<br><br></span>
+        <span class="mt-3 fw-semibold">Secretary<br></span>
+        <span class="my-3">Grace Liu<br>Tel:886-2-2905-3857<br>E-mail: graceliu@mail.fju.edu.tw</span>
     </div>
 </div>
