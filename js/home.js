@@ -54,28 +54,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to initialize the coin-slider with updated dimensions
     function initializeCoinSlider() {
-        // 圖片檔
-        const images = [
-            'images/1 首頁-1coin.jpg',
-            'images/1 首頁-2coin.jpg',
-            'images/1 首頁-3coin.jpg',
-            'images/1 首頁-4coin.jpg',
-            'images/1 首頁-5coin.jpg'
-        ];
+        fetchImages().then(images => {
+            const desiredWidth = $('#coin-slider').parent().width();
+            const desiredHeight = desiredWidth * 0.3;
 
-        const desiredWidth = $('#coin-slider').parent().width();
-        const desiredHeight = desiredWidth * 0.3;
+            addImagesToSlider(images, desiredWidth, desiredHeight, () => {
+                $('#coin-slider').coinslider({
+                    width: desiredWidth,
+                    height: desiredHeight,
+                    sDelay: 100,
+                    delay: 5000,
+                    navigation: true,
+                    links: false,
+                    prevText: '<',
+                    nextText: '>',
+                });
+            });
+        }).catch(error => {
+            console.error(error);
+        });
+    }
 
-        addImagesToSlider(images, desiredWidth, desiredHeight, () => {
-            $('#coin-slider').coinslider({
-                width: desiredWidth,
-                height: desiredHeight,
-                sDelay: 100,
-                delay: 5000,
-                navigation: true,
-                links: false,
-                prevText: '<',
-                nextText: '>',
+    function fetchImages() {
+        return new Promise((resolve, reject) => {
+            let images = [];
+            var dataSheet = 'home_carousel';
+            var url = './php/get_data.php?table=' + encodeURIComponent(dataSheet);
+
+            $.getJSON(url, function(sqldata) {
+                sqldata.forEach(function(item) {
+                    images.push('images/' + item.image);
+                });
+                resolve(images); // 解析 Promise 並返回 images
+            }).fail(function() {
+                reject('資料載入失敗');
             });
         });
     }
