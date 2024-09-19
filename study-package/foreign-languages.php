@@ -902,19 +902,11 @@
 
     <div class="my-5" id="ci-foreign">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Chair&Associate Professor, Meng-Jen Chang</p>
-        <p class="my-3">Tel: 886-2-2905-3761</p>
-        <p class="my-3">E-mail: 076485@mail.fju.edu.tw</p>
-        <p class="my-3 fw-semibold">Secretaries</p>
-        <p class="my-3">Ms.Chen</p>
-        <p class="my-3">Tel:886-2-2905-2551</p>
-        <p class="my-3">E-mail: 004617@mail.fju.edu.tw</p>
-        <p class="my-3">Ms.Hao</p>
-        <p class="my-3">Tel:886-2-2905-3718</p>
-        <p class="my-3">E-mail: 026549@mail.fju.edu.tw</p>
-        <p class="my-3">Ms.Zhuang</p>
-        <p class="my-3">Tel:886-2-2905-3307</p>
-        <p class="my-3">E-mail: 161279@mail.fju.edu.tw</p>
+        <span class="my-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Chair&Associate Professor, Meng-Jen Chang<br>Tel: 886-2-2905-3761<br>E-mail: 076485@mail.fju.edu.tw<br><br></span>
+        <span class="my-3 fw-semibold">Secretaries<br></span>
+        <span class="my-3">Ms.Chen<br>Tel:886-2-2905-2551<br>E-mail: 004617@mail.fju.edu.tw<br>
+        Ms.Hao<br>Tel:886-2-2905-3718<br>E-mail: 026549@mail.fju.edu.tw
+        Ms.Zhuang<br>Tel:886-2-2905-3307<br>E-mail: 161279@mail.fju.edu.tw</span>
     </div>
 </div>

@@ -176,13 +176,9 @@
 
     <div class="my-5" id="ci-law">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Chair&Professor, Ming-woei Chang</p>
-        <p class="my-3">Tel: 886-2-2905-2619</p>
-        <p class="my-3">E-mail: 081492@mail.fju.edu.tw</p>
-        <p class="my-3 fw-semibold">Secretary</p>
-        <p class="my-3">Ms.Ho</p>
-        <p class="my-3">Tel: 886-2-2905-2027</p>
-        <p class="my-3">E-mail: 040370@mail.fju.edu.tw</p>
+        <span class="my-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Chair&Professor, Ming-woei Chang<br>Tel: 886-2-2905-2619<br>E-mail: 081492@mail.fju.edu.tw<br><br></span>
+        <span class="my-3 fw-semibold">Secretary<br></span>
+        <span class="my-3">Ms.Ho<br>Tel: 886-2-2905-2027<br>E-mail: 040370@mail.fju.edu.tw</span>
     </div>
 </div>

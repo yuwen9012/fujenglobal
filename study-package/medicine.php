@@ -305,9 +305,7 @@
 
     <div class="my-5" id="ci-medicine">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="mt-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Professor, Shao-Chen Lee</p>
-        <p class="my-3">Tel: 886-2-2905-3961</p>
-        <p class="my-3">Email: 073798@mail.fju.edu.tw</p>
+        <span class="mt-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Professor, Shao-Chen Lee<br>Tel: 886-2-2905-3961<br>Email: 073798@mail.fju.edu.tw</span>
     </div>
 </div>

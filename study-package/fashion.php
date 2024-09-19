@@ -179,12 +179,8 @@
 
     <div class="my-5" id="ci-fashion">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Jackie Wang</p>
-        <p class="my-3">Tel: 886-2-2905-6340</p>
-        <p class="my-3">E-mail: jackiewangblack@gmail.com</p>
-        <p class="my-3">Contact: Ms. Wu</p>
-        <p class="my-3">TEL: +886-2-2905-2107</p>
-        <p class="my-3">E-mail: 046895@mail.fju.edu.tw</p>
+        <span class="my-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Jackie Wang<br>Tel: 886-2-2905-6340<br>E-mail: jackiewangblack@gmail.com<br>
+        Contact: Ms. Wu<br>TEL: +886-2-2905-2107<br>E-mail: 046895@mail.fju.edu.tw</span>
     </div>
 </div>

@@ -240,7 +240,9 @@
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
             </div>
             <div class="col-md-6">
+                <!--
                 <img src="images/study-package/education/教育學院_resources.jpg" class="container-fluid" alt="education Resources & Facilities">
+                -->
             </div>
         </div>
     </div>
@@ -252,12 +254,8 @@
 
     <div class="my-5" id="ci-education">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Yun-Chi Chang</p>
-        <p class="my-3">Tel: 886-2-2905-2381</p>
-        <p class="my-3">E-mail: 142498@mail.fju.edu.tw</p>
-        <br>
-        <p class="my-3">林嘉琪  +886 2 29053303   DKG@mail.fju.edu.tw </p>
-        <p class="my-3">張耘齊  +886 2 29052381   142498@mail.fju.edu.tw </p>
+        <span class="my-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Yun-Chi Chang<br>Tel: 886-2-2905-2381<br>E-mail: 142498@mail.fju.edu.tw<br>林嘉琪  +886 2 29053303   DKG@mail.fju.edu.tw 
+        <br>張耘齊  +886 2 29052381   142498@mail.fju.edu.tw </span>
     </div>
 </div>
