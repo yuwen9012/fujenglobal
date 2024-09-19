@@ -221,8 +221,6 @@
 
     <div class="my-5" id="ci-management">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3">Phone: +886 2 2905-2651</p>
-        <p class="my-3">Fax: +886 2 2905-2186</p>
-        <p class="my-3">E-mail: 021676@mail.fju.edu.tw</p>
+        <span class="my-3">Phone: +886 2 2905-2651<br>Fax: +886 2 2905-2186<br>E-mail: 021676@mail.fju.edu.tw</span>
     </div>
 </div>
