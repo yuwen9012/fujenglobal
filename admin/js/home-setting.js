@@ -170,6 +170,7 @@ window.onload = function() {
 
     // 點擊編輯
     $(document).on('click', '.editBtn ', function(event) {
+        event.preventDefault();
         var id = $(this).data('id');
         $('#editModal').modal('show');
 
@@ -238,5 +239,38 @@ window.onload = function() {
                 console.error('錯誤');
             }
         });
+    });
+
+    // 點擊刪除
+    $(document).on('click', '.deleteBtn', function(event) {
+        event.preventDefault();
+        var id = $(this).data('id');
+
+        if (confirm('確定刪除？')) {
+            $.ajax({
+                url: './php/delete_row_data.php',
+                type: 'POST',
+                data: {
+                    id: id,
+                    dataSheet: 'home_carousel',
+                },
+                success: function(response) {
+                    if (response == 'success') {
+                        alert("已成功刪除！");
+                        window.location.href = 'home-setting.php';
+                    }
+                    else {
+                        alert('Failed');
+                        return;
+                    }
+                },
+                error: function() {
+                    console.error('錯誤');
+                }
+            });
+        } 
+        else {
+            return null;
+        }
     });
 }
