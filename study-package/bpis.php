@@ -200,13 +200,9 @@
 
     <div class="my-5" id="ci-bpis">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="mt-3 fw-semibold">Chair</p>
-        <p class="my-3">Associate Professor, Ariana Chang</p>
-        <p class="my-3">Tel: 886-2-2905-3099</p>
-        <p class="my-3">Email: 140517@mail.fju.edu.tw</p>
-        <p class="mt-3 fw-semibold">Secretary</p>
-        <p class="my-3">Melody</p>
-        <p class="my-3">Tel: 886-2-2905-6315</p>
-        <p class="my-3">Email: bpis@mail.fju.edu.tw</p>
+        <span class="mt-3 fw-semibold">Chair<br></span>
+        <span class="my-3">Associate Professor, Ariana Changr<br>Tel: 886-2-2905-3099<br>Email: 140517@mail.fju.edu.tw<br><br></span>
+        <span class="mt-3 fw-semibold">Secretary<br></span>
+        <span class="my-3">Melody<br>Tel: 886-2-2905-6315<br>Email: bpis@mail.fju.edu.tw</span>
     </div>
 </div>
