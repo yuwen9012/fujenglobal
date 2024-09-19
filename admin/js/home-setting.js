@@ -74,7 +74,7 @@ window.onload = function() {
                     title: '操作',
                     formatter: function (value, row) {
                         var id = row.id;
-                        var button = '<a data-id="' + id + '" data-bs-toggle="modal" data-bs-target="#editModal" class="editBtn">編輯</a><br><a data-id="' + id + '" class="deleteBtn" ">刪除</a>';
+                        var button = '<a data-id="' + id + '" class="editBtn">編輯</a><br><a data-id="' + id + '" class="deleteBtn" ">刪除</a>';
                         return button;
                     },
                     cellStyle: function(value, row, index) {
@@ -132,10 +132,11 @@ window.onload = function() {
     }
 
     var dataSheet = 'home_carousel';
-    var url = './php/get_data.php?table=' + encodeURIComponent(dataSheet);
+    var url = './php/get_sheet_data.php?table=' + encodeURIComponent(dataSheet);
 
     loadTableData();
 
+    // 新增資料
     $('#add-carousel').on('click', function(event) {
         const name = document.getElementById('addName').value;
         const image = document.getElementById('addImage').files[0];
@@ -148,6 +149,78 @@ window.onload = function() {
 
         $.ajax({
             url: './php/addHomeCarouselImage.php',
+            type: 'POST',
+            contentType: false,
+            processData: false,
+            data: form_data,
+            
+            success: function(response) {
+                if (response == 'success') {
+                    window.location.href = 'home-setting.php';
+                }
+                else {
+                    alert(response);
+                }
+            },
+            error: function() {
+                console.error('錯誤');
+            }
+        });
+    });
+
+    // 點擊編輯
+    $(document).on('click', '.editBtn ', function(event) {
+        var id = $(this).data('id');
+        $('#editModal').modal('show');
+
+        $.ajax({
+            url: './php/get_row_data.php',
+            type: 'POST',
+            data: {
+                id: id,
+                dataSheet: 'home_carousel',
+            },
+            success: function(data) {
+                var json = JSON.parse(data);
+
+                $('#id').val(json.id);
+                $('#editName').val(json.name);
+
+                if (json.image) {
+                    $('#fileLabel').text('當前圖片: ' + json.image);
+                }
+
+                if (json.hidden === 'Y') {
+                    $('#editYOption').prop('checked', true);
+                }
+                else {
+                    $('#editNOption').prop('checked', true);
+                }
+            },
+            error: function() {
+                console.error('錯誤');
+            }
+        })
+    });
+
+    // 儲存編輯
+    $('#edit-carousel').on('click', function(event) {
+        const id = document.getElementById('id').value;
+        const name = document.getElementById('editName').value;
+        const image = document.getElementById('editImage').files[0];
+        const hidden = document.querySelector('input[name="hidden"]:checked').value;
+        
+        const form_data = new FormData();
+        form_data.append('id', id);
+        form_data.append('name', name);
+        form_data.append('hidden', hidden);
+
+        if (image !== undefined) {
+            form_data.append('image', image);
+        }
+        
+        $.ajax({
+            url: './php/editHomeCarouselImage.php',
             type: 'POST',
             contentType: false,
             processData: false,

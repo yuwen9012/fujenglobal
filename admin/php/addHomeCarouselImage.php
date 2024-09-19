@@ -3,7 +3,7 @@
     include('connect.php');
 
     if (empty($_POST['name'])) {
-        die("名稱是必填的。");
+        die('名稱是必填的。');
     }
 
     if (isset($_FILES['image']) && $_FILES['image']['error'] == UPLOAD_ERR_OK) {

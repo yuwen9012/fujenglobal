@@ -27,11 +27,11 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home-setting.css">
 
     <!-- JS -->
     <script type="text/javascript" src="js/sidebar.js"></script>
-    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/home-setting.js"></script>
 
     <title>後台系統</title>
 </head>
@@ -133,30 +133,30 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="editHomeCarouselImage" action="php/editHomeCarouselImage.php" enctype="multipart/form-data">
-                        <div class="row mb-3">
-                            <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" id="editName" name="name">
-                            </div>
+                    <input type="text" class="d-none" id="id" name="id">
+                    <div class="row mb-3">
+                        <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editName" name="name">
                         </div>
-                        <div class="row mb-3">
-                            <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
-                            <div class="col-md-9">
-                                <input type="file" class="form-control" id="editImage" name="image">
-                            </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-9">
+                            <input type="file" class="form-control" id="editImage" name="image">
+                            <span id="fileLabel" class="text-muted"></span>
                         </div>
-                        <div class="row mb-3">
-                            <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
-                            <div class="col-md-10">
-                                <input type="radio" class="me-2" id="editYOption" name="hidden" value="Y"><label for="editYOption">是</label>
-                                <input type="radio" class="ms-5 me-2" id="editNOption" name="hidden" value="N" checked><label for="editNOption">否</label>
-                            </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="editYOption" name="hidden" value="Y"><label for="editYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="editNOption" name="hidden" value="N" checked><label for="editNOption">否</label>
                         </div>
-                    </form>
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success">儲存</button>
+                    <button type="button" class="btn btn-success" id="edit-carousel">儲存</button>
                 </div>
             </div>
         </div>
