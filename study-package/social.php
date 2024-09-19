@@ -281,12 +281,11 @@
 
     <div class="my-5" id="ci-social">
         <h3 class="my-3 fw-semibold">Contact Information</h3>
-        <p class="my-3">Tel 1: +886-2-2905-2631, 015017@mail.fju.edu.tw,  Ms. Tseng</p>
-        <p class="my-3">Tel 2: +886-2-2905-2794, 054517@mail.fju.edu.tw, Ms. Chuang</p>
-        <p class="my-3">Fax: +886-22905-2161</p>
-        <p class="my-3 fw-semibold">Chief of Internationalization</p>
-        <p class="my-3">Yang-Ming Huang</p>
-        <p class="my-3">E-mail: yangming.huang@gmail.com</p>
-        <p class="my-3">Tel: +886-2-29052130</p>
+        <span class="my-3">Tel 1: +886-2-2905-2631, 015017@mail.fju.edu.tw,  Ms. Tseng
+            <br>Tel 2: +886-2-2905-2794, 054517@mail.fju.edu.tw, Ms. Chuang
+            <br>Fax: +886-22905-2161<br><br>
+        </span>
+        <span class="my-3 fw-semibold">Chief of Internationalization<br></span>
+        <span class="my-3">Yang-Ming Huang<br>E-mail: yangming.huang@gmail.com<br>Tel: +886-2-29052130</span>
     </div>
 </div>
