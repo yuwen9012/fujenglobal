@@ -29,10 +29,10 @@
 
         move_uploaded_file($_FILES['image']['tmp_name'], $targetFilePath);
 
-        $update .= "`image` = '$image'";
+        $update .= ", `image` = '$image'";
     }
 
-    $update .= "WHERE `id` = ?";
+    $update .= " WHERE `id` = ?";
 
     $stmt = $mysqli->prepare($update);
     $stmt->bind_param('i', $id);
