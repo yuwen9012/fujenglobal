@@ -4,14 +4,13 @@ body {
     background-color:#FFFEFB;
 }
 
-/* #canvas {
+#canvas {
     display: none;
-} */
+}
 
 .carousel-item {
     position: relative;
     padding-top: 35%;
-    /* pointer-events: auto; */
 }
 
 .carousel-item img {

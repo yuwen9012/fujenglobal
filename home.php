@@ -78,11 +78,9 @@
         </button>
     </div> -->
 
-    <!-- <div id="carousel"> -->
-        <div id="coin-slider">
-            <canvas id="canvas"></canvas>
-        </div>
-    <!-- </div> -->
+    <div id="coin-slider">
+        <canvas id="canvas"></canvas>
+    </div>
 
     <div class="container my-5">
         <div class="row">

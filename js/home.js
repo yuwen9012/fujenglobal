@@ -34,28 +34,33 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 const resizedImageData = await loadImage(src.url, desiredWidth, desiredHeight);
 
-                // Create an a element for the link
-                const linkElement = document.createElement('a');
-                linkElement.href = src.link;
-                if (src.target === 'blank') {
-                    linkElement.target = '_blank';
-                }
-
                 // Create an img element for the resized image
                 const imgElement = document.createElement('img');
                 imgElement.src = resizedImageData;
                 imgElement.alt = 'Slide';
 
-                // Append the img to the a element
-                linkElement.appendChild(imgElement);
+                // Create an a element for the link
+                const linkElement = document.createElement('a');
+                if (src.link !== '#') {
+                    linkElement.href = src.link;
+                    if (src.target === 'blank') {
+                        linkElement.target = '_blank';
+                    }
+                    // Append the img to the a element
+                    linkElement.appendChild(imgElement);
 
-                // Add the image to the slider
-                slider.appendChild(linkElement);
-
+                    // Add the image to the slider
+                    slider.appendChild(linkElement);
+                }
+                else {
+                    slider.appendChild(imgElement);
+                }
             } catch (error) {
                 console.error('Error loading image:', error);
             }
         }
+
+        console.log(slider);
 
         // Call the callback function after all images have been added
         if (callback) {
@@ -76,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     sDelay: 100,
                     delay: 5000,
                     navigation: true,
-                    links: false,
+                    links: true,
                     prevText: '<',
                     nextText: '>',
                 });
