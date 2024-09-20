@@ -73,6 +73,7 @@
                                         <th data-field="id">編號</th>
                                         <th data-field="name">名稱</th>
                                         <th data-field="image">圖片</th>
+                                        <th data-field="link">連結</th>
                                         <th data-field="hidden">隱藏</th>
                                         <th data-field="num_order">排序</th>
                                         <th data-field="manage">操作</th>
@@ -106,15 +107,28 @@
                         </div>
                         <div class="row mb-3">
                             <label for="addImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
-                            <div class="col-md-9">
+                            <div class="col-md-10">
                                 <input type="file" class="form-control" id="addImage" name="image">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="addImage" class="col-md-2 form-label">連結</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="addLink" name="link">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="col-md-4 form-label">連結開啟方式<span class="text-danger" id="target-required" style="display: none;">*</span></label>
+                            <div class="col-md-8">
+                                <input type="radio" class="me-2" id="addSelfOption" name="addTarget" value="self" disabled><label for="addSelfOption">原頁跳轉</label>
+                                <input type="radio" class="ms-5 me-2" id="addBlankOption" name="addTarget" value="blank" disabled><label for="addBlankOption">另開視窗</label>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                             <div class="col-md-10">
-                                <input type="radio" class="me-2" id="addYOption" name="hidden" value="Y"><label for="addYOption">是</label>
-                                <input type="radio" class="ms-5 me-2" id="addNOption" name="hidden" value="N" checked><label for="addNOption">否</label>
+                                <input type="radio" class="me-2" id="addYOption" name="addHidden" value="Y"><label for="addYOption">是</label>
+                                <input type="radio" class="ms-5 me-2" id="addNOption" name="addHidden" value="N" checked><label for="addNOption">否</label>
                             </div>
                         </div>
                     </div>
@@ -142,16 +156,29 @@
                     </div>
                     <div class="row mb-3">
                         <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
-                        <div class="col-md-9">
+                        <div class="col-md-10">
                             <input type="file" class="form-control" id="editImage" name="image">
                             <span id="fileLabel" class="text-muted"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
+                        <label for="addImage" class="col-md-2 form-label">連結</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editLink" name="link">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-4 form-label">連結開啟方式<span class="text-danger" id="target-required" style="display: none;">*</span></label>
+                        <div class="col-md-8">
+                            <input type="radio" class="me-2" id="editSelfOption" name="editTarget" value="self" disabled><label for="editSelfOption">原頁跳轉</label>
+                            <input type="radio" class="ms-5 me-2" id="editBlankOption" name="editTarget" value="blank" disabled><label for="editBlankOption">另開視窗</label>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="editYOption" name="hidden" value="Y"><label for="editYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="editNOption" name="hidden" value="N" checked><label for="editNOption">否</label>
+                            <input type="radio" class="me-2" id="editYOption" name="editHidden" value="Y"><label for="editYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="editNOption" name="editHidden" value="N" checked><label for="editNOption">否</label>
                         </div>
                     </div>
                 </div>

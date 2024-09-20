@@ -10,6 +10,18 @@
     $name = $_POST['name'];
     $hidden = $_POST['hidden'];
 
+    $update = "UPDATE `home_carousel` SET `name` = '$name', 
+                                          `hidden` = '$hidden', 
+                                          `update_user` = '郭政億', 
+                                          `update_time` = NOW()";
+                                        
+
+    if (isset($_POST['link'])) {
+        $link = $_POST['link'];
+        $target = $_POST['target'];
+        $update .= ", `link` = '$link', `target` = '$target'";
+    }
+
     if (isset($_FILES['image']) && $_FILES['image']['error'] == UPLOAD_ERR_OK) {
         $image = basename($_FILES['image']['name']);
         $uploadDir = '../../images/';
@@ -17,20 +29,10 @@
 
         move_uploaded_file($_FILES['image']['tmp_name'], $targetFilePath);
 
-        $update = "UPDATE `home_carousel` SET `name` = '$name', 
-                                              `image` = '$image', 
-                                              `hidden` = '$hidden', 
-                                              `update_user` = '郭政億', 
-                                              `update_time` = NOW() 
-                                        WHERE `id` = ?";
+        $update .= "`image` = '$image'";
     }
-    else {
-        $update = "UPDATE `home_carousel` SET `name` = '$name', 
-                                              `hidden` = '$hidden', 
-                                              `update_user` = '郭政億', 
-                                              `update_time` = NOW() 
-                                        WHERE `id` = ?";
-    }
+
+    $update .= "WHERE `id` = ?";
 
     $stmt = $mysqli->prepare($update);
     $stmt->bind_param('i', $id);

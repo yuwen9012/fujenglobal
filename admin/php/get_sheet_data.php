@@ -5,7 +5,7 @@
     $dataSheet = $_GET['table'];
     $data = array();
 
-    $query = "SELECT * FROM $dataSheet ORDER BY `num_order` ASC";
+    $query = "SELECT * FROM $dataSheet WHERE `status` = '使用中' ORDER BY `num_order` ASC";
 
     $result = $mysqli->query($query);
 

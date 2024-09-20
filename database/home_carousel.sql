@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2024-09-18 08:50:58
+-- 產生時間： 2024-09-20 07:53:17
 -- 伺服器版本： 10.4.28-MariaDB
 -- PHP 版本： 8.2.4
 
@@ -31,8 +31,11 @@ CREATE TABLE `home_carousel` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
+  `link` varchar(300) DEFAULT NULL,
+  `target` varchar(10) DEFAULT NULL,
   `hidden` varchar(10) NOT NULL,
   `num_order` int(11) NOT NULL,
+  `status` varchar(10) NOT NULL,
   `update_user` varchar(10) NOT NULL,
   `update_time` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -41,12 +44,12 @@ CREATE TABLE `home_carousel` (
 -- 傾印資料表的資料 `home_carousel`
 --
 
-INSERT INTO `home_carousel` (`id`, `name`, `image`, `hidden`, `num_order`, `update_user`, `update_time`) VALUES
-(1, '第一張', '1 首頁-1coin.jpg', 'N', 1, '郭政億', '2024-09-18 09:49:15'),
-(2, '第二張', '1 首頁-2coin.jpg', 'N', 2, '郭政億', '2024-09-18 09:49:15'),
-(3, '第三張', '1 首頁-3coin.jpg', 'N', 3, '郭政億', '2024-09-18 09:49:15'),
-(4, '第四張', '1 首頁-4coin.jpg', 'N', 4, '郭政億', '2024-09-18 09:49:15'),
-(5, '第五張', '1 首頁-5coin.jpg', 'N', 5, '郭政億', '2024-09-18 09:49:15');
+INSERT INTO `home_carousel` (`id`, `name`, `image`, `link`, `target`, `hidden`, `num_order`, `status`, `update_user`, `update_time`) VALUES
+(1, '第一張', '1 首頁-1coin.jpg', NULL, NULL, 'N', 2, '使用中', '郭政億', '2024-09-20 13:51:20'),
+(2, '測試第二張', '1 首頁-2coin.jpg', NULL, NULL, 'N', 1, '使用中', '郭政億', '2024-09-20 13:51:20'),
+(3, '第三張', '1 首頁-3coin.jpg', NULL, NULL, 'Y', 3, '使用中', '郭政億', '2024-09-20 13:51:20'),
+(4, '第四張', '1 首頁-4coin.jpg', NULL, NULL, 'N', 4, '使用中', '郭政億', '2024-09-20 13:51:20'),
+(5, '第五張', '1 首頁-5coin.jpg', 'https://www.google.com/', 'blank', 'N', 5, '使用中', '郭政億', '2024-09-20 13:51:20');
 
 --
 -- 已傾印資料表的索引

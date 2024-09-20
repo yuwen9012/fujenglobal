@@ -40,6 +40,22 @@ window.onload = function() {
                     },
                 },
                 {
+                    field: 'link',
+                    title: '連結',
+                    formatter: function (value, row) {
+                        var link = row.link;
+                        if (link) {
+                            return '是';
+                        }
+                        else {
+                            return '否';
+                        }
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(5);
+                    }
+                },
+                {
                     field: 'hidden',
                     title: '隱藏',
                     sortable: true,
@@ -136,16 +152,43 @@ window.onload = function() {
 
     loadTableData();
 
+    // 新增連結監聽事件
+    document.getElementById('addLink').addEventListener('input', function() {
+        const requiredIndicator = document.getElementById('target-required');
+        const selfOption = document.getElementById('addSelfOption');
+        const blankOption = document.getElementById('addBlankOption');
+        
+        if (this.value.trim()) {
+            requiredIndicator.style.display = 'inline';
+            selfOption.checked = true;
+            selfOption.disabled = false;
+            blankOption.disabled = false;
+        }
+        else {
+            requiredIndicator.style.display = 'none';
+            selfOption.checked = false;
+            selfOption.disabled = true;
+            blankOption.checked = false;
+            blankOption.disabled = true;
+        }
+    });
+
     // 新增資料
     $('#add-carousel').on('click', function(event) {
         const name = document.getElementById('addName').value;
         const image = document.getElementById('addImage').files[0];
-        const hidden = document.querySelector('input[name="hidden"]:checked').value;
+        const hidden = document.querySelector('input[name="addHidden"]:checked').value;
+        const link = document.getElementById('addLink').value;
 
         const form_data = new FormData();
         form_data.append('name', name);
         form_data.append('image', image);
         form_data.append('hidden', hidden);
+        if (link != '') {
+            const target = document.querySelector('input[name="addTarget"]:checked').value;
+            form_data.append('link', link);
+            form_data.append('target', target);
+        }
 
         $.ajax({
             url: './php/addHomeCarouselImage.php',
@@ -168,6 +211,27 @@ window.onload = function() {
         });
     });
 
+    // 編輯連結監聽事件
+    document.getElementById('editLink').addEventListener('input', function() {
+        const requiredIndicator = document.getElementById('target-required');
+        const selfOption = document.getElementById('editSelfOption');
+        const blankOption = document.getElementById('editBlankOption');
+        
+        if (this.value.trim()) {
+            requiredIndicator.style.display = 'inline';
+            selfOption.checked = true;
+            selfOption.disabled = false;
+            blankOption.disabled = false;
+        }
+        else {
+            requiredIndicator.style.display = 'none';
+            selfOption.checked = false;
+            selfOption.disabled = true;
+            blankOption.checked = false;
+            blankOption.disabled = true;
+        }
+    });
+
     // 點擊編輯
     $(document).on('click', '.editBtn ', function(event) {
         event.preventDefault();
@@ -186,9 +250,17 @@ window.onload = function() {
 
                 $('#id').val(json.id);
                 $('#editName').val(json.name);
+                $('#editLink').val(json.link);
 
                 if (json.image) {
                     $('#fileLabel').text('當前圖片: ' + json.image);
+                }
+
+                if (json.target === 'blank') {
+                    $('#editBlankOption').prop('checked', true);
+                }
+                else if (json.target === 'self') {
+                    $('#editSelfOption').prop('checked', true);
                 }
 
                 if (json.hidden === 'Y') {
@@ -196,6 +268,11 @@ window.onload = function() {
                 }
                 else {
                     $('#editNOption').prop('checked', true);
+                }
+
+                if (json.link) {
+                    $('#editBlankOption').prop('disabled', false);
+                    $('#editSelfOption').prop('disabled', false);
                 }
             },
             error: function() {
@@ -209,12 +286,19 @@ window.onload = function() {
         const id = document.getElementById('id').value;
         const name = document.getElementById('editName').value;
         const image = document.getElementById('editImage').files[0];
-        const hidden = document.querySelector('input[name="hidden"]:checked').value;
-        
+        const hidden = document.querySelector('input[name="editHidden"]:checked').value;
+        const link = document.getElementById('editLink').value;
+
         const form_data = new FormData();
         form_data.append('id', id);
         form_data.append('name', name);
         form_data.append('hidden', hidden);
+
+        if (link != '') {
+            const target = document.querySelector('input[name="editTarget"]:checked').value;
+            form_data.append('link', link);
+            form_data.append('target', target);
+        }
 
         if (image !== undefined) {
             form_data.append('image', image);

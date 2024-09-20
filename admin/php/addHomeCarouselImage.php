@@ -15,8 +15,16 @@
         $result = $mysqli->query($query);
         $next_order = $result->fetch_assoc()['next_order'];
 
-        $insert = "INSERT INTO `home_carousel` (`name`, `image`, `hidden`, `num_order`, `update_user`, `update_time`) 
-                        VALUES ('$name', '$image', '$hidden', $next_order, '郭政億', NOW())";
+        if (isset($_POST['link'])) {
+            $link = $_POST['link'];
+            $target = $_POST['target'];
+            $insert = "INSERT INTO `home_carousel` (`name`, `image`, `link`, `target`, `hidden`, `num_order`, `status`, `update_user`, `update_time`) 
+                            VALUES ('$name', '$image', '$link', '$target', '$hidden', $next_order, '使用中', '郭政億', NOW())";
+        }
+        else {
+            $insert = "INSERT INTO `home_carousel` (`name`, `image`, `hidden`, `num_order`, `status`, `update_user`, `update_time`) 
+                            VALUES ('$name', '$image', '$hidden', $next_order, '使用中', '郭政億', NOW())";
+        }
         $mysqli->query($insert);
 
         $mysqli->close();
