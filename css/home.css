@@ -4,13 +4,14 @@ body {
     background-color:#FFFEFB;
 }
 
-#canvas {
-    display: none; /* Hide the canvas element */
-}
+/* #canvas {
+    display: none;
+} */
 
 .carousel-item {
     position: relative;
     padding-top: 35%;
+    /* pointer-events: auto; */
 }
 
 .carousel-item img {

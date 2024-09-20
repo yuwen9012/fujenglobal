@@ -32,15 +32,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
         for (const src of images) {
             try {
-                const resizedImageData = await loadImage(src, desiredWidth, desiredHeight);
+                const resizedImageData = await loadImage(src.url, desiredWidth, desiredHeight);
+
+                // Create an a element for the link
+                const linkElement = document.createElement('a');
+                linkElement.href = src.link;
+                if (src.target === 'blank') {
+                    linkElement.target = '_blank';
+                }
 
                 // Create an img element for the resized image
                 const imgElement = document.createElement('img');
                 imgElement.src = resizedImageData;
                 imgElement.alt = 'Slide';
 
+                // Append the img to the a element
+                linkElement.appendChild(imgElement);
+
                 // Add the image to the slider
-                slider.appendChild(imgElement);
+                slider.appendChild(linkElement);
+
             } catch (error) {
                 console.error('Error loading image:', error);
             }
@@ -83,7 +94,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             $.getJSON(url, function(sqldata) {
                 sqldata.forEach(function(item) {
-                    images.push('images/' + item.image);
+                    images.push({
+                        url: 'images/' + item.image,
+                        link: item.link || '#',
+                        target: item.target || '',
+                    });
                 });
                 resolve(images); // 解析 Promise 並返回 images
             }).fail(function() {
@@ -98,5 +113,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Reinitialize Coin Slider on window resize
     $(window).resize(function() {
         initializeCoinSlider();
+    });
+
+    document.querySelectorAll('.carousel-item').forEach(item => {
+        item.addEventListener('click', () => {
+            console.log('Item clicked!');
+        });
     });
 });
