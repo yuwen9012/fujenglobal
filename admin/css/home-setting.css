@@ -5,3 +5,7 @@
     height: auto;
     border: none;
 }
+
+#table, #table th, #table td {
+    background-color: transparent !important;
+}

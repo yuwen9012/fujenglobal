@@ -14,7 +14,7 @@ window.onload = function() {
                 {
                     field: 'id',
                     title: '編號',
-                    sortable: true,
+                    // sortable: true,
                     formatter: function(value, row, index) {
                         return index + 1;
                     },
@@ -25,7 +25,7 @@ window.onload = function() {
                 {
                     field: 'name',
                     title: '名稱',
-                    sortable: true,
+                    // sortable: true,
                     cellStyle: function(value, row, index) {
                         return btncellStyle(20);
                     }
@@ -58,9 +58,18 @@ window.onload = function() {
                 {
                     field: 'hidden',
                     title: '隱藏',
-                    sortable: true,
+                    // sortable: true,
+                    formatter: function (value, row) {
+                        var hidden = row.hidden;
+                        if (hidden == 'Y') {
+                            return '是';
+                        }
+                        else {
+                            return '否';
+                        }
+                    },
                     cellStyle: function(value, row, index) {
-                        return btncellStyle(10);
+                        return btncellStyle(5);
                     }
                 },
                 {
@@ -82,7 +91,7 @@ window.onload = function() {
                         }
                     },
                     cellStyle: function(value, row, index) {
-                        return btncellStyle(10);
+                        return btncellStyle(8);
                     }
                 },
                 {
@@ -90,11 +99,12 @@ window.onload = function() {
                     title: '操作',
                     formatter: function (value, row) {
                         var id = row.id;
-                        var button = '<a data-id="' + id + '" class="editBtn">編輯</a><br><a data-id="' + id + '" class="deleteBtn" ">刪除</a>';
+                        var button = `<a data-id="` + id + `" class="editBtn fw-semibold text-decoration-none" role="button">編輯</a>
+                                    <br><a data-id="` + id + `" class="deleteBtn text-danger fw-semibold text-decoration-none" role="button">刪除</a>`;
                         return button;
                     },
                     cellStyle: function(value, row, index) {
-                        return btncellStyle(10);
+                        return btncellStyle(8);
                     }
                 },
             ];
