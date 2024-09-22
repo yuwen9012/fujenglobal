@@ -62,7 +62,7 @@
                             
                             <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addModal">新增</button>
                             
-                            <table id="table"
+                            <table id="carouselTable"
                                     class="table"
                                     data-toggle="table"
                                     data-pagination="true"
@@ -83,7 +83,26 @@
                         </div>
 
                         <div class="tab-pane fade" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-                            介紹表格
+
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#editTextModal">編輯文字</button>
+                            
+                            <table id="introductionTable"
+                                    class="table"
+                                    data-toggle="table"
+                                    data-pagination="true"
+                                    data-page-size="5"
+                                    data-filter-control="true">
+                                <thead>
+                                    <tr>
+                                        <th data-field="id">編號</th>
+                                        <th data-field="position">位置</th>
+                                        <th data-field="image">圖片</th>
+                                        <th data-field="update_user">更新人員</th>
+                                        <th data-field="update_time">更新時間</th>
+                                        <th data-field="manage">操作</th>
+                                    </tr>
+                                </thead>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -94,47 +113,47 @@
     <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="addModalLabel">新增輪播牆圖片</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row mb-3">
-                            <label for="addName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" id="addName" name="name">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="addImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
-                            <div class="col-md-10">
-                                <input type="file" class="form-control" id="addImage" name="image">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="addImage" class="col-md-2 form-label">連結</label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" id="addLink" name="link">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-md-4 form-label">連結開啟方式<span class="text-danger" id="target-required" style="display: none;">*</span></label>
-                            <div class="col-md-8">
-                                <input type="radio" class="me-2" id="addSelfOption" name="addTarget" value="self" disabled><label for="addSelfOption">原頁跳轉</label>
-                                <input type="radio" class="ms-5 me-2" id="addBlankOption" name="addTarget" value="blank" disabled><label for="addBlankOption">另開視窗</label>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
-                            <div class="col-md-10">
-                                <input type="radio" class="me-2" id="addYOption" name="addHidden" value="Y"><label for="addYOption">是</label>
-                                <input type="radio" class="ms-5 me-2" id="addNOption" name="addHidden" value="N" checked><label for="addNOption">否</label>
-                            </div>
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addModalLabel">新增輪播牆圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addName">
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" id="add-carousel">確認</button>
+                    <div class="row mb-3">
+                        <label for="addImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="addImage">
+                        </div>
                     </div>
+                    <div class="row mb-3">
+                        <label for="addImage" class="col-md-2 form-label">連結</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addLink">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-4 form-label">連結開啟方式<span class="text-danger" id="target-required" style="display: none;">*</span></label>
+                        <div class="col-md-8">
+                            <input type="radio" class="me-2" id="addSelfOption" name="addTarget" value="self" disabled><label for="addSelfOption">原頁跳轉</label>
+                            <input type="radio" class="ms-5 me-2" id="addBlankOption" name="addTarget" value="blank" disabled><label for="addBlankOption">另開視窗</label>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="addYOption" name="addHidden" value="Y"><label for="addYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="addNOption" name="addHidden" value="N" checked><label for="addNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-carousel">確認</button>
+                </div>
             </div>
         </div>
     </div>
@@ -147,24 +166,24 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <input type="text" class="d-none" id="id" name="id">
+                    <input type="text" class="d-none" id="cid">
                     <div class="row mb-3">
                         <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="editName" name="name">
+                            <input type="text" class="form-control" id="editName">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="file" class="form-control" id="editImage" name="image">
+                            <input type="file" class="form-control" id="editImage">
                             <span id="fileLabel" class="text-muted"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="addImage" class="col-md-2 form-label">連結</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="editLink" name="link">
+                            <input type="text" class="form-control" id="editLink">
                         </div>
                     </div>
                     <div class="row mb-3">
@@ -184,6 +203,70 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success" id="edit-carousel">儲存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editTextModal" tabindex="-1" aria-labelledby="editTextModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editTextModalLabel">介紹文字</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="title" class="col-md-1 form-label">標題<span class="text-danger">*</span></label>
+                        <div class="col-md-11">
+                            <input type="text" class="form-control" id="title">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="writing" class="col-md-1 form-label">內文<span class="text-danger">*</span></label>
+                        <div class="col-md-11">
+                            <textarea type="text" class="form-control" id="writing" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12 text-end small text-muted">
+                            最後更新人員: <span id="lastUpdatedBy"></span> &nbsp; | &nbsp;
+                            最後更新時間: <span id="lastUpdatedTime"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="introductionSave">儲存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editImageModal" tabindex="-1" aria-labelledby="editImageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editImageModalLabel">編輯圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="iid">
+                    <div class="row mb-3">
+                        <label for="editPosition" class="col-md-2 form-label">位置</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editPosition" disabled>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="editIntroductionImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="editIntroductionImage">
+                            <span id="imageLabel" class="text-muted"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="edit-image">儲存</button>
                 </div>
             </div>
         </div>
