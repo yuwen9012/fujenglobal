@@ -60,8 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
-        console.log(slider);
-
         // Call the callback function after all images have been added
         if (callback) {
             callback();
@@ -112,17 +110,51 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    function loadIntroduction() {
+        $.ajax({
+            url: './php/get_last_data.php',
+            type: 'POST',
+            data: {
+                dataSheet: 'home_introduction_text',
+            },
+            success: function(response) {
+                data = JSON.parse(response);
+                document.getElementById('introduction-title').innerHTML = data.title;
+                document.getElementById('introduction-text').innerHTML = data.content;
+            },
+            error: function() {
+                console.error('錯誤');
+            }
+        });
+
+        var dataSheet = 'home_introduction_image';
+        var url = './php/get_data.php?table=' + encodeURIComponent(dataSheet);
+        $.getJSON(url, function(sqldata) {
+            sqldata.forEach(function(item) {
+                if (item.position == '左上') {
+                    document.getElementById('lt').src = 'images/' + item.image;
+                }
+                else if (item.position == '右上') {
+                    document.getElementById('rt').src = 'images/' + item.image;
+                }
+                else if (item.position == '左下') {
+                    document.getElementById('lb').src = 'images/' + item.image;
+                }
+                else if (item.position == '右下') {
+                    document.getElementById('rb').src = 'images/' + item.image;
+                }
+            });
+        }).fail(function() {
+            reject('資料載入失敗');
+        });
+    }
+
     // Initial load
     initializeCoinSlider();
+    loadIntroduction();
 
     // Reinitialize Coin Slider on window resize
     $(window).resize(function() {
         initializeCoinSlider();
-    });
-
-    document.querySelectorAll('.carousel-item').forEach(item => {
-        item.addEventListener('click', () => {
-            console.log('Item clicked!');
-        });
     });
 });
