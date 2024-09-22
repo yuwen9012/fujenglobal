@@ -40,7 +40,7 @@
             
             <div class="flex-grow-1 text-center">
                 <div class="d-flex justify-content-center align-items-center">
-                    <a href="study-abroad.php"><i class="fas fa-arrow-left"></i></a>
+                    <a href="javascript:history.back()"><i class="fas fa-arrow-left"></i></a>
                     <span class="navbar-text mx-2">FAQ</span>
                 </div>
             </div>
