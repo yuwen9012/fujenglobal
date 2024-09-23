@@ -5,11 +5,11 @@
     $dataSheet = $_GET['table'];
     $data = array();
 
-    if ($dataSheet == 'home_carousel') {
-        $query = "SELECT * FROM $dataSheet WHERE `status` = '使用中' ORDER BY `num_order` ASC";
+    if (in_array($dataSheet, array('home_carousel', 'study_abroad_scorer', 'study_abroad_carousel'))) {
+        $query = "SELECT * FROM `$dataSheet` WHERE `status` = '使用中' ORDER BY `num_order` ASC";
     }
     else {
-        $query = "SELECT * FROM $dataSheet";
+        $query = "SELECT * FROM `$dataSheet`";
     }
 
     $result = $mysqli->query($query);
