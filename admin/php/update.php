@@ -7,16 +7,18 @@
     $writing = $_POST['writing'];
 
     $insert = "INSERT INTO `$dataSheet` (`title`, `content`, `update_user`, `update_time`) 
-                                 VALUES ('$title', '$writing', '郭政億', NOW())";
+                                 VALUES (?, ?, '郭政億', NOW())";
     
-    $result = $mysqli->query($insert);
-    
-    if ($result) {
+    $stmt = $mysqli->prepare($insert);
+    $stmt->bind_param('ss', $title, $writing);
+
+    if ($stmt->execute()) {
         echo 'success';
     }
     else {
         echo 'fail';
     }
+    $stmt->close();
     $mysqli->close();
 
 ?>

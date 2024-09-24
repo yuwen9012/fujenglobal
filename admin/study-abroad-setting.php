@@ -75,11 +75,13 @@
                                         最後更新時間: <span id="lastUpdatedTime"></span>
                                     </div>
                                 </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-primary" id="introductionSave">儲存</button>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="scorer" role="tabpanel" aria-labelledby="scorer-tab">
-                            
-                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addModal">新增</button>
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addScorerModal">新增</button>
                             
                             <table id="scorerTable"
                                     class="table"
@@ -101,8 +103,7 @@
                             </table>
                         </div>
                         <div class="tab-pane fade" id="carousel" role="tabpanel" aria-labelledby="carousel-tab">
-                        
-                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addModal">新增</button>
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addCarouselModal">新增</button>
                             
                             <table id="carouselTable"
                                     class="table"
@@ -121,10 +122,93 @@
                                     </tr>
                                 </thead>
                             </table>
-
                         </div>
                     </div>
                 <div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addScorerModal" tabindex="-1" aria-labelledby="addScorerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addScorerModalLabel">新增計分器資料</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="addImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="addImage">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="addNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addNumber">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="addYOption" name="addHidden" value="Y"><label for="addYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="addNOption" name="addHidden" value="N" checked><label for="addNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-scorer">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editScorerModal" tabindex="-1" aria-labelledby="editScorerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editScorerModalLabel">編輯輪播牆圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="cid">
+                    <div class="row mb-3">
+                        <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="editImage">
+                            <span id="fileLabel" class="text-muted"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="editNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editNumber">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="editYOption" name="editHidden" value="Y"><label for="editYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="editNOption" name="editHidden" value="N" checked><label for="editNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="edit-scorer">儲存</button>
+                </div>
             </div>
         </div>
     </div>

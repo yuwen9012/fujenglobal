@@ -2,6 +2,69 @@ window.onload = function() {
     loadIntroduction();
     loadTableData('study_abroad_scorer');
     loadTableData('study_abroad_carousel');
+
+    $('#introductionSave').on('click', function(event) {
+        const title = document.getElementById('title').value;
+        const writing = document.getElementById('writing').value;
+        
+        $.ajax({
+            url: './php/update.php',
+            type: 'POST',
+            data: {
+                'dataSheet': 'study_abroad_introduction_text',
+                'title': title,
+                'writing': writing,
+            },
+            success: function(response) {
+                if (response == 'success') {
+                    window.location.href = 'study-abroad-setting.php';
+                }
+                else {
+                    alert(response);
+                }
+            },
+            error: function() {
+                console.error('錯誤');
+            }
+        });
+    });
+
+    // 點擊編輯
+    $(document).on('click', '.editScorerBtn ', function(event) {
+        event.preventDefault();
+        var id = $(this).data('id');
+        $('#editScorerModal').modal('show');
+
+        $.ajax({
+            url: './php/get_row_data.php',
+            type: 'POST',
+            data: {
+                id: id,
+                dataSheet: 'study_abroad_scorer',
+            },
+            success: function(data) {
+                var json = JSON.parse(data);
+
+                $('#cid').val(json.id);
+                $('#editName').val(json.name);
+                $('#editNumber').val(json.quantity);
+
+                if (json.image) {
+                    $('#fileLabel').text('當前圖片: ' + json.image);
+                }
+
+                if (json.hidden === 'Y') {
+                    $('#editYOption').prop('checked', true);
+                }
+                else {
+                    $('#editNOption').prop('checked', true);
+                }
+            },
+            error: function() {
+                console.error('錯誤');
+            }
+        })
+    });
 }
 
 function loadIntroduction() {
@@ -202,8 +265,8 @@ function loadTableData(dataSheet) {
                     title: '操作',
                     formatter: function (value, row) {
                         var id = row.id;
-                        var button = `<a data-id="` + id + `" class="editBtn fw-semibold text-decoration-none" role="button">編輯</a>
-                                    <br><a data-id="` + id + `" class="deleteBtn text-danger fw-semibold text-decoration-none" role="button">刪除</a>`;
+                        var button = `<a data-id="` + id + `" class="editScorerBtn fw-semibold text-decoration-none" role="button">編輯</a>
+                                    <br><a data-id="` + id + `" class="deleteScorerBtn text-danger fw-semibold text-decoration-none" role="button">刪除</a>`;
                         return button;
                     },
                     cellStyle: function(value, row, index) {
