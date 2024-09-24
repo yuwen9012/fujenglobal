@@ -31,7 +31,7 @@
             dataType: 'json',
             success: function(data) {
                 if (data.success) {
-                    window.location.href = './home.php';
+                    window.location.href = './home-setting.php';
                 } else {
                     $('#errorMessage').text(data.message);
                 }
