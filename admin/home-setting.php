@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="addImage" class="col-md-2 form-label">連結</label>
+                        <label for="addLink" class="col-md-2 form-label">連結</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="addLink">
                         </div>
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="addImage" class="col-md-2 form-label">連結</label>
+                        <label for="editLink" class="col-md-2 form-label">連結</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="editLink">
                         </div>
