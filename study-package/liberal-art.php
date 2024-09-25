@@ -130,7 +130,8 @@
                     <p class="mt-3 fw-semibold">Department of History:</p>
                     <p class="my-3">Diplomatic History of 20th-Century Iran (EMI course): Discussing the diplomatic history of Iran as the foundation of Iran’s contemporary foreign affairs.</p>
                     <div class="collapse" id="collapseLiberCsd">
-                        <p class="my-3">Reading and Discussion of U.S. History (EMI course): Discussing various topics and issues in U.S. history. English for Historical Study (EMI course): Teaching students to read and write about history in English.</p>
+                        <p class="my-3">Reading and Discussion of U.S. History (EMI course): Discussing various topics and issues in U.S. history.</p>
+                        <p class="my-3">English for Historical Study (EMI course): Teaching students to read and write about history in English.</p>
                         <p class="mt-3 fw-semibold">Department of Chinese Literature:</p>
                         <p class="my-3">Four Books (EMI course): Discussing China’s Four classic works in English. Seminar of Sinological English (EMI course): Reading and studying the English works of Sinology.</p>
                             <p class="mt-3 fw-semibold">Other Feature Courses Teaching in Chinese</p>
