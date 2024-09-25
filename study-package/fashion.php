@@ -88,7 +88,6 @@
                     <p class="my-3">3. Cultural assets and innovative applications</p>
                     <p class="my-3">4. Fashion Curation and Communication</p>
                     <p class="my-3">5. New technology media and applications</p>
-                    <p class="my-3">6. Brand Practical case study and Management</p>
                 </div>
             </div>
             <div class="col-md-6">
