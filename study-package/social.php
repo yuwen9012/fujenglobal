@@ -1,5 +1,5 @@
 <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
-    <h3 class="my-3 fw-bolder">College of Science & social</h3>
+    <h3 class="my-3 fw-bolder">College of Social Science</h3>
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
