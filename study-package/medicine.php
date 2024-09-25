@@ -78,7 +78,7 @@
     <div class="my-5" id="features-medicine">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="images/study-package/medicine/medicine2.png" class="container-fluid">
+                <img src="images/study-package/medicine/medicine2.jpg" class="container-fluid">
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Features</h3>
@@ -121,7 +121,7 @@
     <div class="my-5" id="csd-medicine">
         <div class="row align-items-start">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="images/study-package/medicine/medicine4.jpg" class="container-fluid">
+                <img src="images/study-package/medicine/medicine4.png" class="container-fluid">
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Course Structure & Description</h3>
@@ -265,7 +265,7 @@
                 </div>    
             </div>
             <div class="col-md-6">
-                <img src="images/study-package/medicine/medicine5.png" class="container-fluid">
+                <img src="images/study-package/medicine/medicine5.jpg" class="container-fluid">
             </div>
         </div>
     </div>
