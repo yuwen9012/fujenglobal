@@ -120,8 +120,8 @@
                         </ul>
                         <ul  class="collapse" id="collapseLawLo">
                             <li>
-                                <p class="my-3 fw-semibold mb-0">Professional Ethics and Holistic Education</p>
-                                <p>We will attach importance to legal ethics and emphasize the maintenance of human rights and the practice of fairness and justice. More efforts will be made to promote the concept of human rights and strengthen the study of legal services, so as to implement the education of an all-round personality devoted to care for the society and serving the people.</p>
+                                <p class="my-3 fw-semibold mb-0">International Outlook</p>
+                                <p>In order to cultivate legal talent with a global vision, we will promote curriculum maps with law courses taught in English, and encourage students to engage in international exchange experiences along with a multi-dimensional learning activities in our college.</p>
                             </li>
                         </ul>
                     </div>
