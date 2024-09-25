@@ -203,7 +203,7 @@
                         <li class="my-3">The Department of Information Management has four graduate research laboratories, five undergraduate project laboratories, one main server room, one departmental server room, and three specialized classrooms.</li>
                         <li class="my-3">The main server resources include VMWare cloud virtual machines for students' project hosting needs, GPU workstations (equipped with graphics cards, either DUAL RTX2080 Ti or ROG STRIX RTX3070-O8G-GAMING), five high-end GPU servers (each equipped with Nvidia RTX8000 48GB, 5 units) for research involving image recognition or advanced computation, as well as other hardware resources such as smart wearable devices, VR equipment, Raspberry Pi, etc.</li>
                         <p class="my-3">Non-physical Resources</p>
-                        <li class="my-3">•	There are 10 full-time teaching assistants providing teaching support and tutoring services to students on core subjects including Accounting, Statistics, Calculus, and Economics.</li>
+                        <li class="my-3">There are 10 full-time teaching assistants providing teaching support and tutoring services to students on core subjects including Accounting, Statistics, Calculus, and Economics.</li>
                     </div>
                     <a id="read-more-link-Ma-rf" data-bs-toggle="collapse" href="#collapseMaRf" role="button" aria-expanded="false" aria-controls="collapseMaRf">Read more...</a>
                 </div>    

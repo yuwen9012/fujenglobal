@@ -89,7 +89,7 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Features</h3>
                 <div class="justify-text">
-                    <div class="continueDecimal">
+                    <div class="continueDecimal" id="collapseForeiFeatu">
                         <ul>
                             <li>
                                 Student-centered and AI-enhanced language teaching and cross-cultural learning
@@ -169,7 +169,7 @@
             <div class="col-md-6">
                 <h3 class="my-3 fw-semibold">Academic Module & Study Package</h3>
                 <div class="justify-text">
-                    <div class="continueDecimal">
+                    <div class="continueDecimal" id="collapseForeiAmsp">
                         <ul>
                             <li>
                                 CFLL Feature Courses: from AI-Assisted Training of Foreign Language, iCT Skills, Cross-Cutlural Communication to Professional Communication and Research in Related Fields of Specialization in Studies of Language, Literature and Culture
