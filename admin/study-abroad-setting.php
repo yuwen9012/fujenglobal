@@ -138,28 +138,28 @@
                 </div>
                 <div class="modal-body">
                     <div class="row mb-3">
-                        <label for="addName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <label for="addScoName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="addName">
+                            <input type="text" class="form-control" id="addScoName">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="addImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <label for="addScoImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="file" class="form-control" id="addImage">
+                            <input type="file" class="form-control" id="addScoImage">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="addNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
+                        <label for="addScoNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="addNumber">
+                            <input type="text" class="form-control" id="addScoNumber">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="addYOption" name="addHidden" value="Y"><label for="addYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="addNOption" name="addHidden" value="N" checked><label for="addNOption">否</label>
+                            <input type="radio" class="me-2" id="addScoYOption" name="addScoHidden" value="Y"><label for="addScoYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="addScoNOption" name="addScoHidden" value="N" checked><label for="addScoNOption">否</label>
                         </div>
                     </div>
                 </div>
@@ -178,36 +178,108 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <input type="text" class="d-none" id="cid">
+                    <input type="text" class="d-none" id="sid">
                     <div class="row mb-3">
-                        <label for="editName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <label for="editScoName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="editName">
+                            <input type="text" class="form-control" id="editScoName">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="editImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <label for="editScoImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="file" class="form-control" id="editImage">
-                            <span id="fileLabel" class="text-muted"></span>
+                            <input type="file" class="form-control" id="editScoImage">
+                            <span id="fileScoLabel" class="text-muted"></span>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="editNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
+                        <label for="editScoNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="editNumber">
+                            <input type="text" class="form-control" id="editScoNumber">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="editYOption" name="editHidden" value="Y"><label for="editYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="editNOption" name="editHidden" value="N" checked><label for="editNOption">否</label>
+                            <input type="radio" class="me-2" id="editScoYOption" name="editScoHidden" value="Y"><label for="editScoYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="editScoNOption" name="editScoHidden" value="N" checked><label for="editScoNOption">否</label>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-success" id="edit-scorer">儲存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addCarouselModal" tabindex="-1" aria-labelledby="addCarouselModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addCarouselModalLabel">新增輪播牆圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addCarName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addCarName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="addCarImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="addCarImage">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="addCarYOption" name="addCarHidden" value="Y"><label for="addCarYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="addCarNOption" name="addCarHidden" value="N" checked><label for="addCarNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-carousel">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editCarouselModal" tabindex="-1" aria-labelledby="editCarouselModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editCarouselModalLabel">編輯輪播牆圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="cid">
+                    <div class="row mb-3">
+                        <label for="editCarName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editCarName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="editCarImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="editCarImage">
+                            <span id="fileCarLabel" class="text-muted"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="editCarYOption" name="editCarHidden" value="Y"><label for="editCarYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="editCarNOption" name="editCarHidden" value="N" checked><label for="editCarNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="edit-carousel">儲存</button>
                 </div>
             </div>
         </div>

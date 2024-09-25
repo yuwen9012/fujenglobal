@@ -6,15 +6,21 @@
         die('名稱是必填的。');
     }
 
+    $dataSheet = $_POST['dataSheet'];
     $id = $_POST['id'];
     $name = $_POST['name'];
     $hidden = $_POST['hidden'];
 
-    $update = "UPDATE `home_carousel` SET `name` = '$name', 
-                                          `hidden` = '$hidden', 
-                                          `update_user` = '郭政億', 
-                                          `update_time` = NOW()";
+    $update = "UPDATE `$dataSheet` SET `name` = '$name', 
+                                       `hidden` = '$hidden', 
+                                       `update_user` = '郭政億', 
+                                       `update_time` = NOW()";
                                         
+
+    if (isset($_POST['quantity'])) {
+        $quantity = $_POST['quantity'];
+        $update .= ", `quantity` = '$quantity'";
+    }
 
     if (isset($_POST['link'])) {
         $link = $_POST['link'];
