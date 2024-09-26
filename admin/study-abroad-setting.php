@@ -150,16 +150,22 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="addScoNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
-                        <div class="col-md-10">
+                        <div class="col-md-2">
+                            <label for="addScoNumber" class="form-label">數字<span class="text-danger">*</span></label>
+                            <input type="checkbox" class="form-check-input me-2 fs-7" id="addIntervalCheckbox"><label for="addIntervalCheckbox" class="fs-7">區間</label>
+                        </div>
+                        <div class="col-md-10" id="addNumber1">
                             <input type="text" class="form-control" id="addScoNumber">
+                        </div>
+                        <div class="col-md-5 d-none" id="addNumber2">
+                            <input type="text" class="form-control" id="addScoNumber2">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="addScoYOption" name="addScoHidden" value="Y"><label for="addScoYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="addScoNOption" name="addScoHidden" value="N" checked><label for="addScoNOption">否</label>
+                            <input type="radio" class="form-check-input me-2" id="addScoYOption" name="addScoHidden" value="Y"><label for="addScoYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="addScoNOption" name="addScoHidden" value="N" checked><label for="addScoNOption">否</label>
                         </div>
                     </div>
                 </div>
@@ -193,9 +199,15 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="editScoNumber" class="col-md-2 form-label">數字<span class="text-danger">*</span></label>
-                        <div class="col-md-10">
+                        <div class="col-md-2">
+                            <label for="editScoNumber" class="form-label">數字<span class="text-danger">*</span></label>
+                            <input type="checkbox" class="form-check-input me-2 fs-7" id="editIntervalCheckbox"><label for="editIntervalCheckbox" class="fs-7">區間</label>
+                        </div>
+                        <div class="col-md-10" id="editNumber1">
                             <input type="text" class="form-control" id="editScoNumber">
+                        </div>
+                        <div class="col-md-5 d-none" id="editNumber2">
+                            <input type="text" class="form-control" id="editScoNumber2">
                         </div>
                     </div>
                     <div class="row mb-3">

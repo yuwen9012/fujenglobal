@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2024-09-23 07:49:15
+-- 產生時間： 2024-09-26 09:15:12
 -- 伺服器版本： 10.4.28-MariaDB
 -- PHP 版本： 8.2.4
 
@@ -31,7 +31,7 @@ CREATE TABLE `study_abroad_scorer` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
-  `quantity` int(11) NOT NULL,
+  `quantity` varchar(20) NOT NULL,
   `hidden` varchar(10) NOT NULL,
   `num_order` int(11) NOT NULL,
   `status` varchar(10) NOT NULL,
@@ -44,12 +44,12 @@ CREATE TABLE `study_abroad_scorer` (
 --
 
 INSERT INTO `study_abroad_scorer` (`id`, `name`, `image`, `quantity`, `hidden`, `num_order`, `status`, `update_user`, `update_time`) VALUES
-(1, 'Colleges', 'college.png', 12, 'N', 1, '使用中', '郭政億', '2024-09-20 13:58:37'),
-(2, 'Bachelor\'s Degrees', 'degree.png', 53, 'N', 2, '使用中', '郭政億', '2024-09-20 13:58:38'),
-(3, 'International Partners', 'school.png', 463, 'N', 3, '使用中', '郭政億', '2024-09-20 13:58:38'),
-(4, 'Student Clubs', 'student.png', 83, 'N', 4, '使用中', '郭政億', '2024-09-20 13:58:38'),
-(5, 'Asia Univeristy Ranking 2024', 'ranking.png', 301, 'N', 5, '使用中', '郭政億', '2024-09-20 13:58:38'),
-(6, 'Alumni Association', 'association.png', 49, 'N', 6, '使用中', '郭政億', '2024-09-20 13:58:38');
+(1, 'Colleges', 'college.png', '12', 'N', 1, '使用中', '郭政億', '2024-09-25 17:12:26'),
+(2, 'Bachelor\'s Degrees', 'degree.png', '53', 'N', 2, '使用中', '郭政億', '2024-09-25 17:12:26'),
+(3, 'International Partners', 'school.png', '463', 'N', 3, '使用中', '郭政億', '2024-09-25 17:12:26'),
+(4, 'Student Clubs', 'student.png', '83', 'N', 4, '使用中', '郭政億', '2024-09-25 17:12:26'),
+(5, 'Asia Univeristy Ranking 2024', 'ranking.png', '301-350', 'N', 5, '使用中', '郭政億', '2024-09-26 14:14:26'),
+(6, 'Alumni Association', 'association.png', '49', 'N', 6, '使用中', '郭政億', '2024-09-26 11:46:53');
 
 --
 -- 已傾印資料表的索引

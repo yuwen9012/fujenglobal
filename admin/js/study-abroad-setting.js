@@ -7,29 +7,32 @@ window.onload = function() {
 document.addEventListener('DOMContentLoaded', function() {
     // 文字編輯儲存
     $('#introductionSave').on('click', function(event) {
-        const title = document.getElementById('title').value;
-        const writing = document.getElementById('writing').value;
-        
-        $.ajax({
-            url: './php/update.php',
-            type: 'POST',
-            data: {
-                'dataSheet': 'study_abroad_introduction_text',
-                'title': title,
-                'writing': writing,
-            },
-            success: function(response) {
-                if (response == 'success') {
-                    loadIntroduction();
+        if (window.confirm('確定編輯?')) {
+            const title = document.getElementById('title').value;
+            const writing = document.getElementById('writing').value;
+            
+            $.ajax({
+                url: './php/update.php',
+                type: 'POST',
+                data: {
+                    'dataSheet': 'study_abroad_introduction_text',
+                    'title': title,
+                    'writing': writing,
+                },
+                success: function(response) {
+                    if (response == 'success') {
+                        alert('已成功儲存!');
+                        loadIntroduction();
+                    }
+                    else {
+                        alert(response);
+                    }
+                },
+                error: function() {
+                    console.error('錯誤');
                 }
-                else {
-                    alert(response);
-                }
-            },
-            error: function() {
-                console.error('錯誤');
-            }
-        });
+            });
+        }
     });
 
     // 新增計分器資料
@@ -42,11 +45,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const number = document.getElementById('addScoNumber').value;
         const hidden = document.querySelector('input[name="addScoHidden"]:checked').value;
 
+        const checkbox = document.getElementById('addIntervalCheckbox');
+        let quantity;
+        if (checkbox.checked) {
+            const number2 = document.getElementById('addScoNumber2').value;
+            quantity = String(number) + '-' + String(number2);
+        }
+        else {
+            quantity = String(number);
+        }
+
         const form_data = new FormData();
         form_data.append('dataSheet', 'study_abroad_scorer');
         form_data.append('name', name);
         form_data.append('image', image);
-        form_data.append('quantity', number);
+        form_data.append('quantity', quantity);
         form_data.append('hidden', hidden);
 
         $.ajax({
@@ -90,7 +103,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 $('#sid').val(json.id);
                 $('#editScoName').val(json.name);
-                $('#editScoNumber').val(json.quantity);
+
+                const number1 = document.getElementById('editNumber1');
+                const number2 = document.getElementById('editNumber2');
+
+                if (json.quantity.includes('-')) {
+                    const parts = json.quantity.split('-');
+                
+                    $('#editScoNumber').val(parseFloat(parts[0]));
+                    $('#editScoNumber2').val(parseFloat(parts[1]));
+
+                    number1.classList.remove('col-md-10');
+                    number1.classList.add('col-md-5');
+                    number2.classList.remove('d-none');
+
+                    document.getElementById('editIntervalCheckbox').checked = true;
+                }
+                else {
+                    $('#editScoNumber').val(json.quantity);
+
+                    number1.classList.remove('col-md-5');
+                    number1.classList.add('col-md-10');
+                    number2.classList.add('d-none');
+
+                    document.getElementById('editIntervalCheckbox').checked = false;
+                }
 
                 if (json.image) {
                     $('#fileScoLabel').text('當前圖片: ' + json.image);
@@ -117,11 +154,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const number = document.getElementById('editScoNumber').value;
         const hidden = document.querySelector('input[name="editScoHidden"]:checked').value;
 
+        const checkbox = document.getElementById('editIntervalCheckbox');
+        let quantity;
+        if (checkbox.checked) {
+            const number2 = document.getElementById('editScoNumber2').value;
+            quantity = String(number) + '-' + String(number2);
+        }
+        else {
+            quantity = String(number);
+        }
+
         const form_data = new FormData();
         form_data.append('dataSheet', 'study_abroad_scorer');
         form_data.append('id', id);
         form_data.append('name', name);
-        form_data.append('quantity', number);
+        form_data.append('quantity', quantity);
         form_data.append('hidden', hidden);
 
         if (image !== undefined) {
@@ -180,6 +227,36 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         else {
             return null;
+        }
+    });
+
+    document.getElementById('addIntervalCheckbox').addEventListener('change', function() {
+        const number1 = document.getElementById('addNumber1');
+        const number2 = document.getElementById('addNumber2');
+        if (this.checked) {
+            number1.classList.remove('col-md-10');
+            number1.classList.add('col-md-5');
+            number2.classList.remove('d-none');
+        }
+        else {
+            number1.classList.remove('col-md-5');
+            number1.classList.add('col-md-10');
+            number2.classList.add('d-none');
+        }
+    });
+
+    document.getElementById('editIntervalCheckbox').addEventListener('change', function() {
+        const number1 = document.getElementById('editNumber1');
+        const number2 = document.getElementById('editNumber2');
+        if (this.checked) {
+            number1.classList.remove('col-md-10');
+            number1.classList.add('col-md-5');
+            number2.classList.remove('d-none');
+        }
+        else {
+            number1.classList.remove('col-md-5');
+            number1.classList.add('col-md-10');
+            number2.classList.add('d-none');
         }
     });
 

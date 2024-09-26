@@ -9,3 +9,7 @@
 .table, .table th, .table td {
     background-color: transparent !important;
 }
+
+.fs-7 {
+    font-size: 0.8rem;
+}
