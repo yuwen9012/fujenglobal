@@ -28,6 +28,7 @@
 
     <!-- JS -->
     <script type="text/javascript" src="js/study-abroad.js"></script>
+    <script type="text/javascript" src="js/jquery.rwdImageMaps.js"></script>
 
     <title>Fu Jen Global</title>
 </head>
@@ -49,8 +50,8 @@
     <div class="container-fluid introduction-block">
         <div class="row">
             <div class="col-lg-6 p-5">
-                <h2 class="fw-bolder">Program Introduction</h2>
-                <p class="fw-semibold" id="introduction-text">Fu Jen Catholic University (FJCU) is the leading private university in Taiwan and is featured in the THE Impact Rankings for Sustainable Development Goals (SDGs), committed to enhancing social inclusion and environmental conservation. While studying at FJCU, you can immerse yourself in the richness of traditional Chinese culture, gain a profound understanding of Taiwan's advanced technology sector, appreciate the beauty of Taiwan's scenery, and engage in international volunteer activities.</p>
+                <h2 class="fw-bolder" id="introduction-title"></h2>
+                <p class="fw-semibold" id="introduction-text"></p>
                 <div>
                     <a href="program-introduction.php" class="btn-program"><i class="fas fa-location-arrow"></i></a>
                     <a href="how-to-apply.php" class="btn-bounce fw-semibold">Apply NOW !</a>
@@ -73,70 +74,7 @@
 
     <div class="container scorer-block">
         <div class="row" id="scorer">
-            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
-                <div class="image-container">
-                    <img src="images/college.png" class="d-block mx-auto" alt="Colleges">
-                </div>
-                <h4 class="fw-semibold py-3">Colleges</h4>
-                <div class="college-score-container">
-                    <div class="score-display fw-semibold" id="college-score"></div>
-                </div>
-            </div>
 
-            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
-                <div class="image-container">
-                    <img src="images/degree.png" class="d-block mx-auto" alt="Bachelor's Degrees">
-                </div>
-                <h4 class="fw-semibold py-3">Bachelor's Degrees</h4>
-                <div class="degree-score-container">
-                    <div class="score-display fw-semibold" id="degree-score"></div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
-                <div class="image-container">
-                    <img src="images/school.png" class="d-block mx-auto" alt="International Partners">
-                </div>
-                <h4 class="fw-semibold py-3">International Partners</h4>
-                <div class="partner-score-container">
-                    <div class="score-display fw-semibold" id="partner-score"></div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
-                <div class="image-container">
-                    <img src="images/student.png" class="d-block mx-auto" alt="Student Clubs">
-                </div>
-                <h4 class="fw-semibold py-3">Student Clubs</h4>
-                <div class="student-score-container">
-                    <div class="score-display fw-semibold" id="student-score"></div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
-                <div class="image-container">
-                    <img src="images/ranking.png" class="d-block mx-auto" alt="Asia Univeristy Ranking">
-                </div>
-                <h4 class="fw-semibold py-3">Asia Univeristy Ranking 2024</h4>
-                <div class="ranking-score-container">
-                    <div class="score-display fw-semibold">
-                        <span class="fs-3" id="ranking-score1"></span>
-                        <span class="fs-4">—</span>
-                        <span class="fs-3" id="ranking-score2"></span>
-                        <span class="fs-4">th</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4 col-xxl-2 text-center my-5">
-                <div class="image-container">
-                    <img src="images/association.png" class="d-block mx-auto" alt="Alumni Association">
-                </div>
-                <h4 class="fw-semibold py-3">Alumni Association</h4>
-                <div class="association-score-container">
-                    <div class="score-display fw-semibold" id="association-score"></div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -232,17 +170,11 @@
         <div class="row">
             <div class="col-md-6 d-flex align-items-center justify-content-md-end justify-content-center">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <div class="carousel-indicators" id="carouselIndicators">
+                       
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/SA黃色方塊1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/SA黃色方塊2.jpg" class="d-block w-100" alt="...">
-                        </div>
+                    <div class="carousel-inner" id="carouselInner">
+
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -265,7 +197,5 @@
     </div>
 
     <?php include 'footer.php'; ?>
-    
-    <script src="./js/jquery.rwdImageMaps.JS"></script>
 </body>
 </html>
