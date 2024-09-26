@@ -1,5 +1,5 @@
 <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
-    <h3 class="my-3 fw-bolder">College of Science & social</h3>
+    <h3 class="my-3 fw-bolder">College of Social Science</h3>
     
     <ul class="navbar-nav d-flex flex-row flex-wrap">
         <li class="nav-item m-1">
@@ -52,7 +52,7 @@
                         <li>1977: The Department of Sociology was divided into the Division of Sociology and the Division of Social Work.</li>
                         <li>1979: The Department of Law added the Division of Financial and Economic Law.</li>
                         <li>1980: The Graduate Institute of Law was established, offering a master's program.</li>
-                        <li>1981: The Division of Sociology and the Division of Social Work were reorganized into the Department of Sociology and the Department of Social Work, respectively.</li>
+                        <li>1981: The Division of Sociology and the Division of Social Work were reorganized into the Department of Sociology and the Department of Social Work.</li>
                         <li>1988: The Graduate Institute of Religious Studies was established.</li>
                         <li>1990: The Graduate Institute of Law established a doctoral program.</li>
                         <li>1992: The Graduate Institute of Economics and the Department of Religious Studies were established.</li>
@@ -111,9 +111,10 @@
                     <p class="my-3">Taiwan's population structure is rapidly aging, and the increasingly complex evolution of medical technology coupled with the rising awareness of patient rights has led to a surge in medical disputes. In response, our college aims to integrate resources from the colleges of Medicine, Law, and Social Sciences. By consolidating existing teaching resources and faculty, and for the first time introducing the CDPET (Chen Chong-Chun Memorial Trust for Promoting Medical-Patient Relationship Education) "Medical Dispute Care Phase Course" team, we offer the practical course "Practical Training in Medical Dispute Resolution."</p>
                     <div class="collapse" id="collapseSoAmsp">
                         <p class="my-3"> This program aims to cultivate specialized personnel in medical dispute mediation and promote compassionate mediation to foster harmony between medical practitioners and patients, and to ensure social stability. This credit program has been established with these goals in mind.</p>
-                        <p class="my-3 mb-0">Program Features:<br>Interdisciplinary approach across Medicine, Law, and Social Sciences.
-                        <br>Practical training workshops.
-                        <br>Training in compassionate communication.</p>
+                        <p class="my-3 mb-0">Program Features:</p>
+                        <li>Interdisciplinary approach across Medicine, Law, and Social Sciences.</li>
+                        <li>Practical training workshops.</li>
+                        <li>Training in compassionate communication.</li>
                         <p class="my-3 fw-semibold">USR and Social Engagement Course Cluster</p>
                         <p class="my-3">This integrates cross-departmental and cross-college courses related to the college's USR (University Social Responsibility) projects, encouraging students to engage in practical participation in USR fields.</p>
                     </div>

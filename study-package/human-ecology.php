@@ -271,11 +271,11 @@
             <div class="col-md-6 order-1 order-md-2">
                 <h3 class="my-3 fw-semibold">Faculty Information</h3>
                 <div class="justify-text">
-                    <p class="my-3">2 Chair Professors</p>
-                    <p class="my-3">3 Academic Distinguished Professors</p>
-                    <p class="my-3">10 Professors</p>
-                    <p class="my-3">15 Associate Professors</p>
-                    <p class="my-3">16 Assistant Professors</p>
+                    <li class="my-3">2 Chair Professors</li>
+                    <li class="my-3">3 Academic Distinguished Professors</li>
+                    <li class="my-3">10 Professors</li>
+                    <li class="my-3">15 Associate Professors</li>
+                    <li class="my-3">16 Assistant Professors</li>
                 </div>
             </div>
         </div>

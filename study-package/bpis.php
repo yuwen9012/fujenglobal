@@ -126,11 +126,13 @@
                                 Develop an appreciation of theory and its utility in the study and practice of International Relations
                             </li>
                             <li>
-                                 Improve critical thinking and writing skills
+                                Improve critical thinking and writing skills
                             </li>
                             <li>
                                 Demonstrate the ability to describe the social, political, and economic forces that influence social behavior and the global system
-                                Use knowledge of international affairs in a practical problem-solving way to address issues of immediate international concern.
+                            </li>
+                            <li>
+                                Use knowledge of international affairs in a practical problem-solving way to address issues of immediate international concern
                             </li>
                         </ul>
                         <p class="mt-3 fw-semibold">Global Business Case Analysis</p>

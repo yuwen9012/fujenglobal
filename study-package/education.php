@@ -236,14 +236,32 @@
 
     <div class="my-5" id="rf-education">
         <div class="row align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3 class="my-3 fw-semibold">Resources & Facilities</h3>
+                
             </div>
-            <div class="col-md-6">
-                <!--
+            <div class="col-md-3">
+                <img src="images/study-package/education/器材4.jpg" class="container-fluid p-0 m-0" alt="education Resources & Facilities">
+            </div>
+            <div class="col-md-2">
+                <img src="images/study-package/education/器材1.jpg" class="container-fluid p-0 m-0" alt="education Resources & Facilities">
+            </div>
+            <div class="col-md-2">
+                <img src="images/study-package/education/器材6.jpg" class="container-fluid p-0 m-0" alt="education Resources & Facilities">
+            </div>
+            <div class="col-md-2">
+                <img src="images/study-package/education/器材2.jpg" class="container-fluid p-0 m-0" alt="education Resources & Facilities">
+            </div>
+            <div class="col-md-2">
+                <img src="images/study-package/education/器材3.jpg" class="container-fluid p-0 m-0" alt="education Resources & Facilities">
+            </div>
+            
+            
+            <!--<div class="col-md-6">
+                
                 <img src="images/study-package/education/教育學院_resources.jpg" class="container-fluid" alt="education Resources & Facilities">
-                -->
-            </div>
+                
+            </div>-->
         </div>
     </div>
 
