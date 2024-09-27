@@ -100,4 +100,5 @@ html, body {
 
 .bootstrap-table th, .bootstrap-table td {
     text-align: center;
+    background-color: transparent !important;
 }
