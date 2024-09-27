@@ -29,6 +29,7 @@
 
     <!-- JS -->
     <script type="text/javascript" src="js/sidebar.js"></script>
+    <script type="module" src="js/how-to-apply-setting.js"></script>
 
     <title>後台系統</title>
 </head>
@@ -42,28 +43,197 @@
                 <div id="content" class="container rounded">
                     <ul class="nav nav-tabs mt-2">
                         <li class="nav-item">
-                            <a class="nav-link active" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">時程表</a>
+                            <a class="nav-link active" id="timeline-tab" data-bs-toggle="tab" href="#timeline" role="tab" aria-controls="timeline" aria-selected="true">時程表</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="scorer-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="scorer" aria-selected="false">申請資格</a>
+                            <a class="nav-link" id="qualification-tab" data-bs-toggle="tab" href="#qualification" role="tab" aria-controls="qualification" aria-selected="false">申請資格</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="" aria-selected="false">文件清單</a>
+                            <a class="nav-link" id="checklist-tab" data-bs-toggle="tab" href="#checklist" role="tab" aria-controls="checklist" aria-selected="false">文件清單</a>
                         </li>
                     </ul>
 
                     <div class="tab-content mt-3">
-                        <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-                            時程表
+                        <div class="tab-pane fade show active" id="timeline" role="tabpanel" aria-labelledby="timeline-tab">
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addTimelineModal">新增</button>
+                            
+                            <table id="timelineTable"
+                                    class="table"
+                                    data-toggle="table"
+                                    data-pagination="true"
+                                    data-page-size="10"
+                                    data-filter-control="true">
+                                <thead>
+                                    <tr>
+                                        <th data-field="id">編號</th>
+                                        <th data-field="item">項目</th>
+                                        <th data-field="hidden">隱藏</th>
+                                        <th data-field="num_order">排序</th>
+                                        <th data-field="manage">操作</th>
+                                    </tr>
+                                </thead>
+                            </table>
                         </div>
-                        <div class="tab-pane fade" id="scorer" role="tabpanel" aria-labelledby="scorer-tab">
-                            申請資格
+                        <div class="tab-pane fade" id="qualification" role="tabpanel" aria-labelledby="qualification-tab">
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addQualificationModal">新增</button>
+                            
+                            <table id="qualificationTable"
+                                    class="table"
+                                    data-toggle="table"
+                                    data-pagination="true"
+                                    data-page-size="10"
+                                    data-filter-control="true">
+                                <thead>
+                                    <tr>
+                                        <th data-field="id">編號</th>
+                                        <th data-field="item">項目</th>
+                                        <th data-field="hidden">隱藏</th>
+                                        <th data-field="num_order">排序</th>
+                                        <th data-field="manage">操作</th>
+                                    </tr>
+                                </thead>
+                            </table>
                         </div>
-                        <div class="tab-pane fade" id="" role="tabpanel" aria-labelledby="-tab">
-                            文件清單
+                        <div class="tab-pane fade" id="checklist" role="tabpanel" aria-labelledby="checklist-tab">
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addChecklistModal">新增</button>
+                            
+                            <table id="checklistTable"
+                                    class="table"
+                                    data-toggle="table"
+                                    data-pagination="true"
+                                    data-page-size="10"
+                                    data-filter-control="true">
+                                <thead>
+                                    <tr>
+                                        <th data-field="id">編號</th>
+                                        <th data-field="item">項目</th>
+                                        <th data-field="hidden">隱藏</th>
+                                        <th data-field="num_order">排序</th>
+                                        <th data-field="manage">操作</th>
+                                    </tr>
+                                </thead>
+                            </table>
                         </div>
                     </div>
                 <div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addQualificationModal" tabindex="-1" aria-labelledby="addQualificationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addQualificationModalLabel">新增申請資格資料</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addQuaItem" class="col-md-2 form-label">項目<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <textarea type="text" class="form-control" id="addQuaItem" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="form-check-input me-2" id="addQuaYOption" name="addQuaHidden" value="Y"><label for="addQuaYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="addQuaNOption" name="addQuaHidden" value="N" checked><label for="addQuaNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-qualification" data-sheet="how2apply_qualification">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editQualificationModal" tabindex="-1" aria-labelledby="editQualificationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editQualificationModalLabel">編輯申請資格資料</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="qid">
+                    <div class="row mb-3">
+                        <label for="editQuaItem" class="col-md-2 form-label">項目<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <textarea type="text" class="form-control" id="editQuaItem" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="form-check-input me-2" id="editQuaYOption" name="editQuaHidden" value="Y"><label for="editQuaYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="editQuaNOption" name="editQuaHidden" value="N" checked><label for="editQuaNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="edit-qualification" data-sheet="how2apply_qualification">儲存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addChecklistModal" tabindex="-1" aria-labelledby="addChecklistModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addChecklistModalLabel">新增文件清單資料</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addCheItem" class="col-md-2 form-label">項目<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <textarea type="text" class="form-control" id="addCheItem" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="form-check-input me-2" id="addCheYOption" name="addCheHidden" value="Y"><label for="addCheYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="addCheNOption" name="addCheHidden" value="N" checked><label for="addCheNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-checklist" data-sheet="how2apply_checklist">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editChecklistModal" tabindex="-1" aria-labelledby="editChecklistModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editChecklistModalLabel">編輯文件清單資料</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="cid">
+                    <div class="row mb-3">
+                        <label for="editCheItem" class="col-md-2 form-label">項目<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <textarea type="text" class="form-control" id="editCheItem" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="form-check-input me-2" id="editCheYOption" name="editCheHidden" value="Y"><label for="editCheYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="editCheNOption" name="editCheHidden" value="N" checked><label for="editCheNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="edit-checklist" data-sheet="how2apply_checklist">儲存</button>
+                </div>
             </div>
         </div>
     </div>
