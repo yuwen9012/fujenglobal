@@ -12,6 +12,9 @@
     <!-- 引入 Merriweather 字體 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap">
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -22,6 +25,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
     <link rel="stylesheet" href="css/how-to-apply.css">
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/how-to-apply.js"></script>
 
     <title>Fu Jen Global</title>
 </head>
@@ -82,42 +88,8 @@
         <h3 class="my-3 fw-bolder">Program Qualification</h3>
         <div id="container2">
             <div class="text-center">
-                <div class="row mx-auto" style="max-width: 90%;">
-                    <div class="col-md-3 text-center my-5 mb-0">
-                        <div class="circle-container">
-                            <div class="circle">1</div>
-                        </div>
-                        <div class="text-container">
-                            <h4 class="fw-normal py-3">Have a minimum GPA (grade point average) of 2.5 on a 4-point scale, or equivalent.</h4>
-                        </div>
-                    </div>
+                <div class="row mx-auto" id="program-qualification" style="max-width: 90%;">
 
-                    <div class="col-md-3 text-center my-5 mb-0">
-                        <div class="circle-container">
-                            <div class="circle">2</div>
-                        </div>
-                        <div class="text-container">
-                            <h4 class="fw-normal py-3">You should be a full-time student at your home institution during the application and study period.</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 text-center my-5 mb-0">
-                        <div class="circle-container">
-                            <div class="circle">3</div>
-                        </div>
-                        <div class="text-container">
-                            <h4 class="fw-normal py-3">Have completed at least one year of full-time study at your home university.</h4>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 text-center my-5 mb-0">
-                        <div class="circle-container">
-                            <div class="circle">4</div>
-                        </div>
-                        <div class="text-container">
-                            <h4 class="fw-normal py-3">Please refer to the program's individual Language Requirements.</h4>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -128,14 +100,8 @@
     <div class="container3">
         <h3 class="my-3 fw-bolder">Application Document Checklist</h3>
         <div class="checklist-container">
-            <ul class="checklist">
-            <li>Application Form</li>
-            <li>Complete academic transcripts</li>
-            <li>Recommendation letter from an instructor</li>
-            <li>Certificate of Enrollment (at your home university)</li>
-            <li>Information page from your passport</li>
-            <li>Proof of language proficiency (exemption: English native speaker)</li>
-            <li>Passport photo</li>
+            <ul class="checklist" id="checklist">
+
             </ul>
         </div>
     </div>
