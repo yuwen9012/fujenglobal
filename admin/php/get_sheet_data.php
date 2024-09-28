@@ -5,7 +5,7 @@
     $dataSheet = $_GET['table'];
     $data = array();
 
-    if (in_array($dataSheet, array('home_carousel', 'study_abroad_scorer', 'study_abroad_carousel', 'how2apply_timeline', 'how2apply_qualification', 'how2apply_checklist'))) {
+    if (in_array($dataSheet, array('home_carousel', 'study_abroad_scorer', 'study_abroad_carousel', 'how2apply_timeline', 'how2apply_qualification', 'how2apply_checklist', 'program_introduction_image'))) {
         $query = "SELECT * FROM `$dataSheet` WHERE `status` = '使用中' ORDER BY `num_order` ASC";
     }
     else {
