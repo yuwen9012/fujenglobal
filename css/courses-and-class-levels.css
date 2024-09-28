@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFFEFB;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------------*/
+/* 區塊標題 */
+h3 {
+    color: #0B3F61;
+    font-size: 26px;
+}
+
+
+.custom-bg {
+    background-color: pink;
+    color: white;
+  }
+
+.table-h{
+    background-color: #445C89 !important;
+    color: #fff !important; 
+}
+
+.table-h2{
+    background-color: #ECE1BF !important; 
+    color: #0B3F61 !important; 
+}
+
+.table th, .table td {
+    padding: 15px 10px;
+    border: 0.5px solid #fff;
+    border-radius: 5px; 
+}
+
+
+table:not(#table1) {
+    border-color: white;
+    border-collapse: separate;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table1-bg{
+    background-color: #FFFCF1 !important;
+}
+.table1-line{
+    border-left: 1.5px solid #dcdad5 !important;
+}
+
+#table1{ 
+   width: 60%;
+}
+
+
+
+
+/*開頭彩色線*/
+.green{
+    background-color: #AAC5A8 !important;
+}
+
+.orange{
+    background-color: #FFD79A !important;
+}
+
+.red{
+    background-color: #DB8181 !important;
+}
+
+.C-first{
+    width: 10px;
+    padding: 0 !important;
+}
