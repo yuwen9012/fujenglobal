@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="container">
+                <div class="container-winter">
                     <p class="season">Winter Quarter</p>
                     <p class="week">(12 weeks)</p>
                     <img class="image" src="images/冬.png" alt="winter">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="container">
+                <div class="container-summer">
                     <p class="season">Summer Quarter</p>
                     <p class="week">(12 weeks)</p>
                     <img class="image" src="images/夏.png" alt="summer">
@@ -86,7 +86,30 @@
 
     <div class="container2">
         <h3 class="my-3 fw-bolder">Class Hours</h3>
-        <div id="container2">
+        <div class="container-content">
+            <ul>
+                <span><li>15 hours per week, Monday to Friday, with morning and afternoon classes.</li></span>
+                <span><li>Class schedules are arranged by the CCLC office. No guarantee that students will always get the type of class they prefer.</li></span>
+                <span><li>If you wish to have an individual class or a smaller group, please contact us.</li></span>
+                <span><li>There are no make-up classes nor make refunds for any class interruption/cancellation caused by natural disasters (such as typhoons, earthquake, flooding, fire, etc)
+                        and/or insurmountable human failure (such as electric power failure, war, etc.).</li></span>
+                <br>
+                <span>Tuition Fees</span>
+                <br>
+                <a href="http://docs.lc.oie.fju.edu.tw/Curriculum/%E8%8B%B1%E6%96%87%E8%B2%BB%E7%94%A8.pdf" target="_blank">Regular Course and Fees</a>
+                <span><li>Tuition rates are quoted in NT Dollars and subject to change without notice.</li></span>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container3">
+        <h3 class="my-3 fw-bolder">Scholarships</h3>
+        <div class="container-content">
+            <span>Students may be eligible to apply for scholarships. Please visit the websites below for more information.</span>
+            <br><br>
+            <a href="https://www.studyintaiwan.org/scholarship" target="_blank">Study in Taiwan</a>
+            <br>
+            <a href="https://ois.moe.gov.tw/WEB/ois/Index.aspx" target="_blank">教育部國際及兩岸教育司 全國大專校院境外生生活資訊網</a>
         </div>
     </div>
 
