@@ -1,0 +1,122 @@
+/*與首頁相同部分*/
+/*-----------------------------------------------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFFEFB;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------------*/
+/* 區塊標題 */
+h3 {
+    color: #0B3F61;
+    font-size: 26px;
+}
+
+/* 第一區塊 */
+/*-----------------------------------------------------------------*/
+/* 外層容器(含標題) */
+.container1 {
+    max-width: 80%;
+    margin: 50px auto;
+    margin-top: 20px;
+}
+/* 內層藍區 */
+.container-title {
+    position: relative;
+    width: 1000px;
+    height: 40px;
+    top: 30px;
+    max-width: 100%;
+    margin: 30px auto;
+    background: #445C89;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    padding-top: 20px;
+}
+/* 內層黃區 */
+.container-season{
+    position: relative;
+    width: 1000px;
+    height: auto;
+    top: 30px;
+    max-width: 100%;
+    margin: 30px auto;
+    background: #FFFCF1;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    color: #0B3F61;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+/*四季文字*/
+.season{
+    color: #132548;
+    font-size: 20px;
+}
+/*四季圖示*/
+.image{
+    width: 100px;
+    height: auto;
+    margin: 70px;
+}
+/* 滑鼠滑過時增加亮度 */
+.image:hover {
+    filter: brightness(1.2); /* 將亮度設為 1.2 倍，值越大圖片越亮 */
+}
+/*日期*/
+.date{
+    display: flex;
+    color: #132548;
+    font-size: 14px;
+    margin-inline: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+/*第二區塊*/
+
+/*容器(含標題)*/
+.container2 {
+    max-width: 80%;
+    margin: 50px auto;
+}
