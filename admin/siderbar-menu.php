@@ -56,7 +56,7 @@
                 </div>
 
                 <li class="nav-item mt-auto">
-                    <a class="nav-link d-flex justify-content-center fw-bolder m-menu" href="#">
+                    <a class="nav-link d-flex justify-content-center fw-bolder m-menu" href="accounttable.php">
                         帳號管理
                     </a>
                 </li>
