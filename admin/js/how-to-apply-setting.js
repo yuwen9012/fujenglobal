@@ -98,6 +98,8 @@ export function loadTableData(dataSheet) {
     var url = './php/get_sheet_data.php?table=' + encodeURIComponent(dataSheet);
 
     $.getJSON(url, function(sqldata) {
+        var maxNumOrder = Math.max(...sqldata.map(item => item.num_order));
+
         var columns = [ 
             {
                 field: 'id',
@@ -154,8 +156,6 @@ export function loadTableData(dataSheet) {
         ];
 
         var tableID;
-
-        var maxNumOrder = Math.max(...sqldata.map(item => item.num_order));
 
         if (dataSheet == 'how2apply_timeline') {
             columns.push(

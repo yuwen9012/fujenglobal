@@ -29,6 +29,7 @@
 
     <!-- JS -->
     <script type="text/javascript" src="js/sidebar.js"></script>
+    <script type="module" src="js/program-introduction-setting.js"></script>
 
     <title>後台系統</title>
 </head>
@@ -44,20 +45,104 @@
                         <li class="nav-item">
                             <a class="nav-link active" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">圖檔</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="scorer-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="scorer" aria-selected="false">NULL</a>
-                        </li>
                     </ul>
 
                     <div class="tab-content mt-3">
                         <div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-                            圖檔
-                        </div>
-                        <div class="tab-pane fade" id="scorer" role="tabpanel" aria-labelledby="scorer-tab">
-                            NULL
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addImageModal">新增</button>
+                            
+                            <table id="imageTable"
+                                    class="table"
+                                    data-toggle="table"
+                                    data-pagination="true"
+                                    data-page-size="5"
+                                    data-filter-control="true">
+                                <thead>
+                                    <tr>
+                                        <th data-field="id">編號</th>
+                                        <th data-field="name">名稱</th>
+                                        <th data-field="image">圖片</th>
+                                        <th data-field="hidden">隱藏</th>
+                                        <th data-field="num_order">排序</th>
+                                        <th data-field="manage">操作</th>
+                                    </tr>
+                                </thead>
+                            </table>
                         </div>
                     </div>
                 <div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addImageModal" tabindex="-1" aria-labelledby="addImageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addImageModalLabel">新增圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addImaName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addImaName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="addImaImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="addImaImage">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="addImaYOption" name="addImaHidden" value="Y"><label for="addImaYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="addImaNOption" name="addImaHidden" value="N" checked><label for="addImaNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-image">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editImageModal" tabindex="-1" aria-labelledby="editImageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editImageModalLabel">編輯圖片</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="iid">
+                    <div class="row mb-3">
+                        <label for="editImaName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editImaName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="editImaImage" class="col-md-2 form-label">圖片<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="file" class="form-control" id="editImaImage">
+                            <span id="fileImaLabel" class="text-muted"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="radio" class="me-2" id="editImaYOption" name="editImaHidden" value="Y"><label for="editImaYOption">是</label>
+                            <input type="radio" class="ms-5 me-2" id="editImaNOption" name="editImaHidden" value="N" checked><label for="editImaNOption">否</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="edit-image">儲存</button>
+                </div>
             </div>
         </div>
     </div>

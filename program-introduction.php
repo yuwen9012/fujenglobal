@@ -19,10 +19,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
-    <link rel="stylesheet" href="css/study-package.css">
+    <link rel="stylesheet" href="css/program-introduction.css">
 
     <!-- JS -->
-    <script type="text/javascript" src="js/study-package.js"></script>
+    <script type="text/javascript" src="js/program-introduction.js"></script>
 
     <title>Fu Jen Global</title>
 </head>
@@ -43,35 +43,10 @@
     </nav>
     <?php include 'SA-links.php'; ?>
 
-     <div class="container-fluid introduction-block">
-        <div class="row">
-            <div class="col-md-1 left-section">
-            </div>
+    <div id="content-container"> 
 
-            <div class="col-md-10 center-section">
-                <img src="images/program1.jpg" alt="Description of the image" class="img-fluid">
-            </div>
-
-
-            <div class="col-md-1 right-section">
-            </div>
-        </div>
     </div>
 
-      <div class="container-fluid introduction-block">
-        <div class="row">
-            <div class="col-md-1 left-section">
-            </div>
-
-            <div class="col-md-10 center-section">
-                <img src="images/program2.jpg" alt="Description of the image" class="img-fluid">
-            </div>
-
-
-            <div class="col-md-1 right-section">
-            </div>
-        </div>
-    </div>
     <?php include 'footer.php'; ?>
 <body>
 </html>
