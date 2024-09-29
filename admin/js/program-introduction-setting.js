@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 儲存編輯
     $('#edit-image').on('click', function(event) {
-        const id = document.getElementById('cid').value;
+        const id = document.getElementById('iid').value;
         const name = document.getElementById('editImaName').value;
         const image = document.getElementById('editImaImage').files[0];
         const hidden = document.querySelector('input[name="editImaHidden"]:checked').value;
