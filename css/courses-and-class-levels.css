@@ -104,7 +104,7 @@ table:not(#table1) {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-}
+} 
 
 .container-content {
     position: relative;
