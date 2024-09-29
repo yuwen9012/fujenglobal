@@ -25,7 +25,18 @@
     if (isset($_POST['link'])) {
         $link = $_POST['link'];
         $target = $_POST['target'];
-        $update .= ", `link` = '$link', `target` = '$target'";
+        if ($link == 'null') {
+            $update .= ", `link` = $link";
+        }
+        else {
+            $update .= ", `link` = '$link'";
+        }
+        if ($target == 'null') {
+            $update .= ", `target` = $target";
+        }
+        else {
+            $update .= ", `target` = '$target'";
+        }
     }
 
     if (isset($_FILES['image']) && $_FILES['image']['error'] == UPLOAD_ERR_OK) {
