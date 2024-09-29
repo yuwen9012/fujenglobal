@@ -82,7 +82,7 @@
             <th class="table-h" colspan="2">Level</th>
             <th class="table-h">Mainly used Materials</th>
             <th class="table-h">Added Materials / References</th>
-            <th class="table-h">Term</th>
+            <th class="table-h" style="width: 150px;">Term</th>
             <th class="table-h">Compulsory Courses</th>
           </tr>
         </thead>
@@ -92,7 +92,7 @@
             <td>Elementary 1</td>
             <td>Modern Chinese 1 (L1-L10)</td>
             <td>Far East Everyday Chinese Book I / Speak Mandarin in Five Hundred Words</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter <br>(3 months)</td>
             <td>Huayu Enyin (Combined with General Courses)</td>
           </tr>
           <tr>
@@ -100,7 +100,7 @@
             <td>Elementary 2</td>
             <td>Modern Chinese 1 (L11-L20) / Modern Chinese 2 (L1-L4)</td>
             <td>Far East Everyday Chinese Book IIA / Speak Mandarin in One Thousand Words</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter <br>(3 months)</td>
             <td>Basic Conversation / TOCFL Listening and Reading Practice (Band A)</td>
           </tr>
           <tr>
@@ -108,7 +108,7 @@
             <td>Elementary 3</td>
             <td>Modern Chinese 2 (L5-L10)</td>
             <td>Far East Everyday Chinese Book IIB</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
             <td>Basic Conversation / TOCFL Listening and Reading Practice (Band A)</td>
           </tr>
           <tr>
@@ -116,7 +116,7 @@
             <td>Intermediate 1</td>
             <td>Modern Chinese 3 (L1-L10)</td>
             <td>Taiwan Today (L1-L7)</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
             <td rowspan="3">Modern Chinese Lexicography / Song Learning in Chinese / Fun Stories / Business Chinese / TOCFL Listening and Reading Practice (Band B)</td>
           </tr>
           <tr>
@@ -124,21 +124,21 @@
             <td>Intermediate 2</td>
             <td>Modern Chinese 3 (L11-L14)</td>
             <td>Taiwan Today (L8-L14)</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
          </tr>
           <tr>
             <td class="orange C-first"></td>
             <td>Intermediate 3</td>
             <td>Modern Chinese 4 (L1-L6)</td>
             <td>Far East Everyday Chinese Book III</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
          </tr>
           <tr>
             <td class="red C-first"></td>
             <td>Advanced 1-1 / Advanced 1-2</td>
             <td>The Roads Taken: Readings in Chinese Newspaper I / Textbook Advanced 1-1(L1-L8) Advanced 1-2 (L1-L15)</td>
             <td>Daily News Papers</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
             <td rowspan="3">Introduction of Taiwan History and Culture / Chinese Writing / Movie Appreciation / Business Chinese / Ted Talks</td>
           </tr>
           <tr>
@@ -146,14 +146,14 @@
             <td>Advanced 2</td>
             <td>Selected News by News Topics</td>
             <td>News Papers / News on the Internet</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
             </tr>
           <tr>
             <td class="red C-first"></td>
             <td>Advanced 3</td>
             <td>Selected Modern Chinese Essays</td>
             <td>Selected Contemporary/Advanced Short Stories / Thought and Society Articles from Newspapers and Magazines</td>
-            <td>One quarter (3 months)</td>
+            <td>One quarter  <br>(3 months)</td>
             </tr>
         </tbody>
       </table>
