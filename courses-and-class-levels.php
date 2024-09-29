@@ -32,7 +32,6 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
         <div class="container-fluid d-flex align-items-center">
             <a href="home.php"> 
@@ -46,28 +45,34 @@
             </div>
         </div>
     </nav>
+    
+
   <!-- General Courses 區塊 -->
   <section class="container my-5">
     <h3 class="my-3 fw-bolder">General Courses</h3>
     <p class="text-center">4-7 students in class, the CCLC office reserves the right to change the number of students per class.</p>
     
+    
     <!-- Class Type 表格 -->
-        <div class="table-responsive d-flex justify-content-center align-items-center">
-            <table class="table table-bordered" id="table1">
-                <thead>
-                    <tr class="text-center">
-                        <th colspan="3" class="table-h2">Class Type</th>
-                    </tr>
-                </thead>
-                <tbody class="text-center">
-                    <tr>
-                        <td class="table1-bg">4-7 students in class<br>10 hours per week</td>
-                        <td class="table1-bg table1-line">2-3 students in class<br>15 hours per week</td>
-                        <td class="table1-bg table1-line">Individual class<br>15 hours per week</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div class="d-flex flex-row flex-wrap justify-content-center container-1">
+        <div class="container-title col-lg-10 col-md-6 col-sm-6">
+            <p class="text-center fw-bolder">Class Type</p>
         </div>
+        <div class="container-content d-flex flex-row flex-wrap justify-content-around">
+            <div class="col">
+                <p>4-7 students in class</p>
+                <p>15 hours per week</p>
+            </div>
+            <div class="col">
+                <p>2-3 students in class</p>
+                <p>15 hours per week</p>
+            </div>
+            <div class="col">
+                <p>Individual class</p>
+                <p>15 hours per week</p>
+            </div>  
+        </div>   
+    </div>
 
     <p class="text-center" style="color:  #A73929;">*The students will have 15 hours per week. Individual classes are costomized.</p>
     <div class="table-responsive">
