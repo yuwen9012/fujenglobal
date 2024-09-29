@@ -53,7 +53,7 @@
     
     <!-- Class Type 表格 -->
         <div class="table-responsive d-flex justify-content-center align-items-center">
-            <table class="table" id="table1">
+            <table class="table table-bordered" id="table1">
                 <thead>
                     <tr class="text-center">
                         <th colspan="3" class="table-h2">Class Type</th>
