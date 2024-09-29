@@ -58,8 +58,43 @@
             <li class="nav-item fs-5 pt-3">
                 <a class="nav-link" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>
-            <li class="nav-item fs-5 pt-3">
-                <a class="nav-link" href="coming-soon.php">Chinese-Learning Student</a>
+            <li class="nav-item fs-5 pt-3 ">
+                <div class="row">
+                    <div class="col-10 pe-0">
+                        <a class="nav-link" href="">
+                            Chinese-Learning Student
+                        </a>
+                    </div>
+                    <div class="col-2 ps-0 d-flex align-items-end">
+                        <a class="nav-link w-100 d-flex justify-content-end no-underline" data-bs-toggle="collapse" href="#chineseLearningMenu" role="button" aria-expanded="false" aria-controls="chineseLearningMenu">
+                            <i class="fa fa-chevron-down"></i>
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="collapse" id="chineseLearningMenu">
+                    <ul class="navbar-nav flex-column collapse-menu">
+                        <li class="p-2 ps-5">
+                            <a class="dropdown-item" href="">Courses and class levels</a>
+                        </li>
+                        <li class="p-2 ps-5">
+                            <a class="dropdown-item" href="">Study Periods and Tuitions</a>
+                        </li>
+                        <li class="p-2 ps-5">
+                            <a class="dropdown-item" href="">Application</a>
+                        </li>
+                        <li class="p-2 ps-5">
+                            <a class="dropdown-item" href="">VISA</a>
+                        </li>
+                        <li class="p-2 ps-5">
+                            <a class="dropdown-item" href="">Download</a>
+                        </li>
+                        <li class="p-2 ps-5">
+                            <a class="dropdown-item" href="faq-chinese.php">Q&A</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
             <li class="nav-item fs-5 pt-3">
                 <a class="nav-link" href="coming-soon.php">Campus Life</a>
@@ -124,8 +159,28 @@
             <li class="nav-item px-2">
                 <a class="nav-link text-white" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>
-            <li class="nav-item px-2">
-                <a class="nav-link text-white" href="coming-soon.php">Chinese-Learning Student</a>
+            <li class="nav-item px-2 p-relative">
+                <a class="nav-link text-white" href="">Chinese-Learning Student</a>
+                <ul class="navbar-nav hover-menu shadow">
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="courses-and-class-levels.php">Courses and class levels</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="">Study Periods and Tuitions </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="">Application</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="">VISA</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="">Download</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="hover-item" href="faq-chinese.php">Q&A</a>
+                    </li>
+                </ul>
             </li>
             <li class="nav-item px-2">
                 <a class="nav-link text-white" href="coming-soon.php">Campus Life</a>

@@ -1,19 +1,39 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var collapseElement = document.getElementById('studyAbroadMenu');
-    var toggleElement = document.querySelector('[data-bs-toggle="collapse"]');
-    var iconDown = toggleElement.querySelector('.fa-chevron-down');
-    var iconUp = toggleElement.querySelector('.fa-chevron-up');
+    // Study Abroad Menu
+    var studyAbroadMenu = document.getElementById('studyAbroadMenu');
+    var studyAbroadToggle = document.querySelector('[data-bs-toggle="collapse"][href="#studyAbroadMenu"]');
+    var iconDownStudy = studyAbroadToggle.querySelector('.fa-chevron-down');
+    var iconUpStudy = studyAbroadToggle.querySelector('.fa-chevron-up');
 
     // 預設
-    iconUp.style.display = 'none';
-    
-    collapseElement.addEventListener('shown.bs.collapse', function () {
-        iconDown.style.display = 'none';
-        iconUp.style.display = 'inline';
+    iconUpStudy.style.display = 'none';
+
+    studyAbroadMenu.addEventListener('shown.bs.collapse', function () {
+        iconDownStudy.style.display = 'none';
+        iconUpStudy.style.display = 'inline';
     });
 
-    collapseElement.addEventListener('hidden.bs.collapse', function () {
-        iconDown.style.display = 'inline';
-        iconUp.style.display = 'none';
+    studyAbroadMenu.addEventListener('hidden.bs.collapse', function () {
+        iconDownStudy.style.display = 'inline';
+        iconUpStudy.style.display = 'none';
+    });
+
+    // Chinese Learning Menu
+    var chineseLearningMenu = document.getElementById('chineseLearningMenu');
+    var chineseLearningToggle = document.querySelector('[data-bs-toggle="collapse"][href="#chineseLearningMenu"]');
+    var iconDownChinese = chineseLearningToggle.querySelector('.fa-chevron-down');
+    var iconUpChinese = chineseLearningToggle.querySelector('.fa-chevron-up');
+
+    // 預設
+    iconUpChinese.style.display = 'none';
+
+    chineseLearningMenu.addEventListener('shown.bs.collapse', function () {
+        iconDownChinese.style.display = 'none';
+        iconUpChinese.style.display = 'inline';
+    });
+
+    chineseLearningMenu.addEventListener('hidden.bs.collapse', function () {
+        iconDownChinese.style.display = 'inline';
+        iconUpChinese.style.display = 'none';
     });
 });
