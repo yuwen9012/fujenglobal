@@ -18,6 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- Bootstrap Table -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.2/dist/bootstrap-table.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.2/dist/bootstrap-table.min.js"></script>
 
@@ -56,7 +57,9 @@
                                     data-toggle="table"
                                     data-pagination="true"
                                     data-page-size="5"
-                                    data-filter-control="true">
+                                    data-search="true"
+                                    data-show-search-clear-button="true"
+                                    data-show-columns="true">
                                 <thead>
                                     <tr>
                                         <th data-field="id">編號</th>
@@ -64,6 +67,8 @@
                                         <th data-field="image">圖片</th>
                                         <th data-field="hidden">隱藏</th>
                                         <th data-field="num_order">排序</th>
+                                        <th data-field="update_user">更新人員</th>
+                                        <th data-field="update_time">更新時間</th>
                                         <th data-field="manage">操作</th>
                                     </tr>
                                 </thead>

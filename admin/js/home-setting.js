@@ -433,6 +433,22 @@ function loadTableData(dataSheet) {
                     }
                 },
                 {
+                    field: 'update_user',
+                    title: '更新人員',
+                    visible: false,
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(10);
+                    }
+                },
+                {
+                    field: 'update_time',
+                    title: '更新時間',
+                    visible: false,
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(20);
+                    }
+                },
+                {
                     field: 'manage',
                     title: '操作',
                     formatter: function (value, row) {

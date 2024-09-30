@@ -153,6 +153,22 @@ export function loadTableData(dataSheet) {
                     return btncellStyle(8);
                 }
             },
+            {
+                field: 'update_user',
+                title: '更新人員',
+                visible: false,
+                cellStyle: function(value, row, index) {
+                    return btncellStyle(10);
+                }
+            },
+            {
+                field: 'update_time',
+                title: '更新時間',
+                visible: false,
+                cellStyle: function(value, row, index) {
+                    return btncellStyle(20);
+                }
+            },
         ];
 
         var tableID;

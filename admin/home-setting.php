@@ -67,7 +67,9 @@
                                     data-toggle="table"
                                     data-pagination="true"
                                     data-page-size="5"
-                                    data-filter-control="true">
+                                    data-search="true"
+                                    data-show-search-clear-button="true"
+                                    data-show-columns="true">
                                 <thead>
                                     <tr>
                                         <th data-field="id">編號</th>
@@ -76,6 +78,8 @@
                                         <th data-field="link">連結</th>
                                         <th data-field="hidden">隱藏</th>
                                         <th data-field="num_order">排序</th>
+                                        <th data-field="update_user">更新人員</th>
+                                        <th data-field="update_time">更新時間</th>
                                         <th data-field="manage">操作</th>
                                     </tr>
                                 </thead>
