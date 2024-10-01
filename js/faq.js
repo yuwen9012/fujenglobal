@@ -62,7 +62,8 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.focus(); // Focus the input field
     }
 
-    function renderFAQs(faqs) {
+    function renderFAQs(response) {
+        const faqs = response.data;
         // 使用物件來儲存分組後的結果
         const groupedData = {};
 
@@ -76,7 +77,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // 指定類型的順序
-        const typeOrder = ['Choose your units', 'Application', 'Before Enter Taiwan', 'Live in Taiwan', 'Contact us'];
+        const typeOrder = response.types;
+        // const typeOrder = ['Choose your units', 'Application', 'Before Enter Taiwan', 'Live in Taiwan', 'Contact us'];
 
         var link_block = $('#ul-link');
         link_block.empty();
