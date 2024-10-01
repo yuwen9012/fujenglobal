@@ -166,7 +166,7 @@
                         <a class="hover-item" href="courses-and-class-levels.php">Courses and class levels</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="hover-item" href="">Study Periods and Tuitions </a>
+                        <a class="hover-item" href="study-periods.php">Study Periods and Tuitions </a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="hover-item" href="">Application</a>
