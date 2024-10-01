@@ -319,10 +319,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const writing = document.getElementById('writing').value;
         
         $.ajax({
-            url: './php/update.php',
+            url: './php/action.php',
             type: 'POST',
             data: {
+                'action': 'add',
                 'dataSheet': 'home_introduction_text',
+                'is_order': false,
+                'is_status': false,
                 'title': title,
                 'writing': writing,
             },

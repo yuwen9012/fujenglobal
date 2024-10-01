@@ -5,11 +5,19 @@
     $dataSheet = $_GET['table'];
     $data = array();
 
-    if (in_array($dataSheet, array('home_carousel', 'study_abroad_scorer', 'study_abroad_carousel', 'how2apply_timeline', 'how2apply_qualification', 'how2apply_checklist', 'program_introduction_image'))) {
-        $query = "SELECT * FROM `$dataSheet` WHERE `status` = '使用中' ORDER BY `num_order` ASC";
+    if (in_array($dataSheet, array('home_introduction_image'))) {
+        $query = "SELECT * FROM `$dataSheet`";
+    }
+    else if ($dataSheet == 'faq_qa') {
+        $query = "SELECT t1.*, t2.`type`
+                    FROM (SELECT * 
+                            FROM `$dataSheet` 
+                           WHERE `status` = '使用中') t1 
+                    LEFT JOIN `faq_type` t2 
+                      ON t1.`tid` = t2.`id`";
     }
     else {
-        $query = "SELECT * FROM `$dataSheet`";
+        $query = "SELECT * FROM `$dataSheet` WHERE `status` = '使用中' ORDER BY `num_order` ASC";
     }
 
     $result = $mysqli->query($query);
