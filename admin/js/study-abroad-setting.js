@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 新增計分器資料
     $('#add-scorer').on('click', function(event) {
-        const $table = $('#scorerTable');
-        const currentPage = $table.bootstrapTable('getOptions').pageNumber;
+        // const $table = $('#scorerTable');
+        // const currentPage = $table.bootstrapTable('getOptions').pageNumber;
         
         const name = document.getElementById('addScoName').value;
         const image = document.getElementById('addScoImage').files[0];
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
         form_data.append('quantity', quantity);
         form_data.append('hidden', hidden);
 
-        processImage('add_image,php', dataSheet, form_data, '#addScorerModal');
+        processImage('add_image.php', dataSheet, form_data, '#addScorerModal');
     });
 
     // 點擊計分器編輯
