@@ -1,7 +1,8 @@
-import { btncellStyle } from './function.js';
+import { loadTableData, loadIntroduction, processImage, processAction, deleteTableEvent } from './function.js';
 
 window.onload = function() {
     loadTableData('home_carousel');
+    loadIntroduction('home_introduction_text');
     loadTableData('home_introduction_image');
 }
 
@@ -27,46 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 新增資料
-    $('#add-carousel').on('click', function(event) {
-        const name = document.getElementById('addCarName').value;
-        const image = document.getElementById('addCarImage').files[0];
-        const hidden = document.querySelector('input[name="addCarHidden"]:checked').value;
-        const link = document.getElementById('addCarLink').value;
-
-        const form_data = new FormData();
-        form_data.append('dataSheet', 'home_carousel');
-        form_data.append('name', name);
-        form_data.append('image', image);
-        form_data.append('hidden', hidden);
-        if (link != '') {
-            const target = document.querySelector('input[name="addCarTarget"]:checked').value;
-            form_data.append('link', link);
-            form_data.append('target', target);
-        }
-
-        $.ajax({
-            url: './php/add_image.php',
-            type: 'POST',
-            contentType: false,
-            processData: false,
-            data: form_data,
-            
-            success: function(response) {
-                if (response == 'success') {
-                    $('#addCarouselModal').modal('hide');
-                    loadTableData('home_carousel');
-                }
-                else {
-                    alert(response);
-                }
-            },
-            error: function() {
-                console.error('錯誤');
-            }
-        });
-    });
-
     // 編輯連結監聽事件
     document.getElementById('editCarLink').addEventListener('input', function() {
         const requiredIndicator = document.getElementById('editTargetRequired');
@@ -88,7 +49,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 點擊編輯
+    // 新增輪播牆資料
+    $('#add-carousel').on('click', function(event) {
+        const name = document.getElementById('addCarName').value;
+        const image = document.getElementById('addCarImage').files[0];
+        const hidden = document.querySelector('input[name="addCarHidden"]:checked').value;
+        const link = document.getElementById('addCarLink').value;
+        const dataSheet = 'home_carousel';
+
+        const form_data = new FormData();
+        form_data.append('dataSheet', dataSheet);
+        form_data.append('name', name);
+        form_data.append('image', image);
+        form_data.append('hidden', hidden);
+        if (link != '') {
+            const target = document.querySelector('input[name="addCarTarget"]:checked').value;
+            form_data.append('link', link);
+            form_data.append('target', target);
+        }
+
+        processImage('add_image.php', dataSheet, form_data, '#addCarouselModal');
+    });
+
+    // 點擊輪播牆編輯
     $(document).on('click', '.editCarBtn', function(event) {
         event.preventDefault();
         var id = $(this).data('id');
@@ -134,22 +117,26 @@ document.addEventListener('DOMContentLoaded', function() {
                     $('#editCarNOption').prop('checked', true);
                 }
             },
-            error: function() {
-                console.error('錯誤');
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.error('錯誤代碼: ' + jqXHR.status);
+                console.error('錯誤訊息: ' + errorThrown);
+                console.error('回應文本: ' + jqXHR.responseText);
+                console.error('狀態: ' + textStatus);
             }
         })
     });
 
-    // 儲存編輯
+    // 儲存輪播牆編輯
     $('#edit-carousel').on('click', function(event) {
         const id = document.getElementById('cid').value;
         const name = document.getElementById('editCarName').value;
         const image = document.getElementById('editCarImage').files[0];
         const hidden = document.querySelector('input[name="editCarHidden"]:checked').value;
         const link = document.getElementById('editCarLink').value;
+        const dataSheet = 'home_carousel';
 
         const form_data = new FormData();
-        form_data.append('dataSheet', 'home_carousel');
+        form_data.append('dataSheet', dataSheet);
         form_data.append('id', id);
         form_data.append('name', name);
         form_data.append('hidden', hidden);
@@ -173,81 +160,13 @@ document.addEventListener('DOMContentLoaded', function() {
             form_data.append('image', image);
         }
         
-        $.ajax({
-            url: './php/edit_image.php',
-            type: 'POST',
-            contentType: false,
-            processData: false,
-            data: form_data,
-            
-            success: function(response) {
-                if (response == 'success') {
-                    $('#editCarouselModal').modal('hide');
-                    loadTableData('home_carousel');
-                }
-                else {
-                    alert(response);
-                }
-            },
-            error: function() {
-                console.error('錯誤');
-            }
-        });
+        processImage('edit_image.php', dataSheet, form_data, '#editCarouselModal');
     });
 
-    // 點擊刪除
-    $(document).on('click', '.deleteCarBtn', function(event) {
-        event.preventDefault();
-        var id = $(this).data('id');
-
-        if (confirm('確定刪除？')) {
-            $.ajax({
-                url: './php/delete_row_data.php',
-                type: 'POST',
-                data: {
-                    id: id,
-                    dataSheet: 'home_carousel',
-                },
-                success: function(response) {
-                    if (response == 'success') {
-                        alert("已成功刪除！");
-                        loadTableData('home_carousel');
-                    }
-                    else {
-                        alert('Failed');
-                        return;
-                    }
-                },
-                error: function() {
-                    console.error('錯誤');
-                }
-            });
-        } 
-        else {
-            return null;
-        }
-    });
-
-    // 介紹文字代入
-    $.ajax({
-        url: './php/get_last_data.php',
-        type: 'POST',
-        data: {
-            dataSheet: 'home_introduction_text',
-        },
-        success: function(response) {
-            let data = JSON.parse(response);
-            document.getElementById('title').value = data.title;
-            document.getElementById('writing').innerHTML = data.content;
-            document.getElementById('lastUpdatedTime').innerHTML = data.update_time;
-            document.getElementById('lastUpdatedBy').innerHTML = data.update_user;
-        },
-        error: function() {
-            console.error('錯誤');
-        }
-    });
+    // 點擊輪播牆刪除
+    deleteTableEvent('home_carousel', '.deleteCarBtn');
     
-    // 點擊編輯
+    // 點擊圖檔編輯
     $(document).on('click', '.editImaBtn ', function(event) {
         event.preventDefault();
         var id = $(this).data('id');
@@ -270,13 +189,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     $('#fileImaLabel').text('當前圖片: ' + json.image);
                 }
             },
-            error: function() {
-                console.error('錯誤');
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.error('錯誤代碼: ' + jqXHR.status);
+                console.error('錯誤訊息: ' + errorThrown);
+                console.error('回應文本: ' + jqXHR.responseText);
+                console.error('狀態: ' + textStatus);
             }
         })
     });
 
-    // 儲存編輯
+    // 儲存圖檔編輯
     $('#edit-image').on('click', function(event) {
         const image = document.getElementById('editImaImage').files[0];
 
@@ -307,8 +229,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         alert(response);
                     }
                 },
-                error: function() {
-                    console.error('錯誤');
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('錯誤代碼: ' + jqXHR.status);
+                    console.error('錯誤訊息: ' + errorThrown);
+                    console.error('回應文本: ' + jqXHR.responseText);
+                    console.error('狀態: ' + textStatus);
                 }
             });
         }
@@ -318,266 +243,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const title = document.getElementById('title').value;
         const writing = document.getElementById('writing').value;
         
-        $.ajax({
-            url: './php/action.php',
-            type: 'POST',
-            data: {
-                'action': 'add',
-                'dataSheet': 'home_introduction_text',
-                'is_order': false,
-                'is_status': false,
-                'title': title,
-                'writing': writing,
-            },
-            success: function(response) {
-                if (response == 'success') {
-                    $('#editTextModal').modal('hide');
-                }
-                else {
-                    alert(response);
-                }
-            },
-            error: function() {
-                console.error('錯誤');
-            }
-        });
+        const data = {
+            title: title,
+            writing: writing,
+        };
+
+        processAction('add', 'home_introduction_text', false, false, data, '#editTextModal', false);
     });
 })
-
-function loadTableData(dataSheet) {
-    var url = './php/get_sheet_data.php?table=' + encodeURIComponent(dataSheet);
-
-    $.getJSON(url, function(sqldata) {
-        var columns;
-        var tableID;
-
-        if (dataSheet == 'home_carousel') {
-            var maxNumOrder = Math.max(...sqldata.map(item => item.num_order));
-
-            columns = [ 
-                {
-                    field: 'id',
-                    title: '編號',
-                    formatter: function(value, row, index) {
-                        return index + 1;
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(5);
-                    }
-                },
-                {
-                    field: 'name',
-                    title: '名稱',
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(20);
-                    }
-                },
-                {
-                    field: 'image',
-                    title: '圖片',
-                    formatter: function (value, row) {
-                        var image = row.image;
-                        var img = `<img class="img-thumbnail" src="../images/${image}">`;
-                        return img;
-                    },
-                },
-                {
-                    field: 'link',
-                    title: '連結',
-                    formatter: function (value, row) {
-                        var link = row.link;
-                        if (link) {
-                            return '是';
-                        }
-                        else {
-                            return '否';
-                        }
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(5);
-                    }
-                },
-                {
-                    field: 'hidden',
-                    title: '隱藏',
-                    formatter: function (value, row) {
-                        var hidden = row.hidden;
-                        if (hidden == 'Y') {
-                            return '是';
-                        }
-                        else {
-                            return '否';
-                        }
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(5);
-                    }
-                },
-                {
-                    field: 'num_order',
-                    title: '排序',
-                    formatter: function (value, row) {
-                        var seq = row.num_order;
-                        var up = `<i class="fa-solid fa-caret-up" data-action="up" data-sheet="${dataSheet}" data-id="${row.id}"></i>`;
-                        var down = `<i class="fa-solid fa-caret-down" data-action="down" data-sheet="${dataSheet}" data-id="${row.id}"></i>`;
-
-                        if (seq == 1) {
-                            return down;
-                        }
-                        else if (seq == maxNumOrder) {
-                            return up;
-                        }
-                        else {
-                            return up + down;
-                        }
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(8);
-                    }
-                },
-                {
-                    field: 'update_user',
-                    title: '更新人員',
-                    visible: false,
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(10);
-                    }
-                },
-                {
-                    field: 'update_time',
-                    title: '更新時間',
-                    visible: false,
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(20);
-                    }
-                },
-                {
-                    field: 'manage',
-                    title: '操作',
-                    formatter: function (value, row) {
-                        var id = row.id;
-                        var button = `<a data-id="${id}" class="editCarBtn d-block fw-semibold text-decoration-none" role="button">編輯</a>
-                                      <a data-id="${id}" class="deleteCarBtn d-block text-danger fw-semibold text-decoration-none" role="button">刪除</a>`;
-                        return button;
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(8);
-                    }
-                },
-            ];
-
-            tableID = '#carouselTable';
-        }
-        else if (dataSheet == 'home_introduction_image') {
-            columns = [ 
-                {
-                    field: 'id',
-                    title: '編號',
-                    formatter: function(value, row, index) {
-                        return index + 1;
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(5);
-                    }
-                },
-                {
-                    field: 'position',
-                    title: '位置',
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(20);
-                    }
-                },
-                {
-                    field: 'image',
-                    title: '圖片',
-                    formatter: function (value, row) {
-                        var image = row.image;
-                        var img = `<img class="img-fixed-height" src="../images/${image}">`;
-                        return img;
-                    },
-                },
-                {
-                    field: 'update_user',
-                    title: '更新人員',
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(10);
-                    }
-                },
-                {
-                    field: 'update_time',
-                    title: '更新時間',
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(20);
-                    }
-                },
-                {
-                    field: 'manage',
-                    title: '操作',
-                    formatter: function (value, row) {
-                        var id = row.id;
-                        var button = `<a data-id="${id}" class="editImaBtn fw-semibold text-decoration-none" role="button">編輯</a>`;
-                        return button;
-                    },
-                    cellStyle: function(value, row, index) {
-                        return btncellStyle(8);
-                    }
-                },
-            ];
-
-            tableID = '#introductionTable';
-        }
-        
-        $(tableID).bootstrapTable('destroy').bootstrapTable({
-            buttonsAlign: 'right',
-            columns: columns,
-            filterControl: true,
-            data: sqldata,
-        });
-
-        if (dataSheet == 'home_carousel') {
-            // 事件監聽
-            $(tableID).off('click', '.fa-caret-up, .fa-caret-down').on('click', '.fa-caret-up, .fa-caret-down', function(event) {
-                var id = $(this).data('id');
-                var dataSheet = $(this).data('sheet');
-                var action = $(this).data('action');
-                var currentRow = sqldata.find(item => item.id == id);
-                var currentOrder = Number(currentRow.num_order);
-
-                if (action === 'up' && currentOrder > 1) {
-                    // 上移
-                    updateOrder(id, currentOrder - 1, dataSheet);
-                } else if (action === 'down' && currentOrder < maxNumOrder) {
-                    // 下移
-                    updateOrder(id, currentOrder + 1, dataSheet);
-                }
-            });
-        }
-
-    }).fail(function() {
-        console.error('Failed to load data');
-    });
-}
-
-function updateOrder(id, newOrder, dataSheet) {
-    $.ajax({
-        url: './php/update_order.php',
-        type: 'POST',
-        data: {
-            id: id,
-            dataSheet: dataSheet,
-            newOrder: newOrder,
-        },
-        success: function(response) {
-            response = JSON.parse(response);
-            if (response.success) {
-                loadTableData(dataSheet);
-            }
-            else {
-                console.error('更新排序失敗:', response.message);
-            }
-        },
-        error: function() {
-            console.error('更新排序時發生錯誤');
-        }
-    });
-}

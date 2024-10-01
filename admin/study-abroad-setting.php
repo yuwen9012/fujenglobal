@@ -31,7 +31,7 @@
 
     <!-- JS -->
     <script type="text/javascript" src="js/sidebar.js"></script>
-    <script type="text/javascript" src="js/study-abroad-setting.js"></script>
+    <script type="module" src="js/study-abroad-setting.js"></script>
 
     <title>後台系統</title>
 </head>
