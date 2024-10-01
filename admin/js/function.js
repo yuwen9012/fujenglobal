@@ -889,6 +889,9 @@ export function processAction(action, dataSheet, is_order, is_status, inputData,
                     }
                     else {
                         loadTableData(dataSheet);
+                        if (dataSheet == 'faq_type') {
+                            loadOptions();
+                        }
                     }
                 }
             }
@@ -922,6 +925,9 @@ export function deleteTableEvent(dataSheet, clicked) {
                     if (response == 'success') {
                         alert("已成功刪除！");
                         loadTableData(dataSheet);
+                        if (dataSheet == 'faq_type') {
+                            loadOptions();
+                        }
                     }
                     else {
                         alert('Failed');
@@ -938,6 +944,39 @@ export function deleteTableEvent(dataSheet, clicked) {
         } 
         else {
             return;
+        }
+    });
+}
+
+// 添加題組選項
+export function loadOptions() {
+    $.ajax({
+        url: './php/get_options.php',
+        type: 'POST',
+        data: {
+            dataSheet: 'faq_type',
+        },
+        success: function(response) {
+            var data = JSON.parse(response);
+            var $addSelect = $('#addQnaType');
+            $addSelect.empty();
+
+            var $editSelect = $('#editQnaType');
+            $editSelect.empty();
+            
+            $.each(data, function(index, item) {
+                $addSelect.append($('<option>', {
+                    value: item.id,
+                    text: item.type,
+                }));
+                $editSelect.append($('<option>', {
+                    value: item.id,
+                    text: item.type,
+                }));
+            });
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.error('Error fetching options:', textStatus, errorThrown);
         }
     });
 }

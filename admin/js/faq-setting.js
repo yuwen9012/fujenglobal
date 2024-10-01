@@ -1,42 +1,10 @@
-import { loadTableData, processAction } from './function.js';
+import { loadTableData, processAction, deleteTableEvent, loadOptions } from './function.js';
 
 window.onload = function() {
     loadTableData('faq_type');
     loadTableData('faq_qa');
+    loadOptions();
 }
-
-// 添加題組選項
-$(document).ready(function() {
-    $.ajax({
-        url: './php/get_options.php',
-        type: 'POST',
-        data: {
-            dataSheet: 'faq_type',
-        },
-        success: function(response) {
-            var data = JSON.parse(response);
-            var $addSelect = $('#addQnaType');
-            $addSelect.empty();
-
-            var $editSelect = $('#editQnaType');
-            $editSelect.empty();
-            
-            $.each(data, function(index, item) {
-                $addSelect.append($('<option>', {
-                    value: item.id,
-                    text: item.type,
-                }));
-                $editSelect.append($('<option>', {
-                    value: item.id,
-                    text: item.type,
-                }));
-            });
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-            console.error('Error fetching options:', textStatus, errorThrown);
-        }
-    });
-});
 
 document.addEventListener('DOMContentLoaded', function() {
     // 新增題組資料
