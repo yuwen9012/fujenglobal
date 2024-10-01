@@ -1,13 +1,306 @@
-.container {
+/*藍色條*/
+.container_blue {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 5vh;
     width: 100%;
+    background-color: #132548;
+    
+}
+/* 手機版藍色條樣式調整 */
+@media screen and (max-width: 768px) {
+    .container_blue {
+        height: 3vh;
+    }
 }
 
-img {
+/* 調整最上方大圖容器 */
+.container1 {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 確保圖片按照比例填滿容器 */
+    position: relative; /* 設置容器為相對定位，讓文字層可以使用絕對定位 */
+    display: inline-block; /* 使容器和內容保持在同一區塊 */
+}
+
+.overview {
+    width: 100%; /* 圖片寬度為 100% */
+    height: auto; /* 高度自動調整以保持比例 */
+    object-fit: cover; /* 圖片保持比例填滿容器 */
+    filter: brightness(80%); /* 設置亮度為 80%，圖片變暗 */
+    display: block; /* 確保圖片正常顯示 */
+}
+
+/* 最上方大圖的字 */
+.text-overlay {
+    position: absolute; /* 絕對定位 */
+    top: 50%; /* 文字置於圖片中間 */
+    left: 50%; /* 文字置於圖片中間 */
+    transform: translate(-50%, -50%); /* 使用 transform 將文字中心與圖片中心對齊 */
+    color: white; /* 文字顏色 */
+    font-size: 5vw; /* 使用 vw 單位，根據視窗寬度調整文字大小 */
+    font-weight: bold; /* 文字粗細 */
+    text-align: center; /* 文字置中 */
+    white-space: nowrap; /* 確保文字不換行 */
+    z-index: 100; /* 確保文字顯示在圖片上方，提升 z-index */
+    pointer-events: none; /* 防止文字遮擋點擊事件 */
+    display: block; /* 確保文字層正常顯示 */
+}
+/* 手機版樣式調整 */
+@media screen and (max-width: 768px) {
+    .text-overlay {
+        font-size: 7vw; /* 增大字體大小以確保手機上可見 */
+        top: 50%; /* 確保文字在圖片中央 */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap; /* 確保文字不換行 */
+        display: block; /* 確保文字層正常顯示 */
+    }
+}
+/* 平板及中等螢幕大小調整 */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .text-overlay {
+        font-size: 5.5vw; /* 中等螢幕上使用較大的字體大小 */
+        display: block; /* 確保文字層正常顯示 */
+    }
+}
+
+/* Overview文字區 */
+.container2 h3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #132548;
+    line-height: 130px;
+}
+.container2 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #132548;
+}
+
+/* 4個icon */
+.container3 {
+    display: flex;
+    justify-content: center; /* 容器內元素水平置中 */
+    padding: 10px;
+    margin-top: 50px;
+}
+.icon {
+    flex: 1; /* 每個圖標佔用相等空間 */
+    max-width: 100%; /* 每個圖標的最大寬度為容器寬度的 25% */
+    margin: 0 50px; /* 圖標之間的左右間距 */
+    box-sizing: border-box; /* 確保內邊距不影響寬度計算 */
+    text-align: center; /* 置中圖標 */
+}
+/* 滑鼠滑過時增加亮度 */
+.icon:hover {
+    filter: brightness(1.2); /* 將亮度設為 1.2 倍，值越大圖片越亮 */
+}
+.icon-label {
+    font-family: 'Poppins'; /* 字體設置 */
+    font-size: 20px; /* 文字大小 */
+    color: #132548; /* 文字顏色 */
+    margin: 0; /* 清除預設外邊距 */
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* 左文字右影片區 */
+.container4 {
+    display: flex;
+    justify-content: center; /* 容器內元素水平置中 */
+    padding: 10px;
+    margin-top: 80px;
+}
+.container4 li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    display: flex;
+    color: #132548;
+}
+/*星星列點*/
+li {
+    list-style: none; /* 移除預設的項目符號 */
+}
+li::before {
+    content: '★'; /* 設定星星符號 */
+    margin-right: 8px; /* 設定星星與文字間距 */
+    color: #B2955D; /* 星星顏色（可依需求調整） */
+    font-size: 22px; /* 星星大小（可依需求調整） */
+    justify-content: center;
+}
+/* 影片 */
+.video-container {
+    position: relative;
+    width: 45%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    padding-top: 0; /* 移除原本的比例設定 */
+    height: auto; /* 自動調整高度 */
+}
+.video-container::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 */
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px; 
+    object-fit: cover; /* 讓影片填滿容器並保持比例 */
+}
+
+/*輪播牆*/
+.container5{
+    background-color:#FFF9E6 ;
+    margin-top: 50px;
+}
+.container5 h3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #132548;
+    line-height: 80px;
+}
+.container5 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #132548;
+}
+.carousel-control-prev {
+    width: 40px; /* 調整寬度 */
+}
+.carousel-control-next {
+    width: 40px; /* 調整寬度 */
+}
+.carousel-inner {
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.carousel-item {
+    flex: 0 0 70%;
+}
+.carousel-item img {
+    margin-right: 10px;
+    height: 115px;
+    flex: 0 0 20%;
+    border-radius: 15px;
+}
+.mainImage{
+    width: 100%;
+    height: 500px; /* 讓高度自動調整，保持圖片比例 */
+    max-width: 100%; /* 確保圖片不會超過容器的寬度 */
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+@media (max-width: 767px) {
+    .carousel-item img {
+    margin-right: 5px;
+    height: 80px;
+    flex: 0 0 0;
+    }
+
+    .mainImage{
+    width: 410px;
+    height: 250px; /* 讓高度自動調整，保持圖片比例 */
+    max-width: 100%; /* 確保圖片不會超過容器的寬度 */
+    padding-bottom: 10px;
+    display: flex;
+}
+}
+
+/*最後一區-Other Information*/
+.container6{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; /* 容器內元素水平置中 */
+    
+}
+.container6 h3{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #132548;
+    line-height: 80px;
+}
+.othertext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #132548;
+}
+.container{
+    margin-top: 50px;
+}
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 10%;
+}
+
+.guide a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: #445C89;
+    cursor: pointer;
+}
+
+.img-icon {
+    width: 50px;
+}
+.img-icon {
+    transition: transform 0.3s ease; 
+}
+
+a:hover .img-icon {
+    transform: scale(1.1); 
+}
+
+.ps{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7C7D7D;
 }
