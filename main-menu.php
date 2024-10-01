@@ -61,7 +61,7 @@
             <li class="nav-item fs-5 pt-3 ">
                 <div class="row">
                     <div class="col-10 pe-0">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="overview.php">
                             Chinese-Learning Student
                         </a>
                     </div>
@@ -76,10 +76,10 @@
                 <div class="collapse" id="chineseLearningMenu">
                     <ul class="navbar-nav flex-column collapse-menu">
                         <li class="p-2 ps-5">
-                            <a class="dropdown-item" href="">Courses and class levels</a>
+                            <a class="dropdown-item" href="courses-and-class-levels.php">Courses and class levels</a>
                         </li>
                         <li class="p-2 ps-5">
-                            <a class="dropdown-item" href="">Study Periods and Tuitions</a>
+                            <a class="dropdown-item" href="study-periods.php">Study Periods and Tuitions</a>
                         </li>
                         <li class="p-2 ps-5">
                             <a class="dropdown-item" href="">Application</a>
@@ -160,7 +160,7 @@
                 <a class="nav-link text-white" href="coming-soon.php">Exchange Student (Inbound)</a>
             </li>
             <li class="nav-item px-2 p-relative">
-                <a class="nav-link text-white" href="">Chinese-Learning Student</a>
+                <a class="nav-link text-white" href="overview.php">Chinese-Learning Student</a>
                 <ul class="navbar-nav hover-menu shadow">
                     <li class="nav-item p-2">
                         <a class="hover-item" href="courses-and-class-levels.php">Courses and class levels</a>
