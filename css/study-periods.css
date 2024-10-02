@@ -212,7 +212,7 @@ li::before {
     content: '★'; /* 設定星星符號 */
     margin-right: 8px; /* 設定星星與文字間距 */
     color: #B2955D; /* 星星顏色（可依需求調整） */
-    font-size: 16px; /* 星星大小（可依需求調整） */
+    font-size: 20px; /* 星星大小（可依需求調整） */
     justify-content: center;
 }
 
@@ -222,4 +222,12 @@ li::before {
 .container3 {
     max-width: 80%;
     margin: 80px auto;
+}
+/*文字容器*/
+.container-content3 {
+    max-width: 80%;
+    margin-left: 90px ;
+    color: #0B3F61;
+    font-size: 18px;
+    position: relative;
 }

@@ -88,11 +88,11 @@
         <h3 class="my-3 fw-bolder">Class Hours</h3>
         <div class="container-content">
             <ul>
-                <span><li>15 hours per week, Monday to Friday, with morning and afternoon classes.</li></span>
-                <span><li>Class schedules are arranged by the CCLC office. No guarantee that students will always get the type of class they prefer.</li></span>
-                <span><li>If you wish to have an individual class or a smaller group, please contact us.</li></span>
-                <span><li>There are no make-up classes nor make refunds for any class interruption/cancellation caused by natural disasters (such as typhoons, earthquake, flooding, fire, etc)
-                        and/or insurmountable human failure (such as electric power failure, war, etc.).</li></span>
+                <li>15 hours per week, Monday to Friday, with morning and afternoon classes.</li>
+                <li>Class schedules are arranged by the CCLC office.</li>
+                <li>If you wish to have an individual class or a smaller group, please contact us.</li>
+                <li>There are no make-up classes nor make refunds for any class interruption/cancellation caused by natural disasters (such as typhoons, earthquake, flooding, fire, etc)
+                        and/or insurmountable human failure (such as electric power failure, war, etc.).</li>
                 <br>
                 <span>Tuition Fees</span>
                 <br>
@@ -104,7 +104,7 @@
 
     <div class="container3">
         <h3 class="my-3 fw-bolder">Scholarships</h3>
-        <div class="container-content">
+        <div class="container-content3">
             <span>Students may be eligible to apply for scholarships. Please visit the websites below for more information.</span>
             <br><br>
             <a href="https://www.studyintaiwan.org/scholarship" target="_blank">Study in Taiwan</a>
