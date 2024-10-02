@@ -86,8 +86,7 @@
 
     <div class="container2">
         <h3 class="my-3 fw-bolder">Class Hours</h3>
-        <div class="container-content">
-            <ul>
+            <div class="container-content">
                 <li>15 hours per week, Monday to Friday, with morning and afternoon classes.</li>
                 <li>Class schedules are arranged by the CCLC office.</li>
                 <li>If you wish to have an individual class or a smaller group, please contact us.</li>
@@ -97,14 +96,13 @@
                 <span>Tuition Fees</span>
                 <br>
                 <a href="http://docs.lc.oie.fju.edu.tw/Curriculum/%E8%8B%B1%E6%96%87%E8%B2%BB%E7%94%A8.pdf" target="_blank">Regular Course and Fees</a>
-                <span><li>Tuition rates are quoted in NT Dollars and subject to change without notice.</li></span>
-            </ul>
-        </div>
+                <li>Tuition rates are quoted in NT Dollars and subject to change without notice.</li>
+            </div>
     </div>
 
     <div class="container3">
         <h3 class="my-3 fw-bolder">Scholarships</h3>
-        <div class="container-content3">
+        <div class="container-content">
             <span>Students may be eligible to apply for scholarships. Please visit the websites below for more information.</span>
             <br><br>
             <a href="https://www.studyintaiwan.org/scholarship" target="_blank">Study in Taiwan</a>

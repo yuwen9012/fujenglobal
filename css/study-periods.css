@@ -197,7 +197,7 @@ h3 {
 }
 /*文字容器*/
 .container-content {
-    max-width: 90%;
+    max-width: 80%;
     margin: 30px auto;
     color: #0B3F61;
     font-size: 18px;
@@ -224,9 +224,8 @@ li::before {
     margin: 80px auto;
 }
 /*文字容器*/
-.container-content3 {
+.container-content {
     max-width: 80%;
-    margin-left: 90px ;
     color: #0B3F61;
     font-size: 18px;
     position: relative;
