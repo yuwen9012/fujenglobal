@@ -68,7 +68,16 @@
                 </div>
             </div>
             <div class="grid-item">
-                <!-- 空白區域 1 -->
+                <h4 class="card-title">Chinese-Learning</h4>
+                <div class="section-separator"></div>
+                <div class="card-body">
+                    <p><a href="courses-and-class-levels.php">Courses and class levels</a></p>
+                    <p><a href="study-periods.php">Study Periods and Tuitions</a></p>
+                    <p><a href="#">Application</a></p>
+                    <p><a href="#">VISA</a></p>
+                    <p><a href="#">Download</a></p>
+                    <p><a href="faq-chinese.php">Q&A</a></p>
+                </div>
             </div>
             <div class="grid-item">
                 <!-- 空白區域 2 -->
