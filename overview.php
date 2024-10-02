@@ -43,15 +43,15 @@
     </div>
     <!-- 上方大圖 -->
     <div class="container1">
-        <img class="overview" src="images/overview.png" alt="overview">
+        <img class="overview" src="images/overview.jpg" alt="overview">
         <div class="text-overlay">Chinese-Learning</div>
     </div>
     <!-- Overview -->
     <div class="container2">
         <div class="row justify-content-center">
             <div class="col-8">
-                <h3>Overview</h3>
-                <p>The Center of Chinese Language and Culture of Fu Jen Catholic University was founded originally by Divine World Missionaries. For fathers, brothers and being specialized in Mandarin was not just crucial for preaching, but especially for lecturing and managing the school. Hence, the idea of establishing a Chinese-Learning Center was directed by the President Cardinal Paul Yu Pin in 1964.</p>
+                <h3>MANDARIN CHINESE COURSES at FJCU</h3>
+                <p>The Center of Chinese Language and Culture of Fu Jen Catholic University was founded originally by Divine World Missionaries. The idea of establishing a Chinese-Learning Center was directed by the President Cardinal Paul Yu Pin in 1964. For fathers, brothers and being specialized in Mandarin was not just crucial for preaching, but especially for lecturing and managing the school.</p>
             </div>
         </div>
     </div>
@@ -84,20 +84,14 @@
                 <br>
                 <li>Different Mandarin Chinese systems and materials are available to tailor students’ learning needs.</li>
                 <br>
-                <li>Support your learning by providing individual or a small group (less than 5 students) tutorial session.</li>
+                <li>Support your learning by providing individual or a small group (less than 5 students) tutorial sessions.</li>
                 <br>
                 <li>Professional counseling services for students adjusting to life in Taiwan and dealing with difficult situations.</li>
             </div>
-            <div class="video-container col-lg-6 col-sm-12">
-                <iframe
-                    width="100%"
-                    height="100%"
-                    src="https://www.youtube.com/embed/6h5yv5A1EW0?autoplay=1&mute=1&loop=1&playlist=6h5yv5A1EW0"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                ></iframe>
+            <div class="col-lg-6 col-sm-12" style="width:35%; height: auto;" >
+                <video class="video" id="video"  controls style="width:100%; border-radius: 15px;" autoplay muted>
+                    <source src="video/CCLC活動影片.mp4" type="video/mp4">
+                </video>    
             </div>
         </div>
     </div>
@@ -109,7 +103,7 @@
                 <div class="col-lg-6 col-md-8 col-5">
                     <h3>Facilities</h3>
                     <p>Language Center facilities include air-conditioned classrooms, audio-visual rooms, speech laboratory, multimedia equipped classrooms, study hall, and cross-cultural learning space.</p>
-                    <img  class="mainImage" id="mainImage" src="images/why1.jpg" alt="Facilities" class="img-fluid">
+                    <img  class="mainImage" id="mainImage" src="images/overview1.jpg" alt="Facilities" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-2">
                 </div>
@@ -122,29 +116,20 @@
                        <div class="carousel-inner">
                            <div class="carousel-item active">
                                <div class="d-flex">
-                                   <img src="images/why1.jpg" alt="..." onclick="showImage('images/why1.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar2.jpg" alt="..." onclick="showImage('images/Scholar2.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar3.jpg" alt="..." onclick="showImage('images/Scholar3.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar4.jpg" alt="..." onclick="showImage('images/Scholar4.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar5.jpg" alt="..." onclick="showImage('images/Scholar5.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview1.jpg" alt="..." onclick="showImage('images/overview1.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview2.jpg" alt="..." onclick="showImage('images/overview2.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview3.jpg" alt="..." onclick="showImage('images/overview3.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview4.jpg" alt="..." onclick="showImage('images/overview4.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview5.jpg" alt="..." onclick="showImage('images/overview5.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
                            <div class="carousel-item ">
                                <div class="d-flex">
-                                   <img src="images/Scholar5.jpg" alt="..." onclick="showImage('images/Scholar5.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar6.jpg" alt="..." onclick="showImage('images/Scholar6.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar7.jpg" alt="..." onclick="showImage('images/Scholar7.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar8.jpg" alt="..." onclick="showImage('images/Scholar8.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar9.jpg" alt="..." onclick="showImage('images/Scholar9.jpg')" style="cursor: pointer;">
-                               </div>
-                           </div>
-                           <div class="carousel-item ">
-                               <div class="d-flex">
-                                   <img src="images/Scholar9.jpg" alt="..." onclick="showImage('images/Scholar9.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar10.jpg" alt="..." onclick="showImage('images/Scholar10.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar5.jpg" alt="..." onclick="showImage('images/Scholar5.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar11.jpg" alt="..." onclick="showImage('images/Scholar11.jpg')" style="cursor: pointer;">
-                                   <img src="images/Scholar1.jpg" alt="..." onclick="showImage('images/Scholar1.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview5.jpg" alt="..." onclick="showImage('images/overview5.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview6.jpg" alt="..." onclick="showImage('images/overview6.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview7.jpg" alt="..." onclick="showImage('images/overview7.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview8.jpg" alt="..." onclick="showImage('images/overview8.jpg')" style="cursor: pointer;">
+                                   <img src="images/overview1.jpg" alt="..." onclick="showImage('images/overview1.jpg')" style="cursor: pointer;">
                                </div>
                            </div>
                        </div>
