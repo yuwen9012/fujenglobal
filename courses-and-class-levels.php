@@ -50,7 +50,7 @@
   <!-- General Courses 區塊 -->
   <section class="container my-5">
     <h3 class="my-3 fw-bolder">General Courses</h3>
-    <p class="text-center">4-7 students in class, the CCLC office reserves the right to change the number of students per class.</p>
+    <p class="text-center">4-7 students in one class, the CCLC office reserves the right to change the number of students per class.</p>
     
     
     <!-- Class Type 表格 -->
@@ -74,7 +74,7 @@
         </div>   
     </div>
 
-    <p class="text-center" style="color:  #A73929;">*The students will have 15 hours per week. Individual classes are costomized.</p>
+    <p class="text-center" style="color:  #A73929;">*The students will have 15 hours per week. Individual classes are customized.</p>
     <div class="table-responsive">
       <table class="table table-bordered table-striped">
         <thead>
@@ -93,66 +93,66 @@
             <td>Modern Chinese 1 (L1-L10)</td>
             <td>Far East Everyday Chinese Book I / Speak Mandarin in Five Hundred Words</td>
             <td>One quarter <br>(3 months)</td>
-            <td>Huayu Enyin (Combined with General Courses)</td>
+            <td>Huayu Fayin (Combined with General Courses)</td>
           </tr>
           <tr>
             <td class="green C-first"></td>
             <td>Elementary 2</td>
-            <td>Modern Chinese 1 (L11-L20) / Modern Chinese 2 (L1-L4)</td>
+            <td>Modern Chinese 1 (L11-L16) / Modern Chinese 2 (L1-L4)</td>
             <td>Far East Everyday Chinese Book IIA / Speak Mandarin in One Thousand Words</td>
             <td>One quarter <br>(3 months)</td>
-            <td>Basic Conversation / TOCFL Listening and Reading Practice (Band A)</td>
+            <td>Basic Conversation I/TOCFL Listening and Reading Practice (Band-A)</td>
           </tr>
           <tr>
             <td class="green C-first"></td>
             <td>Elementary 3</td>
-            <td>Modern Chinese 2 (L5-L10)</td>
+            <td>Modern Chinese 2 (L5-L16)</td>
             <td>Far East Everyday Chinese Book IIB</td>
             <td>One quarter  <br>(3 months)</td>
-            <td>Basic Conversation / TOCFL Listening and Reading Practice (Band A)</td>
+            <td>Basic Conversation II /TOCFL Listening and Reading Practice (Band-B)</td>
           </tr>
           <tr>
             <td class="orange C-first"></td>
             <td>Intermediate 1</td>
             <td>Modern Chinese 3 (L1-L10)</td>
-            <td>Taiwan Today (L1-L7)</td>
+            <td>Taiwan Today (L.1-L.7)</td>
             <td>One quarter  <br>(3 months)</td>
-            <td rowspan="3">Modern Chinese Lexicography / Song Learning in Chinese / Fun Stories / Business Chinese / TOCFL Listening and Reading Practice (Band B)</td>
+            <td rowspan="3">Modern Chinese Lexicography /Song Learning in Chinese /Idiom Stories /Business Chinese I /TOCFL Listening and Reading Practice (Band-B) </td>
           </tr>
           <tr>
             <td class="orange C-first"></td>
             <td>Intermediate 2</td>
-            <td>Modern Chinese 3 (L11-L14)</td>
-            <td>Taiwan Today (L8-L14)</td>
+            <td>Modern Chinese 3 (L11-L16)~Modern Chinese 4 (L1-L4)</td>
+            <td>Taiwan Today (L.8-L.14)</td>
             <td>One quarter  <br>(3 months)</td>
          </tr>
           <tr>
             <td class="orange C-first"></td>
             <td>Intermediate 3</td>
-            <td>Modern Chinese 4 (L1-L6)</td>
+            <td>Modern Chinese 4 (L5-L16)</td>
             <td>Far East Everyday Chinese Book III</td>
             <td>One quarter  <br>(3 months)</td>
          </tr>
           <tr>
             <td class="red C-first"></td>
             <td>Advanced 1-1 / Advanced 1-2</td>
-            <td>The Roads Taken: Readings in Chinese Newspaper I / Textbook Advanced 1-1(L1-L8) Advanced 1-2 (L1-L15)</td>
+            <td>The Roads Taken: Readings in Chinese Newspaper 1 Textbook <br>Advanced 1-1(L1-L8)<br>Advanced 1-2(L9-L16)</td>
             <td>Daily News Papers</td>
-            <td>One quarter  <br>(3 months)</td>
-            <td rowspan="3">Introduction of Taiwan History and Culture / Chinese Writing / Movie Appreciation / Business Chinese / Ted Talks</td>
+            <td>Two quarters <br>(6 months)</td>
+            <td rowspan="3">Introduction of Taiwan History and Culture /Chinese Writing /Movie Appreciation /Business Chinese II /Ted Talks</td>
           </tr>
           <tr>
             <td class="red C-first"></td>
             <td>Advanced 2</td>
             <td>Selected News by News Topics</td>
-            <td>News Papers / News on the Internet</td>
+            <td>News Papers/<br>News on the Internet</td>
             <td>One quarter  <br>(3 months)</td>
             </tr>
           <tr>
             <td class="red C-first"></td>
             <td>Advanced 3</td>
             <td>Selected Modern Chinese Essays</td>
-            <td>Selected Contemporary/Advanced Short Stories / Thought and Society Articles from Newspapers and Magazines</td>
+            <td>Selected ContemporaryTaiwanese Short Stories/Thought and Society Articles from Newspapers and Magazines</td>
             <td>One quarter  <br>(3 months)</td>
             </tr>
         </tbody>
@@ -213,7 +213,7 @@
                     <td class="orange C-first"></td>
                     <td>Intermediate Mandarin II</td>
                     <td>B2</td>
-                    <td>Novice-mid</td>
+                    <td>Intermediate-mid</td>
                     <td></td>
                     <td>B2</td>
                 </tr>
@@ -229,7 +229,7 @@
                     <td class="red C-first"></td>
                     <td>Advanced I</td>
                     <td>C1-</td>
-                    <td>Intermediate-mid</td>
+                    <td>Intermediate-high</td>
                     <td></td>
                     <td>C1</td>
                 </tr>
@@ -237,7 +237,7 @@
                     <td class="red C-first"></td>
                     <td>Advanced II</td>
                     <td>C1</td>
-                    <td>Intermediate - high</td>
+                    <td>Advanced</td>
                     <td></td>
                     <td>C1</td>
                 </tr>
@@ -245,7 +245,7 @@
                     <td class="red C-first"></td>
                     <td>Advanced III</td>
                     <td>C1+</td>
-                    <td>Advanced - Plus</td>
+                    <td>Advanced-Plus</td>
                     <td></td>
                     <td>C1+</td>
                 </tr>
@@ -284,8 +284,8 @@
                     </td>
                     <td>
                         <ol>
-                            <li>Can use Zhuyin Fuhao (Bopomofo) or Hanyu Pinyin Romanization phonetic system.</li>
-                            <li>Can have very basic conversation with simple words.</li>
+                            <li>Can use Zhuyin Fuhao ( Bopomofo) or Hanyu Pinyin Romanization phonetic system.</li>
+                            <li>Can have very basic conversations with simple words.</li>
                             <li>Can understand expressions conducted slowly and often requires repetition or rephrasing.</li>
                         </ol>
                     </td>
@@ -303,7 +303,7 @@
                     </td>
                     <td>
                         <ol>
-                            <li>Can have basic conversation with daily expression phrases and describe subjects related to personal details, family and studying in short sentences.</li>
+                            <li> Can have basic conversation with daily expression phrases and describe subjects related to personal details, family and studying in short sentences.</li>
                             <li>Can understand simple expressions conducted slowly and clearly.</li>
                         </ol>
                     </td>
@@ -316,7 +316,7 @@
                             <li>Can understand about 1200 vocabulary words</li>
                             <li>Can write concrete topics and read.</li>
                             <li>Can create dialogue about specific topics.</li>
-                            <li>Can write main ideas in dialogue about specific topics and read.</li>
+                            <li> Can write main ideas in dialogue about specific topics and read.</li>
                         </ol>
                     </td>
                     <td>
@@ -333,14 +333,14 @@
                     <td>
                         <ol>
                             <li>Can understand about 1200 vocabulary words</li>
-                            <li>Can comprehend commonly used words in daily routines and social life(work, school and leisure venues) and uncompleted narratives.</li>
+                            <li>Can comprehend commonly used words in daily routines and social life(work, school and leisure venues) and uncomplex narratives.</li>
                             <li>Can briefly describe and explain personal subjects such as experience, interests and dreams.</li>
-                            <li>Can write a paragraph about above subjects in 300 words or more but often with incomplete sentences and incorrect words.</li>
+                            <li>Can write a paragraph about the above subjects in 300 words or more but often with incomplete sentences and incorrect words.</li>
                         </ol>
                     </td>
                     <td>
                         <ol>
-                            <li>Can mostly understand information or instructions of daily life or specific topics such as family, hobby, interpersonal interaction, work and exhibition guide tour.</li>
+                            <li>Can mostly understand information or instructions of daily routines or specific topics such as family, hobby, interpersonal interaction, work and exhibition guide tour.</li>
                             <li>Can clearly express emotions.</li>
                             <li>Can give and explain personal opinions but have difficulty expressing standpoints in social interaction and often have confusions about classic and vernacular Chinese when speaking.</li>
                         </ol>
@@ -355,14 +355,14 @@
                             <li>Can read and comprehend multiple sentences but have difficulty understanding uncommon idioms in written Chinese.</li>
                             <li>Can read different types of texts of extended topics and understand cultural implication with reference works.</li>
                             <li>Can read essays in professional fields more fluently and write a summary or brief report.</li>
-                            <li>Can write a paragraph about one's specialty and experience in 500 words or more but sometimes with incomplete sentences and incorrect words.</li>
+                            <li>Can write a paragraph about one’s specialty and experience in 500 words or more but sometimes with incomplete sentences and incorrect words.</li>
                         </ol>
                     </td>
                     <td>
                         <ol>
                             <li>Can understand speeches in professional fields.</li>
-                            <li>Can understand messages by synthesizing different speakers' points of view and standpoints.</li>
-                            <li>Can develop clear pro/con arguments and provide brief reasons to support one's opinions on different issues.</li>
+                            <li>Can understand messages by synthesizing different speakers’ points of view and standpoints</li>
+                            <li>Can develop clear pro/con arguments and provide brief reasons to support one’s opinions on different issues.</li>
                         </ol>
                     </td>
                 </tr>
@@ -398,7 +398,7 @@
                     </td>
                     <td>
                         <ol>
-                            <li>Can understand news on varies topics in high speaking speed.</li>
+                            <li>Can understand news on various topics at a high speaking speed.</li>
                             <li>Can use social expressions to communicate fluently with much less avoidance but sometimes have confusions about classic and vernacular Chinese when speaking.</li>
                             <li>Can comprehend Chinese culture and integrate into Chinese society well.</li>
                         </ol>
@@ -430,15 +430,15 @@
                     <td>
                         <ol>
                             <li>Can understand about 1000 vocabulary words.</li>
-                            <li>Can read and comprehend the gist and cultural implication of argumentative essays and editorials.</li>
+                            <li>Can read and comprehend the gist, details and implication of argumentative essays and editorials.</li>
                             <li>Can read and comprehend a large extent of classic Chinese such as poetry and other famous works independently.</li>
                             <li>Can write argumentative articles with advanced vocabularies in about 2000 words with rare incomplete sentences and incorrect words.</li>
                         </ol>
                     </td>
                     <td>
                         <ol>
-                            <li>Have native speaker level of Chinese. Can understand topics beyond one's own field.</li>
-                            <li>Can well understand the meaning and implication of idioms and use them correctly.</li>
+                            <li>Have native speaker level of Chinese. Can understand topics beyond one’s own field.</li>
+                            <li>Can well understand the meanings and implication of idioms and use them correctly.</li>
                             <li>Can give logical comments and fluent speeches.</li>
                             <li>Can have good competency in translation and interpreting.</li>
                             <li>Can demonstrate cross cultural communication as a sinologist.</li>
