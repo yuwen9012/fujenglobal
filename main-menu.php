@@ -88,7 +88,7 @@
                             <a class="dropdown-item" href="">VISA</a>
                         </li>
                         <li class="p-2 ps-5">
-                            <a class="dropdown-item" href="">Download</a>
+                            <a class="dropdown-item" href="download.php">Download</a>
                         </li>
                         <li class="p-2 ps-5">
                             <a class="dropdown-item" href="faq-chinese.php">Q&A</a>
@@ -175,7 +175,7 @@
                         <a class="hover-item" href="">VISA</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="hover-item" href="">Download</a>
+                        <a class="hover-item" href="download.php">Download</a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="hover-item" href="faq-chinese.php">Q&A</a>

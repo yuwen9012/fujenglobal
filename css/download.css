@@ -1,0 +1,123 @@
+/*與首頁相同部分*/
+/*-----------------------------------------------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFFEFB;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.second-navbar {
+    background-color: #132548 !important;
+    z-index: 900;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 28px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFEFB;
+}
+
+
+/* 主容器的樣式 */
+.container {
+    flex: 1;
+    width: 90%;
+}
+
+.title-container {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+/* 標題樣式 */
+.title {
+    font-size: 40px;
+    color: #132548;
+    font-weight: bold;
+}
+
+/* 內容標題樣式 */
+h4.card-title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #132548;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #132548; 
+}
+
+.card-body a:hover {
+    color: #e4be34;
+}
+
+
+/* 網格容器樣式 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 每列 3 格，平均分配寬度 */
+    gap: 10px; /* 項目之間的間距 */
+    margin: 0 auto;
+}
+
+/* 網格項目樣式 */
+.grid-item {
+    padding: 10px;
+}
+
+/* 標題內文中間的橫線 */
+.section-separator {
+    border-top: 1.5px solid #E0E0E0; 
+    margin: 10px 0;
+}
+
+/* 手機版設定：一列一格 */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 每列 1 格，滿版顯示 */
+    }
+}
+
+/*星星列點*/
+li {
+    list-style: none; /* 移除預設的項目符號 */
+}
+li::before {
+    content: '★'; /* 設定星星符號 */
+    margin-right: 8px; /* 設定星星與文字間距 */
+    color: #B2955D; /* 星星顏色（可依需求調整） */
+    font-size: 18px; /* 星星大小（可依需求調整） */
+    justify-content: center;
+}
