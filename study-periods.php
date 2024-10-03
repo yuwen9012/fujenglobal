@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="container-summer right-border">
+                    <div class="container-summer">
                         <p class="season">Summer Quarter</p>
                         <p class="week">(12 weeks)</p>
                         <img class="image" src="images/夏.png" alt="summer">
