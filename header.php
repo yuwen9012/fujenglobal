@@ -11,7 +11,7 @@
             </div>
             <div class="nav-item d-flex align-items-center me-3">
                 <i class="fas fa-university me-1"></i>
-                <a class="nav-link" href="https://www.fju.edu.tw/">FJCU</a>
+                <a class="nav-link" href="https://www.fju.edu.tw/" target="_blank">FJCU</a>
             </div>
             <div class="nav-item d-flex align-items-center me-3">
                 <i class="fas fa-sitemap me-1"></i>
