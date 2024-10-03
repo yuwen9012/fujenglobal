@@ -54,20 +54,20 @@
     
     
     <!-- Class Type 表格 -->
-    <div class="d-flex flex-row flex-wrap justify-content-center container-1">
-        <div class="container-title col-lg-10 col-md-6 col-sm-6">
-            <p class="text-center fw-bolder">Class Type</p>
+    <div class="container-1">
+        <div class="container-title">
+            <p class="fw-bolder mb-0">Class Type</p>
         </div>
-        <div class="container-content d-flex flex-row flex-wrap justify-content-around">
-            <div class="col">
+        <div class="container-content">
+            <div class="content-col">
                 <p>4-7 students in class</p>
                 <p>15 hours per week</p>
             </div>
-            <div class="col">
+            <div class="content-col">
                 <p>2-3 students in class</p>
                 <p>15 hours per week</p>
             </div>
-            <div class="col">
+            <div class="content-col">
                 <p>Individual class</p>
                 <p>15 hours per week</p>
             </div>  
@@ -75,8 +75,9 @@
     </div>
 
     <p class="text-center" style="color:  #A73929;">*The students will have 15 hours per week. Individual classes are customized.</p>
+    <div class="scroll-hint">More </div>
     <div class="table-responsive">
-      <table class="table table-bordered table-striped">
+      <table class="table table-striped ">
         <thead>
           <tr class="text-center">
             <th class="table-h" colspan="2">Level</th>
@@ -164,9 +165,9 @@
   <section class="container my-5">
     <h3 class="my-3 fw-bolder">Class levels</h3>
     <!-- 表格1  -->
-    
-    <div class="container mt-4">
-        <table class="table table-bordered table-striped">
+    <div class="scroll-hint">More </div>
+    <div class="table-responsive">
+        <table class="table table-striped custom-table-hover">
             <thead>
                 <tr  class="text-center">
                     <th class="table-h2" colspan="2">Level</th>
@@ -261,8 +262,9 @@
         </table>
     </div>
     <!-- 表格2  -->
-    <div class="container-fluid">
-        <table class="table table-bordered table-striped">
+    <div class="scroll-hint">More </div>
+    <div class="table-responsive">
+        <table class="table table-striped custom-table-hover">
             <thead>
                 <tr class="text-center">
                     <th class="table-h2" colspan="2">Level</th>

@@ -41,38 +41,30 @@ h3 {
     font-size: 26px;
 }
 
-
+/* 表格(第一個表) */
 .table-h{
     background-color: #445C89 !important;
     color: #fff !important; 
 }
 
+/* 表格(第二三個表) */
 .table-h2{
     background-color: #ECE1BF !important; 
     color: #0B3F61 !important; 
 }
 
+/* 表格內邊距 */
 .table th, .table td {
     padding: 15px 10px;
 }
 
-
-table:not(#table1) {
-    border-color: white;
+/* 表格分開*/
+table {
+    border-color: white !important;
     border-collapse: separate;
     border-radius: 10px;
     overflow: hidden;
 }
-
-.table1-bg{
-    background-color: #FFFCF1 !important;
-}
-#table1{ 
-   width: 60%;
-}
-
-
-
 
 /*開頭彩色線*/
 .green{
@@ -92,47 +84,124 @@ table:not(#table1) {
     padding: 0 !important;
 }
 
-
-.container-title {
-    width: 60%;
-    margin: 0 auto;
-    background: #ECE1BF;
-    border-radius: 10px 10px 0 0; 
-    font-size: 20px;
-    color: #0B3F61;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-} 
-
-.container-content {
-    position: relative;
-    width: 60%;
-    margin: 0 auto; 
-    background: #FFFCF1;
-    border-radius: 0 0 10px 10px; 
-    display: flex;
-    padding: 20px 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    
+/*表格懸浮效果 */
+.custom-table-hover tbody tr {
+    position: relative; 
 }
 
-.col {
+.custom-table-hover tbody tr:hover {
+    box-shadow: 0 0px 14px rgba(0, 0, 0, 0.2) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important; 
+    background-color: inherit !important; 
+    z-index: 1;
+}
+
+/*最上面那個表*/
+.container-1 {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.container-title {
+    width: 100%;
+    margin: 0 auto;
+    background: #ECE1BF;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    color: #0B3F61;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.container-content {
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFCF1;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content-col {
     flex: 1;
     text-align: center;
     padding: 0 20px;
     color: #132548;
-    position: relative; 
+    position: relative;
 }
 
-.col:not(:last-child)::after {
+.content-col:not(:last-child)::after {
     content: '';
     position: absolute;
     right: 0;
-    top: 5%; 
-    height: 80%; 
+    top: 5%;
+    height: 80%;
     width: 2px;
     background-color: #ECE1BF;
 }
+
+
+@media screen and (max-width: 768px) {
+    .container-content {
+        flex-direction: column !important;
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    .content-col {
+        padding: 20px 0;
+        border-bottom: 2px solid #ECE1BF;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .content-col:last-child {
+        border-bottom: none;
+    }
+
+    .content-col::after {
+        display: none;
+    }
+
+    .container-title{
+        width: 90%;
+    }
+}
+
+
+
+/* 手機版右滑提示 */
+.scroll-hint {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .scroll-hint {
+      text-align: right;
+      font-size: 14px;
+      color: gray;
+      margin-right: 10px;
+      display: block;
+    }
+  
+    /* Add an animation to draw attention */
+    .scroll-hint::after {
+      content: '→';
+      display: inline-block;
+      animation: slide-right 1.5s infinite;
+    }
+  
+    @keyframes slide-right {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(10px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
