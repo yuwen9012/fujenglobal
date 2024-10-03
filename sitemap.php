@@ -39,7 +39,7 @@
                 <p><a href="study-periods.php">Study Periods and Tuitions</a></p>
                 <p><a href="#">Application</a></p>
                 <p><a href="#">VISA</a></p>
-                <p><a href="#">Download</a></p>
+                <p><a href="download.php">Download</a></p>
                 <p><a href="faq-chinese.php">Q&A</a></p>
             </div>
         </div>
