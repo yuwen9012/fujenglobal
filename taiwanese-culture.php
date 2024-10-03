@@ -134,7 +134,7 @@
     </p>
 
     <p class="custom-mark d-none d-lg-block text-end"> 
-        Legend: ✔: Welcome to join! &nbsp;&nbsp;&nbsp; ⭘: Depends on the actual situation &nbsp;&nbsp;&nbsp; ✘: Not eligible
+        Legend:  &nbsp;&nbsp;&nbsp; ✔: Welcome to join! &nbsp;&nbsp;&nbsp; ⭘: Depends on the actual situation &nbsp;&nbsp;&nbsp; ✘: Not eligible
     </p>
 
     <div class="scroll-hint">More </div>
