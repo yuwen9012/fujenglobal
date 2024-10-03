@@ -18,7 +18,7 @@
 /* 調整最上方大圖容器 */
 .container1 {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative; /* 設置容器為相對定位，讓文字層可以使用絕對定位 */
     display: inline-block; /* 使容器和內容保持在同一區塊 */
 }

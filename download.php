@@ -19,83 +19,90 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/sitemap.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/download.css">
 
     <!-- JS -->
+    <script type="text/javascript" src="js/backdrop.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/download.js"></script>
     
     <title>Fu Jen Global</title>
    
 </head>
 <body>
-    <?php include 'header.php'; ?>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
-        <div class="container-fluid d-flex align-items-center">
-            <img src="images/06-校徽-英文組合排列.png" id="logo" class="me-3">
-            
-            <div class="flex-grow-1 text-center">
-                <div class="d-flex justify-content-center align-items-center">
-                    <a href="javascript:history.back()"><i class="fas fa-arrow-left"></i></a>
-                    <span class="navbar-text mx-2">Download</span>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Sitemap 內容 -->
-    <div class="container my-5">
-        <div class="grid-container">
-            <div class="grid-item">
-                <h4 class="card-title">Download</h4>
-                <div class="section-separator"></div>
-                <div class="card-body">
-                    <li><a href="download/Application Form.doc">Application Form</a></li>
-                    <li><a href="download/Vietnamese students required application documents.docx">Vietnamese students required application documents</a></li>
-                    <li><a href="download/Regular Course and Fees.pdf" download>Regular Course and Fees</a></li>
-                    <li><a href="download/Application Form Study Tour Group.doc">Application Form Study Tour Group</a></li>
-                </div>
-            </div>
-            <div class="grid-item">
-                <h4 class="card-title">For Student</h4>
-                <div class="section-separator"></div>
-                <div class="card-body">
-                    <li><a href="download/Student's Excuse Slip.pdf" download>Student's Excuse Slip</a></li>
-                    <li><a href="download/Tuition Fee Refund Application Form.pdf" download>Tuition Fee Refund Application Form</a></li>
-                </div>
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 2 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 3 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 4 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 5 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 6 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 7 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 8 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 9 -->
-            </div>
-            <div class="grid-item">
-                <!-- 空白區域 10 -->
-            </div>
-            <div style="height: 200px;"></div>
-        </div>
+    <div class="fixed-top">
+        <?php include 'header.php'; ?>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <div id="content">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary second-navbar">
+            <div class="container-fluid d-flex align-items-center">
+                <img src="images/06-校徽-英文組合排列.png" id="logo" class="me-3">
+                
+                <div class="flex-grow-1 text-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="javascript:history.back()"><i class="fas fa-arrow-left"></i></a>
+                        <span class="navbar-text mx-2">Download</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sitemap 內容 -->
+        <div class="container my-5">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4 class="card-title">Download</h4>
+                    <div class="section-separator"></div>
+                    <div class="card-body">
+                        <li><a href="download/Application Form.doc">Application Form</a></li>
+                        <li><a href="download/Vietnamese students required application documents.docx">Vietnamese students required application documents</a></li>
+                        <li><a href="download/Regular Course and Fees.pdf" download>Regular Course and Fees</a></li>
+                        <li><a href="download/Application Form Study Tour Group.doc">Application Form Study Tour Group</a></li>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4 class="card-title">For Student</h4>
+                    <div class="section-separator"></div>
+                    <div class="card-body">
+                        <li><a href="download/Student's Excuse Slip.pdf" download>Student's Excuse Slip</a></li>
+                        <li><a href="download/Tuition Fee Refund Application Form.pdf" download>Tuition Fee Refund Application Form</a></li>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 2 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 3 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 4 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 5 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 6 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 7 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 8 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 9 -->
+                </div>
+                <div class="grid-item">
+                    <!-- 空白區域 10 -->
+                </div>
+                <div style="height: 200px;"></div>
+            </div>
+        </div>
+
+        <?php include 'footer.php'; ?>
+    </div>
 </body>
 </html>
