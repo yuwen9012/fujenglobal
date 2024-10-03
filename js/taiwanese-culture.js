@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+    const fixedTop = document.querySelector('.fixed-top');
+    const content = document.querySelector('#content');
+    const fixedTopHeight = fixedTop.offsetHeight;
+    content.style.marginTop = fixedTopHeight + 'px';
+});
+
 function showImageTC2(src, newTitle, content) {
     const carousel = document.querySelector('#carouselExampleIndicators');
     const carouselItems = carousel.querySelectorAll('.carousel-item');

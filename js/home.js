@@ -153,6 +153,11 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCoinSlider();
     loadIntroduction();
 
+    const fixedTop = document.querySelector('.fixed-top');
+    const coinSlider = document.querySelector('#carousel');
+    const fixedTopHeight = fixedTop.offsetHeight;
+    coinSlider.style.marginTop = fixedTopHeight + 'px';
+
     // Reinitialize Coin Slider on window resize
     $(window).resize(function() {
         initializeCoinSlider();

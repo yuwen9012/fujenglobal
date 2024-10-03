@@ -32,9 +32,10 @@
     <title>Fu Jen Global</title>
 </head>
 <body>
-    <?php include 'header.php'; ?>
-    <!-- 選單 -->
-    <?php include 'main-menu.php'; ?>
+    <div class="fixed-top">
+        <?php include 'header.php'; ?>
+        <?php include 'main-menu.php'; ?>
+    </div>
     
     <div id="content">
             <!-- 標題 -->

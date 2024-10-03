@@ -1,6 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     initResult();
 
+    const fixedTop = document.querySelector('.fixed-top');
+    const content = document.querySelector('#content');
+    const fixedTopHeight = fixedTop.offsetHeight;
+    content.style.marginTop = fixedTopHeight + 'px';
+
     document.getElementById('searchButton').addEventListener('click', function() {
         performSearch();
     });

@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const fixedTop = document.querySelector('.fixed-top');
+    const content = document.querySelector('#content');
+    const fixedTopHeight = fixedTop.offsetHeight;
+    content.style.marginTop = fixedTopHeight + 'px';
+    
     // 複製文本功能
     const copyTexts = document.querySelectorAll('.copy-text');
     const copySuccess = document.getElementById('copy-success');

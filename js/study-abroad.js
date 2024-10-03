@@ -2,6 +2,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     loadIntroduction();
     loadScorer();
     loadCarouselImages();
+
+    const fixedTop = document.querySelector('.fixed-top');
+    const content = document.querySelector('#content');
+    const fixedTopHeight = fixedTop.offsetHeight;
+    content.style.marginTop = fixedTopHeight + 'px';
 });
 
 // 計分器動畫

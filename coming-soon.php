@@ -29,22 +29,29 @@
    
 </head>
 <body>
-    <?php include 'header.php'; ?>
-
-    <!-- 選單 -->
-    <?php include 'main-menu.php'?>
-   
-    <!-- Sitemap 標題 -->
-     
-    <div class="title-container d-flex flex-column justify-content-center align-items-center text-center">
-        <span class="title display-1 display-sm-3 display-md-4 display-lg-5 display-xl-6">— COMING SOON —</span>
+    <div class="fixed-top">
+        <?php include 'header.php'; ?>
+        <?php include 'main-menu.php'; ?>
     </div>
+   
+    <div id="content">
+        <!-- Sitemap 標題 -->
+        <div class="title-container d-flex flex-column justify-content-center align-items-center text-center">
+            <span class="title display-1 display-sm-3 display-md-4 display-lg-5 display-xl-6">— COMING SOON —</span>
+        </div>
 
-    
-    
-    <!-- Sitemap 內容 -->
-    
-
-    <?php include 'footer.php'; ?>
+        <!-- Sitemap 內容 -->
+        
+        <?php include 'footer.php'; ?>
+    </div>
 </body>
 </html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const fixedTop = document.querySelector('.fixed-top');
+        const content = document.querySelector('#content');
+        const fixedTopHeight = fixedTop.offsetHeight;
+        content.style.marginTop = fixedTopHeight + 'px';
+    });
+</script>
