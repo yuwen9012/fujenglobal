@@ -21,12 +21,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/sitemap.css">
     <link rel="stylesheet" href="css/study-abroad.css">
 
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
     <!-- JS -->
+    <script type="text/javascript" src="js/backdrop.js"></script>
     <script type="text/javascript" src="js/study-abroad.js"></script>
     <script type="text/javascript" src="js/jquery.rwdImageMaps.js"></script>
 

@@ -26,10 +26,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/sitemap.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/home.css">
 
     <!-- JS -->
+    <script type="text/javascript" src="js/backdrop.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
 

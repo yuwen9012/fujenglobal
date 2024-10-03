@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -22,18 +23,17 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/sitemap.css">
     <link rel="stylesheet" href="css/study-package.css">
 
     <!-- JS -->
+    <script type="text/javascript" src="js/backdrop.js"></script>
     <script type="text/javascript" src="js/study-package.js"></script>
-
-    <title>Fu Jen Global</title>
 
     <!-- CKEditor -->
     <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Fu Jen Global</title>
 </head>
 <body>
     <div class="fixed-top">

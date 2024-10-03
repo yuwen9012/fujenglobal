@@ -22,9 +22,11 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/sitemap.css">
     <link rel="stylesheet" href="css/accommodation.css">
 
     <!-- JS -->
+    <script type="text/javascript" src="js/backdrop.js"></script>
     <script type="text/javascript" src="js/accommodation.js"></script>
 
     <title>Fu Jen Global</title>
