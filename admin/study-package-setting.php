@@ -91,6 +91,7 @@
                                         <th data-field="id">編號</th>
                                         <th data-field="name_en">英文名</th>
                                         <th data-field="name_ch">中文名</th>
+                                        <th data-field="subtitle">使用標題數</th>
                                         <th data-field="hidden">隱藏</th>
                                         <th data-field="num_order">排序</th>
                                         <th data-field="update_user">更新人員</th>

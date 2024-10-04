@@ -685,6 +685,18 @@ export function loadTableData(dataSheet) {
                     }
                 },
                 {
+                    field: 'subtitle',
+                    title: '使用標題數',
+                    formatter: function (value, row) {
+                        var subtitle = row.subtitle;
+                        var count = subtitle.split(',').length;
+                        return count;
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(8);
+                    }
+                },
+                {
                     field: 'hidden',
                     title: '隱藏',
                     formatter: function (value, row) {
