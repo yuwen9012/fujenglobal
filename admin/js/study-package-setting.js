@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // 點擊標題編輯
-    $(document).on('click', '.editSubtitleBtn ', function(event) {
+    $(document).on('click', '.editSubtitleBtn', function(event) {
         event.preventDefault();
         var id = $(this).data('id');
         $('#editSubtitleModal').modal('show');
@@ -74,15 +74,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // 點擊學院新增
+    $(document).on('click', '#addCollegeBtn', function(event) {
+        event.preventDefault();
+        (async () => {
+            const dataSheet = 'study_package_subtitle';
+            await createCheckboxes(dataSheet, 'add');
+        })();
+    })
+
     // 新增學院資料
     $('#add-college').on('click', function(event) {
         const name_en = document.getElementById('addColEnname').value;
         const name_ch = document.getElementById('addColChname').value;
+        const subtitle = getSelectedCheckboxes('addColSubtitle');
         const hidden = document.querySelector(`input[name="addColHidden"]:checked`).value;
 
         const data = {
             name_en: name_en,
             name_ch: name_ch,
+            subtitle: subtitle,
             hidden: hidden,
         };
 
@@ -90,39 +101,52 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // 點擊學院編輯
-    $(document).on('click', '.editCollegeBtn ', function(event) {
+    $(document).on('click', '.editCollegeBtn', function(event) {
         event.preventDefault();
-        var id = $(this).data('id');
-        $('#editCollegeModal').modal('show');
+        (async () => {
+            const dataSheet = 'study_package_subtitle';
+            await createCheckboxes(dataSheet, 'edit');
 
-        $.ajax({
-            url: './php/get_row_data.php',
-            type: 'POST',
-            data: {
-                id: id,
-                dataSheet: 'study_package_college',
-            },
-            success: function(data) {
-                var json = JSON.parse(data);
+            var id = $(this).data('id');
+            $('#editCollegeModal').modal('show');
 
-                $('#cid').val(json.id);
-                $('#editColEnname').val(json.name_en);
-                $('#editColChname').val(json.name_ch);
+            $.ajax({
+                url: './php/get_row_data.php',
+                type: 'POST',
+                data: {
+                    id: id,
+                    dataSheet: 'study_package_college',
+                },
+                success: function(data) {
+                    var json = JSON.parse(data);
 
-                if (json.hidden === 'Y') {
-                    $('#editColYOption').prop('checked', true);
+                    $('#cid').val(json.id);
+                    $('#editColEnname').val(json.name_en);
+                    $('#editColChname').val(json.name_ch);
+
+                    const selectedSubtitles = json.subtitle ? json.subtitle.split(',') : [];
+                    selectedSubtitles.forEach(subtitle => {
+                        const checkbox = document.getElementById(`editOption-${subtitle}`);
+                        if (checkbox) {
+                            checkbox.checked = true;
+                        }
+                    });
+
+                    if (json.hidden === 'Y') {
+                        $('#editColYOption').prop('checked', true);
+                    }
+                    else {
+                        $('#editColNOption').prop('checked', true);
+                    }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('錯誤代碼: ' + jqXHR.status);
+                    console.error('錯誤訊息: ' + errorThrown);
+                    console.error('回應文本: ' + jqXHR.responseText);
+                    console.error('狀態: ' + textStatus);
                 }
-                else {
-                    $('#editColNOption').prop('checked', true);
-                }
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-                console.error('錯誤代碼: ' + jqXHR.status);
-                console.error('錯誤訊息: ' + errorThrown);
-                console.error('回應文本: ' + jqXHR.responseText);
-                console.error('狀態: ' + textStatus);
-            }
-        })
+            })
+        })();
     });
 
     // 儲存學院編輯
@@ -130,12 +154,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const id = document.getElementById('cid').value;
         const name_en = document.getElementById('editColEnname').value;
         const name_ch = document.getElementById('editColChname').value;
+        const subtitle = getSelectedCheckboxes('editColSubtitle');
         const hidden = document.querySelector(`input[name="editColHidden"]:checked`).value;
 
         const data = {
             id: id, 
             name_en: name_en,
             name_ch: name_ch,
+            subtitle: subtitle,
             hidden: hidden,
         };
 
@@ -158,3 +184,56 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 })
+
+async function loadOptions(dataSheet) {
+    try {
+        const response = await fetch(`./php/get_options.php?dataSheet=${encodeURIComponent(dataSheet)}`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+        return []; // 返回空陣列以防止錯誤
+    }
+}
+
+async function createCheckboxes(dataSheet, action) {
+    const options = await loadOptions(dataSheet);
+    const container = document.getElementById(`${action}ColSubtitleBlock`);
+
+    container.innerHTML = '';
+
+    options.forEach(option => {
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = `${action}Option-${option.id}`;
+        checkbox.value = option.id;
+        checkbox.name = `${action}ColSubtitle[]`;
+        checkbox.classList.add('form-check-input');
+
+        const label = document.createElement('label');
+        label.htmlFor = `${action}Option-${option.id}`;
+        label.innerText = option.name;
+        label.classList.add('px-2');
+
+        const div = document.createElement('div');
+        div.classList.add('form-check');
+
+        div.appendChild(checkbox);
+        div.appendChild(label);
+        container.appendChild(div);
+    });
+}
+
+function getSelectedCheckboxes(name) {
+    const checkboxes = document.getElementsByName(`${name}[]`);
+    const selectedCheckboxes = [];
+    for (let i = 0; i < checkboxes.length; i++) {
+      if (checkboxes[i].checked) {
+        selectedCheckboxes.push(checkboxes[i].value);
+      }
+    }
+    return selectedCheckboxes;
+}

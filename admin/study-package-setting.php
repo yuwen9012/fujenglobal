@@ -76,7 +76,7 @@
                             </table>
                         </div>
                         <div class="tab-pane fade" id="college" role="tabpanel" aria-labelledby="college-tab">
-                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addCollegeModal">新增</button>
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" id="addCollegeBtn" data-bs-toggle="modal" data-bs-target="#addCollegeModal">新增</button>
                             
                             <table id="collegeTable"
                                     class="table"
@@ -172,6 +172,12 @@
                         </div>
                     </div>
                     <div class="row mb-3">
+                        <label class="col-md-2 form-label">標題<span class="text-danger">*</span></label>
+                        <div class="col-md-10" id="addColSubtitleBlock">
+                            
+                        </div>
+                    </div>
+                    <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
                             <input type="radio" class="form-check-input me-2" id="addColYOption" name="addColHidden" value="Y"><label for="addColYOption">是</label>
@@ -205,6 +211,12 @@
                         <label for="editColChname" class="col-md-2 form-label">中文名<span class="text-danger">*</span></label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" id="editColChname">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-2 form-label">標題<span class="text-danger">*</span></label>
+                        <div class="col-md-10" id="editColSubtitleBlock">
+                            
                         </div>
                     </div>
                     <div class="row mb-3">

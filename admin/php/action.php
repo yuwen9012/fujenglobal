@@ -30,12 +30,14 @@
         else if ($dataSheet == 'study_package_college') {
             $name_en = $_POST['name_en'];
             $name_ch = $_POST['name_ch'];
+            $subtitle = implode(',', $_POST['subtitle']);
+            $hidden = $_POST['hidden'];
     
-            $insert = "INSERT INTO `$dataSheet` (`name_en`, `name_ch`, `num_order`, `status`, `update_user`, `update_time`) 
-                                        VALUES (?, ?, ?, ?, '郭政億', NOW())";
+            $insert = "INSERT INTO `$dataSheet` (`name_en`, `name_ch`, `subtitle`, `hidden`, `num_order`, `status`, `update_user`, `update_time`) 
+                                        VALUES (?, ?, ?, ?, ?, ?, '郭政億', NOW())";
             
             $stmt = $mysqli->prepare($insert);
-            $stmt->bind_param('ssis', $name_en, $name_ch, $next_order, $status);
+            $stmt->bind_param('ssssis', $name_en, $name_ch, $subtitle, $hidden, $next_order, $status);
         }
         else if ($dataSheet == 'faq_type') {
             $type = $_POST['type'];
@@ -82,12 +84,13 @@
             $id = $_POST['id'];
             $name_en = $_POST['name_en'];
             $name_ch = $_POST['name_ch'];
+            $subtitle = implode(',', $_POST['subtitle']);
             $hidden = $_POST['hidden'];
 
-            $update = "UPDATE `$dataSheet` SET `name_en` = ?, `name_ch` = ?, `hidden` = ?, `update_user` = '郭政億', `update_time` = NOW() WHERE `id` = ?";
+            $update = "UPDATE `$dataSheet` SET `name_en` = ?, `name_ch` = ?, `subtitle` = ?, `hidden` = ?, `update_user` = '郭政億', `update_time` = NOW() WHERE `id` = ?";
 
             $stmt = $mysqli->prepare($update);
-            $stmt->bind_param('sssi', $name_en, $name_ch, $hidden, $id);
+            $stmt->bind_param('ssssi', $name_en, $name_ch, $subtitle, $hidden, $id);
         }
         else if ($dataSheet == 'faq_type') {
             $id = $_POST['id'];
