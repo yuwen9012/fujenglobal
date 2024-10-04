@@ -44,18 +44,38 @@
                 <div id="content" class="container rounded">
                     <ul class="nav nav-tabs mt-2">
                         <li class="nav-item">
-                            <a class="nav-link active" id="introduction-tab" data-bs-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">學院列表</a>
+                            <a class="nav-link active" id="subtitle-tab" data-bs-toggle="tab" href="#subtitle" role="tab" aria-controls="subtitle" aria-selected="false">標題列表</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="scorer-tab" data-bs-toggle="tab" href="#scorer" role="tab" aria-controls="scorer" aria-selected="false">標題列表</a>
+                            <a class="nav-link" id="college-tab" data-bs-toggle="tab" href="#college" role="tab" aria-controls="college" aria-selected="true">學院列表</a>
                         </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" id="" href="SP-edit.php">內文</a>
                         </li>
                     </ul>
 
                     <div class="tab-content mt-3">
-                        <div class="tab-pane fade show active" id="college" role="tabpanel" aria-labelledby="college-tab">
+                        <div class="tab-pane fade show active" id="subtitle" role="tabpanel" aria-labelledby="subtitle-tab">
+                            <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addSubtitleModal">新增</button>
+                            
+                            <table id="subtitleTable"
+                                    class="table"
+                                    data-toggle="table"
+                                    data-pagination="true"
+                                    data-page-size="10">
+                                <thead>
+                                    <tr>
+                                        <th data-field="id">編號</th>
+                                        <th data-field="name">名稱</th>
+                                        <th data-field="update_user">更新人員</th>
+                                        <th data-field="update_time">更新時間</th>
+                                        <th data-field="manage">操作</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="college" role="tabpanel" aria-labelledby="college-tab">
                             <button type="button" class="btn btn-sm btn-primary mt-2 mb-2" data-bs-toggle="modal" data-bs-target="#addCollegeModal">新增</button>
                             
                             <table id="collegeTable"
@@ -80,11 +100,53 @@
                                 </thead>
                             </table>
                         </div>
-                        <div class="tab-pane fade" id="scorer" role="tabpanel" aria-labelledby="scorer-tab">
-                            標題列表
-                        </div>
                     </div>
                 <div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addSubtitleModal" tabindex="-1" aria-labelledby="addSubtitleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addSubtitleModalLabel">新增內文標題</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="addSubName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="addSubName">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="add-subtitle">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editSubtitleModal" tabindex="-1" aria-labelledby="edtSubtitleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="editSubtitleModalLabel">編輯內文標題</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="d-none" id="sid">
+                    <div class="row mb-3">
+                        <label for="editSubName" class="col-md-2 form-label">名稱<span class="text-danger">*</span></label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="editSubName">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="edit-subtitle">儲存</button>
+                </div>
             </div>
         </div>
     </div>

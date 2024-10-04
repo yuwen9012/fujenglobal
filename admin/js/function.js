@@ -614,6 +614,53 @@ export function loadTableData(dataSheet) {
 
             tableID = '#imageTable';
         }
+        else if (dataSheet == 'study_package_subtitle') {
+            columns = [ 
+                {
+                    field: 'id',
+                    title: '編號',
+                    formatter: function(value, row, index) {
+                        return index + 1;
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(5);
+                    }
+                },
+                {
+                    field: 'name',
+                    title: '名稱',
+                },
+                {
+                    field: 'update_user',
+                    title: '更新人員',
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(10);
+                    }
+                },
+                {
+                    field: 'update_time',
+                    title: '更新時間',
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(20);
+                    }
+                },
+                {
+                    field: 'manage',
+                    title: '操作',
+                    formatter: function (value, row) {
+                        var id = row.id;
+                        var button = `<a data-id="${id}" class="editSubtitleBtn d-block fw-semibold text-decoration-none" role="button">編輯</a>
+                                      <a data-id="${id}" class="deleteSubtitleBtn d-block text-danger fw-semibold text-decoration-none" role="button">刪除</a>`;
+                        return button;
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(8);
+                    }
+                },
+            ];
+
+            tableID = '#subtitleTable';
+        }
         else if (dataSheet == 'study_package_college') {
             columns = [ 
                 {

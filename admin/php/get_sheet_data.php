@@ -16,6 +16,9 @@
                     LEFT JOIN `faq_type` t2 
                       ON t1.`tid` = t2.`id`";
     }
+    else if ($dataSheet == 'study_package_subtitle') {
+        $query = "SELECT * FROM `$dataSheet` WHERE `status` = '使用中' ORDER BY `id` ASC";
+    }
     else {
         $query = "SELECT * FROM `$dataSheet` WHERE `status` = '使用中' ORDER BY `num_order` ASC";
     }

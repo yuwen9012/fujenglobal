@@ -18,7 +18,16 @@
             $status = '使用中';
         }
 
-        if ($dataSheet == 'study_package_college') {
+        if ($dataSheet == 'study_package_subtitle') {
+            $name = $_POST['name'];
+    
+            $insert = "INSERT INTO `$dataSheet` (`name`, `status`, `update_user`, `update_time`) 
+                                        VALUES (?, ?, '郭政億', NOW())";
+            
+            $stmt = $mysqli->prepare($insert);
+            $stmt->bind_param('ss', $name, $status);
+        }
+        else if ($dataSheet == 'study_package_college') {
             $name_en = $_POST['name_en'];
             $name_ch = $_POST['name_ch'];
     
@@ -60,7 +69,27 @@
         }
     }
     else if ($action == 'edit') {
-        if ($dataSheet == 'faq_type') {
+        if ($dataSheet == 'study_package_subtitle') {
+            $id = $_POST['id'];
+            $name = $_POST['name'];
+
+            $update = "UPDATE `$dataSheet` SET `name` = ?, `update_user` = '郭政億', `update_time` = NOW() WHERE `id` = ?";
+
+            $stmt = $mysqli->prepare($update);
+            $stmt->bind_param('si', $name, $id);
+        }
+        else if ($dataSheet == 'study_package_college') {
+            $id = $_POST['id'];
+            $name_en = $_POST['name_en'];
+            $name_ch = $_POST['name_ch'];
+            $hidden = $_POST['hidden'];
+
+            $update = "UPDATE `$dataSheet` SET `name_en` = ?, `name_ch` = ?, `hidden` = ?, `update_user` = '郭政億', `update_time` = NOW() WHERE `id` = ?";
+
+            $stmt = $mysqli->prepare($update);
+            $stmt->bind_param('sssi', $name_en, $name_ch, $hidden, $id);
+        }
+        else if ($dataSheet == 'faq_type') {
             $id = $_POST['id'];
             $type = $_POST['type'];
 
@@ -79,17 +108,6 @@
 
             $stmt = $mysqli->prepare($update);
             $stmt->bind_param('issi', $tid, $question, $reply, $id);
-        }
-        else if ($dataSheet == 'study_package_college') {
-            $id = $_POST['id'];
-            $name_en = $_POST['name_en'];
-            $name_ch = $_POST['name_ch'];
-            $hidden = $_POST['hidden'];
-
-            $update = "UPDATE `$dataSheet` SET `name_en` = ?, `name_ch` = ?, `hidden` = ?, `update_user` = '郭政億', `update_time` = NOW() WHERE `id` = ?";
-
-            $stmt = $mysqli->prepare($update);
-            $stmt->bind_param('sssi', $name_en, $name_ch, $hidden, $id);
         }
     }
     else if ($action == 'delete') {
