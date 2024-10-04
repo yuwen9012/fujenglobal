@@ -614,6 +614,100 @@ export function loadTableData(dataSheet) {
 
             tableID = '#imageTable';
         }
+        else if (dataSheet == 'study_package_college') {
+            columns = [ 
+                {
+                    field: 'id',
+                    title: '編號',
+                    formatter: function(value, row, index) {
+                        return index + 1;
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(5);
+                    }
+                },
+                {
+                    field: 'name_en',
+                    title: '英文名',
+                },
+                {
+                    field: 'name_ch',
+                    title: '中文名',
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(20);
+                    }
+                },
+                {
+                    field: 'hidden',
+                    title: '隱藏',
+                    formatter: function (value, row) {
+                        var hidden = row.hidden;
+                        if (hidden == 'Y') {
+                            return '是';
+                        }
+                        else {
+                            return '否';
+                        }
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(5);
+                    }
+                },
+                {
+                    field: 'num_order',
+                    title: '排序',
+                    formatter: function (value, row) {
+                        var seq = row.num_order;
+                        var up = `<i class="fa-solid fa-caret-up" data-action="up" data-sheet="${dataSheet}" data-id="${row.id}"></i>`;
+                        var down = `<i class="fa-solid fa-caret-down" data-action="down" data-sheet="${dataSheet}" data-id="${row.id}"></i>`;
+    
+                        if (seq == 1) {
+                            return down;
+                        }
+                        else if (seq == maxNumOrder) {
+                            return up;
+                        }
+                        else {
+                            return up + down;
+                        }
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(8);
+                    }
+                },
+                {
+                    field: 'update_user',
+                    title: '更新人員',
+                    visible: false,
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(10);
+                    }
+                },
+                {
+                    field: 'update_time',
+                    title: '更新時間',
+                    visible: false,
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(20);
+                    }
+                },
+                {
+                    field: 'manage',
+                    title: '操作',
+                    formatter: function (value, row) {
+                        var id = row.id;
+                        var button = `<a data-id="${id}" class="editCollegeBtn d-block fw-semibold text-decoration-none" role="button">編輯</a>
+                                      <a data-id="${id}" class="deleteCollegeBtn d-block text-danger fw-semibold text-decoration-none" role="button">刪除</a>`;
+                        return button;
+                    },
+                    cellStyle: function(value, row, index) {
+                        return btncellStyle(8);
+                    }
+                },
+            ];
+
+            tableID = '#collegeTable';
+        }
         else if (dataSheet == 'faq_type') {
             columns = [ 
                 {

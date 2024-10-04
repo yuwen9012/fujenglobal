@@ -18,7 +18,17 @@
             $status = '使用中';
         }
 
-        if ($dataSheet == 'faq_type') {
+        if ($dataSheet == 'study_package_college') {
+            $name_en = $_POST['name_en'];
+            $name_ch = $_POST['name_ch'];
+    
+            $insert = "INSERT INTO `$dataSheet` (`name_en`, `name_ch`, `num_order`, `status`, `update_user`, `update_time`) 
+                                        VALUES (?, ?, ?, ?, '郭政億', NOW())";
+            
+            $stmt = $mysqli->prepare($insert);
+            $stmt->bind_param('ssis', $name_en, $name_ch, $next_order, $status);
+        }
+        else if ($dataSheet == 'faq_type') {
             $type = $_POST['type'];
     
             $insert = "INSERT INTO `$dataSheet` (`type`, `num_order`, `status`, `update_user`, `update_time`) 
@@ -69,6 +79,17 @@
 
             $stmt = $mysqli->prepare($update);
             $stmt->bind_param('issi', $tid, $question, $reply, $id);
+        }
+        else if ($dataSheet == 'study_package_college') {
+            $id = $_POST['id'];
+            $name_en = $_POST['name_en'];
+            $name_ch = $_POST['name_ch'];
+            $hidden = $_POST['hidden'];
+
+            $update = "UPDATE `$dataSheet` SET `name_en` = ?, `name_ch` = ?, `hidden` = ?, `update_user` = '郭政億', `update_time` = NOW() WHERE `id` = ?";
+
+            $stmt = $mysqli->prepare($update);
+            $stmt->bind_param('sssi', $name_en, $name_ch, $hidden, $id);
         }
     }
     else if ($action == 'delete') {
