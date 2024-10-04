@@ -103,8 +103,8 @@
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="addImaYOption" name="addImaHidden" value="Y"><label for="addImaYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="addImaNOption" name="addImaHidden" value="N" checked><label for="addImaNOption">否</label>
+                            <input type="radio" class="form-check-input me-2" id="addImaYOption" name="addImaHidden" value="Y"><label for="addImaYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="addImaNOption" name="addImaHidden" value="N" checked><label for="addImaNOption">否</label>
                         </div>
                     </div>
                 </div>
@@ -140,8 +140,8 @@
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="editImaYOption" name="editImaHidden" value="Y"><label for="editImaYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="editImaNOption" name="editImaHidden" value="N" checked><label for="editImaNOption">否</label>
+                            <input type="radio" class="form-check-input me-2" id="editImaYOption" name="editImaHidden" value="Y"><label for="editImaYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="editImaNOption" name="editImaHidden" value="N" checked><label for="editImaNOption">否</label>
                         </div>
                     </div>
                 </div>

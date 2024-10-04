@@ -222,8 +222,8 @@
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="editScoYOption" name="editScoHidden" value="Y"><label for="editScoYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="editScoNOption" name="editScoHidden" value="N" checked><label for="editScoNOption">否</label>
+                            <input type="radio" class="form-check-input me-2" id="editScoYOption" name="editScoHidden" value="Y"><label for="editScoYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="editScoNOption" name="editScoHidden" value="N" checked><label for="editScoNOption">否</label>
                         </div>
                     </div>
                 </div>
@@ -257,8 +257,8 @@
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="addCarYOption" name="addCarHidden" value="Y"><label for="addCarYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="addCarNOption" name="addCarHidden" value="N" checked><label for="addCarNOption">否</label>
+                            <input type="radio" class="form-check-input me-2" id="addCarYOption" name="addCarHidden" value="Y"><label for="addCarYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="addCarNOption" name="addCarHidden" value="N" checked><label for="addCarNOption">否</label>
                         </div>
                     </div>
                 </div>
@@ -294,8 +294,8 @@
                     <div class="row mb-3">
                         <label class="col-md-2 form-label">隱藏<span class="text-danger">*</span></label>
                         <div class="col-md-10">
-                            <input type="radio" class="me-2" id="editCarYOption" name="editCarHidden" value="Y"><label for="editCarYOption">是</label>
-                            <input type="radio" class="ms-5 me-2" id="editCarNOption" name="editCarHidden" value="N" checked><label for="editCarNOption">否</label>
+                            <input type="radio" class="form-check-input me-2" id="editCarYOption" name="editCarHidden" value="Y"><label for="editCarYOption">是</label>
+                            <input type="radio" class="form-check-input ms-5 me-2" id="editCarNOption" name="editCarHidden" value="N" checked><label for="editCarNOption">否</label>
                         </div>
                     </div>
                 </div>
