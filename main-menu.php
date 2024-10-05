@@ -85,7 +85,7 @@
                             <a class="dropdown-item" href="">Application</a>
                         </li>
                         <li class="p-2 ps-5">
-                            <a class="dropdown-item" href="">VISA</a>
+                            <a class="dropdown-item" href="visa.php">VISA</a>
                         </li>
                         <li class="p-2 ps-5">
                             <a class="dropdown-item" href="download.php">Download</a>
@@ -172,7 +172,7 @@
                         <a class="hover-item" href="">Application</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="hover-item" href="">VISA</a>
+                        <a class="hover-item" href="visa.php">VISA</a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="hover-item" href="download.php">Download</a>
